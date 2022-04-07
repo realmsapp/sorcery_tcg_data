@@ -1,0 +1,9 @@
+---
+- key: ordinary
+  name: Ordinary
+- key: exceptional
+  name: Exceptional
+- key: elite
+  name: Elite
+- key: unique
+  name: Unique

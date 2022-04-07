@@ -1,0 +1,2865 @@
+---
+- name: Abundance
+  card_type: aura
+  rarity: elite
+  image_url: https://static.wixstatic.com/media/965b5c_978fe5fdbe9f4335865e591ff9c2f59b~mv2.png/v1/fill/w_628,h_880,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_978fe5fdbe9f4335865e591ff9c2f59b~mv2.png
+  rules_box: |-
+    Conjure at the intersection of two or four sites.
+    Affected sites produce twice as much mana and elemental threshold.
+  type_line: An Elite Aura of exuberant fruitfulness
+  mana_cost: '4'
+  element: water
+  water_threshold: '2'
+  artist: vincent_pompetti
+  identifier: Abundance
+  release: alpha
+- name: Accursed Albatross
+  card_type: minion
+  rarity: exceptional
+  image_url: https://static.wixstatic.com/media/965b5c_280e8bb28a784864b5a870c7639f51ab~mv2.png/v1/fill/w_628,h_880,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_280e8bb28a784864b5a870c7639f51ab~mv2.png
+  rules_box: |-
+    **Airborne**
+    When a minion kills this Albatross, all of that minion’s nearby allies die.
+  type_line: An Exceptional Beast of fatal portent
+  mana_cost: '4'
+  element: water
+  water_threshold: '1'
+  power: '1'
+  artist: vincent_pompetti
+  identifier: AccursedAlbatross
+  release: alpha
+- name: Amazon Warriors
+  card_type: minion
+  rarity: ordinary
+  image_url: https://static.wixstatic.com/media/965b5c_8b56cf0da68746e4b09d25c6600a1cd5~mv2.png/v1/fill/w_640,h_894,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_8b56cf0da68746e4b09d25c6600a1cd5~mv2.png
+  type_line: Ordinary Mythics preparing for war
+  mana_cost: '5'
+  element: earth
+  earth_threshold: '1'
+  power: '6'
+  artist: elwira_pawlikowska
+  flavor_text: |-
+    _"We shall arm ourselves in our war gear and
+    waken sharp Ares by hollow vessels."
+    - Homer_
+  identifier: AmazonWarriors
+  release: alpha
+- name: Ancient Dragon
+  card_type: minion
+  rarity: elite
+  image_url: https://static.wixstatic.com/media/965b5c_539a7373e97145cd98a444e660fcf65b~mv2.png/v1/fill/w_628,h_874,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_539a7373e97145cd98a444e660fcf65b~mv2.png
+  rules_box: "**Airborne**, **Range +1**, **Splash Damage**"
+  type_line: An Elite Dragon rules with fear and fame
+  mana_cost: '7'
+  element: fire
+  fire_threshold: '2'
+  power: '5'
+  artist: lindsey_crummett
+  flavor_text: _Fire forges the rule. Terror enforces it._
+  identifier: AncientDragon
+  release: alpha
+- name: Angels Egg
+  card_type: relic
+  rarity: elite
+  image_url: https://static.wixstatic.com/media/965b5c_d927bef551dc40758eab505bf6404fdd~mv2.png/v1/fill/w_628,h_872,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_d927bef551dc40758eab505bf6404fdd~mv2.png
+  rules_box: At the start of the owner’s turn, the owner of the site this Egg is on
+    or gains 2 life.
+  type_line: An Elite Relic. A rebirth of hope.
+  mana_cost: '3'
+  element: none
+  artist: brian_smith
+  identifier: AngelsEgg
+  release: alpha
+- name: Anui Undine
+  card_type: minion
+  rarity: exceptional
+  image_url: https://static.wixstatic.com/media/965b5c_9921655f84ce44e8b5fb1e8cfdc102b5~mv2.png/v1/fill/w_628,h_880,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_9921655f84ce44e8b5fb1e8cfdc102b5~mv2.png
+  rules_box: This Undine gets +1 power for each site that forms a body of water she’s
+    in.
+  type_line: An Exceptional Spirit of seaborn synergy
+  mana_cost: '4'
+  element: water
+  water_threshold: '2'
+  power: '0'
+  artist: unknown
+  flavor_text: _The sea will outlive us all._
+  identifier: AnuiUndine
+  release: alpha
+- name: Aqueduct
+  card_type: site
+  rarity: elite
+  image_url: https://static.wixstatic.com/media/965b5c_aa36aba6c6914b7dada333c2340a6833~mv2.png/v1/fill/w_960,h_690,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_aa36aba6c6914b7dada333c2340a6833~mv2.png
+  rules_box: This site is both a Village and a River.
+  type_line: Earth guides the flow of Water in one Elite Site
+  element: none
+  earth_threshold: '1'
+  water_threshold: '1'
+  artist: jeff_menges
+  identifier: Aqueduct
+  release: alpha
+- name: Armageddon
+  card_type: magic
+  rarity: elite
+  image_url: https://static.wixstatic.com/media/965b5c_67fd2f37b19d464fa7c2027a20669f92~mv2.png/v1/fill/w_628,h_874,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_67fd2f37b19d464fa7c2027a20669f92~mv2.png
+  rules_box: Destroy all sites.
+  type_line: Elite Magic of cataclysmic proportion
+  mana_cost: '9'
+  element: fire
+  fire_threshold: '3'
+  artist: tony_szczudlo
+  identifier: Armageddon
+  release: alpha
+- name: Atlantean Fate
+  card_type: aura
+  rarity: elite
+  image_url: https://static.wixstatic.com/media/965b5c_1c7d1e435d4f4ba8943d3ad40da705fa~mv2.png/v1/fill/w_628,h_880,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_1c7d1e435d4f4ba8943d3ad40da705fa~mv2.png
+  rules_box: |-
+    Conjure at the intersection of two or four locations of which at least one is a non-ordinary site.
+    Affected non-Ordinary sites become water sites and give Water threshold, but lose all other abilities. All minions and relics on the affected sites are forcibly submerged. This is also true for minions and relics that enter afterwards.
+  type_line: An Elite Aura of tragic and entombing tides
+  mana_cost: '3'
+  element: water
+  water_threshold: '2'
+  artist: unknown
+  identifier: AtlanteanFate
+  release: alpha
+- name: Atlas Wanderers
+  card_type: minion
+  rarity: elite
+  image_url: https://static.wixstatic.com/media/965b5c_8b56cf0da68746e4b09d25c6600a1cd5~mv2.png/v1/fill/w_640,h_894,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_8b56cf0da68746e4b09d25c6600a1cd5~mv2.png
+  rules_box: |-
+    **Iron Skin**
+    These wanderers can move to a void carrying their site with them as they move.
+  type_line: Elite Mythics and eternal bearers of the world
+  mana_cost: '4'
+  element: earth
+  earth_threshold: '3'
+  power: '3'
+  artist: brian_smith
+  identifier: AtlasWanderers
+  release: alpha
+- name: Autumn Unicorn
+  card_type: minion
+  rarity: ordinary
+  image_url: https://static.wixstatic.com/media/965b5c_8b56cf0da68746e4b09d25c6600a1cd5~mv2.png/v1/fill/w_640,h_894,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_8b56cf0da68746e4b09d25c6600a1cd5~mv2.png
+  type_line: An Ordinary Unicorn holds its ground
+  mana_cost: '3'
+  element: earth
+  earth_threshold: '1'
+  power: '4'
+  artist: severine_pineaux
+  flavor_text: |-
+    _The lion and the unicorn were fighting for the crown,
+    The lion beat the unicorn all around town,
+    Some gave them white bread, some gave them brown,
+    Some gave them plum cake and drummed them out of town.
+    - English Nursery Rhyme_
+  identifier: AutumnUnicorn
+  release: alpha
+- name: Avatar Of Earth
+  card_type: avatar
+  rarity: unknown
+  image_url: https://static.wixstatic.com/media/965b5c_1c8cd05577774ee786c085e101b7ba96~mv2.png/v1/fill/w_628,h_874,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_1c8cd05577774ee786c085e101b7ba96~mv2.png
+  initial_life: '26'
+  rules_box: |-
+    **Spellcaster**
+    Tap to play a site or to draw from your atlas.
+  type_line: Your Avatar of dependable strength
+  element: none
+  power: '1'
+  artist: severine_pineaux
+  identifier: AvatarOfEarth
+  release: alpha
+- name: Avatar Of Fire
+  card_type: avatar
+  rarity: unknown
+  image_url: https://static.wixstatic.com/media/965b5c_c0695ca9b3ff4537a1566814c7db1373~mv2.png/v1/fill/w_628,h_874,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_c0695ca9b3ff4537a1566814c7db1373~mv2.png
+  initial_life: '20'
+  rules_box: |-
+    **Spellcaster**
+    Tap to play a site or to draw from your atlas.
+    Tap and discard a Fire site from your hand to cast a fireball.
+  type_line: Your Avatar of desire and destruction
+  element: none
+  power: '1'
+  artist: severine_pineaux
+  identifier: AvatarOfFire
+  release: alpha
+- name: Avatar Of Water
+  card_type: avatar
+  rarity: unknown
+  image_url: https://static.wixstatic.com/media/965b5c_d586c365a5404573abffd54612f98d09~mv2.png/v1/fill/w_628,h_874,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_d586c365a5404573abffd54612f98d09~mv2.png
+  initial_life: '20'
+  rules_box: |-
+    **Spellcaster**
+    Tap to play a site or to draw a card from your atlas.
+    When you play a water site, you may move this avatar to that site.
+  type_line: Your Avatar of charm and trickery
+  element: none
+  power: '1'
+  artist: severine_pineaux
+  identifier: AvatarOfWater
+  release: alpha
+- name: Avatar Of Wind
+  card_type: avatar
+  rarity: unknown
+  image_url: https://static.wixstatic.com/media/965b5c_8422226773de40fa94112f0434d1e7d6~mv2.png/v1/fill/w_628,h_874,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_8422226773de40fa94112f0434d1e7d6~mv2.png
+  initial_life: '20'
+  rules_box: |-
+    **Spellcaster**
+    Tap to play a site or to draw from your atlas.
+    You may fly this Avatar to a nearby site at the end of your turn
+  type_line: Your Avatar or knowledge and power
+  element: none
+  power: '1'
+  artist: severine_pineaux
+  identifier: AvatarOfWind
+  release: alpha
+- name: Bane Spider
+  card_type: minion
+  rarity: exceptional
+  image_url: https://static.wixstatic.com/media/965b5c_e27a3512448d47e5be210d5234c93301~mv2.png/v1/fill/w_628,h_874,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_e27a3512448d47e5be210d5234c93301~mv2.png
+  rules_box: "**Genesis** — This spider destroys another minion on its location."
+  type_line: An Exceptional Mythic with a stony stare
+  mana_cost: '4'
+  element: fire
+  fire_threshold: '2'
+  power: '1'
+  artist: brian_smith
+  flavor_text: |-
+    _“Will you walk into my parkour?”
+    said the spider to the fly.”
+    - “The Spider and the Fly” by Mary Howitt _
+  identifier: BaneSpider
+  release: alpha
+- name: Battle Mage
+  card_type: avatar
+  rarity: ordinary
+  image_url: https://static.wixstatic.com/media/965b5c_8b56cf0da68746e4b09d25c6600a1cd5~mv2.png/v1/fill/w_640,h_894,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_8b56cf0da68746e4b09d25c6600a1cd5~mv2.png
+  initial_life: '20'
+  rules_box: |-
+    **Spellcaster**
+    Tap to play a site or to draw from your atlas.
+    Whenever this Battlemage attacks, you may play a site or draw from your atlas.
+  type_line: Your avatar to win the battle and the war
+  element: none
+  power: '5'
+  artist: jussi_pylkäs
+  identifier: BattleMage
+  release: alpha
+- name: Belmotte Longbowmen
+  card_type: minion
+  rarity: ordinary
+  image_url: https://static.wixstatic.com/media/965b5c_5180ef506fe84220abe022c42c980739~mv2.png/v1/fill/w_628,h_878,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_5180ef506fe84220abe022c42c980739~mv2.png
+  rules_box: "**Range +1**"
+  type_line: Ordinary Mortals of considerable skill
+  mana_cost: '3'
+  element: earth
+  earth_threshold: '1'
+  power: '2'
+  artist: andrea_modesti
+  flavor_text: _“Clumsy and slow, we wretched crossbow, A cousin thus crafted to odious
+    foe.” - Archer’s Lament_
+  identifier: BelmotteLongbowmen
+  release: alpha
+- name: Black Scorpions
+  card_type: minion
+  rarity: ordinary
+  image_url: https://static.wixstatic.com/media/965b5c_15d26b42e414401b8242ee033ac462aa~mv2.png/v1/fill/w_628,h_874,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_15d26b42e414401b8242ee033ac462aa~mv2.png
+  rules_box: "**Lethal**"
+  type_line: Ordinary Beasts scour this site
+  mana_cost: '3'
+  element: fire
+  fire_threshold: '1'
+  power: '2'
+  artist: michal_nagypal
+  flavor_text: _They wait and watch with eyes of soot._
+  identifier: BlackScorpions
+  release: alpha
+- name: Blood Ravens
+  card_type: minion
+  rarity: ordinary
+  image_url: https://static.wixstatic.com/media/965b5c_f1eafcd6ddcb4bbdad0871f266c9f077~mv2.png/v1/fill/w_628,h_876,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_f1eafcd6ddcb4bbdad0871f266c9f077~mv2.png
+  rules_box: |-
+    **Airborne**
+    For every point of damage these Ravens deal, you gain one life.
+  type_line: A cruel conspiracy of Ordinary Beasts
+  mana_cost: '1'
+  element: wind
+  wind_threshold: '1'
+  power: '1'
+  artist: michal_nagypal
+  identifier: BloodRavens
+  release: alpha
+- name: Bosk Troll
+  card_type: minion
+  rarity: ordinary
+  image_url: https://static.wixstatic.com/media/965b5c_0bfe58c16ffe431f8402d52a4c0cff05~mv2.png/v1/fill/w_628,h_878,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_0bfe58c16ffe431f8402d52a4c0cff05~mv2.png
+  type_line: An Ordinary Monster wanders these woods
+  mana_cost: '1'
+  element: earth
+  earth_threshold: '1'
+  power: '3'
+  artist: vasiliy_ermolaev
+  flavor_text: _A troll’s thoughts are but reflections in a forest pool, wavering
+    and rippling with the wind and the rain._
+  identifier: BoskTroll
+  release: alpha
+- name: Brobdingnag Bullfrog
+  card_type: minion
+  rarity: exceptional
+  image_url: https://static.wixstatic.com/media/965b5c_ffbcd8d0330946e89127d3edbf8b8a14~mv2.png/v1/fill/w_628,h_880,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_ffbcd8d0330946e89127d3edbf8b8a14~mv2.png
+  rules_box: This Bullfrog swallows and carries the first minion it attacks in its
+    belly until it leaves play.
+  type_line: An Exceptional Beast with a giant appetite
+  mana_cost: '5'
+  element: water
+  water_threshold: '1'
+  power: '3'
+  artist: michal_nagypal
+  identifier: BrobdingnagBullfrog
+  release: alpha
+- name: Bury
+  card_type: magic
+  rarity: ordinary
+  image_url: https://static.wixstatic.com/media/965b5c_6feb1316f64540fc8862ff75cd1a6152~mv2.png/v1/fill/w_628,h_878,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_6feb1316f64540fc8862ff75cd1a6152~mv2.png
+  rules_box: Target minion or relic on a non-Water site is burrowed.
+  type_line: Ordinary Magic one hopes never to experience
+  mana_cost: '2'
+  element: earth
+  earth_threshold: '1'
+  artist: dan_seagrave
+  flavor_text: |-
+    _“From out of the depths of the countless pits there came a melancholy rustling from the garments of the buried.”
+    - Edgar Allan Poe_
+  identifier: Bury
+  release: alpha
+- name: Cave Trolls
+  card_type: minion
+  rarity: ordinary
+  image_url: https://static.wixstatic.com/media/965b5c_a14f6792a0c2499380b3160aed909483~mv2.png/v1/fill/w_628,h_878,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_a14f6792a0c2499380b3160aed909483~mv2.png
+  rules_box: "**Burrowing**"
+  type_line: Ordinary Monsters digging in the dirt
+  mana_cost: '2'
+  element: earth
+  earth_threshold: '2'
+  power: '3'
+  artist: drew_tucker
+  flavor_text: |-
+    _“We dug, we lug, we scoff up the bug,
+    We bore, we gore, we snore for the ore.”
+    - Trollish Working Song_
+  identifier: CaveTrolls
+  release: alpha
+- name: City Of Agartha
+  card_type: site
+  rarity: unique
+  image_url: https://static.wixstatic.com/media/965b5c_cedd1bb3c39d4fe8ab75c8de33239e00~mv2.png/v1/fill/w_960,h_690,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_cedd1bb3c39d4fe8ab75c8de33239e00~mv2.png
+  rules_box: Burrowed minions here may unburrow to anywhere.
+  type_line: A Unique Site at the center of it all
+  element: none
+  earth_threshold: '1'
+  artist: adam_burke
+  identifier: CityOfAgartha
+  release: alpha
+- name: Clamor Harpies
+  card_type: minion
+  rarity: exceptional
+  image_url: https://static.wixstatic.com/media/965b5c_a6257438fd5f4b309be7203b2eb14698~mv2.png/v1/fill/w_628,h_874,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_a6257438fd5f4b309be7203b2eb14698~mv2.png
+  rules_box: |-
+    **Airborne**
+    **Genesis** — move a weaker minion from anywhere in the realm to these Harpies’ location. If that minion is an enemy one, these Harpies attack it.
+  type_line: Exceptional Mythics on a feeding frenzy
+  mana_cost: '4'
+  element: fire
+  fire_threshold: '1'
+  power: '3'
+  artist: francesca_baerald
+  identifier: ClamorHarpies
+  release: alpha
+- name: Cloud City
+  card_type: site
+  rarity: unique
+  image_url: https://static.wixstatic.com/media/965b5c_c720b5a453194203bd4121e34738893f~mv2.png/v1/fill/w_960,h_690,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_c720b5a453194203bd4121e34738893f~mv2.png
+  rules_box: "{Wind:2}: Once during your turn, you may move this City to a free adjacent
+    location."
+  type_line: A Unique Site, lofty and ever fleeting
+  element: none
+  wind_threshold: '1'
+  artist: elwira_pawlikowska
+  identifier: CloudCity
+  release: alpha
+- name: Common Sense
+  card_type: magic
+  rarity: ordinary
+  image_url: https://static.wixstatic.com/media/965b5c_b53a73ae2c244013906b7ad8d584d3cf~mv2.png/v1/fill/w_628,h_878,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_b53a73ae2c244013906b7ad8d584d3cf~mv2.png
+  rules_box: Search your spellbook for an ordinary card, reveal it to your opponent
+    and draw it. Shuffle your spellbook.
+  type_line: The Ordinary appears as Magic to some
+  mana_cost: '1'
+  element: earth
+  earth_threshold: '1'
+  artist: drew_tucker
+  flavor_text: |-
+    _“Common sense is the genius of humanity.”
+    - Johann Wolfgang con Goethe_
+  identifier: CommonSense
+  release: alpha
+- name: Conqueror Worm
+  card_type: minion
+  rarity: elite
+  image_url: https://static.wixstatic.com/media/965b5c_a700d1f017244fca80e038f2452410ab~mv2.png/v1/fill/w_628,h_878,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_a700d1f017244fca80e038f2452410ab~mv2.png
+  rules_box: |-
+    **Burrowing**
+    This Worm can move between non-water sites while burrowed.
+    You control the worm’s site.
+  type_line: An Elite Monster subjugates this realm
+  mana_cost: '8'
+  element: earth
+  earth_threshold: '2'
+  power: '8'
+  artist: dan_seagrave
+  identifier: ConquerorWorm
+  release: alpha
+- name: Cornerstone
+  card_type: site
+  rarity: exceptional
+  image_url: https://static.wixstatic.com/media/965b5c_3bda4510c5ed4fbb92a3aa462ffe7afe~mv2.png/v1/fill/w_960,h_690,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_3bda4510c5ed4fbb92a3aa462ffe7afe~mv2.png
+  rules_box: This Cornerstone may be played on a corner square not adjacent to any
+    site.
+  type_line: An Exceptional Site to expand your domain
+  element: none
+  artist: margaret_organ-kean
+  identifier: Cornerstone
+  release: alpha
+- name: Court Jester
+  card_type: minion
+  rarity: elite
+  image_url: https://static.wixstatic.com/media/965b5c_f61ad14ae0414ff8b224064583887086~mv2.png/v1/fill/w_628,h_880,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_f61ad14ae0414ff8b224064583887086~mv2.png
+  rules_box: |-
+    **Spellcaster**
+    At the start of each player’s turn, if this Jester is near that player’s Avatar, they discard a card.
+  type_line: An Elite Mortal with a dangerous smile
+  mana_cost: '3'
+  element: water
+  water_threshold: '1'
+  power: '1'
+  artist: liz_danforth
+  identifier: CourtJester
+  release: alpha
+- name: Craterize
+  card_type: magic
+  rarity: elite
+  image_url: https://static.wixstatic.com/media/965b5c_8b56cf0da68746e4b09d25c6600a1cd5~mv2.png/v1/fill/w_640,h_894,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_8b56cf0da68746e4b09d25c6600a1cd5~mv2.png
+  rules_box: |-
+    Destroy a site without an Avatar and everything on it.
+    Deal Splash Damage around the destroyed site.
+
+    | 1 | 2 | 4 | 2 | 1 |
+    | 2 | 4 | 7 | 4 | 2 |
+    | 4 | 7 | X | 7 | 4 |
+    | 2 | 4 | 7 | 4 | 2 |
+    | 1 | 2 | 4 | 2 | 1 |
+  type_line: Elite Magic of cataclysmic proportions
+  mana_cost: '8'
+  element: earth
+  earth_threshold: '2'
+  artist: marta_molina
+  identifier: Craterize
+  release: alpha
+- name: Cyclopean Mummies
+  card_type: minion
+  rarity: ordinary
+  image_url: https://static.wixstatic.com/media/965b5c_7eaf0145007845769ddfcba838af8157~mv2.png/v1/fill/w_628,h_874,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_7eaf0145007845769ddfcba838af8157~mv2.png
+  rules_box: |-
+    **Burrowing**
+    These Mummies enter play burrowed on any site.
+  type_line: Ordinary Undead emerge from below
+  mana_cost: '3'
+  element: fire
+  fire_threshold: '1'
+  power: '3'
+  artist: jeff_easley
+  identifier: CyclopeanMummies
+  release: alpha
+- name: Dalcean Phalanx
+  card_type: minion
+  rarity: exceptional
+  image_url: https://static.wixstatic.com/media/965b5c_cb9bd651df3b44319bd94ca832a4aed4~mv2.png/v1/fill/w_628,h_878,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_cb9bd651df3b44319bd94ca832a4aed4~mv2.png
+  rules_box: This Phalanx is slaughtered if attacked at the flank or rear. It can
+    only attack on the same site and forward.
+  type_line: Exceptionally disciplined Mortals advance forth
+  mana_cost: '2'
+  element: earth
+  earth_threshold: '2'
+  power: '5'
+  artist: vincent_pompetti
+  identifier: DalceanPhalanx
+  release: alpha
+- name: Disenchant
+  card_type: magic
+  rarity: ordinary
+  image_url: https://static.wixstatic.com/media/965b5c_2f2e45fbf21c4c4e99d74bb97439af3f~mv2.png/v1/fill/w_628,h_876,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_2f2e45fbf21c4c4e99d74bb97439af3f~mv2.png
+  rules_box: Destroy target Aura or Relic.
+  type_line: Quick Ordinary Magic of shattered fascination
+  mana_cost: '0'
+  element: wind
+  wind_threshold: '2'
+  artist: elwira_pawlikowska
+  flavor_text: _To see it is to disbelieve it._
+  identifier: Disenchant
+  release: alpha
+- name: Disintegrate
+  card_type: magic
+  rarity: elite
+  image_url: https://static.wixstatic.com/media/965b5c_9a0af97da3434f7c9c8e6091c77529d1~mv2.png/v1/fill/w_628,h_874,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_9a0af97da3434f7c9c8e6091c77529d1~mv2.png
+  rules_box: Kill target minion within two steps of your Spellcaster and destroy anything
+    it is carrying. They are removed from the game forever.
+  type_line: Elite Magic of unmitigated annihilation
+  mana_cost: '6'
+  element: fire
+  fire_threshold: '2'
+  artist: alan_pollack
+  flavor_text: |-
+    _“Men ought either to be indulged or utterly destroyed.”
+    - Nicole Machiavelli_
+  identifier: Disintegrate
+  release: alpha
+- name: Dodge Roll
+  card_type: magic
+  rarity: ordinary
+  image_url: https://static.wixstatic.com/media/965b5c_3272b4228355493aa878c60a527eb60f~mv2.png/v1/fill/w_628,h_880,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_3272b4228355493aa878c60a527eb60f~mv2.png
+  rules_box: Target minion in harm’s way moves to an adjacent location. Cancel the
+    attack or spell targeting the minion.
+  type_line: Ordinary Quick and nimble Magic
+  mana_cost: '0'
+  element: water
+  water_threshold: '2'
+  artist: vincent_pompetti
+  identifier: DodgeRoll
+  release: alpha
+- name: Donnybrook Inn
+  card_type: site
+  rarity: unique
+  image_url: https://static.wixstatic.com/media/965b5c_1c02a7d063b14a6c8d84529cf32fc3f1~mv2.png/v1/fill/w_960,h_690,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_1c02a7d063b14a6c8d84529cf32fc3f1~mv2.png
+  rules_box: All players may summon minions here. These minions cost 2 less mana.
+  type_line: A Unique Site for letting off steam
+  element: none
+  artist: vasiliy_ermolaev
+  identifier: DonnybrookInn
+  release: alpha
+- name: Doomsday Device
+  card_type: relic
+  rarity: unique
+  image_url: https://static.wixstatic.com/media/965b5c_0d3afb6b35754a3cbf5e2480ad2cc391~mv2.png/v1/fill/w_628,h_872,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_0d3afb6b35754a3cbf5e2480ad2cc391~mv2.png
+  rules_box: |-
+    At the start of your turn, put a counter on this Device. When there are 3 counters on it, it detonates. It deals no damage if Burrowed or Submerged.
+
+    | 1 | 2 | 3 | 2 | 1 |
+    | 2 | 4 | 7 | 4 | 2 |
+    | 3 | 7 | 20 | 7 | 3 |
+    | 2 | 4 | 7 | 4 | 2 |
+    | 1 | 2 | 3 | 2 | 1 |
+  type_line: A Unique relic of impending doom
+  mana_cost: '4'
+  element: none
+  artist: elwira_pawlikowska
+  identifier: DoomsdayDevice
+  release: alpha
+- name: Doomsday Prophet
+  card_type: minion
+  rarity: elite
+  image_url: https://static.wixstatic.com/media/965b5c_deb5ae6b2c57438b968462de37abd946~mv2.png/v1/fill/w_628,h_874,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_deb5ae6b2c57438b968462de37abd946~mv2.png
+  rules_box: |-
+    **Spellcaster**
+    Magic damage near this Prophet is doubled.
+  type_line: An Elite Mortal prognosticating the end
+  mana_cost: '3'
+  element: fire
+  fire_threshold: '2'
+  power: '1'
+  artist: doug_kovacs
+  flavor_text: _The end is nigh!_
+  identifier: DoomsdayProphet
+  release: alpha
+- name: Dream Quest
+  card_type: magic
+  rarity: unique
+  image_url: https://static.wixstatic.com/media/965b5c_545efb34ae634ef48f26d63aa1e06079~mv2.png/v1/fill/w_628,h_872,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_545efb34ae634ef48f26d63aa1e06079~mv2.png
+  rules_box: Search your spellbook for a card then shuffle your spellbook and put
+    that card on top of it.
+  type_line: Unique Magic to explore the unknown
+  mana_cost: '1'
+  element: wind
+  wind_threshold: '1'
+  artist: elvira_shakirova
+  identifier: DreamQuest
+  release: alpha
+- name: Drought
+  card_type: aura
+  rarity: exceptional
+  image_url: https://static.wixstatic.com/media/965b5c_e91bf1c9e1bf49bdad9bc53843da4e02~mv2.png/v1/fill/w_628,h_874,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_e91bf1c9e1bf49bdad9bc53843da4e02~mv2.png
+  rules_box: |-
+    Conjure on two or four locations of which at least one is a Fire site.
+    Affected sites count as Fire sites and give Fire threshold. Minions can’t submerge or be submerged here. Water spells and minions can’t be played here.
+  type_line: An Exceptional Aura of desperate dearth
+  mana_cost: '3'
+  element: fire
+  fire_threshold: '1'
+  artist: michal_nagypal
+  identifier: Drought
+  release: alpha
+- name: Dwarven Digging Team
+  card_type: minion
+  rarity: exceptional
+  image_url: https://static.wixstatic.com/media/965b5c_b35dc4e3c6804bcaba09c92fcf35f2e7~mv2.png/v1/fill/w_628,h_878,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_b35dc4e3c6804bcaba09c92fcf35f2e7~mv2.png
+  rules_box: |-
+    **Burrowing**
+    This Team may burrow or unburrow another nearby minion on the same site as it burrows or unburrows.
+  type_line: Exceptional Mythics frantically dig deeper
+  mana_cost: '2'
+  element: earth
+  earth_threshold: '2'
+  power: '3'
+  artist: alan_pollack
+  identifier: DwarvenDiggingTeam
+  release: alpha
+- name: Dwarven Forge
+  card_type: site
+  rarity: unique
+  image_url: https://static.wixstatic.com/media/965b5c_05724683072f4184b460b2fd18e05450~mv2.png/v1/fill/w_960,h_690,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_05724683072f4184b460b2fd18e05450~mv2.png
+  rules_box: All players may conjure relics here. These relics cost 2 less mana.
+  type_line: A Unique Site where legends are made
+  element: none
+  fire_threshold: '1'
+  artist: rodney_matthews
+  identifier: DwarvenForge
+  release: alpha
+- name: Earthquake
+  card_type: magic
+  rarity: elite
+  image_url: https://static.wixstatic.com/media/965b5c_4265c7242e574fc5b78acc5ad7b9a462~mv2.png/v1/fill/w_628,h_878,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_4265c7242e574fc5b78acc5ad7b9a462~mv2.png
+  rules_box: |-
+    Target block of 4 locations of which at least on is an Earth location.
+    Burrow all grounded minions on affected Non-Water sites. You may rearrange the placement of those sites within the block.
+  type_line: Terrible, violent and sever Elite Magic
+  mana_cost: '5'
+  element: earth
+  earth_threshold: '2'
+  artist: alan_pollack
+  identifier: Earthquake
+  release: alpha
+- name: East West Dragon
+  card_type: minion
+  rarity: exceptional
+  image_url: https://static.wixstatic.com/media/965b5c_c99dc364b115494babf28adfbe7dba48~mv2.png/v1/fill/w_628,h_872,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_c99dc364b115494babf28adfbe7dba48~mv2.png
+  rules_box: |-
+    **Airborne**
+    As long as this Dragon is in the leftmost or rightmost column, it and allied minions can move freely to any site in those columns.
+  type_line: An Exceptional serpentine Dragon emerges
+  mana_cost: '5'
+  element: wind
+  wind_threshold: '1'
+  power: '3'
+  artist: jeff_easley
+  identifier: EastWestDragon
+  release: alpha
+- name: Edge Of The World
+  card_type: site
+  rarity: unique
+  image_url: https://static.wixstatic.com/media/965b5c_743c7c5aec404418a8b41c5284186273~mv2.png/v1/fill/w_960,h_690,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_743c7c5aec404418a8b41c5284186273~mv2.png
+  rules_box: Players can’t play sites near this site
+  type_line: A Unique and final Site before the void
+  element: none
+  artist: adam_burke
+  identifier: EdgeOfTheWorld
+  release: alpha
+- name: Elementalist
+  card_type: avatar
+  rarity: unknown
+  image_url: https://static.wixstatic.com/media/965b5c_74bfcd8c9d0b410db5f2191c5e8466ce~mv2.png/v1/fill/w_628,h_874,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_74bfcd8c9d0b410db5f2191c5e8466ce~mv2.png
+  initial_life: '20'
+  rules_box: |-
+    **Spellcaster**
+    Tap to play a site or to draw from your atlas.
+    You have {Earth:1} {Fire:1} {Wind:1} {Water:1} threshold.
+  type_line: Your Avatar rises to the occasion
+  element: none
+  earth_threshold: '1'
+  fire_threshold: '1'
+  water_threshold: '1'
+  wind_threshold: '1'
+  power: '1'
+  artist: elvira_shakirova
+  identifier: Elementalist
+  release: alpha
+- name: Elite Counterspell
+  card_type: magic
+  rarity: unknown
+  image_url: https://static.wixstatic.com/media/965b5c_ab21d39597754b4eb2823eedf59c53a9~mv2.png/v1/fill/w_628,h_878,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_ab21d39597754b4eb2823eedf59c53a9~mv2.png
+  element: earth
+  artist: unknown
+  identifier: EliteCounterspell
+  release: alpha
+- name: Emperors Road
+  card_type: site
+  rarity: unique
+  image_url: https://static.wixstatic.com/media/965b5c_7f4a1b1cd4e74d4bbe52ecf36b246873~mv2.png/v1/fill/w_960,h_690,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_7f4a1b1cd4e74d4bbe52ecf36b246873~mv2.png
+  rules_box: "**Genesis** — Your opponent, and then you, may play an extra site adjacent
+    to this Road."
+  type_line: A Unique Site from long before your time
+  element: none
+  artist: vincent_pompetti
+  identifier: EmperorsRoad
+  release: alpha
+- name: Enlarge
+  card_type: magic
+  rarity: exceptional
+  image_url: https://static.wixstatic.com/media/965b5c_8b56cf0da68746e4b09d25c6600a1cd5~mv2.png/v1/fill/w_640,h_894,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_8b56cf0da68746e4b09d25c6600a1cd5~mv2.png
+  rules_box: An ally occupies four sites and gains +4 power until end of turn.
+  type_line: Exceptional Magic of great magnitude
+  mana_cost: '2'
+  element: earth
+  earth_threshold: '1'
+  artist: alan_pollack
+  flavor_text: _Pity these meek and measly men!_
+  identifier: Enlarge
+  release: alpha
+- name: Entangle Terrain
+  card_type: aura
+  rarity: ordinary
+  image_url: https://static.wixstatic.com/media/965b5c_8b56cf0da68746e4b09d25c6600a1cd5~mv2.png/v1/fill/w_640,h_894,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_8b56cf0da68746e4b09d25c6600a1cd5~mv2.png
+  rules_box: |-
+    Conjure at the intersection of two or four sites of which at least one is an Earth site.
+    Minions on affected sites lose Airborne and are Immobile.
+  type_line: An Ordinary Aura of immobility
+  mana_cost: '4'
+  element: earth
+  earth_threshold: '2'
+  artist: drew_tucker
+  identifier: EntangleTerrain
+  release: alpha
+- name: Eriks Curiosa
+  card_type: relic
+  rarity: unique
+  image_url: https://static.wixstatic.com/media/965b5c_7070ebaa0a684967b17f7289886d47e7~mv2.png/v1/fill/w_628,h_872,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_7070ebaa0a684967b17f7289886d47e7~mv2.png
+  rules_box: When an Avatar moves here, that Avatar’s owner draws 3 spells. Destroy
+    this Curiosa.
+  type_line: Unique Relics gathered from forgotten places
+  mana_cost: '3'
+  element: none
+  artist: francesca_baerald
+  identifier: EriksCuriosa
+  release: alpha
+- name: Felbog Frog Men
+  card_type: minion
+  rarity: exceptional
+  image_url: https://static.wixstatic.com/media/965b5c_54b518bfd40a4a97b5699e2e00c4b0ce~mv2.png/v1/fill/w_628,h_880,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_54b518bfd40a4a97b5699e2e00c4b0ce~mv2.png
+  rules_box: These Frog Men can leap over adjacent sites as it moves.
+  type_line: Exceptional hybrids of Mortal and Beast
+  mana_cost: '2'
+  element: water
+  water_threshold: '1'
+  power: '3'
+  artist: jeff_menges
+  identifier: FelbogFrogMen
+  release: alpha
+- name: Fire Salamander
+  card_type: minion
+  rarity: exceptional
+  image_url: https://static.wixstatic.com/media/965b5c_e1b20a4b41144de09ba20af5ed9efed2~mv2.png/v1/fill/w_628,h_874,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_e1b20a4b41144de09ba20af5ed9efed2~mv2.png
+  rules_box: "**Fire Spellcaster**, **Fire Immunity**"
+  type_line: An Exceptional Spirit of fiery familiarity
+  mana_cost: '3'
+  element: fire
+  fire_threshold: '2'
+  power: '2'
+  artist: melissa_benson
+  flavor_text: _The flames lick at our heels as the fire crawls ever upwards._
+  identifier: FireSalamander
+  release: alpha
+- name: Firebolts
+  card_type: magic
+  rarity: ordinary
+  image_url: https://static.wixstatic.com/media/965b5c_0dfba8114b9149438c52fe8f49129198~mv2.png/v1/fill/w_628,h_874,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_0dfba8114b9149438c52fe8f49129198~mv2.png
+  rules_box: The Spellcaster fires three bolts, each in any cardinal direction. They
+    each deal 1 damage to the first enemy they hit.
+  type_line: Ordinary Magic in any respected repertoire
+  mana_cost: '1'
+  element: fire
+  fire_threshold: '1'
+  artist: jeff_easley
+  identifier: Firebolts
+  release: alpha
+- name: Flanking Maneuver
+  card_type: magic
+  rarity: exceptional
+  image_url: https://static.wixstatic.com/media/965b5c_6b68aa66e7084045ac25fd56c2934a0c~mv2.png/v1/fill/w_628,h_872,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_6b68aa66e7084045ac25fd56c2934a0c~mv2.png
+  rules_box: Jump one of your minions like a chess knight. Draw a card.
+  type_line: An Exceptional tactic that works like Magic
+  mana_cost: '3'
+  element: wind
+  wind_threshold: '1'
+  artist: tony_szczudlo
+  flavor_text: _With swift wits and swifter horses we shall get the better of these
+    arrogant swines!_
+  identifier: FlankingManeuver
+  release: alpha
+- name: Flashfires
+  card_type: magic
+  rarity: exceptional
+  image_url: https://static.wixstatic.com/media/965b5c_c12b4d8ab0dd4781b037b632f4267ad7~mv2.png/v1/fill/w_628,h_874,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_c12b4d8ab0dd4781b037b632f4267ad7~mv2.png
+  rules_box: |-
+    Play near your Spellcaster.
+    These Flashfires deal 4 Splash Damage wherever it’s summoned or moves to.
+    At the start of your turn, it moves to an adjacent, previously unturned site. If it can’t move, discard it.
+  type_line: Exceptional Magic of persistent destruction
+  mana_cost: '4'
+  element: fire
+  fire_threshold: '2'
+  artist: mattias_frisk
+  identifier: Flashfires
+  release: alpha
+- name: Flood
+  card_type: aura
+  rarity: exceptional
+  image_url: https://static.wixstatic.com/media/965b5c_e982d4a6027142c782adecf831d242e4~mv2.png/v1/fill/w_628,h_880,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_e982d4a6027142c782adecf831d242e4~mv2.png
+  rules_box: |-
+    Conjure on two or four locations of which at least one is a Water site.
+    Affected sites are also Water sites and provide Water threshold. Burrowed minions here drown. Fire spells and minions can’t be played here.
+  type_line: An Exceptional Aura of severe overflow
+  mana_cost: '4'
+  element: water
+  water_threshold: '4'
+  artist: michal_nagypal
+  identifier: Flood
+  release: alpha
+- name: Flow Of Life
+  card_type: magic
+  rarity: elite
+  image_url: https://static.wixstatic.com/media/965b5c_b2585590634743d49ce1feb6ba72f216~mv2.png/v1/fill/w_628,h_880,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_b2585590634743d49ce1feb6ba72f216~mv2.png
+  rules_box: Gain life equal to the number of Water sites in play. If you are on Death’s
+    Door, instead set your life to 1.
+  type_line: Elite Magic of eternal youth
+  mana_cost: '3'
+  element: water
+  water_threshold: '3'
+  artist: anson_maddocks
+  identifier: FlowOfLife
+  release: alpha
+- name: Frontier Settlers
+  card_type: minion
+  rarity: exceptional
+  image_url: https://static.wixstatic.com/media/965b5c_85b6d5b5d7e844499d3439dabdfa10c5~mv2.png/v1/fill/w_628,h_878,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_85b6d5b5d7e844499d3439dabdfa10c5~mv2.png
+  rules_box: When these settlers move, they may do so to an adjacent location, placing
+    the top site from your atlas there. Once settled, they can’t move.
+  type_line: Exceptional Mortals of sweat and survival
+  mana_cost: '3'
+  element: earth
+  earth_threshold: '2'
+  power: '1'
+  artist: ossi_hiekkala
+  flavor_text: _“Be fruitful, and multiply, and replenish the earth.” - Genesis 1:26_
+  identifier: FrontierSettlers
+  release: alpha
+- name: Ghost Ship
+  card_type: minion
+  rarity: elite
+  image_url: https://static.wixstatic.com/media/965b5c_85343a0bd47840b19f8454791fa9e16b~mv2.png/v1/fill/w_628,h_880,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_85343a0bd47840b19f8454791fa9e16b~mv2.png
+  rules_box: This Ship moves freely in the void and on Water sites. It may carry any
+    number of minions.
+  type_line: Elite Undead Spirits sail between realms
+  mana_cost: '5'
+  element: water
+  water_threshold: '2'
+  power: '3'
+  artist: jussi_pylkäs
+  identifier: GhostShip
+  release: alpha
+- name: Giant Shark
+  card_type: minion
+  rarity: exceptional
+  image_url: https://static.wixstatic.com/media/965b5c_865ce160d0d54745bd2470a97f778e88~mv2.png/v1/fill/w_628,h_880,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_865ce160d0d54745bd2470a97f778e88~mv2.png
+  rules_box: |-
+    **Submerge**, **Waterbound**
+    This shark moves freely in a body of water.
+    It must attack if able (including friendly minions).
+  type_line: This Exceptional Beast smells blood in the water
+  mana_cost: '4'
+  element: water
+  water_threshold: '1'
+  power: '5'
+  artist: alan_pollack
+  identifier: GiantShark
+  release: alpha
+- name: Gothic Tower
+  card_type: site
+  rarity: ordinary
+  image_url: https://static.wixstatic.com/media/965b5c_0d270de6defa4554ba5ace6d506b7ced~mv2.png/v1/fill/w_960,h_692,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_0d270de6defa4554ba5ace6d506b7ced~mv2.png
+  rules_box: "**Genesis** — Gain 1 mana until end of turn."
+  type_line: An Ordinary Site of haunting Wind
+  element: none
+  wind_threshold: '1'
+  artist: michal_nagypal
+  identifier: GothicTower
+  release: alpha
+- name: Grandmaster Wizard
+  card_type: minion
+  rarity: unique
+  image_url: https://static.wixstatic.com/media/965b5c_8035a82f08fc4b3db2b94ca190eb9310~mv2.png/v1/fill/w_628,h_872,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_8035a82f08fc4b3db2b94ca190eb9310~mv2.png
+  rules_box: |-
+    **Spellcaster**
+    **Genesis** — Draw 3 spells.
+  type_line: A Unique Mortal of true arcane expertise
+  mana_cost: '7'
+  element: wind
+  water_threshold: '2'
+  artist: ossi_hiekkala
+  identifier: GrandmasterWizard
+  release: alpha
+- name: Great Old One
+  card_type: minion
+  rarity: unique
+  image_url: https://static.wixstatic.com/media/965b5c_4406b5bd85f7481682463cb6d18a72cd~mv2.png/v1/fill/w_628,h_880,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_4406b5bd85f7481682463cb6d18a72cd~mv2.png
+  rules_box: |-
+    **Submerge**, **Indestructible**
+    This Old One can surface and attack anywhere in the body of water it is in. At the end of your turn, submerge it.
+  type_line: A Unique Monster stirs beneath the surface
+  mana_cost: '8'
+  element: water
+  water_threshold: '4'
+  power: '12'
+  artist: dan_seagrave
+  identifier: GreatOldOne
+  release: alpha
+- name: Great Wall
+  card_type: site
+  rarity: elite
+  image_url: https://static.wixstatic.com/media/965b5c_5e193bdb47054290baaa672d54bf4d43~mv2.png/v1/fill/w_960,h_692,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_5e193bdb47054290baaa672d54bf4d43~mv2.png
+  rules_box: There is a wall in front of this site that blocks enemy ground minions,
+    extended one step back to the sides.
+  type_line: An Elite Site of stalwart safety
+  element: none
+  earth_threshold: '1'
+  artist: michal_nagypal
+  identifier: GreatWall
+  release: alpha
+- name: Greissgnath Gnomes
+  card_type: minion
+  rarity: ordinary
+  image_url: https://static.wixstatic.com/media/965b5c_105b752b2e1446328346036a2cfecca0~mv2.png/v1/fill/w_628,h_878,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_105b752b2e1446328346036a2cfecca0~mv2.png
+  rules_box: |-
+    **Burrowing**
+    These Gnomes may unborrow at any site in the span of earth they are within. At the end of your turn, you may burrow them.
+  type_line: An Ordinary Spirit crops up unexpectedly
+  mana_cost: '2'
+  element: earth
+  earth_threshold: '1'
+  power: '2'
+  artist: vasiliy_ermolaev
+  identifier: GreissgnathGnomes
+  release: alpha
+- name: Grim Reaper
+  card_type: minion
+  rarity: unique
+  image_url: https://static.wixstatic.com/media/965b5c_7380a6f9976d463786290b47b5131f2c~mv2.png/v1/fill/w_628,h_872,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_7380a6f9976d463786290b47b5131f2c~mv2.png
+  rules_box: |-
+    **Voidwalk**, **Immortal**
+    Summon this Reaper to a random location, determined by rolling a D20.
+    When it shares a location with another minion, kill that minion, then place this Reaper in your discard pile.
+  type_line: A Unique Minion we all will meet eventually
+  mana_cost: '3'
+  element: wind
+  wind_threshold: '2'
+  power: '0'
+  artist: vasiliy_ermolaev
+  identifier: GrimReaper
+  release: alpha
+- name: Guile Sirens
+  card_type: minion
+  rarity: exceptional
+  image_url: https://static.wixstatic.com/media/965b5c_1b82bf9c8f05481792137cba4664ed77~mv2.png/v1/fill/w_628,h_880,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_1b82bf9c8f05481792137cba4664ed77~mv2.png
+  rules_box: |-
+    **Submerge**
+    These Sirens lure the closest enemy minion of your choice in a straight line of sight moving closer to them, if able.
+  type_line: Exceptional Mythics with three times the charm
+  mana_cost: '3'
+  element: water
+  water_threshold: '2'
+  power: '2'
+  artist: elvira_shakirova
+  identifier: GuileSirens
+  release: alpha
+- name: Harpoon Shot
+  card_type: magic
+  rarity: exceptional
+  image_url: https://static.wixstatic.com/media/965b5c_124bc3057b6a4cbc86c13ab4a72499e1~mv2.png/v1/fill/w_628,h_880,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_124bc3057b6a4cbc86c13ab4a72499e1~mv2.png
+  rules_box: |-
+    Move target minion one step closer in a cardinal direction from your Avatar, and deal 1 damage to it.
+    Draw a spell.
+  type_line: Exceptional Magic for that one big catch
+  mana_cost: '3'
+  element: water
+  water_threshold: '1'
+  artist: jussi_pylkäs
+  identifier: HarpoonShot
+  release: alpha
+- name: Haste
+  card_type: magic
+  rarity: ordinary
+  image_url: https://static.wixstatic.com/media/965b5c_f7b318e156694c1f8512fce8d1a5b24a~mv2.png/v1/fill/w_628,h_874,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_f7b318e156694c1f8512fce8d1a5b24a~mv2.png
+  rules_box: |-
+    Target minion get +1 Movement and may move/attack right away when summoned.
+    Draw a spell.
+  type_line: Ordinary Magic of utmost urgency
+  mana_cost: '1'
+  element: fire
+  fire_threshold: '1'
+  artist: drew_tucker
+  identifier: Haste
+  release: alpha
+- name: Headless Haunt
+  card_type: minion
+  rarity: exceptional
+  image_url: https://static.wixstatic.com/media/965b5c_f330dbb69b04447483d9de2f739aee43~mv2.png/v1/fill/w_628,h_872,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_f330dbb69b04447483d9de2f739aee43~mv2.png
+  rules_box: |-
+    **Voidwalk**
+    At the start of your turn, determine a random location by rolling a D20. Teleport this Haunt there.
+  type_line: An Exceptional Spirit defines time and space
+  mana_cost: '3'
+  element: wind
+  wind_threshold: '2'
+  power: '5'
+  artist: jussi_pylkäs
+  identifier: HeadlessHaunt
+  release: alpha
+- name: Hex
+  card_type: avatar
+  rarity: unknown
+  image_url: https://static.wixstatic.com/media/965b5c_790df1649df449ddbe1e8dedfb0295aa~mv2.png/v1/fill/w_628,h_874,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_790df1649df449ddbe1e8dedfb0295aa~mv2.png
+  initial_life: '20'
+  rules_box: |-
+    **Spellcaster**
+    Tap to play a site or to draw from your atlas.
+    Tap to turn target minion in a cardinal direction into a 0-power frog token. (Once per game.)
+  type_line: Your Avatar. An ugly win is still a win
+  element: none
+  power: '1'
+  artist: dan_seagrave
+  identifier: Hex
+  release: alpha
+- name: Highland Falconer
+  card_type: minion
+  rarity: exceptional
+  image_url: https://static.wixstatic.com/media/965b5c_1cc7516ddc134c998f9ad81fabe7a530~mv2.png/v1/fill/w_628,h_872,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_1cc7516ddc134c998f9ad81fabe7a530~mv2.png
+  rules_box: "**Genesis** — Move target Airborne minion to the same site as this Falconer
+    and ground it until end of turn."
+  type_line: An Exceptional Mortal calls for his bird
+  mana_cost: '1'
+  element: wind
+  wind_threshold: '1'
+  power: '2'
+  artist: andrea_modesti
+  identifier: HighlandFalconer
+  release: alpha
+- name: Highland Princess
+  card_type: minion
+  rarity: unique
+  image_url: https://static.wixstatic.com/media/965b5c_caee47020e1c471f9d2d891dadf3ec93~mv2.png/v1/fill/w_628,h_872,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_caee47020e1c471f9d2d891dadf3ec93~mv2.png
+  rules_box: When this Princess blocks or is attacked, nearby allied minions may have
+    the damage dealt to them instead.
+  type_line: A Unique Mortal with beauty to die for
+  mana_cost: '1'
+  element: wind
+  earth_threshold: '1'
+  wind_threshold: '1'
+  power: '1'
+  artist: vincent_pompetti
+  identifier: HighlandPrincess
+  release: alpha
+- name: Hillock Basilisk
+  card_type: minion
+  rarity: exceptional
+  image_url: https://static.wixstatic.com/media/965b5c_74c8cfca9c064706aa012f56819e716b~mv2.png/v1/fill/w_628,h_874,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_74c8cfca9c064706aa012f56819e716b~mv2.png
+  rules_box: Minions on the site directly in front of this Basilisk are petrified.
+    (They lose all abilities and can’t fight or move.)
+  type_line: An Exceptional Mythic with a stony stare
+  mana_cost: '4'
+  element: fire
+  fire_threshold: '1'
+  power: '3'
+  artist: alan_pollack
+  identifier: HillockBasilisk
+  release: alpha
+- name: Holy Ground
+  card_type: site
+  rarity: exceptional
+  image_url: https://static.wixstatic.com/media/965b5c_8b56cf0da68746e4b09d25c6600a1cd5~mv2.png/v1/fill/w_640,h_894,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_8b56cf0da68746e4b09d25c6600a1cd5~mv2.png
+  rules_box: "**Genesis** -> Nearby allies gain +1 power until end of turn."
+  type_line: An Exceptional Site of spiritual strength
+  element: none
+  earth_threshold: '1'
+  artist: michal_nagypal
+  identifier: HolyGround
+  release: alpha
+- name: Hounds Of Ondaros
+  card_type: minion
+  rarity: elite
+  image_url: https://static.wixstatic.com/media/965b5c_7199df615d444e08b1e76da8d10d70db~mv2.png/v1/fill/w_628,h_872,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_7199df615d444e08b1e76da8d10d70db~mv2.png
+  rules_box: |-
+    **Airborne**, **Voidwalk**, **Burrowing**, **Submerge**
+    Nearby Stealth is negated.
+  type_line: No place is safe from these Elite Demons
+  mana_cost: '7'
+  element: wind
+  wind_threshold: '2'
+  power: '5'
+  artist: francesca_baerald
+  flavor_text: _You can run, but you cannot hide._
+  identifier: HoundsOfOndaros
+  release: alpha
+- name: House Arn Bannerman
+  card_type: minion
+  rarity: exceptional
+  image_url: https://static.wixstatic.com/media/965b5c_8b56cf0da68746e4b09d25c6600a1cd5~mv2.png/v1/fill/w_640,h_894,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_8b56cf0da68746e4b09d25c6600a1cd5~mv2.png
+  rules_box: Other nearby allies gain +1 power.
+  type_line: An Exceptional Mortal holds your banner high
+  mana_cost: '4'
+  element: earth
+  earth_threshold: '2'
+  power: '2'
+  artist: andrea_modesti
+  flavor_text: |-
+    _Our family banner will once again
+    be a symbol of strength!_
+  identifier: HouseArnBannerman
+  release: alpha
+- name: Humble Village
+  card_type: site
+  rarity: ordinary
+  image_url: https://static.wixstatic.com/media/965b5c_8b56cf0da68746e4b09d25c6600a1cd5~mv2.png/v1/fill/w_640,h_894,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_8b56cf0da68746e4b09d25c6600a1cd5~mv2.png
+  rules_box: "**Genesis** -> Summon a 1-power Foot Soldier here."
+  type_line: An Ordinary Site of fertile Earth
+  element: none
+  earth_threshold: '1'
+  artist: andrea_modesti
+  identifier: HumbleVillage
+  release: alpha
+- name: Immolation
+  card_type: magic
+  rarity: unique
+  image_url: https://static.wixstatic.com/media/965b5c_3255310cb9ee466fb5374c9322d38bb8~mv2.png/v1/fill/w_628,h_874,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_3255310cb9ee466fb5374c9322d38bb8~mv2.png
+  rules_box: Deal 7 damage to a single target up to two steps away from your Spellcaster.
+  type_line: Unique Magic of distilled devastation
+  mana_cost: '1'
+  element: fire
+  fire_threshold: '3'
+  artist: brian_smith
+  identifier: Immolation
+  release: alpha
+- name: Infernal Legion
+  card_type: minion
+  rarity: elite
+  image_url: https://static.wixstatic.com/media/965b5c_f3dc812f44a346fb9f85372c9a81027f~mv2.png/v1/fill/w_628,h_874,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_f3dc812f44a346fb9f85372c9a81027f~mv2.png
+  rules_box: |-
+    **Splash Damage**
+    At the end of each turn, this Legion deals 1 damage to nearby Avatars and minions.
+  type_line: An Elite Undead army in flames
+  mana_cost: '7'
+  element: fire
+  fire_threshold: '4'
+  power: '5'
+  artist: melissa_benson
+  identifier: InfernalLegion
+  release: alpha
+- name: Infiltrate
+  card_type: magic
+  rarity: elite
+  image_url: https://static.wixstatic.com/media/965b5c_48db2a8fa77d4ff097ee97716cd82e24~mv2.png/v1/fill/w_628,h_874,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_48db2a8fa77d4ff097ee97716cd82e24~mv2.png
+  rules_box: Move target friendly minion to a location near an enemy Avatar. The minion
+    gains to Stealth.
+  type_line: Elite Magic of sophisticated deception
+  mana_cost: '3'
+  element: fire
+  fire_threshold: '2'
+  artist: elwira_pawlikowska
+  identifier: Infiltrate
+  release: alpha
+- name: King Of The Realm
+  card_type: minion
+  rarity: unique
+  image_url: https://static.wixstatic.com/media/965b5c_71cfca811d2b4dd3842875d78d2a8043~mv2.png/v1/fill/w_628,h_878,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_71cfca811d2b4dd3842875d78d2a8043~mv2.png
+  rules_box: |-
+    All other Mortals gain 2 power.
+    You control all Mortals in play.
+  type_line: A Unique Mortal with a true claim to the throne
+  mana_cost: '7'
+  element: earth
+  earth_threshold: '2'
+  power: '4'
+  artist: tony_szczudlo
+  identifier: KingOfTheRealm
+  release: alpha
+- name: Kite Archer
+  card_type: minion
+  rarity: exceptional
+  image_url: https://static.wixstatic.com/media/965b5c_3fb34280444e4476aa1024258f768961~mv2.png/v1/fill/w_628,h_872,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_3fb34280444e4476aa1024258f768961~mv2.png
+  rules_box: |-
+    **Range +2**
+    At the end of turn, you may move this Archer one step to an adjacent site.
+  type_line: An Exceptional Mortal hits and runs
+  mana_cost: '2'
+  element: wind
+  wind_threshold: '1'
+  power: '1'
+  artist: vincent_pompetti
+  identifier: KiteArcher
+  release: alpha
+- name: Land Deed
+  card_type: relic
+  rarity: exceptional
+  image_url: https://static.wixstatic.com/media/965b5c_63ef540d33324deeb94a68ad01d25e2d~mv2.png/v1/fill/w_628,h_872,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_63ef540d33324deeb94a68ad01d25e2d~mv2.png
+  rules_box: The controller of this Deed controls the site at its location.
+  type_line: An Exceptional Relic of indisputable claim
+  mana_cost: '4'
+  element: none
+  artist: elwira_pawlikowska
+  flavor_text: _Possession is nine tenths of the law._
+  identifier: LandDeed
+  release: alpha
+- name: Land Surveyor
+  card_type: minion
+  rarity: exceptional
+  image_url: https://static.wixstatic.com/media/965b5c_93f4648feab047d6a29c4cd6952f0f1a~mv2.png/v1/fill/w_628,h_878,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_93f4648feab047d6a29c4cd6952f0f1a~mv2.png
+  rules_box: "**Genesis** — Draw a site."
+  type_line: An Exceptional Mortal privileges the crown
+  mana_cost: '3'
+  element: earth
+  earth_threshold: '2'
+  power: '2'
+  artist: ossi_hiekkala
+  flavor_text: _You can’t separate a place from its history._
+  identifier: LandSurveyor
+  release: alpha
+- name: Leviathan Island
+  card_type: site
+  rarity: elite
+  image_url: https://static.wixstatic.com/media/965b5c_74fcb0cb342844c19e0f388cbd86d806~mv2.png/v1/fill/w_960,h_692,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_74fcb0cb342844c19e0f388cbd86d806~mv2.png
+  rules_box: "{Water:7}: This island can defend itself with a power of 7 until defeated
+    once."
+  type_line: An Elite Site of Monstrous proportions
+  element: none
+  water_threshold: '1'
+  artist: drew_tucker
+  identifier: LeviathanIsland
+  release: alpha
+- name: Lighthouse
+  card_type: site
+  rarity: elite
+  image_url: https://static.wixstatic.com/media/965b5c_e7d84845de7745918abb6431ebd61841~mv2.png/v1/fill/w_960,h_692,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_e7d84845de7745918abb6431ebd61841~mv2.png
+  rules_box: This site is both a River and a Tower.
+  type_line: Wind whirls and Water swirls in one Elite Site.
+  element: none
+  water_threshold: '1'
+  wind_threshold: '1'
+  artist: marta_molina
+  identifier: Lighthouse
+  release: alpha
+- name: Lightning Bolt
+  card_type: magic
+  rarity: ordinary
+  image_url: https://static.wixstatic.com/media/965b5c_57fc2ddb9d994be19fd9db5bbb8a34d0~mv2.png/v1/fill/w_628,h_872,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_57fc2ddb9d994be19fd9db5bbb8a34d0~mv2.png
+  rules_box: |-
+    This bolt deals 3 damage to target minion or avatar.
+    Excess damage is dealt to the owner of the site the target is on.
+  type_line: Magic of a Quick and fickle nature
+  mana_cost: '0'
+  element: wind
+  wind_threshold: '1'
+  artist: ossi_hiekkala
+  identifier: LightningBolt
+  release: alpha
+- name: Lord Of Lies
+  card_type: minion
+  rarity: elite
+  image_url: https://static.wixstatic.com/media/965b5c_59cf058944dd40e9939d5dada6e975c0~mv2.png/v1/fill/w_628,h_872,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_59cf058944dd40e9939d5dada6e975c0~mv2.png
+  rules_box: "**Genesis** — Other nearby minions attack themselves."
+  type_line: An Elite Demon sows his deadly deceit
+  mana_cost: '9'
+  element: wind
+  wind_threshold: '3'
+  power: '5'
+  artist: gadu_duaso
+  flavor_text: _With words clothed in reason’s garb, he counseled ignoble ease, peaceful
+    sloth and boundless debauchery._
+  identifier: LordOfLies
+  release: alpha
+- name: Lord Of The Void
+  card_type: minion
+  rarity: elite
+  image_url: https://static.wixstatic.com/media/965b5c_e37437e42f104e20ae74c7031701b519~mv2.png/v1/fill/w_628,h_872,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_e37437e42f104e20ae74c7031701b519~mv2.png
+  rules_box: |-
+    **Voidwalk**
+    When this Lord enters a site, destroy that site. If it doesn’t destroy a site during your turn, kill it.
+  type_line: An Elite Spirit of unimaginable emptiness
+  mana_cost: '7'
+  element: wind
+  wind_threshold: '3'
+  power: '0'
+  artist: elwira_pawlikowska
+  identifier: LordOfTheVoid
+  release: alpha
+- name: Maddening Bells
+  card_type: relic
+  rarity: elite
+  image_url: https://static.wixstatic.com/media/965b5c_9c1e9831c2704dafa26c3749db085b94~mv2.png/v1/fill/w_628,h_872,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_9c1e9831c2704dafa26c3749db085b94~mv2.png
+  rules_box: Nearby minions lose Spellcaster and nearby Avatars can’t cast non-minion
+    spells.
+  type_line: A Unique of delirious dissonance
+  mana_cost: '4'
+  element: none
+  artist: drew_tucker
+  identifier: MaddeningBells
+  release: alpha
+- name: Maelström
+  card_type: site
+  rarity: unique
+  image_url: https://static.wixstatic.com/media/965b5c_988dc4567a6c427a9baba40f3be20a36~mv2.png/v1/fill/w_960,h_690,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_988dc4567a6c427a9baba40f3be20a36~mv2.png
+  rules_box: "{Water:2} **Genesis** — Move all Avatars and minions one step towards
+    Maelström"
+  type_line: A Unique  Site of ineluctable malevolence
+  element: none
+  water_threshold: '1'
+  artist: dan_seagrave
+  identifier: Maelstrm
+  release: alpha
+- name: Marine Voyage
+  card_type: magic
+  rarity: exceptional
+  image_url: https://static.wixstatic.com/media/965b5c_dbca010bfa2c448bbc97f930c18eb3e0~mv2.png/v1/fill/w_628,h_880,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_dbca010bfa2c448bbc97f930c18eb3e0~mv2.png
+  rules_box: Ship your minions on one body of water any way you like.
+  type_line: Exceptional Magic of course correction
+  mana_cost: '2'
+  element: water
+  water_threshold: '1'
+  artist: marta_molina
+  identifier: MarineVoyage
+  release: alpha
+- name: Master Tracker
+  card_type: minion
+  rarity: elite
+  image_url: https://static.wixstatic.com/media/965b5c_3f4b904a446a489eac344e47f5531673~mv2.png/v1/fill/w_628,h_880,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_3f4b904a446a489eac344e47f5531673~mv2.png
+  rules_box: |-
+    **Stealth**, **Immune to minions with Stealth**
+    Nearby enemy Stealth is negated.
+  type_line: An Elite Mortal finds his way to your side
+  mana_cost: '2'
+  element: earth
+  earth_threshold: '2'
+  power: '2'
+  artist: andrea_modesti
+  identifier: MasterTracker
+  release: alpha
+- name: Maze Minotaur
+  card_type: minion
+  rarity: elite
+  image_url: https://static.wixstatic.com/media/965b5c_1f70f3019e854482a9dc6295c7b0e312~mv2.png/v1/fill/w_628,h_874,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_1f70f3019e854482a9dc6295c7b0e312~mv2.png
+  rules_box: |-
+    **Iron Skin**
+    Nearby enemy minions can only move to sites near this Minotaur.
+  type_line: An Elite Mythic snarls around the corner
+  mana_cost: '4'
+  element: fire
+  fire_threshold: '1'
+  power: '3'
+  artist: gadu_duaso
+  identifier: MazeMinotaur
+  release: alpha
+- name: Mega Amoeba
+  card_type: minion
+  rarity: elite
+  image_url: https://static.wixstatic.com/media/965b5c_2796fcdcc1d942a3ac589f11cef1d766~mv2.png/v1/fill/w_628,h_880,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_2796fcdcc1d942a3ac589f11cef1d766~mv2.png
+  rules_box: This Amoeba gets +1 power for each site it’s visited. It continues to
+    occupy those sites.
+  type_line: An Elite Monster expands its influence
+  mana_cost: '3'
+  element: water
+  water_threshold: '3'
+  power: '0'
+  artist: brian_smith
+  identifier: MegaAmoeba
+  release: alpha
+- name: Men Of Leng
+  card_type: minion
+  rarity: ordinary
+  image_url: https://static.wixstatic.com/media/965b5c_3bd3edd3c1d14b82b914b5e539294c88~mv2.png/v1/fill/w_628,h_872,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_3bd3edd3c1d14b82b914b5e539294c88~mv2.png
+  rules_box: Whenever these Men deal damage directly to an Avatar, that player discards
+    a card at random.
+  type_line: Ordinary Mortal Beasts bleating in discord
+  mana_cost: '2'
+  element: wind
+  wind_threshold: '1'
+  power: '2'
+  artist: drew_tucker
+  identifier: MenOfLeng
+  release: alpha
+- name: Mesmerism
+  card_type: aura
+  rarity: elite
+  image_url: https://static.wixstatic.com/media/965b5c_0bf85edb22654745a8c51fa53db9378a~mv2.png/v1/fill/w_628,h_880,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_0bf85edb22654745a8c51fa53db9378a~mv2.png
+  rules_box: |-
+    Play on two of four sites that include the one your Spellcaster is on.
+    You control minions on affected sites.
+    If your Spellcaster leaves the affected sites, discard Mesmerism.
+  type_line: An Elite Aura of ultimate control
+  mana_cost: '7'
+  element: water
+  water_threshold: '2'
+  artist: unknown
+  identifier: Mesmerism
+  release: alpha
+- name: Meteor Shower
+  card_type: magic
+  rarity: elite
+  image_url: https://static.wixstatic.com/media/965b5c_86402a761b45426684cc87cc8c81363c~mv2.png/v1/fill/w_628,h_874,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_86402a761b45426684cc87cc8c81363c~mv2.png
+  rules_box: "**Splash Damage**\r\nPlace three meteor strikes on the playing field,
+    dealing damage as shown in the grids:\r\n\r\n| 0 | 1 | 0 |\r\n| 1 | 2 | 1 |\r\n|
+    0 | 1 | 0 |\r\n\r\n| 1 | 3 | 1 |\r\n| 3 | 5 | 3 |\r\n| 1 | 3 | 1 |\r\n\r\n| 0
+    | 1 | 2 | 1 | 0 |\r\n| 1 | 3 | 5 | 3 | 1 |\r\n| 2 | 5 | 7 | 5 | 2 |\r\n| 1 | 3
+    | 5 | 3 | 1 |\r\n| 0 | 1 | 2 | 1 | 0 | "
+  mana_cost: '7'
+  element: fire
+  fire_threshold: '3'
+  artist: michal_nagypal
+  identifier: MeteorShower
+  release: alpha
+- name: Midland Army
+  card_type: minion
+  rarity: unique
+  image_url: https://static.wixstatic.com/media/965b5c_8b56cf0da68746e4b09d25c6600a1cd5~mv2.png/v1/fill/w_640,h_894,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_8b56cf0da68746e4b09d25c6600a1cd5~mv2.png
+  rules_box: |-
+    This Army must be summoned to any of the two middle sites.
+    It can carry out ranged attacks on enemies on any site in the Realm.
+  type_line: A Unique army of Mortals, yours to command
+  mana_cost: '8'
+  element: earth
+  earth_threshold: '4'
+  power: '8'
+  artist: tony_szczudlo
+  identifier: MidlandArmy
+  release: alpha
+- name: Minor Explosion
+  card_type: magic
+  rarity: ordinary
+  image_url: https://static.wixstatic.com/media/965b5c_eba53ac8847b4212824e3c4a12b062f3~mv2.png/v1/fill/w_628,h_874,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_eba53ac8847b4212824e3c4a12b062f3~mv2.png
+  rules_box: |-
+    **Splash Damage**
+    Choose a center site up to two sites away from your Spellcaster.
+    The Spellcaster of this explosion takes no damage from it.
+
+    | 1 | 2 | 1 |
+    | 2 | 3 | 2 |
+    | 1 | 2 | 1 |
+  type_line: Ordinary yet volatile Magic
+  mana_cost: '3'
+  element: fire
+  fire_threshold: '2'
+  artist: mattias_frisk
+  identifier: MinorExplosion
+  release: alpha
+- name: Mirage
+  card_type: site
+  rarity: exceptional
+  image_url: https://static.wixstatic.com/media/965b5c_933890517e244fbbbb63c5f31a5b2d7d~mv2.png/v1/fill/w_960,h_692,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_933890517e244fbbbb63c5f31a5b2d7d~mv2.png
+  rules_box: "**Genesis** — You gain {Earth:1} {Fire:1} {Water:1} {Wind:1} until end
+    of turn."
+  type_line: An Exceptional Site and a brief illusion of salvation
+  element: none
+  artist: drew_tucker
+  identifier: Mirage
+  release: alpha
+- name: Mirror Realm
+  card_type: site
+  rarity: unique
+  image_url: https://static.wixstatic.com/media/965b5c_1fb705d971e14d42b948aaba5cea58af~mv2.png/v1/fill/w_960,h_692,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_1fb705d971e14d42b948aaba5cea58af~mv2.png
+  rules_box: This Realm mirrors the threshold and abilities of adjacent sites. (Including
+    genesis.)
+  type_line: A Unique Site of enriching reflection
+  element: none
+  artist: liz_danforth
+  identifier: MirrorRealm
+  release: alpha
+- name: Mix Aer
+  card_type: relic
+  rarity: unique
+  image_url: https://static.wixstatic.com/media/965b5c_c131ef7a18984d0abddead0cf031944d~mv2.png/v1/fill/w_628,h_872,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_c131ef7a18984d0abddead0cf031944d~mv2.png
+  rules_box: The controller’s Wind spells cost 1 less mana to cast.
+  type_line: A Unique relic of soaring ambition
+  mana_cost: '0'
+  element: none
+  artist: elvira_shakirova
+  identifier: MixAer
+  release: alpha
+- name: Monster Hunter
+  card_type: minion
+  rarity: exceptional
+  image_url: https://static.wixstatic.com/media/965b5c_8237e83a94034b08a5e2bbb30f5da9c5~mv2.png/v1/fill/w_628,h_880,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_8237e83a94034b08a5e2bbb30f5da9c5~mv2.png
+  rules_box: "**Genesis** — This Hunter kills a nearby Monster or other skulking,
+    prowling, or lurking minion."
+  type_line: An Exceptional Mortal on a grim mission
+  mana_cost: '4'
+  element: earth
+  earth_threshold: '2'
+  power: '2'
+  artist: jeff_menges
+  identifier: MonsterHunter
+  release: alpha
+- name: Mordric Druids
+  card_type: minion
+  rarity: exceptional
+  image_url: https://static.wixstatic.com/media/965b5c_85e8d729c90d47f9b1724dd2d4c49a0a~mv2.png/v1/fill/w_628,h_880,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_85e8d729c90d47f9b1724dd2d4c49a0a~mv2.png
+  rules_box: |-
+    **Spellcaster**
+    Damage to you Avatar from a nearby site is also dealt to opponent’s Avatar.
+  type_line: Exceptional Mortals or primordial vengeance
+  mana_cost: '2'
+  element: earth
+  earth_threshold: '1'
+  power: '1'
+  artist: jeff_menges
+  identifier: MordricDruids
+  release: alpha
+- name: Mountain Giant
+  card_type: minion
+  rarity: exceptional
+  image_url: https://static.wixstatic.com/media/965b5c_f1b2360925284ee0be8482d3b2ba15c8~mv2.png/v1/fill/w_628,h_880,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_f1b2360925284ee0be8482d3b2ba15c8~mv2.png
+  rules_box: |-
+    **Iron Skin**
+    Occupies 4 sites.
+  type_line: An Exceptional Mythic of geographical proportions
+  mana_cost: '7'
+  element: earth
+  earth_threshold: '2'
+  power: '5'
+  artist: francesca_baerald
+  flavor_text: _Hearth and heart will tremble._
+  identifier: MountainGiant
+  release: alpha
+- name: Muck Lampreys
+  card_type: minion
+  rarity: ordinary
+  image_url: https://static.wixstatic.com/media/965b5c_be5d6c89ca6d41d1838af8cba49c3923~mv2.png/v1/fill/w_628,h_880,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_be5d6c89ca6d41d1838af8cba49c3923~mv2.png
+  rules_box: "**Burrowing**, **Submerge**"
+  type_line: Ordinary Beasts that delve and leech
+  mana_cost: '2'
+  element: water
+  power: '2'
+  artist: vasiliy_ermolaev
+  flavor_text: _The pallid tunnelers calmly prowl the muck, Ready to bore through
+    mud and flesh alike._
+  identifier: MuckLampreys
+  release: alpha
+- name: Near Miss
+  card_type: magic
+  rarity: unique
+  image_url: https://static.wixstatic.com/media/965b5c_a7e10864576b4f47804aa4aa80516c05~mv2.png/v1/fill/w_628,h_880,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_a7e10864576b4f47804aa4aa80516c05~mv2.png
+  rules_box: Deflect a targeted spell to a new target near the old target.
+  type_line: Unique Quick Magic offering a narrow escape
+  mana_cost: '0'
+  element: water
+  water_threshold: '2'
+  artist: jeff_easley
+  flavor_text: _Breath starts and the heart skips a beat._
+  identifier: NearMiss
+  release: alpha
+- name: Nimbus Jinn
+  card_type: minion
+  rarity: exceptional
+  image_url: https://static.wixstatic.com/media/965b5c_e17d63bd5a074567a65011a5930f4d37~mv2.png/v1/fill/w_628,h_872,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_e17d63bd5a074567a65011a5930f4d37~mv2.png
+  rules_box: |-
+    **Airborne**, **Spellcaster**
+    Discard a spell from your hand -> Deal 3 damage to a nearby minion or avatar.
+  type_line: An Exceptional Spirit of turbulent terror
+  mana_cost: '6'
+  element: wind
+  wind_threshold: '2'
+  power: '4'
+  artist: dan_seagrave
+  identifier: NimbusJinn
+  release: alpha
+- name: Northern Frontline
+  card_type: site
+  rarity: elite
+  image_url: https://static.wixstatic.com/media/965b5c_af96ff07ecbd4d8790e8f01846da2052~mv2.png/v1/fill/w_960,h_692,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_af96ff07ecbd4d8790e8f01846da2052~mv2.png
+  rules_box: This Frontline may be played on a location directly below an enemy site.
+  type_line: An Elite Site where heroes are born
+  element: none
+  artist: dan_seagrave
+  identifier: NorthernFrontline
+  release: alpha
+- name: Nowhere Island
+  card_type: site
+  rarity: elite
+  image_url: https://static.wixstatic.com/media/965b5c_70c1b180a8334fb3bfe41b3334daa7e8~mv2.png/v1/fill/w_960,h_692,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_70c1b180a8334fb3bfe41b3334daa7e8~mv2.png
+  rules_box: This Island can only be played on a square not adjacent to any site.
+  type_line: An Elite Site in the midst of the black seas of infinity
+  element: none
+  artist: jussi_pylkäs
+  identifier: NowhereIsland
+  release: alpha
+- name: Observatory
+  card_type: site
+  rarity: exceptional
+  image_url: https://static.wixstatic.com/media/965b5c_5bf0fc1a42884ceda35d6407fea86d1e~mv2.png/v1/fill/w_960,h_692,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_5bf0fc1a42884ceda35d6407fea86d1e~mv2.png
+  rules_box: "**Genesis** — Look at the top 4 spell book cards and put them back on
+    the top in any order."
+  type_line: An Exceptional Site to study the future and the past
+  element: none
+  earth_threshold: '1'
+  wind_threshold: '1'
+  artist: margaret_organ-kean
+  identifier: Observatory
+  release: alpha
+- name: Occult Ritual
+  card_type: minion
+  rarity: unique
+  image_url: https://static.wixstatic.com/media/965b5c_531daa21f0be42d3865f32670ccd5f54~mv2.png/v1/fill/w_628,h_872,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_531daa21f0be42d3865f32670ccd5f54~mv2.png
+  rules_box: Gain 7 mana this turn.
+  type_line: Unique Magic of a great awakening
+  mana_cost: '1'
+  element: wind
+  wind_threshold: '1'
+  artist: lindsey_crummett
+  flavor_text: _“Ygnaiih ygnaiih thflthkh’ngha… Yog-Sothoth… Y’bthnk h’ehye—n’grkdl’lh!”
+    - HP Lovecraft_
+  identifier: OccultRitual
+  release: alpha
+- name: Old Growth Forest
+  card_type: site
+  rarity: exceptional
+  image_url: https://static.wixstatic.com/media/965b5c_950166bab7484c9c8aec0dc55754f76f~mv2.png/v1/fill/w_960,h_692,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_950166bab7484c9c8aec0dc55754f76f~mv2.png
+  rules_box: Incoming Ranged or Airborne attacks are blocked here.
+  type_line: An Exceptional Site of smothering gloom
+  element: none
+  earth_threshold: '1'
+  artist: ian_miller
+  identifier: OldGrowthForest
+  release: alpha
+- name: Ormund Harpooners
+  card_type: minion
+  rarity: exceptional
+  image_url: https://static.wixstatic.com/media/965b5c_481e3181a9804dfba0f868b747004d6f~mv2.png/v1/fill/w_628,h_880,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_481e3181a9804dfba0f868b747004d6f~mv2.png
+  rules_box: |-
+    **Monster Immunity**
+    Tap to hook and reel a minion in a straight line, one step closer to the harpooners. Deal one damage to the hooked minion.
+  type_line: Exceptional Mortals on a perilous pursuit
+  mana_cost: '2'
+  element: water
+  water_threshold: '1'
+  power: '3'
+  artist: elvira_shakirova
+  identifier: OrmundHarpooners
+  release: alpha
+- name: Outback Strider
+  card_type: minion
+  rarity: ordinary
+  image_url: https://static.wixstatic.com/media/965b5c_cdb98c2679da402586ae0dfec4cbb44f~mv2.png/v1/fill/w_628,h_874,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_cdb98c2679da402586ae0dfec4cbb44f~mv2.png
+  rules_box: This Strider may be summoned in any site in the leftmost or rightmost
+    column, but not anywhere else.
+  type_line: An Ordinary Mortal from a distant land
+  mana_cost: '4'
+  element: fire
+  fire_threshold: '1'
+  power: '4'
+  artist: tony_szczudlo
+  identifier: OutbackStrider
+  release: alpha
+- name: Palliburrie Bats
+  card_type: minion
+  rarity: exceptional
+  image_url: https://static.wixstatic.com/media/965b5c_72b044d299d445f89cb5265af51a30bf~mv2.png/v1/fill/w_628,h_872,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_72b044d299d445f89cb5265af51a30bf~mv2.png
+  rules_box: "**Airborne**, **Burrowing**"
+  type_line: Exceptional Beasts fly out to greet the moon
+  mana_cost: '2'
+  element: wind
+  wind_threshold: '1'
+  power: '2'
+  artist: lindsey_crummett
+  flavor_text: |-
+    _To the bat, it is the world that’s blind.
+    To the song-spun tapestry of its kind._
+  identifier: PalliburrieBats
+  release: alpha
+- name: Pathfinder
+  card_type: avatar
+  rarity: unknown
+  image_url: https://static.wixstatic.com/media/965b5c_2e42479b967341f1b91d16ba68130a39~mv2.png/v1/fill/w_628,h_874,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_2e42479b967341f1b91d16ba68130a39~mv2.png
+  initial_life: '20'
+  rules_box: |-
+    **Spellcaster**, **Movement +1**
+    Tap to draw once from your atlas.
+    This avatar may move onto an empty location, placing the top site of your atlas there.
+  type_line: You Avatar finds the way to victory
+  element: none
+  power: '1'
+  artist: drew_tucker
+  identifier: Pathfinder
+  release: alpha
+- name: Pendulum Of Peril
+  card_type: relic
+  rarity: unique
+  image_url: https://static.wixstatic.com/media/965b5c_dbe5cdc62f3940b998ecf604f3eef611~mv2.png/v1/fill/w_628,h_872,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_dbe5cdc62f3940b998ecf604f3eef611~mv2.png
+  rules_box: |-
+    Conjure at the intersection of two sites of which at least one is yours. This Pendulum can’t be picked up.
+    It swings between the sites at the start of your turn and kills all minions where it swings to. You choose its starting position.
+  type_line: A Unique Relic of certain cessation
+  mana_cost: '4'
+  element: none
+  artist: drew_tucker
+  identifier: PendulumOfPeril
+  release: alpha
+- name: Petrosian Cavalry
+  card_type: minion
+  rarity: ordinary
+  image_url: https://static.wixstatic.com/media/965b5c_77c20bc018a84b829885ae7294e01bf8~mv2.png/v1/fill/w_628,h_874,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_77c20bc018a84b829885ae7294e01bf8~mv2.png
+  rules_box: This Cavalry may move/attack right away when summoned.
+  type_line: unknown
+  mana_cost: '3'
+  element: fire
+  fire_threshold: '2'
+  power: '3'
+  artist: andrea_modesti
+  flavor_text: |-
+    _Swift steeds and swifter swords.
+    The tide of battle has turned!_
+  identifier: PetrosianCavalry
+  release: alpha
+- name: Phantom Steed
+  card_type: minion
+  rarity: exceptional
+  image_url: https://static.wixstatic.com/media/965b5c_61566e2b60b34349bf64ed72863a751f~mv2.png/v1/fill/w_628,h_872,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_61566e2b60b34349bf64ed72863a751f~mv2.png
+  rules_box: "**Voidwalk**\r\nThis Steed moves freely in the void and may carry a
+    friendly minion safely through it."
+  type_line: An Exceptional Beast roams the border of reality
+  mana_cost: '4'
+  element: wind
+  wind_threshold: '2'
+  power: '3'
+  artist: melissa_benson
+  identifier: PhantomSteed
+  release: alpha
+- name: Philosophers Stone
+  card_type: relic
+  rarity: unique
+  image_url: https://static.wixstatic.com/media/965b5c_435068680938433d9059b2970775f16f~mv2.png/v1/fill/w_628,h_872,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_435068680938433d9059b2970775f16f~mv2.png
+  rules_box: |-
+    The bearer of this Stone is a Spellcaster.
+    The controller’s spells cost 1 less mana and require one less of each elemental threshold.
+  type_line: This Unique Relic is the magnus opus of alchemy
+  mana_cost: '1'
+  element: none
+  artist: severine_pineaux
+  identifier: PhilosophersStone
+  release: alpha
+- name: Pillar Of Zeiros
+  card_type: site
+  rarity: unique
+  image_url: https://static.wixstatic.com/media/965b5c_e80d2335d83149a08c80caff71536521~mv2.png/v1/fill/w_960,h_692,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_e80d2335d83149a08c80caff71536521~mv2.png
+  rules_box: Only minions with Burrowing can be played on or enter this site.
+  type_line: A Unique Site from an antediluvian past
+  element: none
+  earth_threshold: '1'
+  artist: dan_seagrave
+  identifier: PillarOfZeiros
+  release: alpha
+- name: Pirate Ship
+  card_type: minion
+  rarity: ordinary
+  image_url: https://static.wixstatic.com/media/965b5c_75e1bb5a44bc41419831c2d8937e2a36~mv2.png/v1/fill/w_628,h_880,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_75e1bb5a44bc41419831c2d8937e2a36~mv2.png
+  rules_box: "**Waterbound**"
+  type_line: An Ordinary ship of Mortal scum
+  mana_cost: '3'
+  element: water
+  water_threshold: '1'
+  power: '5'
+  artist: vincent_pompetti
+  flavor_text: |-
+    _Build me straight, O worthy Master!
+    Staunch and strong, a good steady vessel,
+    That shall laugh at all disaster,
+    And with wave and whirlwind wrestle!_
+  identifier: PirateShip
+  release: alpha
+- name: Plague Of Frogs
+  card_type: magic
+  rarity: unique
+  image_url: https://static.wixstatic.com/media/965b5c_e0bd635666c04d66b086cfad38e8a71c~mv2.png/v1/fill/w_628,h_880,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_e0bd635666c04d66b086cfad38e8a71c~mv2.png
+  rules_box: Summon 7 0-power Frog tokens with **Submerge** on any combination of
+    sites.
+  type_line: Unique Magic in its most annoying form
+  mana_cost: '1'
+  element: water
+  water_threshold: '3'
+  artist: michal_nagypal
+  flavor_text: |-
+    _"Their land swarmed with frogs.
+    Even in the chambers or their kings." - Psalm 105:30 _
+  identifier: PlagueOfFrogs
+  release: alpha
+- name: Polar Bears
+  card_type: minion
+  rarity: ordinary
+  image_url: https://static.wixstatic.com/media/965b5c_944339563a5b42fa86f5eae70f97e9b5~mv2.png/v1/fill/w_846,h_1182,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_944339563a5b42fa86f5eae70f97e9b5~mv2.png
+  rules_box: These Bears can move between locations at the top and bottom edges of
+    the realm as if they were adjacent.
+  type_line: Ordinary Beasts of extreme latitudes
+  mana_cost: '2'
+  element: water
+  water_threshold: '2'
+  power: '3'
+  artist: melissa_benson
+  identifier: PolarBears
+  release: alpha
+- name: Pristine Paradise
+  card_type: site
+  rarity: unique
+  image_url: https://static.wixstatic.com/media/965b5c_60052a4529a443d69fb8a414d7c14a50~mv2.png/v1/fill/w_960,h_692,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_60052a4529a443d69fb8a414d7c14a50~mv2.png
+  rules_box: This Paradise does not gibe any threshold if it has a minion on it.
+  type_line: A Unique Site of fragile splendor
+  element: none
+  artist: marta_molina
+  identifier: PristineParadise
+  release: alpha
+- name: Psionic Blast
+  card_type: magic
+  rarity: exceptional
+  image_url: https://static.wixstatic.com/media/965b5c_c29142b10825462798b8d5fd52b6a609~mv2.png/v1/fill/w_628,h_882,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_c29142b10825462798b8d5fd52b6a609~mv2.png
+  rules_box: Deal 3 damage to minions near the Spellcaster and push them three steps
+    away.
+  type_line: Exceptional Magic of repellent thought
+  mana_cost: '3'
+  element: wind
+  wind_threshold: '2'
+  artist: alan_pollack
+  identifier: PsionicBlast
+  release: alpha
+- name: Pudge Butcher
+  card_type: minion
+  rarity: exceptional
+  image_url: https://static.wixstatic.com/media/965b5c_5d2bee466041428ba8bbcb965a19ab5c~mv2.png/v1/fill/w_628,h_880,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_5d2bee466041428ba8bbcb965a19ab5c~mv2.png
+  rules_box: |-
+    **Immobile**
+    Tap -> This Butcher hooks one of the closest minions of your choice in any cardinal direction and drags it to his location. If it’s an enemy, this Butcher attacks it.
+  type_line: An Exceptional Monster of sloth and greed
+  mana_cost: '4'
+  element: earth
+  earth_threshold: '2'
+  power: '5'
+  artist: brian_smith
+  identifier: PudgeButcher
+  release: alpha
+- name: Puppet Master
+  card_type: minion
+  rarity: elite
+  image_url: https://static.wixstatic.com/media/965b5c_84f3d2bb0086459cb101e7448694a2a3~mv2.png/v1/fill/w_628,h_882,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_84f3d2bb0086459cb101e7448694a2a3~mv2.png
+  rules_box: "**Airborne**\r\nYou controllers all minions at this Master’s location."
+  type_line: An Elite Spirit pulls the strings here
+  mana_cost: '6'
+  element: wind
+  wind_threshold: '2'
+  power: '0'
+  artist: liz_danforth
+  identifier: PuppetMaster
+  release: alpha
+- name: Purge Juggernaut
+  card_type: relic
+  rarity: elite
+  image_url: https://static.wixstatic.com/media/965b5c_71a0bf77b43040a0b3b0f16956cc25ee~mv2.png/v1/fill/w_628,h_872,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_71a0bf77b43040a0b3b0f16956cc25ee~mv2.png
+  rules_box: |-
+    Conjure on your back row.
+    Move this Juggernaut one step forward at the start of your turn. All minions on the same site as this Juggernaut are destroyed. If there’s no site in front of it when it tries to move forward, destroy it.
+  type_line: An Elite Relic of ceaseless slaughter
+  mana_cost: '5'
+  element: none
+  artist: brian_smith
+  identifier: PurgeJuggernaut
+  release: alpha
+- name: Quagmire
+  card_type: site
+  rarity: exceptional
+  image_url: https://static.wixstatic.com/media/965b5c_8b56cf0da68746e4b09d25c6600a1cd5~mv2.png/v1/fill/w_640,h_894,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_8b56cf0da68746e4b09d25c6600a1cd5~mv2.png
+  rules_box: "**Genesis** -> Nearby ground minions are disabled until the start of
+    your next turn."
+  type_line: An Exceptional Site of temporary impediment
+  element: none
+  earth_threshold: '1'
+  artist: caio_calazans
+  identifier: Quagmire
+  release: alpha
+- name: Queen Of Midland
+  card_type: minion
+  rarity: unique
+  image_url: https://static.wixstatic.com/media/965b5c_e9b10a595301437288cb147b3dedc05d~mv2.png/v1/fill/w_628,h_880,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_e9b10a595301437288cb147b3dedc05d~mv2.png
+  rules_box: At the start of your turn, if this Queen occupies one of the two middle
+    locations and is uncontested by an enemy on its site, draw a card.
+  type_line: A Unique Mortal at the center of attention
+  mana_cost: '4'
+  element: earth
+  earth_threshold: '2'
+  power: '1'
+  artist: severine_pineaux
+  identifier: QueenOfMidland
+  release: alpha
+- name: Raal Dromedary
+  card_type: minion
+  rarity: ordinary
+  image_url: https://static.wixstatic.com/media/965b5c_58b797ed6a214a30a49e7f5ad81a6d17~mv2.png/v1/fill/w_628,h_874,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_58b797ed6a214a30a49e7f5ad81a6d17~mv2.png
+  mana_cost: '0'
+  element: fire
+  fire_threshold: '1'
+  power: '2'
+  artist: caio_calazans
+  flavor_text: |-
+    _“And a course grace remained: his head was high,
+    Though his gaunt flanks with a great mange were worn:
+    There was not any yearning in his eye,
+    But on his lips and nostril infinite scorn.”
+    - Archibald Young Campbell_
+  identifier: RaalDromedary
+  release: alpha
+- name: Recurring Specter
+  card_type: minion
+  rarity: exceptional
+  image_url: https://static.wixstatic.com/media/965b5c_8b2ab87a9f274fc4ad7b96cc74bfad54~mv2.png/v1/fill/w_628,h_882,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_8b2ab87a9f274fc4ad7b96cc74bfad54~mv2.png
+  rules_box: |-
+    **Voidwalk**, **Cannot Block**
+    Return this Spector to your hand when it is killed.
+  type_line: An Exceptional Spirit that keeps coming back
+  mana_cost: '1'
+  element: wind
+  wind_threshold: '1'
+  power: '1'
+  artist: tony_szczudlo
+  identifier: RecurringSpecter
+  release: alpha
+- name: Remote Desert
+  card_type: site
+  rarity: ordinary
+  image_url: https://static.wixstatic.com/media/965b5c_bc206dc7b3d64fb981cef221be32e084~mv2.png/v1/fill/w_960,h_692,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_bc206dc7b3d64fb981cef221be32e084~mv2.png
+  rules_box: "**Genesis** — You may have this desert deal 1 damage to a nearby target."
+  type_line: An Ordinary Site of ruinous Fire
+  element: none
+  fire_threshold: '1'
+  artist: unknown
+  identifier: RemoteDesert
+  release: alpha
+- name: Replication
+  card_type: magic
+  rarity: elite
+  image_url: https://static.wixstatic.com/media/965b5c_870747a8eae0465c8effb3b441e7131c~mv2.png/v1/fill/w_846,h_1182,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_870747a8eae0465c8effb3b441e7131c~mv2.png
+  rules_box: "**Genesis** — Transform this card into a copy of a nearby relic permanently."
+  type_line: Elite Magic of perfect duplication
+  mana_cost: '2'
+  element: water
+  water_threshold: '1'
+  power: '4'
+  artist: francesca_baerald
+  flavor_text: _All art is but imitation of nature._
+  identifier: Replication
+  release: alpha
+- name: Rest In Peace
+  card_type: aura
+  rarity: elite
+  image_url: https://static.wixstatic.com/media/965b5c_1df5ee44ee774ce9941aa9ff0a4ef320~mv2.png/v1/fill/w_628,h_880,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_1df5ee44ee774ce9941aa9ff0a4ef320~mv2.png
+  rules_box: |-
+    Conjure on two or four sites of which at least one is an Earth site.
+    Undead and spirits in the affected sites are forcibly burrowed and can’t unburrow. This is true for any afterwards, too.
+  type_line: An Elite Aura of eternal rest
+  mana_cost: '5'
+  element: earth
+  earth_threshold: '2'
+  artist: elwira_pawlikowska
+  identifier: RestInPeace
+  release: alpha
+- name: Rift Valley
+  card_type: site
+  rarity: unique
+  image_url: https://static.wixstatic.com/media/965b5c_4a66027403334b4f875a7c596591de63~mv2.png/v1/fill/w_960,h_692,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_4a66027403334b4f875a7c596591de63~mv2.png
+  rules_box: "{Earth:2}: You may pull apart a partial line of sites to make a void
+    in which to play this Valley."
+  type_line: A Unique Site of startling displacement
+  element: none
+  earth_threshold: '1'
+  artist: dan_seagrave
+  identifier: RiftValley
+  release: alpha
+- name: Rimland Nomads
+  card_type: minion
+  rarity: ordinary
+  image_url: https://static.wixstatic.com/media/965b5c_d998a9612c064cc2a40bafeb7a171a14~mv2.png/v1/fill/w_628,h_874,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_d998a9612c064cc2a40bafeb7a171a14~mv2.png
+  rules_box: "**Movement +1**, **Fire Immunity**"
+  type_line: Ordinary Mortals on an extraordinary journey
+  mana_cost: '2'
+  element: fire
+  fire_threshold: '2'
+  power: '3'
+  artist: elvira_shakirova
+  flavor_text: _Just put one foot in front of the other._
+  identifier: RimlandNomads
+  release: alpha
+- name: River Of Flame
+  card_type: site
+  rarity: unique
+  image_url: https://static.wixstatic.com/media/965b5c_ea4e4631af9a4f818cd5d3a65537c930~mv2.png/v1/fill/w_960,h_690,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_ea4e4631af9a4f818cd5d3a65537c930~mv2.png
+  rules_box: 'Cast two Fire spells on your turn: You may move this River to a square
+    up to three steps away.'
+  type_line: A Unique Site where pure rage spills forth
+  element: none
+  fire_threshold: '1'
+  artist: ian_miller
+  identifier: RiverOfFlame
+  release: alpha
+- name: Roaming Monster
+  card_type: minion
+  rarity: ordinary
+  image_url: https://static.wixstatic.com/media/965b5c_46bc8a24965c409fa976261511243dad~mv2.png/v1/fill/w_628,h_882,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_46bc8a24965c409fa976261511243dad~mv2.png
+  rules_box: Summon this Monster to any site.
+  type_line: An Ordinary Monster appears out of nowhere
+  mana_cost: '5'
+  element: wind
+  wind_threshold: '2'
+  power: '4'
+  artist: jeff_easley
+  flavor_text: _Out of the blue._
+  identifier: RoamingMonster
+  release: alpha
+- name: Rolicky Dragonettes
+  card_type: minion
+  rarity: exceptional
+  image_url: https://static.wixstatic.com/media/965b5c_c3bdd72415ba4776832d2f6a7c7fd04c~mv2.png/v1/fill/w_628,h_874,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_c3bdd72415ba4776832d2f6a7c7fd04c~mv2.png
+  rules_box: |-
+    **Airborne**
+    At the end of your turn, these Dragonettes fire three bolts, each in any cardinal direction.
+    Each bolt deals 1 damage to the first minion or Avatar it hits
+  type_line: Exceptional Dragons destined to rule
+  mana_cost: '4'
+  element: fire
+  fire_threshold: '2'
+  power: '3'
+  artist: jeff_easley
+  identifier: RolickyDragonettes
+  release: alpha
+- name: Royal Bodyguard
+  card_type: minion
+  rarity: elite
+  image_url: https://static.wixstatic.com/media/965b5c_9c0e741d0a814473836e264b136b8a71~mv2.png/v1/fill/w_628,h_880,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_9c0e741d0a814473836e264b136b8a71~mv2.png
+  rules_box: |-
+    **Iron Skin**
+    You may move any damage from a nearby Avatar or royalty (King, Queen, Prince or Princess) to this Bodyguard
+  type_line: An Elite Mortal hand picked for his loyalty
+  mana_cost: '4'
+  element: earth
+  earth_threshold: '2'
+  power: '3'
+  artist: liz_danforth
+  identifier: RoyalBodyguard
+  release: alpha
+- name: Ruins
+  card_type: site
+  rarity: elite
+  image_url: https://static.wixstatic.com/media/965b5c_b6675be682354aa6be41e54f7f87fb72~mv2.png/v1/fill/w_960,h_690,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_b6675be682354aa6be41e54f7f87fb72~mv2.png
+  rules_box: This site is both a Tower and a Desert.
+  type_line: Wind howls and Fire flares in one Elite Site
+  element: none
+  fire_threshold: '1'
+  wind_threshold: '1'
+  artist: dan_seagrave
+  identifier: Ruins
+  release: alpha
+- name: Rustic Village
+  card_type: site
+  rarity: ordinary
+  image_url: https://static.wixstatic.com/media/965b5c_104efba180174be2ba86c7f274eef9f4~mv2.png/v1/fill/w_960,h_690,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_104efba180174be2ba86c7f274eef9f4~mv2.png
+  rules_box: "**Genesis** — Summon a 1-power Foot Solder token here."
+  type_line: An Ordinary Site of fertile Earth
+  element: none
+  earth_threshold: '1'
+  artist: andrea_modesti
+  identifier: RusticVillage
+  release: alpha
+- name: Sacred Scarabs
+  card_type: minion
+  rarity: ordinary
+  image_url: https://static.wixstatic.com/media/965b5c_76515e67a92c466db0e1edf5d6f653da~mv2.png/v1/fill/w_628,h_874,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_76515e67a92c466db0e1edf5d6f653da~mv2.png
+  rules_box: |-
+    **Airborne**
+    On death, these Scarabs explode and deal splash damage:
+
+    | 1 | 2 | 1 |
+    | 2 | 3 | 2 |
+    | 1 | 2 | 1 |
+  type_line: Ordinary Beasts of eruptive retribution
+  mana_cost: '2'
+  element: fire
+  fire_threshold: '1'
+  power: '1'
+  artist: unknown
+  identifier: SacredScarabs
+  release: alpha
+- name: Sand Worm
+  card_type: minion
+  rarity: ordinary
+  image_url: https://static.wixstatic.com/media/965b5c_442c18eeb336430c93172815bd310b69~mv2.png/v1/fill/w_628,h_874,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_442c18eeb336430c93172815bd310b69~mv2.png
+  rules_box: "**Burrowing**, **Firebound**"
+  type_line: An Ordinary Beast senses vibration here
+  mana_cost: '4'
+  element: fire
+  fire_threshold: '1'
+  power: '5'
+  artist: vincent_pompetti
+  flavor_text: |-
+    _The sands whisper their sorrowful song,
+    In the wake of the blind one’s thirst._
+  identifier: SandWorm
+  release: alpha
+- name: Sandstorm
+  card_type: aura
+  rarity: ordinary
+  image_url: https://static.wixstatic.com/media/965b5c_c80bd89c62fa42c69fbb90708973f884~mv2.png/v1/fill/w_628,h_874,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_c80bd89c62fa42c69fbb90708973f884~mv2.png
+  rules_box: |-
+    Conjure at the intersection of two or four sites as long as at least one is a Fire site.
+    When minions on affected sites move or attack, instead roll a d20. 1-4=move left, 5-8=move up, 9-12=move right, 13-16=move down, 17-20 move or attack normally.
+  type_line: An Ordinary Aura of blistering confusion
+  mana_cost: '3'
+  element: fire
+  fire_threshold: '1'
+  artist: drew_tucker
+  identifier: Sandstorm
+  release: alpha
+- name: Scent Hounds
+  card_type: minion
+  rarity: ordinary
+  image_url: https://static.wixstatic.com/media/965b5c_57058ef3c7ad478c9a9c7db7756dd827~mv2.png/v1/fill/w_628,h_880,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_57058ef3c7ad478c9a9c7db7756dd827~mv2.png
+  rules_box: Nearby enemy Stealth is negated.
+  type_line: Ordinary Beasts with extraordinary sniffers
+  mana_cost: '2'
+  element: earth
+  earth_threshold: '1'
+  power: '3'
+  artist: andrea_modesti
+  flavor_text: _For the upwardly mobile of the Midland court, accolades in the Royal
+    hunt of the Mist were as treasured as any war-time achievement._
+  identifier: ScentHounds
+  release: alpha
+- name: Scorched Earth
+  card_type: magic
+  rarity: elite
+  image_url: https://static.wixstatic.com/media/965b5c_50f74732396e45ed9fda23b418b96009~mv2.png/v1/fill/w_628,h_874,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_50f74732396e45ed9fda23b418b96009~mv2.png
+  rules_box: Destroy any number of friendly sites and everything on them.
+  type_line: Costly Elite Magic of hopeless desperation
+  mana_cost: '4'
+  element: fire
+  fire_threshold: '1'
+  artist: dan_seagrave
+  identifier: ScorchedEarth
+  release: alpha
+- name: Scourge Zombies
+  card_type: minion
+  rarity: ordinary
+  image_url: https://static.wixstatic.com/media/965b5c_688eba8b3c2b4852b0883e2908fd6ba3~mv2.png/v1/fill/w_628,h_880,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_688eba8b3c2b4852b0883e2908fd6ba3~mv2.png
+  rules_box: |-
+    When these Zombies die, burrow them instead of discarding them.
+    Unborrow if a mortal dies nearby.
+  type_line: Ordinary Undead grasp onto life again
+  mana_cost: '1'
+  element: earth
+  earth_threshold: '1'
+  power: '2'
+  artist: mattias_frisk
+  identifier: ScourgeZombies
+  release: alpha
+- name: Screaming Skull
+  card_type: relic
+  rarity: exceptional
+  image_url: https://static.wixstatic.com/media/965b5c_a8bb3fc84a6e4621a12b6fbb6f3504f0~mv2.png/v1/fill/w_628,h_872,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_a8bb3fc84a6e4621a12b6fbb6f3504f0~mv2.png
+  rules_box: |-
+    **Genesis** — The bearer of this Skull can move, attack or use tap abilities the same turn it is summoned until end of turn.
+    The bearer of this Skull has +1 power.
+  type_line: An Exceptional ruined Relic of strength
+  mana_cost: '2'
+  element: none
+  artist: melissa_benson
+  identifier: ScreamingSkull
+  release: alpha
+- name: Scroll Curator
+  card_type: minion
+  rarity: exceptional
+  image_url: https://static.wixstatic.com/media/965b5c_8cbb597c2c5240bcbf3f86a1b7998054~mv2.png/v1/fill/w_628,h_882,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_8cbb597c2c5240bcbf3f86a1b7998054~mv2.png
+  rules_box: |-
+    **Spellcaster**
+    **Genesis** — Look at the top 7 cards of your spellbook. Put one of those cards on the top and the rest on the bottom.
+  type_line: An Exceptional Mortal hits the high spots
+  mana_cost: '2'
+  element: wind
+  wind_threshold: '1'
+  power: '1'
+  artist: elwira_pawlikowska
+  identifier: ScrollCurator
+  release: alpha
+- name: Sea Serpent
+  card_type: minion
+  rarity: ordinary
+  image_url: https://static.wixstatic.com/media/965b5c_aa3ff488f7874db79a12478f5c933782~mv2.png/v1/fill/w_628,h_880,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_aa3ff488f7874db79a12478f5c933782~mv2.png
+  rules_box: "**Submerge**, **Waterbound**"
+  type_line: An Ordinary Mythic Beast that thrives in the deep
+  mana_cost: '4'
+  element: water
+  water_threshold: '1'
+  power: '4'
+  artist: vincent_pompetti
+  flavor_text: _Young serpents have been spotted in rivers as far north as the Boreal
+    Forests!_
+  identifier: SeaSerpent
+  release: alpha
+- name: Seasoned Sellsword
+  card_type: minion
+  rarity: elite
+  image_url: https://static.wixstatic.com/media/965b5c_b7ff776b4bbd4965a83c9184565f2914~mv2.png/v1/fill/w_628,h_880,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_b7ff776b4bbd4965a83c9184565f2914~mv2.png
+  rules_box: |-
+    **Iron Skin**
+    When one of your undefended sites is attacked, you may pay 1 life to have this Sellsword move to that site and defend it.
+  type_line: An Elite Mortal under contract to protect
+  mana_cost: '3'
+  element: earth
+  earth_threshold: '2'
+  power: '2'
+  artist: lindsey_crummett
+  identifier: SeasonedSellsword
+  release: alpha
+- name: Secret Tunnel
+  card_type: site
+  rarity: exceptional
+  image_url: https://static.wixstatic.com/media/965b5c_ec87787bcde84b338ad469ad784af43f~mv2.png/v1/fill/w_960,h_690,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_ec87787bcde84b338ad469ad784af43f~mv2.png
+  rules_box: Your minions that unburrow may do so here.
+  type_line: An Exceptional Site to help in times of trouble
+  element: none
+  earth_threshold: '1'
+  artist: doug_kovacs
+  identifier: SecretTunnel
+  release: alpha
+- name: Sedge Crabs
+  card_type: minion
+  rarity: exceptional
+  image_url: https://static.wixstatic.com/media/965b5c_b66cf63affc14bf3b1c3fead3518e4ec~mv2.png/v1/fill/w_846,h_1182,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_b66cf63affc14bf3b1c3fead3518e4ec~mv2.png
+  rules_box: |-
+    **Iron Skin**
+    The Crabs can only move sideways.
+  type_line: Exceptional Beasts that scrap and sidle
+  mana_cost: '3'
+  element: water
+  water_threshold: '2'
+  power: '3'
+  artist: ossi_hiekkala
+  identifier: SedgeCrabs
+  release: alpha
+- name: Seer
+  card_type: avatar
+  rarity: unknown
+  image_url: https://static.wixstatic.com/media/965b5c_7ed0a111e973431fa0c909cee187a87a~mv2.png/v1/fill/w_628,h_874,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_7ed0a111e973431fa0c909cee187a87a~mv2.png
+  initial_life: '20'
+  rules_box: "**Spellcaster**\nTap to play a site or to draw from your atlas.\nWhen
+    you draw a spell, instead draw two and put one back. You may pay 1 life to put
+    a spell back at the bottom of the spellbook instead "
+  type_line: 'Your Avatar prognosticates a certain success '
+  element: none
+  power: '1'
+  artist: unknown
+  identifier: Seer
+  release: alpha
+- name: Shield Maidens
+  card_type: minion
+  rarity: exceptional
+  image_url: https://static.wixstatic.com/media/965b5c_666c7358e68d439aac56ce4f583a171f~mv2.png/v1/fill/w_628,h_880,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_666c7358e68d439aac56ce4f583a171f~mv2.png
+  rules_box: |-
+    **Iron Skin**
+    Nearby allied minions have Iron Skin.
+  type_line: Exceptional Mortals hold the line
+  mana_cost: '4'
+  element: earth
+  earth_threshold: '2'
+  power: '2'
+  artist: vincent_pompetti
+  flavor_text: _My word is my bond, my shield is my service._
+  identifier: ShieldMaidens
+  release: alpha
+- name: Shifting Sands
+  card_type: site
+  rarity: exceptional
+  image_url: https://static.wixstatic.com/media/965b5c_10c313a763ff41d194461f96ec01ebc1~mv2.png/v1/fill/w_960,h_690,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_10c313a763ff41d194461f96ec01ebc1~mv2.png
+  rules_box: "**Genesis** — Until end of turn, minions summoned nearby can move and
+    attack right away."
+  type_line: An Exceptional Site of furious speed
+  element: none
+  fire_threshold: '1'
+  artist: vasiliy_ermolaev
+  identifier: ShiftingSands
+  release: alpha
+- name: Shrink
+  card_type: magic
+  rarity: exceptional
+  image_url: https://static.wixstatic.com/media/965b5c_b4c7a041faac4352ab9abe81cc96e8a5~mv2.png/v1/fill/w_846,h_1182,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_b4c7a041faac4352ab9abe81cc96e8a5~mv2.png
+  rules_box: Target minion's power is reduced by 3 until end of turn.
+  type_line: Exceptional Quick Magic of miniturization
+  mana_cost: '0'
+  element: water
+  water_threshold: '1'
+  power: '2'
+  artist: francesca_baerald
+  identifier: Shrink
+  release: alpha
+- name: Siege Ballista
+  card_type: relic
+  rarity: exceptional
+  image_url: https://static.wixstatic.com/media/965b5c_8b56cf0da68746e4b09d25c6600a1cd5~mv2.png/v1/fill/w_640,h_894,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_8b56cf0da68746e4b09d25c6600a1cd5~mv2.png
+  rules_box: |-
+    Tap, tap an allied minion here -> This Ballista deals 3 ranged combat damage to an Avatar or minion up to two steps away in a cardinal direction.
+    This Ballista can't be picked up, but an Avatar or minion may carry it as it moves.
+  type_line: An Exceptional Relic of death from afar.
+  mana_cost: '3'
+  element: none
+  artist: brian_smith
+  identifier: SiegeBallista
+  release: alpha
+- name: Silver Valkyries
+  card_type: minion
+  rarity: elite
+  image_url: https://static.wixstatic.com/media/965b5c_58574b7e2822475081b4452769f45c70~mv2.png/v1/fill/w_628,h_880,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_58574b7e2822475081b4452769f45c70~mv2.png
+  rules_box: |-
+    **Airborne**, **Iron Skin**
+    These Valkyries and friendly minions on the same location can’t be chosen as the target of a spell or ability.
+  type_line: Elite Mythics hold their immortal vigil
+  mana_cost: '6'
+  element: earth
+  earth_threshold: '2'
+  power: '3'
+  artist: severine_pineaux
+  identifier: SilverValkyries
+  release: alpha
+- name: Simple Village
+  card_type: site
+  rarity: ordinary
+  image_url: https://static.wixstatic.com/media/965b5c_8b56cf0da68746e4b09d25c6600a1cd5~mv2.png/v1/fill/w_640,h_894,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_8b56cf0da68746e4b09d25c6600a1cd5~mv2.png
+  rules_box: "**Genesis** -> Summon a 1-power Foot Soldier token here."
+  type_line: An Ordinary Site of fertile Earth
+  element: none
+  earth_threshold: '1'
+  artist: andrea_modesti
+  identifier: SimpleVillage
+  release: alpha
+- name: Sinkhole
+  card_type: site
+  rarity: elite
+  image_url: https://static.wixstatic.com/media/965b5c_6e789c698b3444ac867a301498778a38~mv2.png/v1/fill/w_960,h_690,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_6e789c698b3444ac867a301498778a38~mv2.png
+  rules_box: At the start of your turn, you may destroy this Sinkhole and an adjacent
+    site.
+  type_line: An Elite Site that is about to disappear
+  element: none
+  earth_threshold: '1'
+  artist: michal_nagypal
+  identifier: Sinkhole
+  release: alpha
+- name: Sirian Templar
+  card_type: minion
+  rarity: elite
+  image_url: https://static.wixstatic.com/media/965b5c_fd0ddbebfdc44c8abfe7940bdd978c81~mv2.png/v1/fill/w_628,h_880,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_fd0ddbebfdc44c8abfe7940bdd978c81~mv2.png
+  rules_box: Protected from Spirits, Monsters, Demons and Undead.
+  type_line: An Elite Mortal Hero comes to the rescue
+  mana_cost: '3'
+  element: earth
+  earth_threshold: '2'
+  power: '3'
+  artist: gadu_duaso
+  flavor_text: |-
+    _My shield is anchored by a holy purpose.
+    My sword is guided by the light of God!_
+  identifier: SirianTemplar
+  release: alpha
+- name: Sisters Of Silence
+  card_type: minion
+  rarity: elite
+  image_url: https://static.wixstatic.com/media/965b5c_6e6fea1bdcd9483f9d174a59a340ae9b~mv2.png/v1/fill/w_628,h_880,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_6e6fea1bdcd9483f9d174a59a340ae9b~mv2.png
+  rules_box: No one can cast, fight, tap, or use spells or abilities on adjacent sites.
+  type_line: These Elite Mortals are not to be disturbed
+  mana_cost: '3'
+  element: earth
+  earth_threshold: '2'
+  power: '1'
+  artist: ossi_hiekkala
+  flavor_text: |-
+    _“Since long I’ve held silence as a remedy for harm.”
+    - Aeschylus_
+  identifier: SistersOfSilence
+  release: alpha
+- name: Sleep
+  card_type: magic
+  rarity: ordinary
+  image_url: https://static.wixstatic.com/media/965b5c_6fb135506044464199d26d99f6795a72~mv2.png/v1/fill/w_846,h_1182,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_6fb135506044464199d26d99f6795a72~mv2.png
+  rules_box: Target minion falls asleep (taps and loses all abilities) until hurt.
+  type_line: Ordinary soporific Magic
+  mana_cost: '1'
+  element: water
+  water_threshold: '1'
+  artist: severine_pineaux
+  identifier: Sleep
+  release: alpha
+- name: Sneak Thief
+  card_type: minion
+  rarity: elite
+  image_url: https://static.wixstatic.com/media/965b5c_6acd273fbf8840df8ef7a4d1fe82e5e7~mv2.png/v1/fill/w_846,h_1182,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_6acd273fbf8840df8ef7a4d1fe82e5e7~mv2.png
+  rules_box: |-
+    **Stealth**
+    This Thief may pick up or take a relic borne by a minion without exiting Stealth.
+  type_line: An Elite and foul felonious Mortal
+  mana_cost: '2'
+  element: water
+  water_threshold: '2'
+  power: '2'
+  artist: jeff_easley
+  identifier: SneakThief
+  release: alpha
+- name: Sorcerer
+  card_type: avatar
+  rarity: unknown
+  image_url: https://static.wixstatic.com/media/965b5c_75f8d76cc1ea48bdbaa3082eecdbf479~mv2.png/v1/fill/w_628,h_874,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_75f8d76cc1ea48bdbaa3082eecdbf479~mv2.png
+  initial_life: '20'
+  rules_box: |-
+    **Spellcaster**
+    Tap to play a site or to draw a card from your atlas.
+    You may start the game with 4 spells in your hand instead of 3
+  type_line: Your avatar will win, no contest
+  element: none
+  power: '1'
+  artist: francesca_baerald
+  identifier: Sorcerer
+  release: alpha
+- name: Spear Of Destiny
+  card_type: relic
+  rarity: unique
+  image_url: https://static.wixstatic.com/media/965b5c_d806c8763aed48aaa685623e848970ae~mv2.png/v1/fill/w_628,h_872,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_d806c8763aed48aaa685623e848970ae~mv2.png
+  rules_box: 'The bearer of this Spear has: “Tap -> Throw this Spear in a cardinal
+    direction. It continues to move until it reaches the edge of the realm or a site
+    with any minions. If it reaches a site with any minions, kill target minion of
+    your choice.”'
+  type_line: A Unique Relic guided by divine providence
+  mana_cost: '4'
+  element: none
+  artist: andrea_modesti
+  identifier: SpearOfDestiny
+  release: alpha
+- name: Spectral Stalker
+  card_type: minion
+  rarity: ordinary
+  image_url: https://static.wixstatic.com/media/965b5c_8dd75218b2364800bd2da60d3fac99de~mv2.png/v1/fill/w_628,h_882,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_8dd75218b2364800bd2da60d3fac99de~mv2.png
+  rules_box: "**Voidwalk**"
+  type_line: An Ordinary Spirit stalks the neighborhood
+  mana_cost: '2'
+  element: wind
+  wind_threshold: '2'
+  power: '3'
+  artist: jeff_easley
+  flavor_text: _“We live on a placid island of ignorance in the midst o black seas
+    of infinity, and it was not meant that we should voyage far.” — H.P. Lovecraft_
+  identifier: SpectralStalker
+  release: alpha
+- name: Spell Block
+  card_type: magic
+  rarity: unknown
+  image_url: https://static.wixstatic.com/media/965b5c_1ac14804afa4411398c75cee2804adc3~mv2.png/v1/fill/w_628,h_882,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_1ac14804afa4411398c75cee2804adc3~mv2.png
+  rules_box: Counter target spell aimed at or near your Avatar or Spellcaster minion.
+  type_line: A Quick repartee to nix intrusive Magic
+  mana_cost: '0'
+  element: wind
+  wind_threshold: '2'
+  artist: drew_tucker
+  identifier: SpellBlock
+  release: alpha
+- name: Spire Lich
+  card_type: minion
+  rarity: exceptional
+  image_url: https://static.wixstatic.com/media/965b5c_0fb7a4ba3b9747e29914622d5ed1d5e7~mv2.png/v1/fill/w_628,h_882,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_0fb7a4ba3b9747e29914622d5ed1d5e7~mv2.png
+  rules_box: |-
+    **Spellcaster**, **Range +1**
+    Summon only on your tower.
+    This Lich can’t move.
+  type_line: An Exceptional Undead watches over the realm
+  mana_cost: '2'
+  element: wind
+  wind_threshold: '1'
+  power: '3'
+  artist: vasiliy_ermolaev
+  identifier: SpireLich
+  release: alpha
+- name: Stone Gaze Gorgons
+  card_type: minion
+  rarity: elite
+  image_url: https://static.wixstatic.com/media/965b5c_0641c2491fa6427e86f535d8912b5223~mv2.png/v1/fill/w_628,h_880,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_0641c2491fa6427e86f535d8912b5223~mv2.png
+  rules_box: Adjacent minions are petrified. (They lose all abilities and can’t fight
+    or move.)
+  type_line: Elite Mythics gaze longingly from this vantage
+  mana_cost: '7'
+  element: earth
+  earth_threshold: '3'
+  power: '2'
+  artist: severine_pineaux
+  identifier: StoneGazeGorgons
+  release: alpha
+- name: Stonehenge
+  card_type: site
+  rarity: unique
+  image_url: https://static.wixstatic.com/media/965b5c_99d6b675794b4d7bad4cf844bb3832af~mv2.png/v1/fill/w_960,h_690,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_99d6b675794b4d7bad4cf844bb3832af~mv2.png
+  rules_box: Minions here have **Spellcaster**
+  type_line: A Unique Site where leylines converge
+  element: none
+  artist: caio_calazans
+  identifier: Stonehenge
+  release: alpha
+- name: Summoning Sphere
+  card_type: magic
+  rarity: elite
+  image_url: https://static.wixstatic.com/media/965b5c_28c5d723c33b4c76a878d3bdf4be3ed3~mv2.png/v1/fill/w_628,h_882,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_28c5d723c33b4c76a878d3bdf4be3ed3~mv2.png
+  rules_box: |-
+    Conjure at the intersection of two or four locations of which at least one is a void.
+    You may summon minions on affected locations for 1 mana less.
+  type_line: Elite Magic bringing about a new dark era
+  mana_cost: '1'
+  element: wind
+  wind_threshold: '1'
+  artist: michal_nagypal
+  identifier: SummoningSphere
+  release: alpha
+- name: Swan Maidens
+  card_type: minion
+  rarity: ordinary
+  image_url: https://static.wixstatic.com/media/965b5c_7f12d16060974376924ea66307124172~mv2.png/v1/fill/w_846,h_1182,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_7f12d16060974376924ea66307124172~mv2.png
+  rules_box: "**Airborne**, **Submerge**"
+  type_line: Ordinary Mortal Beasts of magnificent grace
+  mana_cost: '2'
+  element: water
+  water_threshold: '1'
+  power: '2'
+  artist: ossi_hiekkala
+  flavor_text: |-
+    _Upon our souls they dance,
+    A gentle ballet of hope and dream._
+  identifier: SwanMaidens
+  release: alpha
+- name: Tadpole Pool
+  card_type: site
+  rarity: unique
+  image_url: https://static.wixstatic.com/media/965b5c_f24584cd912d41619821262c87a8a6fc~mv2.png/v1/fill/w_960,h_690,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_f24584cd912d41619821262c87a8a6fc~mv2.png
+  rules_box: "{Water:3}: **Genesis** — Summon three 0-power Frog tokens here."
+  type_line: A Unique breeding Site for croakers
+  element: none
+  water_threshold: '1'
+  artist: michal_nagypal
+  identifier: TadpolePool
+  release: alpha
+- name: Telekinesis
+  card_type: magic
+  rarity: exceptional
+  image_url: https://static.wixstatic.com/media/965b5c_ce4315bbfcbf4889870a0ad3e117dca4~mv2.png/v1/fill/w_628,h_882,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_ce4315bbfcbf4889870a0ad3e117dca4~mv2.png
+  rules_box: Move target relic or target 1-power minion to a nearby site.
+  type_line: Exceptional Magic to redefine property rights
+  mana_cost: '1'
+  element: wind
+  wind_threshold: '1'
+  artist: jeff_easley
+  flavor_text: _“If it’s in my hand, it’s mind.” - Toddler’s first rule._
+  identifier: Telekinesis
+  release: alpha
+- name: Tide Naiads
+  card_type: minion
+  rarity: exceptional
+  image_url: https://static.wixstatic.com/media/965b5c_796dab1d1f9b4eedb938817ee887d4eb~mv2.png/v1/fill/w_846,h_1182,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_796dab1d1f9b4eedb938817ee887d4eb~mv2.png
+  rules_box: |-
+    **Submerge**
+    These Naiads move freely within a body of water.
+  type_line: Exceptional Mythics come crashing in
+  mana_cost: '3'
+  element: water
+  water_threshold: '2'
+  power: '3'
+  artist: jussi_pylkäs
+  identifier: TideNaiads
+  release: alpha
+- name: Time Stop
+  card_type: aura
+  rarity: elite
+  image_url: https://static.wixstatic.com/media/965b5c_9017e99a9e8c45e29de9d2dd68c0b361~mv2.png/v1/fill/w_628,h_882,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_9017e99a9e8c45e29de9d2dd68c0b361~mv2.png
+  rules_box: |-
+    Conjure at the intersection of two or four locations.
+    Time is frozen at affected locations except for Avatars. (Everything becomes immovable and effects are stuck waiting to happen until this Stop goes away.)
+  type_line: An Elite Aura to trap you in the moment
+  mana_cost: '9'
+  element: wind
+  wind_threshold: '3'
+  artist: severine_pineaux
+  identifier: TimeStop
+  release: alpha
+- name: Torshamarr Trinket
+  card_type: relic
+  rarity: ordinary
+  image_url: https://static.wixstatic.com/media/965b5c_29264621858b4a6ca28cafe481c8fc95~mv2.png/v1/fill/w_628,h_872,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_29264621858b4a6ca28cafe481c8fc95~mv2.png
+  rules_box: |-
+    The bearer of this trinket has +1 power.
+    At the end of your turn, return the trinket to its controller’s hand.
+  type_line: An Ordinary Relic of recurring force
+  mana_cost: '1'
+  element: none
+  artist: dan_seagrave
+  identifier: TorshamarrTrinket
+  release: alpha
+- name: Tringh Constrictor
+  card_type: minion
+  rarity: exceptional
+  image_url: https://static.wixstatic.com/media/965b5c_e07623fdf7374ccc8967bfe398b0ad0a~mv2.png/v1/fill/w_846,h_1182,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_e07623fdf7374ccc8967bfe398b0ad0a~mv2.png
+  rules_box: Tap this Constrictor to tap and ensnare an adjacent minion. That minion
+    does not untap as long as the constrictor is tapped. You may choose to not untap
+    the constrictor at the start of your turn to keep an ensnare going.
+  type_line: This Exceptional Beast furls about your foes
+  mana_cost: '4'
+  element: water
+  water_threshold: '1'
+  power: '2'
+  artist: alan_pollack
+  identifier: TringhConstrictor
+  release: alpha
+- name: Undertaker Engine
+  card_type: relic
+  rarity: elite
+  image_url: https://static.wixstatic.com/media/965b5c_3691b69658c4425f962998c4f485fab4~mv2.png/v1/fill/w_628,h_872,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_3691b69658c4425f962998c4f485fab4~mv2.png
+  rules_box: At the end of turn, burrow or unburrow target nearby minion. This includes
+    the Engine itself.
+  type_line: An Elite Relic of possessed cryptosy
+  mana_cost: '7'
+  element: none
+  artist: jussi_pylkäs
+  identifier: UndertakerEngine
+  release: alpha
+- name: Undertow
+  card_type: site
+  rarity: exceptional
+  image_url: https://static.wixstatic.com/media/965b5c_27f954a1b61d48d78572f403480d4531~mv2.png/v1/fill/w_960,h_690,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_27f954a1b61d48d78572f403480d4531~mv2.png
+  rules_box: "**Genesis** — Move a minion in the same body of water to this site."
+  type_line: An Exceptional Site with a strong undercurrent
+  element: none
+  water_threshold: '1'
+  artist: caio_calazans
+  identifier: Undertow
+  release: alpha
+- name: Unearth
+  card_type: magic
+  rarity: ordinary
+  image_url: https://static.wixstatic.com/media/965b5c_14a3aa1c05454f77ac428e120b782af5~mv2.png/v1/fill/w_628,h_882,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_14a3aa1c05454f77ac428e120b782af5~mv2.png
+  rules_box: |-
+    Unburrow a minion.
+    Draw a spell if the minion unburrowed near a spellcaster of yours.
+  type_line: Ordinary Quick Magic bursts up from below
+  mana_cost: '0'
+  element: wind
+  wind_threshold: '1'
+  artist: tony_szczudlo
+  identifier: Unearth
+  release: alpha
+- name: Unique Counterspell
+  card_type: magic
+  rarity: unique
+  image_url: https://static.wixstatic.com/media/965b5c_86ce0db54ce14070a09ceebdf0198bfd~mv2.png/v1/fill/w_628,h_882,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_86ce0db54ce14070a09ceebdf0198bfd~mv2.png
+  rules_box: Counter target Unique spell as it is being cast.
+  type_line: Quick Unique Magic to suppress genius
+  mana_cost: '0'
+  element: wind
+  wind_threshold: '3'
+  artist: jussi_pylkäs
+  flavor_text: _A revolutionary idea is forcibly silenced._
+  identifier: UniqueCounterspell
+  release: alpha
+- name: Unland Eel
+  card_type: minion
+  rarity: ordinary
+  image_url: https://static.wixstatic.com/media/965b5c_e7cafce2a0b74891a23c78cadf248c38~mv2.png/v1/fill/w_846,h_1182,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_e7cafce2a0b74891a23c78cadf248c38~mv2.png
+  rules_box: |-
+    **Submerge**, **Waterbound**
+    This Eel gains +2 power when attacking as it surfaces.
+  type_line: An Ordinary Beast of the deadly depths
+  mana_cost: '2'
+  element: water
+  water_threshold: '1'
+  power: '2'
+  artist: francesca_baerald
+  identifier: UnlandEel
+  release: alpha
+- name: Unravel
+  card_type: magic
+  rarity: ordinary
+  image_url: https://static.wixstatic.com/media/965b5c_e9547880aa9e4807b5453683d002fe67~mv2.png/v1/fill/w_846,h_1182,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_e9547880aa9e4807b5453683d002fe67~mv2.png
+  rules_box: Destroy target Relic or Undead minion.
+  type_line: Ordinary Magic of rot and rebirth
+  mana_cost: '1'
+  element: water
+  water_threshold: '1'
+  artist: severine_pineaux
+  flavor_text: _For life to rise, the dead must crumble._
+  identifier: Unravel
+  release: alpha
+- name: Vanguaard Knights
+  card_type: minion
+  rarity: exceptional
+  image_url: https://static.wixstatic.com/media/965b5c_bf553cb3da794dd29c582aac068b7831~mv2.png/v1/fill/w_628,h_880,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_bf553cb3da794dd29c582aac068b7831~mv2.png
+  rules_box: These Knights have +2 power as long as they are alone as the furthest
+    forward of your minions.
+  type_line: Exceptional Mortals on their way to glory
+  mana_cost: '3'
+  element: earth
+  earth_threshold: '2'
+  power: '3'
+  artist: truitt_parrish
+  identifier: VanguaardKnights
+  release: alpha
+- name: Vantage Hills
+  card_type: site
+  rarity: exceptional
+  image_url: https://static.wixstatic.com/media/965b5c_8b56cf0da68746e4b09d25c6600a1cd5~mv2.png/v1/fill/w_640,h_894,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_8b56cf0da68746e4b09d25c6600a1cd5~mv2.png
+  rules_box: Ranged Avatars and minions here have +1 Range.
+  type_line: A rugged Site with Exceptional views
+  element: none
+  earth_threshold: '1'
+  artist: jeff_menges
+  identifier: VantageHills
+  release: alpha
+- name: Vril Revenant
+  card_type: minion
+  rarity: exceptional
+  image_url: https://static.wixstatic.com/media/965b5c_58c12f9f78b641eab593eadc6909983f~mv2.png/v1/fill/w_628,h_882,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_58c12f9f78b641eab593eadc6909983f~mv2.png
+  rules_box: |-
+    **Voidwalk**
+    1 mana — +1 Power until end of turn.
+  type_line: An Exceptional Spirit of transcendent power
+  mana_cost: '1'
+  element: wind
+  wind_threshold: '1'
+  power: '0'
+  artist: margaret_organ-kean
+  identifier: VrilRevenant
+  release: alpha
+- name: Warp Spasm
+  card_type: magic
+  rarity: elite
+  image_url: https://static.wixstatic.com/media/965b5c_317c75562bee49e0bd814293679a6fd3~mv2.png/v1/fill/w_628,h_874,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_317c75562bee49e0bd814293679a6fd3~mv2.png
+  rules_box: Target minion gains +3 power and +3 Movement. If it kills a minion, it
+    may move and attack again.
+  type_line: Elite Magic of hyper violence
+  mana_cost: '3'
+  element: fire
+  fire_threshold: '3'
+  artist: ian_miller
+  identifier: WarpSpasm
+  release: alpha
+- name: Wayfaring Pilgrim
+  card_type: minion
+  rarity: elite
+  image_url: https://static.wixstatic.com/media/965b5c_4d65a1a07d2a4dcb9899934979d8201f~mv2.png/v1/fill/w_628,h_874,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_4d65a1a07d2a4dcb9899934979d8201f~mv2.png
+  rules_box: |-
+    **Spellcaster**
+    When this Pilgrim visits or is summoned to a corner of the realm for the first time, draw a card.
+  type_line: An Elite Mortal on a spiritual journey
+  mana_cost: '2'
+  element: fire
+  fire_threshold: '2'
+  power: '1'
+  artist: jeff_menges
+  identifier: WayfaringPilgrim
+  release: alpha
+- name: Waypoint Portal
+  card_type: magic
+  rarity: exceptional
+  image_url: https://static.wixstatic.com/media/965b5c_cca914cf16144333817b8d341924e432~mv2.png/v1/fill/w_628,h_882,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_cca914cf16144333817b8d341924e432~mv2.png
+  rules_box: |-
+    Two target sites are adjacent until end of turn.
+    Draw a spell.
+  type_line: Exceptional Magic of dimensional domination
+  mana_cost: '3'
+  element: wind
+  wind_threshold: '1'
+  artist: jeff_easley
+  identifier: WaypointPortal
+  release: alpha
+- name: Wild Boars
+  card_type: minion
+  rarity: ordinary
+  image_url: https://static.wixstatic.com/media/965b5c_8b56cf0da68746e4b09d25c6600a1cd5~mv2.png/v1/fill/w_640,h_894,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_8b56cf0da68746e4b09d25c6600a1cd5~mv2.png
+  type_line: Ordinary Beasts of bold back bristle
+  mana_cost: '1'
+  element: earth
+  earth_threshold: '1'
+  power: '2'
+  artist: vasiliy_ermolaev
+  flavor_text: |-
+    _I was once again drowsing, when I glanced at a bush,
+    And several wild boar came charging, all in a rush!_
+  identifier: WildBoars
+  release: alpha
+- name: Will O The Wisp
+  card_type: minion
+  rarity: exceptional
+  image_url: https://static.wixstatic.com/media/965b5c_9a701a3c51664797b4bf6308c620e1e6~mv2.png/v1/fill/w_628,h_874,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_9a701a3c51664797b4bf6308c620e1e6~mv2.png
+  rules_box: |-
+    **Voidwalk**
+    After combat when attacking, you may move this Wisp one step from a site to an adjacent void location.
+  type_line: An Exceptional Spirit flares up and disappears
+  mana_cost: '1'
+  element: fire
+  fire_threshold: '1'
+  power: '1'
+  artist: vasiliy_ermolaev
+  identifier: WillOTheWisp
+  release: alpha
+- name: Wind Ward Gem
+  card_type: relic
+  rarity: exceptional
+  image_url: https://static.wixstatic.com/media/965b5c_87c023defef84990942f0e52733a5831~mv2.png/v1/fill/w_628,h_872,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_87c023defef84990942f0e52733a5831~mv2.png
+  rules_box: Nearby Wind damage is reduced by 2. Bearer can’t be targeted by Wind
+    spells.
+  type_line: An Exceptional Relic of air protection
+  mana_cost: '1'
+  element: none
+  artist: melissa_benson
+  identifier: WindWardGem
+  release: alpha
+- name: Windmill
+  card_type: site
+  rarity: elite
+  image_url: https://static.wixstatic.com/media/965b5c_bbe5907d9f10400387bc56896023476f~mv2.png/v1/fill/w_960,h_690,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_bbe5907d9f10400387bc56896023476f~mv2.png
+  rules_box: This site is both a Tower and a Village.
+  type_line: Wind and Earth toil together in one Elite Site
+  element: none
+  earth_threshold: '1'
+  wind_threshold: '1'
+  artist: elwira_pawlikowska
+  identifier: Windmill
+  release: alpha
+- name: Wraetannis Titan
+  card_type: minion
+  rarity: elite
+  image_url: https://static.wixstatic.com/media/965b5c_c5d8c65b9bf549f39c1d199dc8a9e702~mv2.png/v1/fill/w_628,h_880,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_c5d8c65b9bf549f39c1d199dc8a9e702~mv2.png
+  rules_box: |-
+    **Splash Damage**
+    **Genesis** — This Titan deals 7 damage on the site in front of it.
+  type_line: An Elite Mythic makes an epic entrance
+  mana_cost: '9'
+  element: earth
+  earth_threshold: '3'
+  power: '7'
+  artist: tony_szczudlo
+  identifier: WraetannisTitan
+  release: alpha

@@ -1,0 +1,9 @@
+---
+- key: earth
+  name: Earth
+- key: fire
+  name: Fire
+- key: water
+  name: Water
+- key: wind
+  name: Wind

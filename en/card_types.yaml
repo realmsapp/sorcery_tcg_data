@@ -1,0 +1,13 @@
+---
+- key: aura
+  name: Aura
+- key: avatar
+  name: Avatar
+- key: magic
+  name: Magic
+- key: minion
+  name: Minion
+- key: relic
+  name: Relic
+- key: site
+  name: Site

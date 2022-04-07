@@ -1,0 +1,5 @@
+---
+- key: constructed
+  name: Constructed
+- key: multiplayer
+  name: Multiplayer
