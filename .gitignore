@@ -1,1 +1,11 @@
-en/cards/alpha/images/**
+/.bundle/
+/.yardoc
+/_yardoc/
+/coverage/
+/doc/
+/pkg/
+/spec/reports/
+/tmp/
+/data/*/cards/*/images/*
+/data/*/cards/*/tokens/*
+/data/*/game_assets

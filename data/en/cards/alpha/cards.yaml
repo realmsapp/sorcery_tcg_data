@@ -11,7 +11,7 @@
   element: water
   water_threshold: '2'
   artist: vincent_pompetti
-  identifier: Abundance
+  identifier: abundance
   release: alpha
 - name: Accursed Albatross
   card_type: minion
@@ -26,7 +26,7 @@
   water_threshold: '1'
   power: '1'
   artist: vincent_pompetti
-  identifier: AccursedAlbatross
+  identifier: accursed_albatross
   release: alpha
 - name: Amazon Warriors
   card_type: minion
@@ -42,7 +42,7 @@
     _"We shall arm ourselves in our war gear and
     waken sharp Ares by hollow vessels."
     - Homer_
-  identifier: AmazonWarriors
+  identifier: amazon_warriors
   release: alpha
 - name: Ancient Dragon
   card_type: minion
@@ -56,7 +56,7 @@
   power: '5'
   artist: lindsey_crummett
   flavor_text: _Fire forges the rule. Terror enforces it._
-  identifier: AncientDragon
+  identifier: ancient_dragon
   release: alpha
 - name: Angels Egg
   card_type: relic
@@ -68,7 +68,7 @@
   mana_cost: '3'
   element: none
   artist: brian_smith
-  identifier: AngelsEgg
+  identifier: angels_egg
   release: alpha
 - name: Anui Undine
   card_type: minion
@@ -83,7 +83,7 @@
   power: '0'
   artist: unknown
   flavor_text: _The sea will outlive us all._
-  identifier: AnuiUndine
+  identifier: anui_undine
   release: alpha
 - name: Aqueduct
   card_type: site
@@ -95,7 +95,7 @@
   earth_threshold: '1'
   water_threshold: '1'
   artist: jeff_menges
-  identifier: Aqueduct
+  identifier: aqueduct
   release: alpha
 - name: Armageddon
   card_type: magic
@@ -107,7 +107,7 @@
   element: fire
   fire_threshold: '3'
   artist: tony_szczudlo
-  identifier: Armageddon
+  identifier: armageddon
   release: alpha
 - name: Atlantean Fate
   card_type: aura
@@ -121,7 +121,7 @@
   element: water
   water_threshold: '2'
   artist: unknown
-  identifier: AtlanteanFate
+  identifier: atlantean_fate
   release: alpha
 - name: Atlas Wanderers
   card_type: minion
@@ -136,7 +136,7 @@
   earth_threshold: '3'
   power: '3'
   artist: brian_smith
-  identifier: AtlasWanderers
+  identifier: atlas_wanderers
   release: alpha
 - name: Autumn Unicorn
   card_type: minion
@@ -154,7 +154,7 @@
     Some gave them white bread, some gave them brown,
     Some gave them plum cake and drummed them out of town.
     - English Nursery Rhyme_
-  identifier: AutumnUnicorn
+  identifier: autumn_unicorn
   release: alpha
 - name: Avatar Of Earth
   card_type: avatar
@@ -168,7 +168,7 @@
   element: none
   power: '1'
   artist: severine_pineaux
-  identifier: AvatarOfEarth
+  identifier: avatar_of_earth
   release: alpha
 - name: Avatar Of Fire
   card_type: avatar
@@ -183,7 +183,7 @@
   element: none
   power: '1'
   artist: severine_pineaux
-  identifier: AvatarOfFire
+  identifier: avatar_of_fire
   release: alpha
 - name: Avatar Of Water
   card_type: avatar
@@ -198,7 +198,7 @@
   element: none
   power: '1'
   artist: severine_pineaux
-  identifier: AvatarOfWater
+  identifier: avatar_of_water
   release: alpha
 - name: Avatar Of Wind
   card_type: avatar
@@ -213,7 +213,7 @@
   element: none
   power: '1'
   artist: severine_pineaux
-  identifier: AvatarOfWind
+  identifier: avatar_of_wind
   release: alpha
 - name: Bane Spider
   card_type: minion
@@ -230,9 +230,9 @@
     _“Will you walk into my parkour?”
     said the spider to the fly.”
     - “The Spider and the Fly” by Mary Howitt _
-  identifier: BaneSpider
+  identifier: bane_spider
   release: alpha
-- name: Battle Mage
+- name: Battlemage
   card_type: avatar
   rarity: ordinary
   image_url: https://static.wixstatic.com/media/965b5c_8b56cf0da68746e4b09d25c6600a1cd5~mv2.png/v1/fill/w_640,h_894,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_8b56cf0da68746e4b09d25c6600a1cd5~mv2.png
@@ -245,7 +245,7 @@
   element: none
   power: '5'
   artist: jussi_pylkäs
-  identifier: BattleMage
+  identifier: battlemage
   release: alpha
 - name: Belmotte Longbowmen
   card_type: minion
@@ -260,7 +260,7 @@
   artist: andrea_modesti
   flavor_text: _“Clumsy and slow, we wretched crossbow, A cousin thus crafted to odious
     foe.” - Archer’s Lament_
-  identifier: BelmotteLongbowmen
+  identifier: belmotte_longbowmen
   release: alpha
 - name: Black Scorpions
   card_type: minion
@@ -274,7 +274,7 @@
   power: '2'
   artist: michal_nagypal
   flavor_text: _They wait and watch with eyes of soot._
-  identifier: BlackScorpions
+  identifier: black_scorpions
   release: alpha
 - name: Blood Ravens
   card_type: minion
@@ -289,7 +289,7 @@
   wind_threshold: '1'
   power: '1'
   artist: michal_nagypal
-  identifier: BloodRavens
+  identifier: blood_ravens
   release: alpha
 - name: Bosk Troll
   card_type: minion
@@ -303,7 +303,7 @@
   artist: vasiliy_ermolaev
   flavor_text: _A troll’s thoughts are but reflections in a forest pool, wavering
     and rippling with the wind and the rain._
-  identifier: BoskTroll
+  identifier: bosk_troll
   release: alpha
 - name: Brobdingnag Bullfrog
   card_type: minion
@@ -317,7 +317,7 @@
   water_threshold: '1'
   power: '3'
   artist: michal_nagypal
-  identifier: BrobdingnagBullfrog
+  identifier: brobdingnag_bullfrog
   release: alpha
 - name: Bury
   card_type: magic
@@ -332,7 +332,7 @@
   flavor_text: |-
     _“From out of the depths of the countless pits there came a melancholy rustling from the garments of the buried.”
     - Edgar Allan Poe_
-  identifier: Bury
+  identifier: bury
   release: alpha
 - name: Cave Trolls
   card_type: minion
@@ -349,7 +349,7 @@
     _“We dug, we lug, we scoff up the bug,
     We bore, we gore, we snore for the ore.”
     - Trollish Working Song_
-  identifier: CaveTrolls
+  identifier: cave_trolls
   release: alpha
 - name: City Of Agartha
   card_type: site
@@ -360,7 +360,7 @@
   element: none
   earth_threshold: '1'
   artist: adam_burke
-  identifier: CityOfAgartha
+  identifier: city_of_agartha
   release: alpha
 - name: Clamor Harpies
   card_type: minion
@@ -375,7 +375,7 @@
   fire_threshold: '1'
   power: '3'
   artist: francesca_baerald
-  identifier: ClamorHarpies
+  identifier: clamor_harpies
   release: alpha
 - name: Cloud City
   card_type: site
@@ -387,7 +387,7 @@
   element: none
   wind_threshold: '1'
   artist: elwira_pawlikowska
-  identifier: CloudCity
+  identifier: cloud_city
   release: alpha
 - name: Common Sense
   card_type: magic
@@ -403,7 +403,7 @@
   flavor_text: |-
     _“Common sense is the genius of humanity.”
     - Johann Wolfgang con Goethe_
-  identifier: CommonSense
+  identifier: common_sense
   release: alpha
 - name: Conqueror Worm
   card_type: minion
@@ -419,7 +419,7 @@
   earth_threshold: '2'
   power: '8'
   artist: dan_seagrave
-  identifier: ConquerorWorm
+  identifier: conqueror_worm
   release: alpha
 - name: Cornerstone
   card_type: site
@@ -430,7 +430,7 @@
   type_line: An Exceptional Site to expand your domain
   element: none
   artist: margaret_organ-kean
-  identifier: Cornerstone
+  identifier: cornerstone
   release: alpha
 - name: Court Jester
   card_type: minion
@@ -445,7 +445,7 @@
   water_threshold: '1'
   power: '1'
   artist: liz_danforth
-  identifier: CourtJester
+  identifier: court_jester
   release: alpha
 - name: Craterize
   card_type: magic
@@ -465,7 +465,7 @@
   element: earth
   earth_threshold: '2'
   artist: marta_molina
-  identifier: Craterize
+  identifier: craterize
   release: alpha
 - name: Cyclopean Mummies
   card_type: minion
@@ -480,7 +480,7 @@
   fire_threshold: '1'
   power: '3'
   artist: jeff_easley
-  identifier: CyclopeanMummies
+  identifier: cyclopean_mummies
   release: alpha
 - name: Dalcean Phalanx
   card_type: minion
@@ -494,7 +494,7 @@
   earth_threshold: '2'
   power: '5'
   artist: vincent_pompetti
-  identifier: DalceanPhalanx
+  identifier: dalcean_phalanx
   release: alpha
 - name: Disenchant
   card_type: magic
@@ -507,7 +507,7 @@
   wind_threshold: '2'
   artist: elwira_pawlikowska
   flavor_text: _To see it is to disbelieve it._
-  identifier: Disenchant
+  identifier: disenchant
   release: alpha
 - name: Disintegrate
   card_type: magic
@@ -523,7 +523,7 @@
   flavor_text: |-
     _“Men ought either to be indulged or utterly destroyed.”
     - Nicole Machiavelli_
-  identifier: Disintegrate
+  identifier: disintegrate
   release: alpha
 - name: Dodge Roll
   card_type: magic
@@ -536,7 +536,7 @@
   element: water
   water_threshold: '2'
   artist: vincent_pompetti
-  identifier: DodgeRoll
+  identifier: dodge_roll
   release: alpha
 - name: Donnybrook Inn
   card_type: site
@@ -546,7 +546,7 @@
   type_line: A Unique Site for letting off steam
   element: none
   artist: vasiliy_ermolaev
-  identifier: DonnybrookInn
+  identifier: donnybrook_inn
   release: alpha
 - name: Doomsday Device
   card_type: relic
@@ -564,7 +564,7 @@
   mana_cost: '4'
   element: none
   artist: elwira_pawlikowska
-  identifier: DoomsdayDevice
+  identifier: doomsday_device
   release: alpha
 - name: Doomsday Prophet
   card_type: minion
@@ -580,7 +580,7 @@
   power: '1'
   artist: doug_kovacs
   flavor_text: _The end is nigh!_
-  identifier: DoomsdayProphet
+  identifier: doomsday_prophet
   release: alpha
 - name: Dream Quest
   card_type: magic
@@ -593,7 +593,7 @@
   element: wind
   wind_threshold: '1'
   artist: elvira_shakirova
-  identifier: DreamQuest
+  identifier: dream_quest
   release: alpha
 - name: Drought
   card_type: aura
@@ -607,7 +607,7 @@
   element: fire
   fire_threshold: '1'
   artist: michal_nagypal
-  identifier: Drought
+  identifier: drought
   release: alpha
 - name: Dwarven Digging Team
   card_type: minion
@@ -622,7 +622,7 @@
   earth_threshold: '2'
   power: '3'
   artist: alan_pollack
-  identifier: DwarvenDiggingTeam
+  identifier: dwarven_digging_team
   release: alpha
 - name: Dwarven Forge
   card_type: site
@@ -633,7 +633,7 @@
   element: none
   fire_threshold: '1'
   artist: rodney_matthews
-  identifier: DwarvenForge
+  identifier: dwarven_forge
   release: alpha
 - name: Earthquake
   card_type: magic
@@ -647,7 +647,7 @@
   element: earth
   earth_threshold: '2'
   artist: alan_pollack
-  identifier: Earthquake
+  identifier: earthquake
   release: alpha
 - name: East West Dragon
   card_type: minion
@@ -662,7 +662,7 @@
   wind_threshold: '1'
   power: '3'
   artist: jeff_easley
-  identifier: EastWestDragon
+  identifier: east_west_dragon
   release: alpha
 - name: Edge Of The World
   card_type: site
@@ -672,7 +672,7 @@
   type_line: A Unique and final Site before the void
   element: none
   artist: adam_burke
-  identifier: EdgeOfTheWorld
+  identifier: edge_of_the_world
   release: alpha
 - name: Elementalist
   card_type: avatar
@@ -691,7 +691,7 @@
   wind_threshold: '1'
   power: '1'
   artist: elvira_shakirova
-  identifier: Elementalist
+  identifier: elementalist
   release: alpha
 - name: Elite Counterspell
   card_type: magic
@@ -699,7 +699,7 @@
   image_url: https://static.wixstatic.com/media/965b5c_ab21d39597754b4eb2823eedf59c53a9~mv2.png/v1/fill/w_628,h_878,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_ab21d39597754b4eb2823eedf59c53a9~mv2.png
   element: earth
   artist: unknown
-  identifier: EliteCounterspell
+  identifier: elite_counterspell
   release: alpha
 - name: Emperors Road
   card_type: site
@@ -710,7 +710,7 @@
   type_line: A Unique Site from long before your time
   element: none
   artist: vincent_pompetti
-  identifier: EmperorsRoad
+  identifier: emperors_road
   release: alpha
 - name: Enlarge
   card_type: magic
@@ -723,7 +723,7 @@
   earth_threshold: '1'
   artist: alan_pollack
   flavor_text: _Pity these meek and measly men!_
-  identifier: Enlarge
+  identifier: enlarge
   release: alpha
 - name: Entangle Terrain
   card_type: aura
@@ -737,7 +737,7 @@
   element: earth
   earth_threshold: '2'
   artist: drew_tucker
-  identifier: EntangleTerrain
+  identifier: entangle_terrain
   release: alpha
 - name: Eriks Curiosa
   card_type: relic
@@ -749,7 +749,7 @@
   mana_cost: '3'
   element: none
   artist: francesca_baerald
-  identifier: EriksCuriosa
+  identifier: eriks_curiosa
   release: alpha
 - name: Felbog Frog Men
   card_type: minion
@@ -762,7 +762,7 @@
   water_threshold: '1'
   power: '3'
   artist: jeff_menges
-  identifier: FelbogFrogMen
+  identifier: felbog_frog_men
   release: alpha
 - name: Fire Salamander
   card_type: minion
@@ -776,7 +776,7 @@
   power: '2'
   artist: melissa_benson
   flavor_text: _The flames lick at our heels as the fire crawls ever upwards._
-  identifier: FireSalamander
+  identifier: fire_salamander
   release: alpha
 - name: Firebolts
   card_type: magic
@@ -789,7 +789,7 @@
   element: fire
   fire_threshold: '1'
   artist: jeff_easley
-  identifier: Firebolts
+  identifier: firebolts
   release: alpha
 - name: Flanking Maneuver
   card_type: magic
@@ -803,7 +803,7 @@
   artist: tony_szczudlo
   flavor_text: _With swift wits and swifter horses we shall get the better of these
     arrogant swines!_
-  identifier: FlankingManeuver
+  identifier: flanking_maneuver
   release: alpha
 - name: Flashfires
   card_type: magic
@@ -818,7 +818,7 @@
   element: fire
   fire_threshold: '2'
   artist: mattias_frisk
-  identifier: Flashfires
+  identifier: flashfires
   release: alpha
 - name: Flood
   card_type: aura
@@ -832,7 +832,7 @@
   element: water
   water_threshold: '4'
   artist: michal_nagypal
-  identifier: Flood
+  identifier: flood
   release: alpha
 - name: Flow Of Life
   card_type: magic
@@ -845,7 +845,7 @@
   element: water
   water_threshold: '3'
   artist: anson_maddocks
-  identifier: FlowOfLife
+  identifier: flow_of_life
   release: alpha
 - name: Frontier Settlers
   card_type: minion
@@ -860,7 +860,7 @@
   power: '1'
   artist: ossi_hiekkala
   flavor_text: _“Be fruitful, and multiply, and replenish the earth.” - Genesis 1:26_
-  identifier: FrontierSettlers
+  identifier: frontier_settlers
   release: alpha
 - name: Ghost Ship
   card_type: minion
@@ -874,7 +874,7 @@
   water_threshold: '2'
   power: '3'
   artist: jussi_pylkäs
-  identifier: GhostShip
+  identifier: ghost_ship
   release: alpha
 - name: Giant Shark
   card_type: minion
@@ -890,7 +890,7 @@
   water_threshold: '1'
   power: '5'
   artist: alan_pollack
-  identifier: GiantShark
+  identifier: giant_shark
   release: alpha
 - name: Gothic Tower
   card_type: site
@@ -901,7 +901,7 @@
   element: none
   wind_threshold: '1'
   artist: michal_nagypal
-  identifier: GothicTower
+  identifier: gothic_tower
   release: alpha
 - name: Grandmaster Wizard
   card_type: minion
@@ -915,7 +915,7 @@
   element: wind
   water_threshold: '2'
   artist: ossi_hiekkala
-  identifier: GrandmasterWizard
+  identifier: grandmaster_wizard
   release: alpha
 - name: Great Old One
   card_type: minion
@@ -930,7 +930,7 @@
   water_threshold: '4'
   power: '12'
   artist: dan_seagrave
-  identifier: GreatOldOne
+  identifier: great_old_one
   release: alpha
 - name: Great Wall
   card_type: site
@@ -942,7 +942,7 @@
   element: none
   earth_threshold: '1'
   artist: michal_nagypal
-  identifier: GreatWall
+  identifier: great_wall
   release: alpha
 - name: Greissgnath Gnomes
   card_type: minion
@@ -957,7 +957,7 @@
   earth_threshold: '1'
   power: '2'
   artist: vasiliy_ermolaev
-  identifier: GreissgnathGnomes
+  identifier: greissgnath_gnomes
   release: alpha
 - name: Grim Reaper
   card_type: minion
@@ -973,7 +973,7 @@
   wind_threshold: '2'
   power: '0'
   artist: vasiliy_ermolaev
-  identifier: GrimReaper
+  identifier: grim_reaper
   release: alpha
 - name: Guile Sirens
   card_type: minion
@@ -988,7 +988,7 @@
   water_threshold: '2'
   power: '2'
   artist: elvira_shakirova
-  identifier: GuileSirens
+  identifier: guile_sirens
   release: alpha
 - name: Harpoon Shot
   card_type: magic
@@ -1002,7 +1002,7 @@
   element: water
   water_threshold: '1'
   artist: jussi_pylkäs
-  identifier: HarpoonShot
+  identifier: harpoon_shot
   release: alpha
 - name: Haste
   card_type: magic
@@ -1016,7 +1016,7 @@
   element: fire
   fire_threshold: '1'
   artist: drew_tucker
-  identifier: Haste
+  identifier: haste
   release: alpha
 - name: Headless Haunt
   card_type: minion
@@ -1031,7 +1031,7 @@
   wind_threshold: '2'
   power: '5'
   artist: jussi_pylkäs
-  identifier: HeadlessHaunt
+  identifier: headless_haunt
   release: alpha
 - name: Hex
   card_type: avatar
@@ -1046,7 +1046,7 @@
   element: none
   power: '1'
   artist: dan_seagrave
-  identifier: Hex
+  identifier: hex
   release: alpha
 - name: Highland Falconer
   card_type: minion
@@ -1060,7 +1060,7 @@
   wind_threshold: '1'
   power: '2'
   artist: andrea_modesti
-  identifier: HighlandFalconer
+  identifier: highland_falconer
   release: alpha
 - name: Highland Princess
   card_type: minion
@@ -1075,7 +1075,7 @@
   wind_threshold: '1'
   power: '1'
   artist: vincent_pompetti
-  identifier: HighlandPrincess
+  identifier: highland_princess
   release: alpha
 - name: Hillock Basilisk
   card_type: minion
@@ -1089,7 +1089,7 @@
   fire_threshold: '1'
   power: '3'
   artist: alan_pollack
-  identifier: HillockBasilisk
+  identifier: hillock_basilisk
   release: alpha
 - name: Holy Ground
   card_type: site
@@ -1100,7 +1100,7 @@
   element: none
   earth_threshold: '1'
   artist: michal_nagypal
-  identifier: HolyGround
+  identifier: holy_ground
   release: alpha
 - name: Hounds Of Ondaros
   card_type: minion
@@ -1116,7 +1116,7 @@
   power: '5'
   artist: francesca_baerald
   flavor_text: _You can run, but you cannot hide._
-  identifier: HoundsOfOndaros
+  identifier: hounds_of_ondaros
   release: alpha
 - name: House Arn Bannerman
   card_type: minion
@@ -1132,7 +1132,7 @@
   flavor_text: |-
     _Our family banner will once again
     be a symbol of strength!_
-  identifier: HouseArnBannerman
+  identifier: house_arn_bannerman
   release: alpha
 - name: Humble Village
   card_type: site
@@ -1143,7 +1143,7 @@
   element: none
   earth_threshold: '1'
   artist: andrea_modesti
-  identifier: HumbleVillage
+  identifier: humble_village
   release: alpha
 - name: Immolation
   card_type: magic
@@ -1155,7 +1155,7 @@
   element: fire
   fire_threshold: '3'
   artist: brian_smith
-  identifier: Immolation
+  identifier: immolation
   release: alpha
 - name: Infernal Legion
   card_type: minion
@@ -1170,7 +1170,7 @@
   fire_threshold: '4'
   power: '5'
   artist: melissa_benson
-  identifier: InfernalLegion
+  identifier: infernal_legion
   release: alpha
 - name: Infiltrate
   card_type: magic
@@ -1183,7 +1183,7 @@
   element: fire
   fire_threshold: '2'
   artist: elwira_pawlikowska
-  identifier: Infiltrate
+  identifier: infiltrate
   release: alpha
 - name: King Of The Realm
   card_type: minion
@@ -1198,7 +1198,7 @@
   earth_threshold: '2'
   power: '4'
   artist: tony_szczudlo
-  identifier: KingOfTheRealm
+  identifier: king_of_the_realm
   release: alpha
 - name: Kite Archer
   card_type: minion
@@ -1213,7 +1213,7 @@
   wind_threshold: '1'
   power: '1'
   artist: vincent_pompetti
-  identifier: KiteArcher
+  identifier: kite_archer
   release: alpha
 - name: Land Deed
   card_type: relic
@@ -1225,7 +1225,7 @@
   element: none
   artist: elwira_pawlikowska
   flavor_text: _Possession is nine tenths of the law._
-  identifier: LandDeed
+  identifier: land_deed
   release: alpha
 - name: Land Surveyor
   card_type: minion
@@ -1239,7 +1239,7 @@
   power: '2'
   artist: ossi_hiekkala
   flavor_text: _You can’t separate a place from its history._
-  identifier: LandSurveyor
+  identifier: land_surveyor
   release: alpha
 - name: Leviathan Island
   card_type: site
@@ -1251,7 +1251,7 @@
   element: none
   water_threshold: '1'
   artist: drew_tucker
-  identifier: LeviathanIsland
+  identifier: leviathan_island
   release: alpha
 - name: Lighthouse
   card_type: site
@@ -1263,7 +1263,7 @@
   water_threshold: '1'
   wind_threshold: '1'
   artist: marta_molina
-  identifier: Lighthouse
+  identifier: lighthouse
   release: alpha
 - name: Lightning Bolt
   card_type: magic
@@ -1277,7 +1277,7 @@
   element: wind
   wind_threshold: '1'
   artist: ossi_hiekkala
-  identifier: LightningBolt
+  identifier: lightning_bolt
   release: alpha
 - name: Lord Of Lies
   card_type: minion
@@ -1292,7 +1292,7 @@
   artist: gadu_duaso
   flavor_text: _With words clothed in reason’s garb, he counseled ignoble ease, peaceful
     sloth and boundless debauchery._
-  identifier: LordOfLies
+  identifier: lord_of_lies
   release: alpha
 - name: Lord Of The Void
   card_type: minion
@@ -1307,7 +1307,7 @@
   wind_threshold: '3'
   power: '0'
   artist: elwira_pawlikowska
-  identifier: LordOfTheVoid
+  identifier: lord_of_the_void
   release: alpha
 - name: Maddening Bells
   card_type: relic
@@ -1319,7 +1319,7 @@
   mana_cost: '4'
   element: none
   artist: drew_tucker
-  identifier: MaddeningBells
+  identifier: maddening_bells
   release: alpha
 - name: Maelström
   card_type: site
@@ -1331,7 +1331,7 @@
   element: none
   water_threshold: '1'
   artist: dan_seagrave
-  identifier: Maelstrm
+  identifier: maelstr_m
   release: alpha
 - name: Marine Voyage
   card_type: magic
@@ -1343,7 +1343,7 @@
   element: water
   water_threshold: '1'
   artist: marta_molina
-  identifier: MarineVoyage
+  identifier: marine_voyage
   release: alpha
 - name: Master Tracker
   card_type: minion
@@ -1358,7 +1358,7 @@
   earth_threshold: '2'
   power: '2'
   artist: andrea_modesti
-  identifier: MasterTracker
+  identifier: master_tracker
   release: alpha
 - name: Maze Minotaur
   card_type: minion
@@ -1373,7 +1373,7 @@
   fire_threshold: '1'
   power: '3'
   artist: gadu_duaso
-  identifier: MazeMinotaur
+  identifier: maze_minotaur
   release: alpha
 - name: Mega Amoeba
   card_type: minion
@@ -1387,7 +1387,7 @@
   water_threshold: '3'
   power: '0'
   artist: brian_smith
-  identifier: MegaAmoeba
+  identifier: mega_amoeba
   release: alpha
 - name: Men Of Leng
   card_type: minion
@@ -1401,7 +1401,7 @@
   wind_threshold: '1'
   power: '2'
   artist: drew_tucker
-  identifier: MenOfLeng
+  identifier: men_of_leng
   release: alpha
 - name: Mesmerism
   card_type: aura
@@ -1416,7 +1416,7 @@
   element: water
   water_threshold: '2'
   artist: unknown
-  identifier: Mesmerism
+  identifier: mesmerism
   release: alpha
 - name: Meteor Shower
   card_type: magic
@@ -1431,7 +1431,7 @@
   element: fire
   fire_threshold: '3'
   artist: michal_nagypal
-  identifier: MeteorShower
+  identifier: meteor_shower
   release: alpha
 - name: Midland Army
   card_type: minion
@@ -1446,7 +1446,7 @@
   earth_threshold: '4'
   power: '8'
   artist: tony_szczudlo
-  identifier: MidlandArmy
+  identifier: midland_army
   release: alpha
 - name: Minor Explosion
   card_type: magic
@@ -1465,7 +1465,7 @@
   element: fire
   fire_threshold: '2'
   artist: mattias_frisk
-  identifier: MinorExplosion
+  identifier: minor_explosion
   release: alpha
 - name: Mirage
   card_type: site
@@ -1476,7 +1476,7 @@
   type_line: An Exceptional Site and a brief illusion of salvation
   element: none
   artist: drew_tucker
-  identifier: Mirage
+  identifier: mirage
   release: alpha
 - name: Mirror Realm
   card_type: site
@@ -1487,7 +1487,7 @@
   type_line: A Unique Site of enriching reflection
   element: none
   artist: liz_danforth
-  identifier: MirrorRealm
+  identifier: mirror_realm
   release: alpha
 - name: Mix Aer
   card_type: relic
@@ -1498,7 +1498,7 @@
   mana_cost: '0'
   element: none
   artist: elvira_shakirova
-  identifier: MixAer
+  identifier: mix_aer
   release: alpha
 - name: Monster Hunter
   card_type: minion
@@ -1512,7 +1512,7 @@
   earth_threshold: '2'
   power: '2'
   artist: jeff_menges
-  identifier: MonsterHunter
+  identifier: monster_hunter
   release: alpha
 - name: Mordric Druids
   card_type: minion
@@ -1527,7 +1527,7 @@
   earth_threshold: '1'
   power: '1'
   artist: jeff_menges
-  identifier: MordricDruids
+  identifier: mordric_druids
   release: alpha
 - name: Mountain Giant
   card_type: minion
@@ -1543,7 +1543,7 @@
   power: '5'
   artist: francesca_baerald
   flavor_text: _Hearth and heart will tremble._
-  identifier: MountainGiant
+  identifier: mountain_giant
   release: alpha
 - name: Muck Lampreys
   card_type: minion
@@ -1557,7 +1557,7 @@
   artist: vasiliy_ermolaev
   flavor_text: _The pallid tunnelers calmly prowl the muck, Ready to bore through
     mud and flesh alike._
-  identifier: MuckLampreys
+  identifier: muck_lampreys
   release: alpha
 - name: Near Miss
   card_type: magic
@@ -1570,7 +1570,7 @@
   water_threshold: '2'
   artist: jeff_easley
   flavor_text: _Breath starts and the heart skips a beat._
-  identifier: NearMiss
+  identifier: near_miss
   release: alpha
 - name: Nimbus Jinn
   card_type: minion
@@ -1585,7 +1585,7 @@
   wind_threshold: '2'
   power: '4'
   artist: dan_seagrave
-  identifier: NimbusJinn
+  identifier: nimbus_jinn
   release: alpha
 - name: Northern Frontline
   card_type: site
@@ -1595,7 +1595,7 @@
   type_line: An Elite Site where heroes are born
   element: none
   artist: dan_seagrave
-  identifier: NorthernFrontline
+  identifier: northern_frontline
   release: alpha
 - name: Nowhere Island
   card_type: site
@@ -1605,7 +1605,7 @@
   type_line: An Elite Site in the midst of the black seas of infinity
   element: none
   artist: jussi_pylkäs
-  identifier: NowhereIsland
+  identifier: nowhere_island
   release: alpha
 - name: Observatory
   card_type: site
@@ -1618,7 +1618,7 @@
   earth_threshold: '1'
   wind_threshold: '1'
   artist: margaret_organ-kean
-  identifier: Observatory
+  identifier: observatory
   release: alpha
 - name: Occult Ritual
   card_type: minion
@@ -1632,7 +1632,7 @@
   artist: lindsey_crummett
   flavor_text: _“Ygnaiih ygnaiih thflthkh’ngha… Yog-Sothoth… Y’bthnk h’ehye—n’grkdl’lh!”
     - HP Lovecraft_
-  identifier: OccultRitual
+  identifier: occult_ritual
   release: alpha
 - name: Old Growth Forest
   card_type: site
@@ -1643,7 +1643,7 @@
   element: none
   earth_threshold: '1'
   artist: ian_miller
-  identifier: OldGrowthForest
+  identifier: old_growth_forest
   release: alpha
 - name: Ormund Harpooners
   card_type: minion
@@ -1658,7 +1658,7 @@
   water_threshold: '1'
   power: '3'
   artist: elvira_shakirova
-  identifier: OrmundHarpooners
+  identifier: ormund_harpooners
   release: alpha
 - name: Outback Strider
   card_type: minion
@@ -1672,7 +1672,7 @@
   fire_threshold: '1'
   power: '4'
   artist: tony_szczudlo
-  identifier: OutbackStrider
+  identifier: outback_strider
   release: alpha
 - name: Palliburrie Bats
   card_type: minion
@@ -1688,7 +1688,7 @@
   flavor_text: |-
     _To the bat, it is the world that’s blind.
     To the song-spun tapestry of its kind._
-  identifier: PalliburrieBats
+  identifier: palliburrie_bats
   release: alpha
 - name: Pathfinder
   card_type: avatar
@@ -1703,7 +1703,7 @@
   element: none
   power: '1'
   artist: drew_tucker
-  identifier: Pathfinder
+  identifier: pathfinder
   release: alpha
 - name: Pendulum Of Peril
   card_type: relic
@@ -1716,7 +1716,7 @@
   mana_cost: '4'
   element: none
   artist: drew_tucker
-  identifier: PendulumOfPeril
+  identifier: pendulum_of_peril
   release: alpha
 - name: Petrosian Cavalry
   card_type: minion
@@ -1732,7 +1732,7 @@
   flavor_text: |-
     _Swift steeds and swifter swords.
     The tide of battle has turned!_
-  identifier: PetrosianCavalry
+  identifier: petrosian_cavalry
   release: alpha
 - name: Phantom Steed
   card_type: minion
@@ -1746,7 +1746,7 @@
   wind_threshold: '2'
   power: '3'
   artist: melissa_benson
-  identifier: PhantomSteed
+  identifier: phantom_steed
   release: alpha
 - name: Philosophers Stone
   card_type: relic
@@ -1759,7 +1759,7 @@
   mana_cost: '1'
   element: none
   artist: severine_pineaux
-  identifier: PhilosophersStone
+  identifier: philosophers_stone
   release: alpha
 - name: Pillar Of Zeiros
   card_type: site
@@ -1770,7 +1770,7 @@
   element: none
   earth_threshold: '1'
   artist: dan_seagrave
-  identifier: PillarOfZeiros
+  identifier: pillar_of_zeiros
   release: alpha
 - name: Pirate Ship
   card_type: minion
@@ -1788,7 +1788,7 @@
     Staunch and strong, a good steady vessel,
     That shall laugh at all disaster,
     And with wave and whirlwind wrestle!_
-  identifier: PirateShip
+  identifier: pirate_ship
   release: alpha
 - name: Plague Of Frogs
   card_type: magic
@@ -1804,7 +1804,7 @@
   flavor_text: |-
     _"Their land swarmed with frogs.
     Even in the chambers or their kings." - Psalm 105:30 _
-  identifier: PlagueOfFrogs
+  identifier: plague_of_frogs
   release: alpha
 - name: Polar Bears
   card_type: minion
@@ -1818,7 +1818,7 @@
   water_threshold: '2'
   power: '3'
   artist: melissa_benson
-  identifier: PolarBears
+  identifier: polar_bears
   release: alpha
 - name: Pristine Paradise
   card_type: site
@@ -1828,7 +1828,7 @@
   type_line: A Unique Site of fragile splendor
   element: none
   artist: marta_molina
-  identifier: PristineParadise
+  identifier: pristine_paradise
   release: alpha
 - name: Psionic Blast
   card_type: magic
@@ -1841,7 +1841,7 @@
   element: wind
   wind_threshold: '2'
   artist: alan_pollack
-  identifier: PsionicBlast
+  identifier: psionic_blast
   release: alpha
 - name: Pudge Butcher
   card_type: minion
@@ -1856,7 +1856,7 @@
   earth_threshold: '2'
   power: '5'
   artist: brian_smith
-  identifier: PudgeButcher
+  identifier: pudge_butcher
   release: alpha
 - name: Puppet Master
   card_type: minion
@@ -1869,7 +1869,7 @@
   wind_threshold: '2'
   power: '0'
   artist: liz_danforth
-  identifier: PuppetMaster
+  identifier: puppet_master
   release: alpha
 - name: Purge Juggernaut
   card_type: relic
@@ -1882,7 +1882,7 @@
   mana_cost: '5'
   element: none
   artist: brian_smith
-  identifier: PurgeJuggernaut
+  identifier: purge_juggernaut
   release: alpha
 - name: Quagmire
   card_type: site
@@ -1894,7 +1894,7 @@
   element: none
   earth_threshold: '1'
   artist: caio_calazans
-  identifier: Quagmire
+  identifier: quagmire
   release: alpha
 - name: Queen Of Midland
   card_type: minion
@@ -1908,7 +1908,7 @@
   earth_threshold: '2'
   power: '1'
   artist: severine_pineaux
-  identifier: QueenOfMidland
+  identifier: queen_of_midland
   release: alpha
 - name: Raal Dromedary
   card_type: minion
@@ -1925,7 +1925,7 @@
     There was not any yearning in his eye,
     But on his lips and nostril infinite scorn.”
     - Archibald Young Campbell_
-  identifier: RaalDromedary
+  identifier: raal_dromedary
   release: alpha
 - name: Recurring Specter
   card_type: minion
@@ -1940,7 +1940,7 @@
   wind_threshold: '1'
   power: '1'
   artist: tony_szczudlo
-  identifier: RecurringSpecter
+  identifier: recurring_specter
   release: alpha
 - name: Remote Desert
   card_type: site
@@ -1951,7 +1951,7 @@
   element: none
   fire_threshold: '1'
   artist: unknown
-  identifier: RemoteDesert
+  identifier: remote_desert
   release: alpha
 - name: Replication
   card_type: magic
@@ -1965,7 +1965,7 @@
   power: '4'
   artist: francesca_baerald
   flavor_text: _All art is but imitation of nature._
-  identifier: Replication
+  identifier: replication
   release: alpha
 - name: Rest In Peace
   card_type: aura
@@ -1979,7 +1979,7 @@
   element: earth
   earth_threshold: '2'
   artist: elwira_pawlikowska
-  identifier: RestInPeace
+  identifier: rest_in_peace
   release: alpha
 - name: Rift Valley
   card_type: site
@@ -1991,7 +1991,7 @@
   element: none
   earth_threshold: '1'
   artist: dan_seagrave
-  identifier: RiftValley
+  identifier: rift_valley
   release: alpha
 - name: Rimland Nomads
   card_type: minion
@@ -2005,7 +2005,7 @@
   power: '3'
   artist: elvira_shakirova
   flavor_text: _Just put one foot in front of the other._
-  identifier: RimlandNomads
+  identifier: rimland_nomads
   release: alpha
 - name: River Of Flame
   card_type: site
@@ -2017,7 +2017,7 @@
   element: none
   fire_threshold: '1'
   artist: ian_miller
-  identifier: RiverOfFlame
+  identifier: river_of_flame
   release: alpha
 - name: Roaming Monster
   card_type: minion
@@ -2031,7 +2031,7 @@
   power: '4'
   artist: jeff_easley
   flavor_text: _Out of the blue._
-  identifier: RoamingMonster
+  identifier: roaming_monster
   release: alpha
 - name: Rolicky Dragonettes
   card_type: minion
@@ -2047,7 +2047,7 @@
   fire_threshold: '2'
   power: '3'
   artist: jeff_easley
-  identifier: RolickyDragonettes
+  identifier: rolicky_dragonettes
   release: alpha
 - name: Royal Bodyguard
   card_type: minion
@@ -2062,7 +2062,7 @@
   earth_threshold: '2'
   power: '3'
   artist: liz_danforth
-  identifier: RoyalBodyguard
+  identifier: royal_bodyguard
   release: alpha
 - name: Ruins
   card_type: site
@@ -2074,7 +2074,7 @@
   fire_threshold: '1'
   wind_threshold: '1'
   artist: dan_seagrave
-  identifier: Ruins
+  identifier: ruins
   release: alpha
 - name: Rustic Village
   card_type: site
@@ -2085,7 +2085,7 @@
   element: none
   earth_threshold: '1'
   artist: andrea_modesti
-  identifier: RusticVillage
+  identifier: rustic_village
   release: alpha
 - name: Sacred Scarabs
   card_type: minion
@@ -2104,7 +2104,7 @@
   fire_threshold: '1'
   power: '1'
   artist: unknown
-  identifier: SacredScarabs
+  identifier: sacred_scarabs
   release: alpha
 - name: Sand Worm
   card_type: minion
@@ -2120,7 +2120,7 @@
   flavor_text: |-
     _The sands whisper their sorrowful song,
     In the wake of the blind one’s thirst._
-  identifier: SandWorm
+  identifier: sand_worm
   release: alpha
 - name: Sandstorm
   card_type: aura
@@ -2134,7 +2134,7 @@
   element: fire
   fire_threshold: '1'
   artist: drew_tucker
-  identifier: Sandstorm
+  identifier: sandstorm
   release: alpha
 - name: Scent Hounds
   card_type: minion
@@ -2149,7 +2149,7 @@
   artist: andrea_modesti
   flavor_text: _For the upwardly mobile of the Midland court, accolades in the Royal
     hunt of the Mist were as treasured as any war-time achievement._
-  identifier: ScentHounds
+  identifier: scent_hounds
   release: alpha
 - name: Scorched Earth
   card_type: magic
@@ -2161,7 +2161,7 @@
   element: fire
   fire_threshold: '1'
   artist: dan_seagrave
-  identifier: ScorchedEarth
+  identifier: scorched_earth
   release: alpha
 - name: Scourge Zombies
   card_type: minion
@@ -2176,7 +2176,7 @@
   earth_threshold: '1'
   power: '2'
   artist: mattias_frisk
-  identifier: ScourgeZombies
+  identifier: scourge_zombies
   release: alpha
 - name: Screaming Skull
   card_type: relic
@@ -2189,7 +2189,7 @@
   mana_cost: '2'
   element: none
   artist: melissa_benson
-  identifier: ScreamingSkull
+  identifier: screaming_skull
   release: alpha
 - name: Scroll Curator
   card_type: minion
@@ -2204,7 +2204,7 @@
   wind_threshold: '1'
   power: '1'
   artist: elwira_pawlikowska
-  identifier: ScrollCurator
+  identifier: scroll_curator
   release: alpha
 - name: Sea Serpent
   card_type: minion
@@ -2219,7 +2219,7 @@
   artist: vincent_pompetti
   flavor_text: _Young serpents have been spotted in rivers as far north as the Boreal
     Forests!_
-  identifier: SeaSerpent
+  identifier: sea_serpent
   release: alpha
 - name: Seasoned Sellsword
   card_type: minion
@@ -2234,7 +2234,7 @@
   earth_threshold: '2'
   power: '2'
   artist: lindsey_crummett
-  identifier: SeasonedSellsword
+  identifier: seasoned_sellsword
   release: alpha
 - name: Secret Tunnel
   card_type: site
@@ -2245,7 +2245,7 @@
   element: none
   earth_threshold: '1'
   artist: doug_kovacs
-  identifier: SecretTunnel
+  identifier: secret_tunnel
   release: alpha
 - name: Sedge Crabs
   card_type: minion
@@ -2260,7 +2260,7 @@
   water_threshold: '2'
   power: '3'
   artist: ossi_hiekkala
-  identifier: SedgeCrabs
+  identifier: sedge_crabs
   release: alpha
 - name: Seer
   card_type: avatar
@@ -2274,7 +2274,7 @@
   element: none
   power: '1'
   artist: unknown
-  identifier: Seer
+  identifier: seer
   release: alpha
 - name: Shield Maidens
   card_type: minion
@@ -2290,7 +2290,7 @@
   power: '2'
   artist: vincent_pompetti
   flavor_text: _My word is my bond, my shield is my service._
-  identifier: ShieldMaidens
+  identifier: shield_maidens
   release: alpha
 - name: Shifting Sands
   card_type: site
@@ -2302,7 +2302,7 @@
   element: none
   fire_threshold: '1'
   artist: vasiliy_ermolaev
-  identifier: ShiftingSands
+  identifier: shifting_sands
   release: alpha
 - name: Shrink
   card_type: magic
@@ -2315,7 +2315,7 @@
   water_threshold: '1'
   power: '2'
   artist: francesca_baerald
-  identifier: Shrink
+  identifier: shrink
   release: alpha
 - name: Siege Ballista
   card_type: relic
@@ -2328,7 +2328,7 @@
   mana_cost: '3'
   element: none
   artist: brian_smith
-  identifier: SiegeBallista
+  identifier: siege_ballista
   release: alpha
 - name: Silver Valkyries
   card_type: minion
@@ -2343,7 +2343,7 @@
   earth_threshold: '2'
   power: '3'
   artist: severine_pineaux
-  identifier: SilverValkyries
+  identifier: silver_valkyries
   release: alpha
 - name: Simple Village
   card_type: site
@@ -2354,7 +2354,7 @@
   element: none
   earth_threshold: '1'
   artist: andrea_modesti
-  identifier: SimpleVillage
+  identifier: simple_village
   release: alpha
 - name: Sinkhole
   card_type: site
@@ -2366,7 +2366,7 @@
   element: none
   earth_threshold: '1'
   artist: michal_nagypal
-  identifier: Sinkhole
+  identifier: sinkhole
   release: alpha
 - name: Sirian Templar
   card_type: minion
@@ -2382,7 +2382,7 @@
   flavor_text: |-
     _My shield is anchored by a holy purpose.
     My sword is guided by the light of God!_
-  identifier: SirianTemplar
+  identifier: sirian_templar
   release: alpha
 - name: Sisters Of Silence
   card_type: minion
@@ -2398,7 +2398,7 @@
   flavor_text: |-
     _“Since long I’ve held silence as a remedy for harm.”
     - Aeschylus_
-  identifier: SistersOfSilence
+  identifier: sisters_of_silence
   release: alpha
 - name: Sleep
   card_type: magic
@@ -2410,7 +2410,7 @@
   element: water
   water_threshold: '1'
   artist: severine_pineaux
-  identifier: Sleep
+  identifier: sleep
   release: alpha
 - name: Sneak Thief
   card_type: minion
@@ -2425,7 +2425,7 @@
   water_threshold: '2'
   power: '2'
   artist: jeff_easley
-  identifier: SneakThief
+  identifier: sneak_thief
   release: alpha
 - name: Sorcerer
   card_type: avatar
@@ -2440,7 +2440,7 @@
   element: none
   power: '1'
   artist: francesca_baerald
-  identifier: Sorcerer
+  identifier: sorcerer
   release: alpha
 - name: Spear Of Destiny
   card_type: relic
@@ -2454,7 +2454,7 @@
   mana_cost: '4'
   element: none
   artist: andrea_modesti
-  identifier: SpearOfDestiny
+  identifier: spear_of_destiny
   release: alpha
 - name: Spectral Stalker
   card_type: minion
@@ -2469,7 +2469,7 @@
   artist: jeff_easley
   flavor_text: _“We live on a placid island of ignorance in the midst o black seas
     of infinity, and it was not meant that we should voyage far.” — H.P. Lovecraft_
-  identifier: SpectralStalker
+  identifier: spectral_stalker
   release: alpha
 - name: Spell Block
   card_type: magic
@@ -2481,7 +2481,7 @@
   element: wind
   wind_threshold: '2'
   artist: drew_tucker
-  identifier: SpellBlock
+  identifier: spell_block
   release: alpha
 - name: Spire Lich
   card_type: minion
@@ -2497,7 +2497,7 @@
   wind_threshold: '1'
   power: '3'
   artist: vasiliy_ermolaev
-  identifier: SpireLich
+  identifier: spire_lich
   release: alpha
 - name: Stone Gaze Gorgons
   card_type: minion
@@ -2511,7 +2511,7 @@
   earth_threshold: '3'
   power: '2'
   artist: severine_pineaux
-  identifier: StoneGazeGorgons
+  identifier: stone_gaze_gorgons
   release: alpha
 - name: Stonehenge
   card_type: site
@@ -2521,7 +2521,7 @@
   type_line: A Unique Site where leylines converge
   element: none
   artist: caio_calazans
-  identifier: Stonehenge
+  identifier: stonehenge
   release: alpha
 - name: Summoning Sphere
   card_type: magic
@@ -2535,7 +2535,7 @@
   element: wind
   wind_threshold: '1'
   artist: michal_nagypal
-  identifier: SummoningSphere
+  identifier: summoning_sphere
   release: alpha
 - name: Swan Maidens
   card_type: minion
@@ -2551,7 +2551,7 @@
   flavor_text: |-
     _Upon our souls they dance,
     A gentle ballet of hope and dream._
-  identifier: SwanMaidens
+  identifier: swan_maidens
   release: alpha
 - name: Tadpole Pool
   card_type: site
@@ -2562,7 +2562,7 @@
   element: none
   water_threshold: '1'
   artist: michal_nagypal
-  identifier: TadpolePool
+  identifier: tadpole_pool
   release: alpha
 - name: Telekinesis
   card_type: magic
@@ -2575,7 +2575,7 @@
   wind_threshold: '1'
   artist: jeff_easley
   flavor_text: _“If it’s in my hand, it’s mind.” - Toddler’s first rule._
-  identifier: Telekinesis
+  identifier: telekinesis
   release: alpha
 - name: Tide Naiads
   card_type: minion
@@ -2590,7 +2590,7 @@
   water_threshold: '2'
   power: '3'
   artist: jussi_pylkäs
-  identifier: TideNaiads
+  identifier: tide_naiads
   release: alpha
 - name: Time Stop
   card_type: aura
@@ -2604,7 +2604,7 @@
   element: wind
   wind_threshold: '3'
   artist: severine_pineaux
-  identifier: TimeStop
+  identifier: time_stop
   release: alpha
 - name: Torshamarr Trinket
   card_type: relic
@@ -2617,7 +2617,7 @@
   mana_cost: '1'
   element: none
   artist: dan_seagrave
-  identifier: TorshamarrTrinket
+  identifier: torshamarr_trinket
   release: alpha
 - name: Tringh Constrictor
   card_type: minion
@@ -2632,7 +2632,7 @@
   water_threshold: '1'
   power: '2'
   artist: alan_pollack
-  identifier: TringhConstrictor
+  identifier: tringh_constrictor
   release: alpha
 - name: Undertaker Engine
   card_type: relic
@@ -2644,7 +2644,7 @@
   mana_cost: '7'
   element: none
   artist: jussi_pylkäs
-  identifier: UndertakerEngine
+  identifier: undertaker_engine
   release: alpha
 - name: Undertow
   card_type: site
@@ -2655,7 +2655,7 @@
   element: none
   water_threshold: '1'
   artist: caio_calazans
-  identifier: Undertow
+  identifier: undertow
   release: alpha
 - name: Unearth
   card_type: magic
@@ -2669,7 +2669,7 @@
   element: wind
   wind_threshold: '1'
   artist: tony_szczudlo
-  identifier: Unearth
+  identifier: unearth
   release: alpha
 - name: Unique Counterspell
   card_type: magic
@@ -2682,7 +2682,7 @@
   wind_threshold: '3'
   artist: jussi_pylkäs
   flavor_text: _A revolutionary idea is forcibly silenced._
-  identifier: UniqueCounterspell
+  identifier: unique_counterspell
   release: alpha
 - name: Unland Eel
   card_type: minion
@@ -2697,7 +2697,7 @@
   water_threshold: '1'
   power: '2'
   artist: francesca_baerald
-  identifier: UnlandEel
+  identifier: unland_eel
   release: alpha
 - name: Unravel
   card_type: magic
@@ -2710,7 +2710,7 @@
   water_threshold: '1'
   artist: severine_pineaux
   flavor_text: _For life to rise, the dead must crumble._
-  identifier: Unravel
+  identifier: unravel
   release: alpha
 - name: Vanguaard Knights
   card_type: minion
@@ -2724,7 +2724,7 @@
   earth_threshold: '2'
   power: '3'
   artist: truitt_parrish
-  identifier: VanguaardKnights
+  identifier: vanguaard_knights
   release: alpha
 - name: Vantage Hills
   card_type: site
@@ -2735,7 +2735,7 @@
   element: none
   earth_threshold: '1'
   artist: jeff_menges
-  identifier: VantageHills
+  identifier: vantage_hills
   release: alpha
 - name: Vril Revenant
   card_type: minion
@@ -2750,7 +2750,7 @@
   wind_threshold: '1'
   power: '0'
   artist: margaret_organ-kean
-  identifier: VrilRevenant
+  identifier: vril_revenant
   release: alpha
 - name: Warp Spasm
   card_type: magic
@@ -2763,7 +2763,7 @@
   element: fire
   fire_threshold: '3'
   artist: ian_miller
-  identifier: WarpSpasm
+  identifier: warp_spasm
   release: alpha
 - name: Wayfaring Pilgrim
   card_type: minion
@@ -2778,7 +2778,7 @@
   fire_threshold: '2'
   power: '1'
   artist: jeff_menges
-  identifier: WayfaringPilgrim
+  identifier: wayfaring_pilgrim
   release: alpha
 - name: Waypoint Portal
   card_type: magic
@@ -2792,7 +2792,7 @@
   element: wind
   wind_threshold: '1'
   artist: jeff_easley
-  identifier: WaypointPortal
+  identifier: waypoint_portal
   release: alpha
 - name: Wild Boars
   card_type: minion
@@ -2807,7 +2807,7 @@
   flavor_text: |-
     _I was once again drowsing, when I glanced at a bush,
     And several wild boar came charging, all in a rush!_
-  identifier: WildBoars
+  identifier: wild_boars
   release: alpha
 - name: Will O The Wisp
   card_type: minion
@@ -2822,7 +2822,7 @@
   fire_threshold: '1'
   power: '1'
   artist: vasiliy_ermolaev
-  identifier: WillOTheWisp
+  identifier: will_o_the_wisp
   release: alpha
 - name: Wind Ward Gem
   card_type: relic
@@ -2834,7 +2834,7 @@
   mana_cost: '1'
   element: none
   artist: melissa_benson
-  identifier: WindWardGem
+  identifier: wind_ward_gem
   release: alpha
 - name: Windmill
   card_type: site
@@ -2846,7 +2846,7 @@
   earth_threshold: '1'
   wind_threshold: '1'
   artist: elwira_pawlikowska
-  identifier: Windmill
+  identifier: windmill
   release: alpha
 - name: Wraetannis Titan
   card_type: minion
@@ -2861,5 +2861,731 @@
   earth_threshold: '3'
   power: '7'
   artist: tony_szczudlo
-  identifier: WraetannisTitan
+  identifier: wraetannis_titan
   release: alpha
+- name: Enchantress
+  card_type: avatar
+  rarity: none
+  rules_box: |-
+    Tap > Play or draw a site.
+
+    Conjura an aura > You may have a nearby aura You control instead become a minion with power equal to its mana cost until end of turn.
+  type_line: Your Avatar of transcendant triumph.
+  power: '1'
+  artist: jussi_pylkas
+  identifier: enchantress
+  initial_life: 20
+  release: alpha
+- name: Red Desert
+  card_type: site
+  rarity: ordinary
+  rules_box: Genesis > This Desert may deal 1 damage to a nearby minion or site.
+  type_line: An Ordinary Site of ruinous Fire. [Fire]
+  artist: aronjaart
+  identifier: red_desert
+  release: alpha
+  fire_threshold: '1'
+- name: Arid Desert
+  card_type: site
+  rarity: ordinary
+  rules_box: Genesis > This Desert may deal 1 damage to a nearby minion or site.
+  type_line: An Ordinary Site of ruinous Fire. [Fire]
+  artist: aronjaart
+  identifier: arid_desert
+  release: alpha
+  fire_threshold: '1'
+- name: Vesuvius
+  card_type: site
+  rarity: unique
+  rules_box: "[Fire] [Fire] [Fire] : Vesuvius may be sacrificed to deal 3 Splash Damage
+    on nearby Sites."
+  type_line: A Uniquely volatile Site on the verge of calamity.
+  artist: jussi_pylkas
+  identifier: vesuvius
+  release: alpha
+  fire_threshold: '1'
+- name: Floodplain
+  card_type: site
+  rarity: exceptional
+  rules_box: The site directly in front of this Floodplain is also a Water site.
+  type_line: An Exceptional Site of an overwhelming flow. [Water]
+  artist: caio_calazans
+  identifier: floodplain
+  release: alpha
+  water_threshold: '1'
+- name: Autumn River
+  card_type: site
+  rarity: ordinary
+  rules_box: Genesis > Look at your top spellbook card. You may put it at the bottom.
+  type_line: An Ordinary Site of refreshing Water [Water]
+  artist: matt_tames
+  identifier: autumn_river
+  release: alpha
+  water_threshold: '1'
+- name: Summer River
+  card_type: site
+  rarity: ordinary
+  rules_box: Genesis > Look at your top spellbook card. You may put it at the bottom.
+  type_line: An Ordinary Site of refreshing Water [Water]
+  artist: matt_tames
+  identifier: summer_river
+  release: alpha
+  water_threshold: '1'
+- name: Spring River
+  card_type: site
+  rarity: ordinary
+  rules_box: Genesis > Look at your top spellbook card. You may put it at the bottom.
+  type_line: An Ordinary Site of refreshing Water [Water]
+  artist: matt_tames
+  identifier: spring_river
+  release: alpha
+  water_threshold: '1'
+- name: Updraft Ridge
+  card_type: site
+  rarity: exceptional
+  rules_box: Genesis > Nearby Airborne minions gain +2 Movement until end of turn.
+  type_line: An Exceptional Site with a strong tailwind. [Wind]
+  artist: caio_calazans
+  identifier: updraft_ridge
+  release: alpha
+  wind_threshold: '1'
+- name: Mountain Pass
+  card_type: site
+  rarity: exceptional
+  rules_box: Ground minions can't traverse this Pass if there is one here already.
+  type_line: An Exceptional Site of narrow access [Wind]
+  artist: marta_molina
+  identifier: mountain_pass
+  release: alpha
+  wind_threshold: '1'
+- name: Dark Tower
+  card_type: site
+  rarity: ordinary
+  rules_box: Genesis > Gain 1 mana until end of turn.
+  type_line: An Ordinary Site of haunting Wind. [Wind]
+  artist: michal_nagypal
+  identifier: dark_tower
+  release: alpha
+  wind_threshold: '1'
+- name: Lone Tower
+  card_type: site
+  rarity: ordinary
+  rules_box: Genesis > Gain 1 mana until end of turn.
+  type_line: An Ordinary Site of haunting Wind. [Wind]
+  artist: michal_nagypal
+  identifier: lone_tower
+  release: alpha
+  wind_threshold: '1'
+- name: Bottomless Pit
+  card_type: site
+  rarity: elite
+  rules_box: Only Airborne minions can traverse this site.
+  type_line: An Elite Site of regret and despair
+  artist: dan_seagrave
+  identifier: bottomless_pit
+  release: alpha
+- name: Silence
+  card_type: spell
+  rarity: exceptional
+  rules_box: |-
+    Conjure at the intersection of two or four locations.
+    Dispel any auras on affected locations. Minions can't use tap abilities on them and spells can't target anything here.
+  type_line: An Exceptional Aura.
+  artist: marta_molina
+  identifier: silence
+  release: alpha
+  mana_cost: '3'
+  water_threshold: '1'
+- name: Wrath of the Sea
+  card_type: spell
+  rarity: elite
+  rules_box: Sites near water also become Water sites until end of turn. Submerge
+    all minions and relics on Water sites. <i>(Minions without the Submerge ability
+    die if they are submerged.)</i>
+  type_line: "{"
+  artist: mattias_frisk
+  identifier: wrath_of_the_sea
+  release: alpha
+  mana_cost: '7'
+  water_threshold: '2'
+- name: Fireball
+  card_type: spell
+  rarity: exceptional
+  rules_box: 'Your Spellcaster launches a Fireball that travels in a cardinal direction
+    from your Spellcaster. It explodes when it hits an enemy, dealing Splash Damage:
+    [Damage Grid]'
+  type_line: '"rarity_code": "exceptional",'
+  artist: doug_kovacs
+  identifier: fireball
+  release: alpha
+  mana_cost: '4'
+  fire_threshold: '1'
+- name: Heat Ray
+  card_type: spell
+  rarity: ordinary
+  rules_box: Deal 2 Splash Damage in a line in any cardinal direction from your Spellcaster
+    [Damage Grid]
+  type_line: '"stripped_text": "Ground minions can''t traverse this Pass if there
+    is one here already.",'
+  artist: jeff_easley
+  identifier: heat_ray
+  release: alpha
+  mana_cost: '2'
+  fire_threshold: '1'
+- name: Unland Angler
+  card_type: spell
+  rarity: exceptional
+  rules_box: |-
+    Submerge, Waterbound
+
+    At the start of your opponent's turn, if this Angler is submerged and there are no enemy minions here, a nearby enemy minion must move towards it. Enemy minions here are disabled.
+  type_line: '"stripped_type_line": "An Exceptional Site of narrow access [Wind]",'
+  power: '4'
+  artist: drew_tucker
+  identifier: unland_angler
+  release: alpha
+  mana_cost: '5'
+  water_threshold: '2'
+- name: Old Salt Anchorman
+  card_type: spell
+  rarity: ordinary
+  rules_box: This Anchorman and nearby allies are immovable by enemies.
+  type_line: An Ordinary Pirate Mortal holds steady and true.
+  flavor_text: |-
+    We stuck, nor breath nor motion;
+    As idle as a painted ship upon a painted ocean.
+    - Samuel Coleridge
+  power: '2'
+  artist: vincent_pompetti
+  identifier: old_salt_anchorman
+  release: alpha
+  mana_cost: '1'
+  water_threshold: '1'
+- name: Mother Nature
+  card_type: spell
+  rarity: unique
+  rules_box: |-
+    Immobile
+    Once per turn, when you summon a minion nearby, draw a spell.
+  type_line: An Unique Mythics of divine fecundity.
+  power: '3'
+  artist: severine_pineaux
+  identifier: mother_nature
+  release: alpha
+  mana_cost: '7'
+  water_threshold: '3'
+- name: Bridge Troll
+  card_type: spell
+  rarity: ordinary
+  rules_box: Immobile
+  type_line: An Ordinary Monster vexed by all who dare.
+  flavor_text: '"Who''s that tripping over my bridge?"'
+  power: '4'
+  artist: vasiliy_ermolaev
+  identifier: bridge_troll
+  release: alpha
+  mana_cost: '1'
+  water_threshold: '1'
+- name: Fey Changeling
+  card_type: spell
+  rarity: ordinary
+  rules_box: This Changeling may be played on any occupied site. Unsummon target minion
+    there when you do.
+  type_line: An Ordinary Mythic and most unwelcome guest.
+  power: '1'
+  artist: drew_tucker
+  identifier: fey_changeling
+  release: alpha
+  mana_cost: '2'
+  water_threshold: '1'
+- name: Diluvian Kraken
+  card_type: spell
+  rarity: elite
+  rules_box: |-
+    Submerge
+    Whenever this Kraken surfaces to attack, it may attack all nearby enemy minions simultaneously.
+  type_line: An Elite Monster of far-reaching terror.
+  power: '8'
+  artist: dan_seagrave
+  identifier: diluvian_kraken
+  release: alpha
+  mana_cost: '7'
+  water_threshold: '3'
+- name: Drums of Doom
+  card_type: spell
+  rarity: elite
+  rules_box: If a nearby minion is targeted by a spell or ability, or takes any damage,
+    kill it.
+  type_line: An Elite Relic of decisive mass percussion.
+  flavor_text: The most persistent sound which reverberates through man's history
+    is the beating of war drums.
+  artist: alan_pollack
+  identifier: drums_of_doom
+  release: alpha
+  mana_cost: '5'
+- name: Dead of Night Demon
+  card_type: spell
+  rarity: ordinary
+  rules_box: Stealth
+  type_line: An Ordinary Demon stalks the witching hours
+  flavor_text: Retched for the weald's black maw, To quake the heart with fear and
+    awe.
+  power: '3'
+  artist: michal_nagypal
+  identifier: dead_of_night_demon
+  release: alpha
+  mana_cost: '2'
+  wind_threshold: '1'
+- name: Cloud Spirit
+  card_type: spell
+  rarity: ordinary
+  rules_box: Airborne, Movement +2
+  type_line: An Ordinary Spirit soars in these skies
+  flavor_text: Children picture creatures in the clouds. Innocence sees what wisdom
+    cannot.
+  power: '2'
+  artist: michal_nagypal
+  identifier: cloud_spirit
+  release: alpha
+  mana_cost: '2'
+  wind_threshold: '1'
+- name: Chain Lightning
+  card_type: spell
+  rarity: exceptional
+  rules_box: This Lightning deals 3 damage to an Avatar or minion near your Spellcaster.  You
+    may pay the mana cost again to repeat this effect any number of times.  The starting
+    point must then be at the last target and it would target another Avatar or minion.
+  type_line: An Exceptional sequence of Magic arcs
+  artist: alan_pollack
+  identifier: chain_lightning
+  release: alpha
+  mana_cost: '2'
+  wind_threshold: '2'
+- name: Blink
+  card_type: spell
+  rarity: ordinary
+  rules_box: An ally teleports to a site near them. Draw a spell.
+  type_line: An Ordinary flash of short distance Magic
+  flavor_text: Blink and you'll miss it.
+  artist: francesca_baerald
+  identifier: blink
+  release: alpha
+  mana_cost: '2'
+  wind_threshold: '2'
+- name: Ball Lightning
+  card_type: spell
+  rarity: elite
+  rules_box: Your Spellcaster lanches this Ball in a cardinal direction.  It deals
+    6 damage to the first Avatar or minion it hits.  Excess damage carries on to whatever
+    it hits next here or on following site.
+  type_line: Relentless and unstoppabke Elite Magic
+  artist: alan_pollack
+  identifier: ball_lightning
+  release: alpha
+  mana_cost: '4'
+  wind_threshold: '2'
+- name: Apprentice Wizard
+  card_type: spell
+  rarity: ordinary
+  rules_box: Spellcaster.  Genesis > Draw a spell.
+  type_line: An Ordinary Mortal untrained in restraint
+  power: '1'
+  artist: ossi_hiekkala
+  identifier: apprentice_wizard
+  release: alpha
+  mana_cost: '3'
+  wind_threshold: '1'
+- name: Devil's Egg
+  card_type: spell
+  rarity: elite
+  rules_box: At the start of your turn, the controller of the site this Egg is on
+    loses 2 life.
+  type_line: An Elite Relic. A direful roe of ruination.
+  artist: brian_smith
+  identifier: devils_egg
+  release: alpha
+  mana_cost: '3'
+- name: Thunderstorm
+  card_type: spell
+  rarity: exceptional
+  rules_box: |-
+    Conjure at the intersection of four sites of which at least one is a Wind site.  It enters play with three counters on it.
+
+    At the end of your turn, remove a counter.  This Thunderstorm deals 3 damage to an enemy on an affected site.  Excess damage is dealth to the site the target is on.
+
+    When this Thunderstorm has no counters on it, dispel it.
+  type_line: An Exceptional Aura strikes with impunity
+  artist: ossi_hiekkala
+  identifier: thunderstorm
+  release: alpha
+  mana_cost: '4'
+  wind_threshold: '2'
+- name: Thunderbolt
+  card_type: spell
+  rarity: ordinary
+  rules_box: This Thunderbolt deals 3 damage to an Avatar or minion anywhere in the
+    Realm.  Excess damage is dealt to the site the target is on,
+  type_line: Ordinary Magic of jagged ferocity
+  artist: ossi_hiekkala
+  identifier: thunderbolt
+  release: alpha
+  mana_cost: '1'
+  wind_threshold: '1'
+- name: Spire
+  card_type: spell
+  rarity: exceptional
+  rules_box: Range +1, Spellcaster, Towerbound
+  type_line: An Exceptional Undead watches over the realm
+  power: '3'
+  artist: vasiliy_ermolaev
+  identifier: spire
+  release: alpha
+  mana_cost: '2'
+  wind_threshold: '1'
+- name: Snow Leopard
+  card_type: spell
+  rarity: ordinary
+  type_line: An Ordinary Beast prowls the ice clad peaks
+  flavor_text: THIS is the Le-o-pard, my child; His tem-per's any-thing but mild.  The
+    Leo-pard can't change his spots, So say the gale of the moun-tain top - Is why
+    he is so wild.
+  power: '2'
+  artist: lindsey_crummett
+  identifier: snow_leopard
+  release: alpha
+  mana_cost: '1'
+  wind_threshold: '1'
+- name: Sling Pixies
+  card_type: spell
+  rarity: ordinary
+  rules_box: |-
+    Airborne, Range +1
+
+    These Pixies are Immune to minions with power 4 or greater.
+  type_line: Ordinary Mythics flutter forth
+  power: '1'
+  artist: vasiliy_ermolaev
+  identifier: sling_pixies
+  release: alpha
+  mana_cost: '1'
+  wind_threshold: '1'
+- name: Plume Pegasus
+  card_type: spell
+  rarity: ordinary
+  rules_box: Airborne
+  type_line: An Ordinary Beast soars high with pride
+  flavor_text: To see the pegasus fly is to feel the spirit soar.
+  power: '3'
+  artist: melissa_a_benson
+  identifier: plume_pegasus
+  release: alpha
+  mana_cost: '3'
+  wind_threshold: '1'
+- name: Peregrine Apparition
+  card_type: spell
+  rarity: exceptional
+  rules_box: |-
+    Airborne, Haste, Voidwalk.
+
+    This Apparition moves freely in the Realm.
+  type_line: An Exceptional Spirit of trancendent velocity
+  power: '1'
+  artist: adam_burke
+  identifier: peregrine_apparition
+  release: alpha
+  mana_cost: '3'
+  wind_threshold: '2'
+- name: Nightmare
+  card_type: spell
+  rarity: elite
+  rules_box: |-
+    Voidwalk.
+
+    When this Nightmare traverses a location, other nearby minions except Demons, Spirits and Undead move one step away.
+  type_line: An Elite Spirit that torments and terrifies
+  power: '5'
+  artist: drew_tucker
+  identifier: nightmare
+  release: alpha
+  mana_cost: '7'
+  wind_threshold: '3'
+- name: Midnight Rogue
+  card_type: spell
+  rarity: ordinary
+  rules_box: Lethal, Stealth
+  type_line: An Ordinary Mortal lurks in the dark
+  flavor_text: Patience is the most deadly of diciplines
+  power: '2'
+  artist: elvira_shakirowa
+  identifier: midnight_rogue
+  release: alpha
+  mana_cost: '2'
+  wind_threshold: '1'
+- name: Gyre Hippogriffs
+  card_type: spell
+  rarity: ordinary
+  rules_box: 'Airborne, Haste '
+  type_line: Ordinary Mythic Beast circle the skies
+  flavor_text: Creature aloft, Will oft, See the turning of the screw, before me or
+    you.
+  power: '4'
+  artist: gadu_duaso
+  identifier: gyre_hippogriffs
+  release: alpha
+  mana_cost: '6'
+  wind_threshold: '2'
+- name: Frost Nova
+  card_type: spell
+  rarity: exceptional
+  rules_box: |-
+    Deal Splash Damage around your Spellcaster:
+    [Damage Grid]
+    Freeze minions damaged by this Nova until the start of your next turn.
+  type_line: Exceptional Magic of explosive cold.
+  artist: francesca_baerald
+  identifier: frost_nova
+  release: alpha
+  mana_cost: '3'
+  water_threshold: '1'
+- name: Drown
+  card_type: spell
+  rarity: ordinary
+  rules_box: Submerge a minion on a Water site. <i>(Minions that are submerged but
+    do not have the Submerge keyword die.)</i>
+  type_line: Ordinary Magic of sudden descent.
+  flavor_text: In the darkening deep they dreamed.
+  artist: alan_pollack
+  identifier: drown
+  release: alpha
+  mana_cost: '3'
+  water_threshold: '1'
+- name: Deep-sea Mermaids
+  card_type: spell
+  rarity: ordinary
+  rules_box: |-
+    Submerge
+
+    Genesis > Draw a spell from the bottom of your spellbook.
+  type_line: Ordinary Muthics of the mysterious depths.
+  power: '2'
+  artist: elvira_shakirowa
+  identifier: deep_sea_mermaids
+  release: alpha
+  mana_cost: '3'
+  water_threshold: '2'
+- name: Coral-reef Kelpie
+  card_type: spell
+  rarity: ordinary
+  rules_box: Submerge
+  type_line: An Ordinary Beast of the tidal wilderness.
+  flavor_text: The last free land lies under the sea.
+  power: '3'
+  artist: melissa_a_benson
+  identifier: coral_reef_kelpie
+  release: alpha
+  mana_cost: '3'
+  water_threshold: '1'
+- name: Ice Lance
+  card_type: spell
+  rarity: exceptional
+  rules_box: |-
+    Deal 3, 2,and 1 damage to Avatars and minions in a line from your Spellcaster.
+    [Damage Grid]
+  type_line: Exceptional Magic of cold precision.
+  artist: brian_smith
+  identifier: ice_lance
+  release: alpha
+  mana_cost: '3'
+  water_threshold: '1'
+- name: Yokai Kappas
+  card_type: spell
+  rarity: exceptional
+  rules_box: |-
+    Iron Skin
+
+    The site these Kappas occupy is also a Water site.
+  type_line: Exceptional Demons of fluid trickery.
+  power: '3'
+  artist: gadu_duaso
+  identifier: yokai_kappas
+  release: alpha
+  mana_cost: '4'
+  water_threshold: '2'
+- name: Upwelling
+  card_type: spell
+  rarity: exceptional
+  rules_box: Return a site near your Spellcaster and everything there to their owner's
+    hand. <i>(Avatars are not returned but are instead moved to the closest site)</i>
+  type_line: Exceptional Magic of fluid undoing.
+  artist: alan_pollack
+  identifier: upwelling
+  release: alpha
+  mana_cost: '5'
+  water_threshold: '2'
+- name: Swamp Buffalo
+  card_type: spell
+  rarity: ordinary
+  type_line: An Ordinary Beast of ponderous proportions.
+  flavor_text: The swamp buffalo is an icon of contentment.
+  power: '2'
+  artist: jussi_pylkas
+  identifier: swamp_buffalo
+  release: alpha
+  mana_cost: '1'
+  water_threshold: '1'
+- name: Sunken Treasure
+  card_type: spell
+  rarity: exceptional
+  rules_box: |-
+    Your opponent chooses one of your water sites as this Treasure enters play. Submerge it there.
+
+    When the bearer of this Treasure surfaces, its controller draws 2 spells. Sacrifice this Treasure.
+  type_line: Long lost Exceptional Relics waiting to be found.
+  artist: jeff_a_menges
+  identifier: sunken_treasure
+  release: alpha
+  mana_cost: '2'
+- name: Riptide
+  card_type: spell
+  rarity: ordinary
+  rules_box: Pull an Avatar or minion to a Water site adjacent to them. Draw a Spell.
+  type_line: Ordinary Magic to trap the unwary.
+  artist: marta_molina
+  identifier: riptide
+  release: alpha
+  mana_cost: '2'
+  water_threshold: '1'
+- name: Rattlesnakes
+  card_type: spell
+  rarity: ordinary
+  rules_box: Burrowing, Lethal
+  type_line: Ordinary Beasts slither and rattle here.
+  flavor_text: Don't tread on me.
+  power: '1'
+  artist: michal_nagypal
+  identifier: rattlesnakes
+  release: alpha
+  mana_cost: '2'
+  fire_threshold: '2'
+- name: Raa Dromeday
+  card_type: spell
+  rarity: ordinary
+  type_line: An Ordinary and superbly indifferent Beast.
+  flavor_text: |-
+    "And a coarse grace remained: his head was high,
+    Through his gaunt flanks with a great mange were worn;
+    There was not any yearning in his eye,
+    But on his lips and nostril infinite scorn."
+
+    - Archibald Young Campbell
+  power: '2'
+  artist: caio_calazans
+  identifier: raa_dromeday
+  release: alpha
+  mana_cost: '1'
+  fire_threshold: '1'
+- name: Quarrelsome Kobolds
+  card_type: spell
+  rarity: exceptional
+  rules_box: At the end of your turn, these Kobolds must deal damage equal to their
+    power to another adjacent minion or themselves.
+  type_line: Exceptional Monsters raise a rukcus here.
+  flavor_text: '"But he started it!" - the kobold who started it.'
+  power: '3'
+  artist: alan_pollack
+  identifier: quarrelsome_kobolds
+  release: alpha
+  mana_cost: '4'
+  fire_threshold: '2'
+- name: Ogre Goons
+  card_type: spell
+  rarity: ordinary
+  rules_box: These Goons must attack an enemy minion if able.
+  type_line: These Ordinary Monsters are out of control.
+  power: '4'
+  artist: jeff_a_menges
+  identifier: ogre_goons
+  release: alpha
+  mana_cost: '3'
+  fire_threshold: '1'
+- name: Major Explosion
+  card_type: spell
+  rarity: elite
+  rules_box: |-
+    Choose a center site of this Explosion in a cardinal direction from your Spoellcaster. Deal Splash Damage.
+    [Damage Grid]
+    The Spellcaster takes no damage from this Explosion.
+  type_line: Elite Magic of tremendous destruction.
+  artist: tony_szczudlo
+  identifier: major_explosion
+  release: alpha
+  mana_cost: '7'
+  fire_threshold: '2'
+- name: Incinerate
+  card_type: spell
+  rarity: ordinary
+  rules_box: Deal 5 Splash Damage on a site near your Spellcaster or Dragon.
+  type_line: Ordinary Magic in these draconic realms.
+  flavor_text: |-
+    Of scale and smoke, of flight and flame,
+    these ancient tracts are forged.
+  artist: lindsey_crummett
+  identifier: incinerate
+  release: alpha
+  mana_cost: '5'
+  fire_threshold: '1'
+- name: Flashfire
+  card_type: spell
+  rarity: exceptional
+  rules_box: |-
+    Conjure near your Spellcaster.
+
+    This Flashfire deals 4 Splash Damage whever it traverses.
+
+    At the start of your turn, it moves to an adjacent, previously unburned site. If it can't move, discard it. <i>(Use markers to keep track of burned sites)</i>
+  type_line: An Exceptional Aura of persistent destruction.
+  artist: mattias_frisk
+  identifier: flashfire
+  release: alpha
+  mana_cost: '4'
+  fire_threshold: '2'
+- name: Cerberus in Chains
+  card_type: spell
+  rarity: exceptional
+  rules_box: |-
+    This Cerberus is chained to the site whre ir was summoned and can't move further than adjacent locations.
+
+    Unleash it if the site moves or leaves the Realm.
+  type_line: An Exceptional Demon on a short leash.
+  power: '5'
+  artist: alan_pollack
+  identifier: cerberus_in_chains
+  release: alpha
+  mana_cost: '4'
+  fire_threshold: '2'
+- name: Bull Demons of Adum
+  card_type: spell
+  rarity: exceptional
+  rules_box: Haste, Iron SKin, Movement +1
+  type_line: Exceptional Demon Beast of charging rage.
+  flavor_text: |-
+    "The strident reverberations of their hooves struck
+    with so much fright that pregnant women miscarried."
+    - Arioch chronicles
+  power: '3'
+  artist: gadu_duaso
+  identifier: bull_demons_of_adum
+  release: alpha
+  mana_cost: '5'
+  fire_threshold: '1'
+- name: Blaze
+  card_type: spell
+  rarity: exceptional
+  rules_box: An Avatar or ground minion gains +3 Movement and deals 3 Splash Damage
+    on each site in its wake this turn.
+  type_line: Exceptional Magic of scorching speed.
+  artist: elvira_shakirowa
+  identifier: blaze
+  release: alpha
+  mana_cost: '3'
+  fire_threshold: '1'
