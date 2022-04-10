@@ -81,7 +81,7 @@
   element: water
   water_threshold: '2'
   power: '0'
-  artist: unknown
+  artist: tony_szczudlo
   flavor_text: _The sea will outlive us all._
   identifier: anui_undine
   release: alpha
@@ -120,7 +120,7 @@
   mana_cost: '3'
   element: water
   water_threshold: '2'
-  artist: unknown
+  artist: aronjaart
   identifier: atlantean_fate
   release: alpha
 - name: Atlas Wanderers
@@ -1415,7 +1415,7 @@
   mana_cost: '7'
   element: water
   water_threshold: '2'
-  artist: unknown
+  artist: drew_tucker
   identifier: mesmerism
   release: alpha
 - name: Meteor Shower
@@ -1950,7 +1950,7 @@
   type_line: An Ordinary Site of ruinous Fire
   element: none
   fire_threshold: '1'
-  artist: unknown
+  artist: aronjaart
   identifier: remote_desert
   release: alpha
 - name: Replication
@@ -2103,7 +2103,7 @@
   element: fire
   fire_threshold: '1'
   power: '1'
-  artist: unknown
+  artist: dan_seagrave
   identifier: sacred_scarabs
   release: alpha
 - name: Sand Worm
@@ -2273,7 +2273,7 @@
   type_line: 'Your Avatar prognosticates a certain success '
   element: none
   power: '1'
-  artist: unknown
+  artist: dan_seagrave
   identifier: seer
   release: alpha
 - name: Shield Maidens
@@ -3000,8 +3000,8 @@
   card_type: minion
   rarity: elite
   rules_box: Sites near water also become Water sites until end of turn. Submerge
-    all minions and relics on Water sites. <i>(Minions without the Submerge ability
-    die if they are submerged.)</i>
+    all minions and relics on Water sites. _(Minions without the Submerge ability
+    die if they are submerged.)_
   type_line: "{"
   artist: mattias_frisk
   identifier: wrath_of_the_sea
@@ -3350,8 +3350,8 @@
 - name: Drown
   card_type: magic
   rarity: ordinary
-  rules_box: Submerge a minion on a Water site. <i>(Minions that are submerged but
-    do not have the Submerge keyword die.)</i>
+  rules_box: Submerge a minion on a Water site. _(Minions that are submerged but
+    do not have the Submerge keyword die.)_
   type_line: Ordinary Magic of sudden descent.
   flavor_text: In the darkening deep they dreamed.
   artist: alan_pollack
@@ -3415,7 +3415,7 @@
   card_type: magic
   rarity: exceptional
   rules_box: Return a site near your Spellcaster and everything there to their owner's
-    hand. <i>(Avatars are not returned but are instead moved to the closest site)</i>
+    hand. _(Avatars are not returned but are instead moved to the closest site)_
   type_line: Exceptional Magic of fluid undoing.
   artist: alan_pollack
   identifier: upwelling
@@ -3470,7 +3470,8 @@
 - name: Quarrelsome Kobolds
   card_type: minion
   rarity: exceptional
-  rules_box: At the end of your turn, these Kobolds must deal damage equal to their
+  rules_box: |
+    At the end of your turn, these Kobolds must deal damage equal to their
     power to another adjacent minion or themselves.
   type_line: Exceptional Monsters raise a rukcus here.
   flavor_text: '"But he started it!" - the kobold who started it.'
@@ -3525,7 +3526,7 @@
 
     This Flashfire deals 4 Splash Damage whever it traverses.
 
-    At the start of your turn, it moves to an adjacent, previously unburned site. If it can't move, discard it. <i>(Use markers to keep track of burned sites)</i>
+    At the start of your turn, it moves to an adjacent, previously unburned site. If it can't move, discard it. _(Use markers to keep track of burned sites)_
   type_line: An Exceptional Aura of persistent destruction.
   artist: mattias_frisk
   identifier: flashfire
