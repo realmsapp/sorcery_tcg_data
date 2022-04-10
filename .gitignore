@@ -9,3 +9,4 @@
 /data/*/cards/*/images/*
 /data/*/cards/*/tokens/*
 /data/*/game_assets
+.DS_Store

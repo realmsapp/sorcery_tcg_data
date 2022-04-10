@@ -14,8 +14,11 @@ module SorceryTcgData
       def magic? = key == "magic"
       def aura? = key == "aura"
       def relic? = key == "relic"
-
       def spellbook? = minion? || magic? || aura? || relic?
     end
+
+    ALL = Lookup.load("card_types.yaml") { |item| CardType.new(**item) }.freeze
+
+    def self.fetch(key, *args) = ALL.fetch(key, *args)
   end
 end

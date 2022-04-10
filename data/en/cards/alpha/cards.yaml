@@ -3467,23 +3467,6 @@
   release: alpha
   mana_cost: '2'
   fire_threshold: '2'
-- name: Raa Dromeday
-  card_type: magic
-  rarity: ordinary
-  type_line: An Ordinary and superbly indifferent Beast.
-  flavor_text: |-
-    "And a coarse grace remained: his head was high,
-    Through his gaunt flanks with a great mange were worn;
-    There was not any yearning in his eye,
-    But on his lips and nostril infinite scorn."
-
-    - Archibald Young Campbell
-  power: '2'
-  artist: caio_calazans
-  identifier: raa_dromeday
-  release: alpha
-  mana_cost: '1'
-  fire_threshold: '1'
 - name: Quarrelsome Kobolds
   card_type: minion
   rarity: exceptional

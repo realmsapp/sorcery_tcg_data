@@ -8,5 +8,9 @@ module SorceryTcgData
         name String
       }
     end
+
+    ALL = Lookup.load("rarities.yaml") { |item| Rarity.new(**item) }.freeze
+
+    def self.fetch(key, *args) = ALL.fetch(key, *args)
   end
 end
