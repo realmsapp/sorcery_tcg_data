@@ -1,38 +1,33 @@
 # SorceryTcgData
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/sorcery_tcg_data`. To experiment with that code, run `bin/console` for an interactive prompt.
+**The data presented in this repository about Sorcery: Contested Realm, both literal and graphical, is copyrighted by Erik's Curiosa Limited. This project is not produced, endorsed, supported, or affiliated with Erik's Curiosa Limited.**
 
-TODO: Delete this and the text above, and describe your gem
+This repository houses serialized card and game data for the trading card game [Sorcery: Contested Realm](https://www.sorcerytcg.com).
 
-## Installation
+### `data`
 
-Add this line to your application's Gemfile:
+The core of this project is the YAML data contained in the `data` directory.
+If you see a mistake or have metadata you would like to add, feel free to open up a pull request.
 
-```ruby
-gem 'sorcery_tcg_data'
-```
+YAML is used as it's much easier to write, and currenty I suspect these files will be edited by hand until better tooling is supported.
+If you'd prefer JSON, you can use `yq -out=json path/to/file.yaml` and be on your way.
 
-And then execute:
+### `src`
 
-    $ bundle install
-
-Or install it yourself as:
-
-    $ gem install sorcery_tcg_data
-
-## Usage
-
-TODO: Write usage instructions here
-
-## Development
-
-After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake test` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
-
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and the created tag, and push the `.gem` file to [rubygems.org](https://rubygems.org).
+The data directory aims to be platform agnostic.
+The src directory houses platform specific packages that wrap the data.
+We'll see if this turns out to be a bad idea :sweat_smile:
+If so, the packages will be moved to their own repositories.
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/sorcery_tcg_data. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/[USERNAME]/sorcery_tcg_data/blob/master/CODE_OF_CONDUCT.md).
+Bug reports and pull requests are welcome on GitHub at https://github.com/realmsapp/sorcery_tcg_data. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/realmsapp/sorcery_tcg_data/blob/main/CODE_OF_CONDUCT.md).
+
+### Translations
+
+If you'd like to add support for a new locale, copy the `data/en` directory and build out similar translated YAML files.
+
+TODO: Process for validating these files. Perhaps jsonschema or (arguably simpler) jsontypedef?
 
 ## License
 
@@ -40,4 +35,4 @@ The gem is available as open source under the terms of the [MIT License](https:/
 
 ## Code of Conduct
 
-Everyone interacting in the SorceryTcgData project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/[USERNAME]/sorcery_tcg_data/blob/master/CODE_OF_CONDUCT.md).
+Everyone interacting in this codebase, issue tracker, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/realms_app/sorcery_tcg_data/blob/main/CODE_OF_CONDUCT.md).

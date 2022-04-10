@@ -23,5 +23,4 @@ Gem::Specification.new do |spec|
   spec.require_paths = ["src/sorcery_tcg_data_ruby/lib"]
 
   spec.add_dependency "value_semantics"
-  spec.add_development_dependency "debug"
 end
