@@ -19,7 +19,7 @@
   image_url: https://static.wixstatic.com/media/965b5c_280e8bb28a784864b5a870c7639f51ab~mv2.png/v1/fill/w_628,h_880,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_280e8bb28a784864b5a870c7639f51ab~mv2.png
   rules_box: |-
     **Airborne**
-    When a minion kills this Albatross, all of that minion’s nearby allies die.
+    When a minion kills this Albatross, all of that minion's nearby allies die.
   type_line: An Exceptional Beast of fatal portent
   mana_cost: '4'
   element: water
@@ -62,7 +62,7 @@
   card_type: relic
   rarity: elite
   image_url: https://static.wixstatic.com/media/965b5c_d927bef551dc40758eab505bf6404fdd~mv2.png/v1/fill/w_628,h_872,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_d927bef551dc40758eab505bf6404fdd~mv2.png
-  rules_box: At the start of the owner’s turn, the owner of the site this Egg is on
+  rules_box: At the start of the owner's turn, the owner of the site this Egg is on
     or gains 2 life.
   type_line: An Elite Relic. A rebirth of hope.
   mana_cost: '3'
@@ -74,7 +74,7 @@
   card_type: minion
   rarity: exceptional
   image_url: https://static.wixstatic.com/media/965b5c_9921655f84ce44e8b5fb1e8cfdc102b5~mv2.png/v1/fill/w_628,h_880,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_9921655f84ce44e8b5fb1e8cfdc102b5~mv2.png
-  rules_box: This Undine gets +1 power for each site that forms a body of water she’s
+  rules_box: This Undine gets +1 power for each site that forms a body of water she's
     in.
   type_line: An Exceptional Spirit of seaborn synergy
   mana_cost: '4'
@@ -259,7 +259,7 @@
   power: '2'
   artist: andrea_modesti
   flavor_text: _“Clumsy and slow, we wretched crossbow, A cousin thus crafted to odious
-    foe.” - Archer’s Lament_
+    foe.” - Archer's Lament_
   identifier: belmotte_longbowmen
   release: alpha
 - name: Black Scorpions
@@ -301,7 +301,7 @@
   earth_threshold: '1'
   power: '3'
   artist: vasiliy_ermolaev
-  flavor_text: _A troll’s thoughts are but reflections in a forest pool, wavering
+  flavor_text: _A troll's thoughts are but reflections in a forest pool, wavering
     and rippling with the wind and the rain._
   identifier: bosk_troll
   release: alpha
@@ -368,7 +368,7 @@
   image_url: https://static.wixstatic.com/media/965b5c_a6257438fd5f4b309be7203b2eb14698~mv2.png/v1/fill/w_628,h_874,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_a6257438fd5f4b309be7203b2eb14698~mv2.png
   rules_box: |-
     **Airborne**
-    **Genesis** — move a weaker minion from anywhere in the realm to these Harpies’ location. If that minion is an enemy one, these Harpies attack it.
+    **Genesis** — move a weaker minion from anywhere in the realm to these Harpies' location. If that minion is an enemy one, these Harpies attack it.
   type_line: Exceptional Mythics on a feeding frenzy
   mana_cost: '4'
   element: fire
@@ -412,7 +412,7 @@
   rules_box: |-
     **Burrowing**
     This Worm can move between non-water sites while burrowed.
-    You control the worm’s site.
+    You control the worm's site.
   type_line: An Elite Monster subjugates this realm
   mana_cost: '8'
   element: earth
@@ -438,7 +438,7 @@
   image_url: https://static.wixstatic.com/media/965b5c_f61ad14ae0414ff8b224064583887086~mv2.png/v1/fill/w_628,h_880,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_f61ad14ae0414ff8b224064583887086~mv2.png
   rules_box: |-
     **Spellcaster**
-    At the start of each player’s turn, if this Jester is near that player’s Avatar, they discard a card.
+    At the start of each player's turn, if this Jester is near that player's Avatar, they discard a card.
   type_line: An Elite Mortal with a dangerous smile
   mana_cost: '3'
   element: water
@@ -529,7 +529,7 @@
   card_type: magic
   rarity: ordinary
   image_url: https://static.wixstatic.com/media/965b5c_3272b4228355493aa878c60a527eb60f~mv2.png/v1/fill/w_628,h_880,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_3272b4228355493aa878c60a527eb60f~mv2.png
-  rules_box: Target minion in harm’s way moves to an adjacent location. Cancel the
+  rules_box: Target minion in harm's way moves to an adjacent location. Cancel the
     attack or spell targeting the minion.
   type_line: Ordinary Quick and nimble Magic
   mana_cost: '0'
@@ -601,7 +601,7 @@
   image_url: https://static.wixstatic.com/media/965b5c_e91bf1c9e1bf49bdad9bc53843da4e02~mv2.png/v1/fill/w_628,h_874,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_e91bf1c9e1bf49bdad9bc53843da4e02~mv2.png
   rules_box: |-
     Conjure on two or four locations of which at least one is a Fire site.
-    Affected sites count as Fire sites and give Fire threshold. Minions can’t submerge or be submerged here. Water spells and minions can’t be played here.
+    Affected sites count as Fire sites and give Fire threshold. Minions can't submerge or be submerged here. Water spells and minions can't be played here.
   type_line: An Exceptional Aura of desperate dearth
   mana_cost: '3'
   element: fire
@@ -668,7 +668,7 @@
   card_type: site
   rarity: unique
   image_url: https://static.wixstatic.com/media/965b5c_743c7c5aec404418a8b41c5284186273~mv2.png/v1/fill/w_960,h_690,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_743c7c5aec404418a8b41c5284186273~mv2.png
-  rules_box: Players can’t play sites near this site
+  rules_box: Players can't play sites near this site
   type_line: A Unique and final Site before the void
   element: none
   artist: adam_burke
@@ -743,7 +743,7 @@
   card_type: relic
   rarity: unique
   image_url: https://static.wixstatic.com/media/965b5c_7070ebaa0a684967b17f7289886d47e7~mv2.png/v1/fill/w_628,h_872,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_7070ebaa0a684967b17f7289886d47e7~mv2.png
-  rules_box: When an Avatar moves here, that Avatar’s owner draws 3 spells. Destroy
+  rules_box: When an Avatar moves here, that Avatar's owner draws 3 spells. Destroy
     this Curiosa.
   type_line: Unique Relics gathered from forgotten places
   mana_cost: '3'
@@ -811,8 +811,8 @@
   image_url: https://static.wixstatic.com/media/965b5c_c12b4d8ab0dd4781b037b632f4267ad7~mv2.png/v1/fill/w_628,h_874,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_c12b4d8ab0dd4781b037b632f4267ad7~mv2.png
   rules_box: |-
     Play near your Spellcaster.
-    These Flashfires deal 4 Splash Damage wherever it’s summoned or moves to.
-    At the start of your turn, it moves to an adjacent, previously unturned site. If it can’t move, discard it.
+    These Flashfires deal 4 Splash Damage wherever it's summoned or moves to.
+    At the start of your turn, it moves to an adjacent, previously unturned site. If it can't move, discard it.
   type_line: Exceptional Magic of persistent destruction
   mana_cost: '4'
   element: fire
@@ -826,7 +826,7 @@
   image_url: https://static.wixstatic.com/media/965b5c_e982d4a6027142c782adecf831d242e4~mv2.png/v1/fill/w_628,h_880,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_e982d4a6027142c782adecf831d242e4~mv2.png
   rules_box: |-
     Conjure on two or four locations of which at least one is a Water site.
-    Affected sites are also Water sites and provide Water threshold. Burrowed minions here drown. Fire spells and minions can’t be played here.
+    Affected sites are also Water sites and provide Water threshold. Burrowed minions here drown. Fire spells and minions can't be played here.
   type_line: An Exceptional Aura of severe overflow
   mana_cost: '4'
   element: water
@@ -838,7 +838,7 @@
   card_type: magic
   rarity: elite
   image_url: https://static.wixstatic.com/media/965b5c_b2585590634743d49ce1feb6ba72f216~mv2.png/v1/fill/w_628,h_880,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_b2585590634743d49ce1feb6ba72f216~mv2.png
-  rules_box: Gain life equal to the number of Water sites in play. If you are on Death’s
+  rules_box: Gain life equal to the number of Water sites in play. If you are on Death's
     Door, instead set your life to 1.
   type_line: Elite Magic of eternal youth
   mana_cost: '3'
@@ -852,7 +852,7 @@
   rarity: exceptional
   image_url: https://static.wixstatic.com/media/965b5c_85b6d5b5d7e844499d3439dabdfa10c5~mv2.png/v1/fill/w_628,h_878,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_85b6d5b5d7e844499d3439dabdfa10c5~mv2.png
   rules_box: When these settlers move, they may do so to an adjacent location, placing
-    the top site from your atlas there. Once settled, they can’t move.
+    the top site from your atlas there. Once settled, they can't move.
   type_line: Exceptional Mortals of sweat and survival
   mana_cost: '3'
   element: earth
@@ -1082,7 +1082,7 @@
   rarity: exceptional
   image_url: https://static.wixstatic.com/media/965b5c_74c8cfca9c064706aa012f56819e716b~mv2.png/v1/fill/w_628,h_874,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_74c8cfca9c064706aa012f56819e716b~mv2.png
   rules_box: Minions on the site directly in front of this Basilisk are petrified.
-    (They lose all abilities and can’t fight or move.)
+    (They lose all abilities and can't fight or move.)
   type_line: An Exceptional Mythic with a stony stare
   mana_cost: '4'
   element: fire
@@ -1238,7 +1238,7 @@
   earth_threshold: '2'
   power: '2'
   artist: ossi_hiekkala
-  flavor_text: _You can’t separate a place from its history._
+  flavor_text: _You can't separate a place from its history._
   identifier: land_surveyor
   release: alpha
 - name: Leviathan Island
@@ -1290,7 +1290,7 @@
   wind_threshold: '3'
   power: '5'
   artist: gadu_duaso
-  flavor_text: _With words clothed in reason’s garb, he counseled ignoble ease, peaceful
+  flavor_text: _With words clothed in reason's garb, he counseled ignoble ease, peaceful
     sloth and boundless debauchery._
   identifier: lord_of_lies
   release: alpha
@@ -1300,7 +1300,7 @@
   image_url: https://static.wixstatic.com/media/965b5c_e37437e42f104e20ae74c7031701b519~mv2.png/v1/fill/w_628,h_872,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_e37437e42f104e20ae74c7031701b519~mv2.png
   rules_box: |-
     **Voidwalk**
-    When this Lord enters a site, destroy that site. If it doesn’t destroy a site during your turn, kill it.
+    When this Lord enters a site, destroy that site. If it doesn't destroy a site during your turn, kill it.
   type_line: An Elite Spirit of unimaginable emptiness
   mana_cost: '7'
   element: wind
@@ -1313,7 +1313,7 @@
   card_type: relic
   rarity: elite
   image_url: https://static.wixstatic.com/media/965b5c_9c1e9831c2704dafa26c3749db085b94~mv2.png/v1/fill/w_628,h_872,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_9c1e9831c2704dafa26c3749db085b94~mv2.png
-  rules_box: Nearby minions lose Spellcaster and nearby Avatars can’t cast non-minion
+  rules_box: Nearby minions lose Spellcaster and nearby Avatars can't cast non-minion
     spells.
   type_line: A Unique of delirious dissonance
   mana_cost: '4'
@@ -1379,7 +1379,7 @@
   card_type: minion
   rarity: elite
   image_url: https://static.wixstatic.com/media/965b5c_2796fcdcc1d942a3ac589f11cef1d766~mv2.png/v1/fill/w_628,h_880,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_2796fcdcc1d942a3ac589f11cef1d766~mv2.png
-  rules_box: This Amoeba gets +1 power for each site it’s visited. It continues to
+  rules_box: This Amoeba gets +1 power for each site it's visited. It continues to
     occupy those sites.
   type_line: An Elite Monster expands its influence
   mana_cost: '3'
@@ -1493,7 +1493,7 @@
   card_type: relic
   rarity: unique
   image_url: https://static.wixstatic.com/media/965b5c_c131ef7a18984d0abddead0cf031944d~mv2.png/v1/fill/w_628,h_872,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_c131ef7a18984d0abddead0cf031944d~mv2.png
-  rules_box: The controller’s Wind spells cost 1 less mana to cast.
+  rules_box: The controller's Wind spells cost 1 less mana to cast.
   type_line: A Unique relic of soaring ambition
   mana_cost: '0'
   element: none
@@ -1520,7 +1520,7 @@
   image_url: https://static.wixstatic.com/media/965b5c_85e8d729c90d47f9b1724dd2d4c49a0a~mv2.png/v1/fill/w_628,h_880,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_85e8d729c90d47f9b1724dd2d4c49a0a~mv2.png
   rules_box: |-
     **Spellcaster**
-    Damage to you Avatar from a nearby site is also dealt to opponent’s Avatar.
+    Damage to you Avatar from a nearby site is also dealt to opponent's Avatar.
   type_line: Exceptional Mortals or primordial vengeance
   mana_cost: '2'
   element: earth
@@ -1630,7 +1630,7 @@
   element: wind
   wind_threshold: '1'
   artist: lindsey_crummett
-  flavor_text: _“Ygnaiih ygnaiih thflthkh’ngha… Yog-Sothoth… Y’bthnk h’ehye—n’grkdl’lh!”
+  flavor_text: _“Ygnaiih ygnaiih thflthkh'ngha… Yog-Sothoth… Y'bthnk h'ehye—n'grkdl'lh!”
     - HP Lovecraft_
   identifier: occult_ritual
   release: alpha
@@ -1686,7 +1686,7 @@
   power: '2'
   artist: lindsey_crummett
   flavor_text: |-
-    _To the bat, it is the world that’s blind.
+    _To the bat, it is the world that's blind.
     To the song-spun tapestry of its kind._
   identifier: palliburrie_bats
   release: alpha
@@ -1710,7 +1710,7 @@
   rarity: unique
   image_url: https://static.wixstatic.com/media/965b5c_dbe5cdc62f3940b998ecf604f3eef611~mv2.png/v1/fill/w_628,h_872,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_dbe5cdc62f3940b998ecf604f3eef611~mv2.png
   rules_box: |-
-    Conjure at the intersection of two sites of which at least one is yours. This Pendulum can’t be picked up.
+    Conjure at the intersection of two sites of which at least one is yours. This Pendulum can't be picked up.
     It swings between the sites at the start of your turn and kills all minions where it swings to. You choose its starting position.
   type_line: A Unique Relic of certain cessation
   mana_cost: '4'
@@ -1754,7 +1754,7 @@
   image_url: https://static.wixstatic.com/media/965b5c_435068680938433d9059b2970775f16f~mv2.png/v1/fill/w_628,h_872,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_435068680938433d9059b2970775f16f~mv2.png
   rules_box: |-
     The bearer of this Stone is a Spellcaster.
-    The controller’s spells cost 1 less mana and require one less of each elemental threshold.
+    The controller's spells cost 1 less mana and require one less of each elemental threshold.
   type_line: This Unique Relic is the magnus opus of alchemy
   mana_cost: '1'
   element: none
@@ -1849,7 +1849,7 @@
   image_url: https://static.wixstatic.com/media/965b5c_5d2bee466041428ba8bbcb965a19ab5c~mv2.png/v1/fill/w_628,h_880,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_5d2bee466041428ba8bbcb965a19ab5c~mv2.png
   rules_box: |-
     **Immobile**
-    Tap -> This Butcher hooks one of the closest minions of your choice in any cardinal direction and drags it to his location. If it’s an enemy, this Butcher attacks it.
+    Tap -> This Butcher hooks one of the closest minions of your choice in any cardinal direction and drags it to his location. If it's an enemy, this Butcher attacks it.
   type_line: An Exceptional Monster of sloth and greed
   mana_cost: '4'
   element: earth
@@ -1862,7 +1862,7 @@
   card_type: minion
   rarity: elite
   image_url: https://static.wixstatic.com/media/965b5c_84f3d2bb0086459cb101e7448694a2a3~mv2.png/v1/fill/w_628,h_882,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_84f3d2bb0086459cb101e7448694a2a3~mv2.png
-  rules_box: "**Airborne**\r\nYou controllers all minions at this Master’s location."
+  rules_box: "**Airborne**\r\nYou controllers all minions at this Master's location."
   type_line: An Elite Spirit pulls the strings here
   mana_cost: '6'
   element: wind
@@ -1877,7 +1877,7 @@
   image_url: https://static.wixstatic.com/media/965b5c_71a0bf77b43040a0b3b0f16956cc25ee~mv2.png/v1/fill/w_628,h_872,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_71a0bf77b43040a0b3b0f16956cc25ee~mv2.png
   rules_box: |-
     Conjure on your back row.
-    Move this Juggernaut one step forward at the start of your turn. All minions on the same site as this Juggernaut are destroyed. If there’s no site in front of it when it tries to move forward, destroy it.
+    Move this Juggernaut one step forward at the start of your turn. All minions on the same site as this Juggernaut are destroyed. If there's no site in front of it when it tries to move forward, destroy it.
   type_line: An Elite Relic of ceaseless slaughter
   mana_cost: '5'
   element: none
@@ -1973,7 +1973,7 @@
   image_url: https://static.wixstatic.com/media/965b5c_1df5ee44ee774ce9941aa9ff0a4ef320~mv2.png/v1/fill/w_628,h_880,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_1df5ee44ee774ce9941aa9ff0a4ef320~mv2.png
   rules_box: |-
     Conjure on two or four sites of which at least one is an Earth site.
-    Undead and spirits in the affected sites are forcibly burrowed and can’t unburrow. This is true for any afterwards, too.
+    Undead and spirits in the affected sites are forcibly burrowed and can't unburrow. This is true for any afterwards, too.
   type_line: An Elite Aura of eternal rest
   mana_cost: '5'
   element: earth
@@ -2119,7 +2119,7 @@
   artist: vincent_pompetti
   flavor_text: |-
     _The sands whisper their sorrowful song,
-    In the wake of the blind one’s thirst._
+    In the wake of the blind one's thirst._
   identifier: sand_worm
   release: alpha
 - name: Sandstorm
@@ -2336,7 +2336,7 @@
   image_url: https://static.wixstatic.com/media/965b5c_58574b7e2822475081b4452769f45c70~mv2.png/v1/fill/w_628,h_880,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_58574b7e2822475081b4452769f45c70~mv2.png
   rules_box: |-
     **Airborne**, **Iron Skin**
-    These Valkyries and friendly minions on the same location can’t be chosen as the target of a spell or ability.
+    These Valkyries and friendly minions on the same location can't be chosen as the target of a spell or ability.
   type_line: Elite Mythics hold their immortal vigil
   mana_cost: '6'
   element: earth
@@ -2396,7 +2396,7 @@
   power: '1'
   artist: ossi_hiekkala
   flavor_text: |-
-    _“Since long I’ve held silence as a remedy for harm.”
+    _“Since long I've held silence as a remedy for harm.”
     - Aeschylus_
   identifier: sisters_of_silence
   release: alpha
@@ -2490,7 +2490,7 @@
   rules_box: |-
     **Spellcaster**, **Range +1**
     Summon only on your tower.
-    This Lich can’t move.
+    This Lich can't move.
   type_line: An Exceptional Undead watches over the realm
   mana_cost: '2'
   element: wind
@@ -2503,7 +2503,7 @@
   card_type: minion
   rarity: elite
   image_url: https://static.wixstatic.com/media/965b5c_0641c2491fa6427e86f535d8912b5223~mv2.png/v1/fill/w_628,h_880,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_0641c2491fa6427e86f535d8912b5223~mv2.png
-  rules_box: Adjacent minions are petrified. (They lose all abilities and can’t fight
+  rules_box: Adjacent minions are petrified. (They lose all abilities and can't fight
     or move.)
   type_line: Elite Mythics gaze longingly from this vantage
   mana_cost: '7'
@@ -2574,7 +2574,7 @@
   element: wind
   wind_threshold: '1'
   artist: jeff_easley
-  flavor_text: _“If it’s in my hand, it’s mind.” - Toddler’s first rule._
+  flavor_text: _“If it's in my hand, it's mind.” - Toddler's first rule._
   identifier: telekinesis
   release: alpha
 - name: Tide Naiads
@@ -2612,7 +2612,7 @@
   image_url: https://static.wixstatic.com/media/965b5c_29264621858b4a6ca28cafe481c8fc95~mv2.png/v1/fill/w_628,h_872,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_29264621858b4a6ca28cafe481c8fc95~mv2.png
   rules_box: |-
     The bearer of this trinket has +1 power.
-    At the end of your turn, return the trinket to its controller’s hand.
+    At the end of your turn, return the trinket to its controller's hand.
   type_line: An Ordinary Relic of recurring force
   mana_cost: '1'
   element: none
@@ -2828,7 +2828,7 @@
   card_type: relic
   rarity: exceptional
   image_url: https://static.wixstatic.com/media/965b5c_87c023defef84990942f0e52733a5831~mv2.png/v1/fill/w_628,h_872,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_87c023defef84990942f0e52733a5831~mv2.png
-  rules_box: Nearby Wind damage is reduced by 2. Bearer can’t be targeted by Wind
+  rules_box: Nearby Wind damage is reduced by 2. Bearer can't be targeted by Wind
     spells.
   type_line: An Exceptional Relic of air protection
   mana_cost: '1'
