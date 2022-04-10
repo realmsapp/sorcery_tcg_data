@@ -3,7 +3,7 @@
 source "https://rubygems.org"
 
 # Specify your gem's dependencies in sorcery_tcg_data_ruby.gemspec
-gemspec
+gemspec path: "../../"
 
 gem "rake", "~> 13.0"
 
