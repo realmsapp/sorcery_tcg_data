@@ -7,3 +7,7 @@
   name: Elite
 - key: unique
   name: Unique
+- key: unknown
+  name: Unknown
+- key: none
+  name: None

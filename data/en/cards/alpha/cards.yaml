@@ -2985,7 +2985,7 @@
   identifier: bottomless_pit
   release: alpha
 - name: Silence
-  card_type: spell
+  card_type: aura
   rarity: exceptional
   rules_box: |-
     Conjure at the intersection of two or four locations.
@@ -2997,7 +2997,7 @@
   mana_cost: '3'
   water_threshold: '1'
 - name: Wrath of the Sea
-  card_type: spell
+  card_type: minion
   rarity: elite
   rules_box: Sites near water also become Water sites until end of turn. Submerge
     all minions and relics on Water sites. <i>(Minions without the Submerge ability
@@ -3009,7 +3009,7 @@
   mana_cost: '7'
   water_threshold: '2'
 - name: Fireball
-  card_type: spell
+  card_type: magic
   rarity: exceptional
   rules_box: 'Your Spellcaster launches a Fireball that travels in a cardinal direction
     from your Spellcaster. It explodes when it hits an enemy, dealing Splash Damage:
@@ -3021,7 +3021,7 @@
   mana_cost: '4'
   fire_threshold: '1'
 - name: Heat Ray
-  card_type: spell
+  card_type: magic
   rarity: ordinary
   rules_box: Deal 2 Splash Damage in a line in any cardinal direction from your Spellcaster
     [Damage Grid]
@@ -3033,7 +3033,7 @@
   mana_cost: '2'
   fire_threshold: '1'
 - name: Unland Angler
-  card_type: spell
+  card_type: minion
   rarity: exceptional
   rules_box: |-
     Submerge, Waterbound
@@ -3047,7 +3047,7 @@
   mana_cost: '5'
   water_threshold: '2'
 - name: Old Salt Anchorman
-  card_type: spell
+  card_type: minion
   rarity: ordinary
   rules_box: This Anchorman and nearby allies are immovable by enemies.
   type_line: An Ordinary Pirate Mortal holds steady and true.
@@ -3062,7 +3062,7 @@
   mana_cost: '1'
   water_threshold: '1'
 - name: Mother Nature
-  card_type: spell
+  card_type: minion
   rarity: unique
   rules_box: |-
     Immobile
@@ -3075,7 +3075,7 @@
   mana_cost: '7'
   water_threshold: '3'
 - name: Bridge Troll
-  card_type: spell
+  card_type: minion
   rarity: ordinary
   rules_box: Immobile
   type_line: An Ordinary Monster vexed by all who dare.
@@ -3087,7 +3087,7 @@
   mana_cost: '1'
   water_threshold: '1'
 - name: Fey Changeling
-  card_type: spell
+  card_type: minion
   rarity: ordinary
   rules_box: This Changeling may be played on any occupied site. Unsummon target minion
     there when you do.
@@ -3099,7 +3099,7 @@
   mana_cost: '2'
   water_threshold: '1'
 - name: Diluvian Kraken
-  card_type: spell
+  card_type: minion
   rarity: elite
   rules_box: |-
     Submerge
@@ -3112,7 +3112,7 @@
   mana_cost: '7'
   water_threshold: '3'
 - name: Drums of Doom
-  card_type: spell
+  card_type: relic
   rarity: elite
   rules_box: If a nearby minion is targeted by a spell or ability, or takes any damage,
     kill it.
@@ -3124,7 +3124,7 @@
   release: alpha
   mana_cost: '5'
 - name: Dead of Night Demon
-  card_type: spell
+  card_type: minion
   rarity: ordinary
   rules_box: Stealth
   type_line: An Ordinary Demon stalks the witching hours
@@ -3137,7 +3137,7 @@
   mana_cost: '2'
   wind_threshold: '1'
 - name: Cloud Spirit
-  card_type: spell
+  card_type: minion
   rarity: ordinary
   rules_box: Airborne, Movement +2
   type_line: An Ordinary Spirit soars in these skies
@@ -3150,7 +3150,7 @@
   mana_cost: '2'
   wind_threshold: '1'
 - name: Chain Lightning
-  card_type: spell
+  card_type: magic
   rarity: exceptional
   rules_box: This Lightning deals 3 damage to an Avatar or minion near your Spellcaster.  You
     may pay the mana cost again to repeat this effect any number of times.  The starting
@@ -3162,7 +3162,7 @@
   mana_cost: '2'
   wind_threshold: '2'
 - name: Blink
-  card_type: spell
+  card_type: magic
   rarity: ordinary
   rules_box: An ally teleports to a site near them. Draw a spell.
   type_line: An Ordinary flash of short distance Magic
@@ -3173,7 +3173,7 @@
   mana_cost: '2'
   wind_threshold: '2'
 - name: Ball Lightning
-  card_type: spell
+  card_type: magic
   rarity: elite
   rules_box: Your Spellcaster lanches this Ball in a cardinal direction.  It deals
     6 damage to the first Avatar or minion it hits.  Excess damage carries on to whatever
@@ -3185,7 +3185,7 @@
   mana_cost: '4'
   wind_threshold: '2'
 - name: Apprentice Wizard
-  card_type: spell
+  card_type: minion
   rarity: ordinary
   rules_box: Spellcaster.  Genesis > Draw a spell.
   type_line: An Ordinary Mortal untrained in restraint
@@ -3196,7 +3196,7 @@
   mana_cost: '3'
   wind_threshold: '1'
 - name: Devil's Egg
-  card_type: spell
+  card_type: relic
   rarity: elite
   rules_box: At the start of your turn, the controller of the site this Egg is on
     loses 2 life.
@@ -3206,7 +3206,7 @@
   release: alpha
   mana_cost: '3'
 - name: Thunderstorm
-  card_type: spell
+  card_type: magic
   rarity: exceptional
   rules_box: |-
     Conjure at the intersection of four sites of which at least one is a Wind site.  It enters play with three counters on it.
@@ -3221,7 +3221,7 @@
   mana_cost: '4'
   wind_threshold: '2'
 - name: Thunderbolt
-  card_type: spell
+  card_type: magic
   rarity: ordinary
   rules_box: This Thunderbolt deals 3 damage to an Avatar or minion anywhere in the
     Realm.  Excess damage is dealt to the site the target is on,
@@ -3232,7 +3232,7 @@
   mana_cost: '1'
   wind_threshold: '1'
 - name: Spire
-  card_type: spell
+  card_type: minion
   rarity: exceptional
   rules_box: Range +1, Spellcaster, Towerbound
   type_line: An Exceptional Undead watches over the realm
@@ -3243,7 +3243,7 @@
   mana_cost: '2'
   wind_threshold: '1'
 - name: Snow Leopard
-  card_type: spell
+  card_type: minion
   rarity: ordinary
   type_line: An Ordinary Beast prowls the ice clad peaks
   flavor_text: THIS is the Le-o-pard, my child; His tem-per's any-thing but mild.  The
@@ -3256,7 +3256,7 @@
   mana_cost: '1'
   wind_threshold: '1'
 - name: Sling Pixies
-  card_type: spell
+  card_type: minion
   rarity: ordinary
   rules_box: |-
     Airborne, Range +1
@@ -3270,7 +3270,7 @@
   mana_cost: '1'
   wind_threshold: '1'
 - name: Plume Pegasus
-  card_type: spell
+  card_type: minion
   rarity: ordinary
   rules_box: Airborne
   type_line: An Ordinary Beast soars high with pride
@@ -3282,7 +3282,7 @@
   mana_cost: '3'
   wind_threshold: '1'
 - name: Peregrine Apparition
-  card_type: spell
+  card_type: minion
   rarity: exceptional
   rules_box: |-
     Airborne, Haste, Voidwalk.
@@ -3296,7 +3296,7 @@
   mana_cost: '3'
   wind_threshold: '2'
 - name: Nightmare
-  card_type: spell
+  card_type: minion
   rarity: elite
   rules_box: |-
     Voidwalk.
@@ -3310,7 +3310,7 @@
   mana_cost: '7'
   wind_threshold: '3'
 - name: Midnight Rogue
-  card_type: spell
+  card_type: minion
   rarity: ordinary
   rules_box: Lethal, Stealth
   type_line: An Ordinary Mortal lurks in the dark
@@ -3322,7 +3322,7 @@
   mana_cost: '2'
   wind_threshold: '1'
 - name: Gyre Hippogriffs
-  card_type: spell
+  card_type: minion
   rarity: ordinary
   rules_box: 'Airborne, Haste '
   type_line: Ordinary Mythic Beast circle the skies
@@ -3335,7 +3335,7 @@
   mana_cost: '6'
   wind_threshold: '2'
 - name: Frost Nova
-  card_type: spell
+  card_type: magic
   rarity: exceptional
   rules_box: |-
     Deal Splash Damage around your Spellcaster:
@@ -3348,7 +3348,7 @@
   mana_cost: '3'
   water_threshold: '1'
 - name: Drown
-  card_type: spell
+  card_type: magic
   rarity: ordinary
   rules_box: Submerge a minion on a Water site. <i>(Minions that are submerged but
     do not have the Submerge keyword die.)</i>
@@ -3360,7 +3360,7 @@
   mana_cost: '3'
   water_threshold: '1'
 - name: Deep-sea Mermaids
-  card_type: spell
+  card_type: minion
   rarity: ordinary
   rules_box: |-
     Submerge
@@ -3374,7 +3374,7 @@
   mana_cost: '3'
   water_threshold: '2'
 - name: Coral-reef Kelpie
-  card_type: spell
+  card_type: minion
   rarity: ordinary
   rules_box: Submerge
   type_line: An Ordinary Beast of the tidal wilderness.
@@ -3386,7 +3386,7 @@
   mana_cost: '3'
   water_threshold: '1'
 - name: Ice Lance
-  card_type: spell
+  card_type: magic
   rarity: exceptional
   rules_box: |-
     Deal 3, 2,and 1 damage to Avatars and minions in a line from your Spellcaster.
@@ -3398,7 +3398,7 @@
   mana_cost: '3'
   water_threshold: '1'
 - name: Yokai Kappas
-  card_type: spell
+  card_type: minion
   rarity: exceptional
   rules_box: |-
     Iron Skin
@@ -3412,7 +3412,7 @@
   mana_cost: '4'
   water_threshold: '2'
 - name: Upwelling
-  card_type: spell
+  card_type: magic
   rarity: exceptional
   rules_box: Return a site near your Spellcaster and everything there to their owner's
     hand. <i>(Avatars are not returned but are instead moved to the closest site)</i>
@@ -3423,7 +3423,7 @@
   mana_cost: '5'
   water_threshold: '2'
 - name: Swamp Buffalo
-  card_type: spell
+  card_type: minion
   rarity: ordinary
   type_line: An Ordinary Beast of ponderous proportions.
   flavor_text: The swamp buffalo is an icon of contentment.
@@ -3434,7 +3434,7 @@
   mana_cost: '1'
   water_threshold: '1'
 - name: Sunken Treasure
-  card_type: spell
+  card_type: relic
   rarity: exceptional
   rules_box: |-
     Your opponent chooses one of your water sites as this Treasure enters play. Submerge it there.
@@ -3446,7 +3446,7 @@
   release: alpha
   mana_cost: '2'
 - name: Riptide
-  card_type: spell
+  card_type: magic
   rarity: ordinary
   rules_box: Pull an Avatar or minion to a Water site adjacent to them. Draw a Spell.
   type_line: Ordinary Magic to trap the unwary.
@@ -3456,7 +3456,7 @@
   mana_cost: '2'
   water_threshold: '1'
 - name: Rattlesnakes
-  card_type: spell
+  card_type: minion
   rarity: ordinary
   rules_box: Burrowing, Lethal
   type_line: Ordinary Beasts slither and rattle here.
@@ -3468,7 +3468,7 @@
   mana_cost: '2'
   fire_threshold: '2'
 - name: Raa Dromeday
-  card_type: spell
+  card_type: magic
   rarity: ordinary
   type_line: An Ordinary and superbly indifferent Beast.
   flavor_text: |-
@@ -3485,7 +3485,7 @@
   mana_cost: '1'
   fire_threshold: '1'
 - name: Quarrelsome Kobolds
-  card_type: spell
+  card_type: minion
   rarity: exceptional
   rules_box: At the end of your turn, these Kobolds must deal damage equal to their
     power to another adjacent minion or themselves.
@@ -3498,7 +3498,7 @@
   mana_cost: '4'
   fire_threshold: '2'
 - name: Ogre Goons
-  card_type: spell
+  card_type: minion
   rarity: ordinary
   rules_box: These Goons must attack an enemy minion if able.
   type_line: These Ordinary Monsters are out of control.
@@ -3509,7 +3509,7 @@
   mana_cost: '3'
   fire_threshold: '1'
 - name: Major Explosion
-  card_type: spell
+  card_type: minion
   rarity: elite
   rules_box: |-
     Choose a center site of this Explosion in a cardinal direction from your Spoellcaster. Deal Splash Damage.
@@ -3522,7 +3522,7 @@
   mana_cost: '7'
   fire_threshold: '2'
 - name: Incinerate
-  card_type: spell
+  card_type: magic
   rarity: ordinary
   rules_box: Deal 5 Splash Damage on a site near your Spellcaster or Dragon.
   type_line: Ordinary Magic in these draconic realms.
@@ -3535,7 +3535,7 @@
   mana_cost: '5'
   fire_threshold: '1'
 - name: Flashfire
-  card_type: spell
+  card_type: magic
   rarity: exceptional
   rules_box: |-
     Conjure near your Spellcaster.
@@ -3550,7 +3550,7 @@
   mana_cost: '4'
   fire_threshold: '2'
 - name: Cerberus in Chains
-  card_type: spell
+  card_type: minion
   rarity: exceptional
   rules_box: |-
     This Cerberus is chained to the site whre ir was summoned and can't move further than adjacent locations.
@@ -3564,7 +3564,7 @@
   mana_cost: '4'
   fire_threshold: '2'
 - name: Bull Demons of Adum
-  card_type: spell
+  card_type: minion
   rarity: exceptional
   rules_box: Haste, Iron SKin, Movement +1
   type_line: Exceptional Demon Beast of charging rage.
@@ -3579,7 +3579,7 @@
   mana_cost: '5'
   fire_threshold: '1'
 - name: Blaze
-  card_type: spell
+  card_type: magic
   rarity: exceptional
   rules_box: An Avatar or ground minion gains +3 Movement and deals 3 Splash Damage
     on each site in its wake this turn.

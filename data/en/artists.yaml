@@ -21,6 +21,10 @@
   name: Drew Tucker
 - key: elvira_shakirova
   name: Elvira Shakirova
+- key: elvira_shakirowa
+  name: FIXME
+- key: Melissa Benson
+  name: FIXME
 - key: elwira_pawlikowska
   name: Elwira Pawlikowska
 - key: francesca_baerald
@@ -33,6 +37,8 @@
   name: Jeff Easley
 - key: jeff_menges
   name: Jeff Menges
+- key: jeff_a_menges
+  name: FIXME
 - key: jussi_pylkäs
   name: Jussi Pylkäs
 - key: lindsey_crummett
@@ -47,6 +53,8 @@
   name: Mattias Frisk
 - key: melissa_benson
   name: Melissa Benson
+- key: melissa_a_benson
+  name: FIXME
 - key: michal_nagypal
   name: Michal Nagypal
 - key: ossi_hiekkala
@@ -65,3 +73,9 @@
   name: Vasiliy Ermolaev
 - key: vincent_pompetti
   name: Vincent Pompetti
+- key: jussi_pylkas
+  name: FIX ME
+- key: aronjaart
+  name: aronjaart
+- key: matt_tames
+  name: Matt Tames

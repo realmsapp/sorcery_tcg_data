@@ -1,0 +1,16 @@
+definitions:
+  rarity_key:
+    enum:
+      - ordinary
+      - exceptional
+      - elite
+      - unique
+      - token
+  rarity:
+    properties:
+      key:
+        ref: rarity_key
+      name:
+        type: string
+elements:
+  ref: rarity

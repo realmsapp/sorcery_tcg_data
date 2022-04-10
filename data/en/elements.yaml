@@ -7,3 +7,5 @@
   name: Water
 - key: wind
   name: Wind
+- key: none
+  name: None
