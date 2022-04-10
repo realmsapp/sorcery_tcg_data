@@ -3,7 +3,7 @@ require "date"
 module SorceryTcgData
   class Lookup
     def self._load(path, &)
-      YAML.safe_load(File.read("./../../data/en/#{path}")).each_with_object({}) do |attributes, memo|
+      YAML.safe_load(File.read("./data/en/#{path}")).each_with_object({}) do |attributes, memo|
         item = yield(attributes.map { |a,v| [a.to_sym, v] }.to_h)
         memo[item.key] = item
       end
