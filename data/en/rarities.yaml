@@ -7,7 +7,7 @@
   name: Elite
 - key: unique
   name: Unique
+- key: token
+  name: Token
 - key: unknown
   name: Unknown
-- key: none
-  name: None

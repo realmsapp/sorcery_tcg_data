@@ -27,22 +27,6 @@ def load(&block)
   end
 end
 
-task :clean do |_task, _args|
-  path = "./data/en/cards/alpha/cards.yaml"
-  cards = YAML.load(File.read(path))
-  cards.each do |card|
-    card["identifier"] = card["name"].gsub(/[^a-zA-Z0-9]+/, "_").underscore
-  end
-  File.write(path, YAML.dump(cards))
-end
-
-task :clean_img do |_task, _args|
-  cards = YAML.load(File.read("./data/en/cards/alpha/cards.yaml")).index_by { |a| a["identifier"] }
-  Dir.glob("./data/en/cards/alpha/images/*.png").each do |img|
-    File.rename(img, img.underscore)
-  end
-end
-
 task :report do |_task, _args|
   rows = []
   load do |name, image_path, web_image_path|

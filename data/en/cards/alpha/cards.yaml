@@ -94,7 +94,7 @@
   element: none
   earth_threshold: '1'
   water_threshold: '1'
-  artist: jeff_menges
+  artist: jeff_a_menges
   identifier: aqueduct
   release: alpha
 - name: Armageddon
@@ -158,7 +158,7 @@
   release: alpha
 - name: Avatar Of Earth
   card_type: avatar
-  rarity: unknown
+  rarity: token
   image_url: https://static.wixstatic.com/media/965b5c_1c8cd05577774ee786c085e101b7ba96~mv2.png/v1/fill/w_628,h_874,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_1c8cd05577774ee786c085e101b7ba96~mv2.png
   initial_life: '26'
   rules_box: |-
@@ -172,7 +172,7 @@
   release: alpha
 - name: Avatar Of Fire
   card_type: avatar
-  rarity: unknown
+  rarity: token
   image_url: https://static.wixstatic.com/media/965b5c_c0695ca9b3ff4537a1566814c7db1373~mv2.png/v1/fill/w_628,h_874,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_c0695ca9b3ff4537a1566814c7db1373~mv2.png
   initial_life: '20'
   rules_box: |-
@@ -187,7 +187,7 @@
   release: alpha
 - name: Avatar Of Water
   card_type: avatar
-  rarity: unknown
+  rarity: token
   image_url: https://static.wixstatic.com/media/965b5c_d586c365a5404573abffd54612f98d09~mv2.png/v1/fill/w_628,h_874,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_d586c365a5404573abffd54612f98d09~mv2.png
   initial_life: '20'
   rules_box: |-
@@ -676,7 +676,7 @@
   release: alpha
 - name: Elementalist
   card_type: avatar
-  rarity: unknown
+  rarity: token
   image_url: https://static.wixstatic.com/media/965b5c_74bfcd8c9d0b410db5f2191c5e8466ce~mv2.png/v1/fill/w_628,h_874,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_74bfcd8c9d0b410db5f2191c5e8466ce~mv2.png
   initial_life: '20'
   rules_box: |-
@@ -695,10 +695,10 @@
   release: alpha
 - name: Elite Counterspell
   card_type: magic
-  rarity: unknown
+  rarity: elite
   image_url: https://static.wixstatic.com/media/965b5c_ab21d39597754b4eb2823eedf59c53a9~mv2.png/v1/fill/w_628,h_878,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_ab21d39597754b4eb2823eedf59c53a9~mv2.png
   element: earth
-  artist: unknown
+  artist: margaret_organ-kean
   identifier: elite_counterspell
   release: alpha
 - name: Emperors Road
@@ -761,7 +761,7 @@
   element: water
   water_threshold: '1'
   power: '3'
-  artist: jeff_menges
+  artist: jeff_a_menges
   identifier: felbog_frog_men
   release: alpha
 - name: Fire Salamander
@@ -774,7 +774,7 @@
   element: fire
   fire_threshold: '2'
   power: '2'
-  artist: melissa_benson
+  artist: melissa_a_benson
   flavor_text: _The flames lick at our heels as the fire crawls ever upwards._
   identifier: fire_salamander
   release: alpha
@@ -1169,7 +1169,7 @@
   element: fire
   fire_threshold: '4'
   power: '5'
-  artist: melissa_benson
+  artist: melissa_a_benson
   identifier: infernal_legion
   release: alpha
 - name: Infiltrate
@@ -1331,7 +1331,7 @@
   element: none
   water_threshold: '1'
   artist: dan_seagrave
-  identifier: maelstr_m
+  identifier: maelström
   release: alpha
 - name: Marine Voyage
   card_type: magic
@@ -1511,7 +1511,7 @@
   element: earth
   earth_threshold: '2'
   power: '2'
-  artist: jeff_menges
+  artist: jeff_a_menges
   identifier: monster_hunter
   release: alpha
 - name: Mordric Druids
@@ -1526,7 +1526,7 @@
   element: earth
   earth_threshold: '1'
   power: '1'
-  artist: jeff_menges
+  artist: jeff_a_menges
   identifier: mordric_druids
   release: alpha
 - name: Mountain Giant
@@ -1692,7 +1692,7 @@
   release: alpha
 - name: Pathfinder
   card_type: avatar
-  rarity: unknown
+  rarity: token
   image_url: https://static.wixstatic.com/media/965b5c_2e42479b967341f1b91d16ba68130a39~mv2.png/v1/fill/w_628,h_874,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_2e42479b967341f1b91d16ba68130a39~mv2.png
   initial_life: '20'
   rules_box: |-
@@ -1745,7 +1745,7 @@
   element: wind
   wind_threshold: '2'
   power: '3'
-  artist: melissa_benson
+  artist: melissa_a_benson
   identifier: phantom_steed
   release: alpha
 - name: Philosophers Stone
@@ -1817,7 +1817,7 @@
   element: water
   water_threshold: '2'
   power: '3'
-  artist: melissa_benson
+  artist: melissa_a_benson
   identifier: polar_bears
   release: alpha
 - name: Pristine Paradise
@@ -2188,7 +2188,7 @@
   type_line: An Exceptional ruined Relic of strength
   mana_cost: '2'
   element: none
-  artist: melissa_benson
+  artist: melissa_a_benson
   identifier: screaming_skull
   release: alpha
 - name: Scroll Curator
@@ -2264,7 +2264,7 @@
   release: alpha
 - name: Seer
   card_type: avatar
-  rarity: unknown
+  rarity: token
   image_url: https://static.wixstatic.com/media/965b5c_7ed0a111e973431fa0c909cee187a87a~mv2.png/v1/fill/w_628,h_874,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_7ed0a111e973431fa0c909cee187a87a~mv2.png
   initial_life: '20'
   rules_box: "**Spellcaster**\nTap to play a site or to draw from your atlas.\nWhen
@@ -2429,7 +2429,7 @@
   release: alpha
 - name: Sorcerer
   card_type: avatar
-  rarity: unknown
+  rarity: token
   image_url: https://static.wixstatic.com/media/965b5c_75f8d76cc1ea48bdbaa3082eecdbf479~mv2.png/v1/fill/w_628,h_874,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_75f8d76cc1ea48bdbaa3082eecdbf479~mv2.png
   initial_life: '20'
   rules_box: |-
@@ -2734,7 +2734,7 @@
   type_line: A rugged Site with Exceptional views
   element: none
   earth_threshold: '1'
-  artist: jeff_menges
+  artist: jeff_a_menges
   identifier: vantage_hills
   release: alpha
 - name: Vril Revenant
@@ -2777,7 +2777,7 @@
   element: fire
   fire_threshold: '2'
   power: '1'
-  artist: jeff_menges
+  artist: jeff_a_menges
   identifier: wayfaring_pilgrim
   release: alpha
 - name: Waypoint Portal
@@ -2833,7 +2833,7 @@
   type_line: An Exceptional Relic of air protection
   mana_cost: '1'
   element: none
-  artist: melissa_benson
+  artist: melissa_a_benson
   identifier: wind_ward_gem
   release: alpha
 - name: Windmill
@@ -2865,14 +2865,14 @@
   release: alpha
 - name: Enchantress
   card_type: avatar
-  rarity: none
+  rarity: token
   rules_box: |-
     Tap > Play or draw a site.
 
     Conjura an aura > You may have a nearby aura You control instead become a minion with power equal to its mana cost until end of turn.
   type_line: Your Avatar of transcendant triumph.
   power: '1'
-  artist: jussi_pylkas
+  artist: jussi_pylkäs
   identifier: enchantress
   initial_life: 20
   release: alpha
@@ -2900,7 +2900,7 @@
   rules_box: "[Fire] [Fire] [Fire] : Vesuvius may be sacrificed to deal 3 Splash Damage
     on nearby Sites."
   type_line: A Uniquely volatile Site on the verge of calamity.
-  artist: jussi_pylkas
+  artist: jussi_pylkäs
   identifier: vesuvius
   release: alpha
   fire_threshold: '1'
@@ -3316,7 +3316,7 @@
   type_line: An Ordinary Mortal lurks in the dark
   flavor_text: Patience is the most deadly of diciplines
   power: '2'
-  artist: elvira_shakirowa
+  artist: elvira_shakirova
   identifier: midnight_rogue
   release: alpha
   mana_cost: '2'
@@ -3368,7 +3368,7 @@
     Genesis > Draw a spell from the bottom of your spellbook.
   type_line: Ordinary Muthics of the mysterious depths.
   power: '2'
-  artist: elvira_shakirowa
+  artist: elvira_shakirova
   identifier: deep_sea_mermaids
   release: alpha
   mana_cost: '3'
@@ -3428,7 +3428,7 @@
   type_line: An Ordinary Beast of ponderous proportions.
   flavor_text: The swamp buffalo is an icon of contentment.
   power: '2'
-  artist: jussi_pylkas
+  artist: jussi_pylkäs
   identifier: swamp_buffalo
   release: alpha
   mana_cost: '1'
@@ -3567,7 +3567,7 @@
   rules_box: An Avatar or ground minion gains +3 Movement and deals 3 Splash Damage
     on each site in its wake this turn.
   type_line: Exceptional Magic of scorching speed.
-  artist: elvira_shakirowa
+  artist: elvira_shakirova
   identifier: blaze
   release: alpha
   mana_cost: '3'
