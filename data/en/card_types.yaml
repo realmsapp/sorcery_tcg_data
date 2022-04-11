@@ -1,13 +1,32 @@
 ---
 - key: aura
   name: Aura
+  description: |
+    Auras are spells of continuous effect that remain in play. Most auras must be conjured at the intersection of two or four locations, and they affect those locations or something on those locations in some way. Auras placed at intersections do not occupy those affected locations, but they should be considered as so for the purposes of range (adjacent, nearby, etc). They remain in the Realm even if their conjuration requirement ceases to be fulfilled. Auras conjured on sites are dispelled if they are in the void.
+
 - key: avatar
   name: Avatar
+  description: |
+    Avatars represent the players and their connection to the Realm. They develop sites, summon minions, conjure relics, and cast magic to seek out and defeat their enemies. Avatars can perform actions just like minions can, but they are not minions; thus, cards that only affect minions do not affect Avatars.
+
 - key: magic
   name: Magic
+  description: |
+    Magic are spells that impact the game as soon as they are played. It is the only type of card in the game that does not enter play, which means that it is a spell that has an immediate effect and is then put in the discard pile. A player may cast magic with Quick in its type line during their opponent's main phase.
+
 - key: minion
   name: Minion
+  description: |
+    Minions are Avatars' greatest allies which assist them in battle both offensively and defensively. A player must summon minions to a site they control. Minions in the void die. Minions remain in the Realm until killed, and there is no limit to the number of minions that can occupy the same site. Minions can perform many actions, but a minion cannot move, attack or use a tap ability the turn it is summoned—it needs to be under the control of a player at the start of that player's turn to do so. A minion may be used to pick up a relic, drop a relic, or block an attack the turn it comes into play.
+
 - key: relic
   name: Relic
+  description: |
+    Relics are powerful items conjured by magic that remain in play. A player must conjure a relic either on a site they control or on any site occupied by their Avatar or minion. When a player conjures a relic, they may have that relic come into play as borne by their Avatar or minion on the same site.
+
+    A relic that is not borne by any Avatar or minion is considered an abandoned relic. Only abandoned relics can be picked up. Relic minions cannot be picked up. When a minion dies, it automatically drops any relics it is bearing. Relics can be burrowed or submerged, and abandoned relics in the void are destroyed. A borne relic follows its bearer's condition (tapped or untapped), and it is always untapped when dropped. For static effects, the controller of a relic is either 1) the player whose Avatar or minion bears it, 2) the player whose Avatar or minion last bore it, or 3) the player that conjured it.
+
 - key: site
   name: Site
+  description: |
+    Sites represent existing locations in the Realm that Avatars imbue with their arcane powers. They are the only card type present in a player's Atlas and are usually played when a player activates their Avatar's ability. A site must either be placed directly under a player's own Avatar if it is in the void, or **adjacent** to another site that player **controls**. There can only be one site per location, which means sites must be placed on a location in the void. Sites remain in play and provide **mana** to pay for mana costs, and most sites also provide **elemental threshold** which is required to cast spells or activate abilities. Undefended sites can be attacked directly by a minion to deal damage to the Avatar whose player controls the site.

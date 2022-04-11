@@ -1,11 +1,25 @@
 ---
 - key: earth
   name: Earth
+  description: |
+    _Enduring Strength_. Simple and strong minions. Spells that interact with one’s Atlas and sites. Anti-magic to hamper the opponents’ spells or movement.
+
 - key: fire
   name: Fire
+  description: |
+    _Desire and Destruction_. Fast and deadly minions. Explosive spells that deal damage to multiple minions or even multiple sites.
+
 - key: water
   name: Water
+  description: |
+    _Charm and Trickery_. Minions that can hide in water. Magic that moves, confuses, or controls the opponent’s minions
+
 - key: wind
   name: Wind
+  description: |
+    _Knowledge and Power_. Small and elusive minions. Single target damage spells and abilities.
+
 - key: none
   name: None
+  description: |
+    N/A

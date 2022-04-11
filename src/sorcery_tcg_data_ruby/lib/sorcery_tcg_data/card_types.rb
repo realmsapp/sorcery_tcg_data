@@ -6,6 +6,7 @@ module SorceryTcgData
       include ValueSemantics.for_attributes {
         key String
         name String
+        description String
       }
 
       def avatar? = key == "avatar"
