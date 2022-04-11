@@ -19,6 +19,7 @@
   image_url: https://static.wixstatic.com/media/965b5c_280e8bb28a784864b5a870c7639f51ab~mv2.png/v1/fill/w_628,h_880,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_280e8bb28a784864b5a870c7639f51ab~mv2.png
   rules_box: |-
     **Airborne**
+    
     When a minion kills this Albatross, all of that minion's nearby allies die.
   type_line: An Exceptional Beast of fatal portent
   mana_cost: '4'
@@ -38,7 +39,7 @@
   earth_threshold: '1'
   power: '6'
   artist: elwira_pawlikowska
-  flavor_text: |-
+  flavor_text: |
     _"We shall arm ourselves in our war gear and
     waken sharp Ares by hollow vessels."
     - Homer_
@@ -62,8 +63,8 @@
   card_type: relic
   rarity: elite
   image_url: https://static.wixstatic.com/media/965b5c_d927bef551dc40758eab505bf6404fdd~mv2.png/v1/fill/w_628,h_872,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_d927bef551dc40758eab505bf6404fdd~mv2.png
-  rules_box: At the start of the owner's turn, the owner of the site this Egg is on
-    or gains 2 life.
+  rules_box: |
+    At the start of the owner's turn, the owner of the site this Egg is on or under gains 2 life.
   type_line: An Elite Relic. A rebirth of hope.
   mana_cost: '3'
   element: none
@@ -74,8 +75,8 @@
   card_type: minion
   rarity: exceptional
   image_url: https://static.wixstatic.com/media/965b5c_9921655f84ce44e8b5fb1e8cfdc102b5~mv2.png/v1/fill/w_628,h_880,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_9921655f84ce44e8b5fb1e8cfdc102b5~mv2.png
-  rules_box: This Undine gets +1 power for each site that forms a body of water she's
-    in.
+  rules_box: |
+    This Undine gets +1 power for each site that forms a body of water she's in.
   type_line: An Exceptional Spirit of seaborn synergy
   mana_cost: '4'
   element: water
@@ -113,8 +114,9 @@
   card_type: aura
   rarity: elite
   image_url: https://static.wixstatic.com/media/965b5c_1c7d1e435d4f4ba8943d3ad40da705fa~mv2.png/v1/fill/w_628,h_880,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_1c7d1e435d4f4ba8943d3ad40da705fa~mv2.png
-  rules_box: |-
+  rules_box: |
     Conjure at the intersection of two or four locations of which at least one is a non-ordinary site.
+    
     Affected non-Ordinary sites become water sites and give Water threshold, but lose all other abilities. All minions and relics on the affected sites are forcibly submerged. This is also true for minions and relics that enter afterwards.
   type_line: An Elite Aura of tragic and entombing tides
   mana_cost: '3'
@@ -127,8 +129,9 @@
   card_type: minion
   rarity: elite
   image_url: https://static.wixstatic.com/media/965b5c_8b56cf0da68746e4b09d25c6600a1cd5~mv2.png/v1/fill/w_640,h_894,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_8b56cf0da68746e4b09d25c6600a1cd5~mv2.png
-  rules_box: |-
+  rules_box: |
     **Iron Skin**
+    
     These wanderers can move to a void carrying their site with them as they move.
   type_line: Elite Mythics and eternal bearers of the world
   mana_cost: '4'
@@ -148,7 +151,7 @@
   earth_threshold: '1'
   power: '4'
   artist: severine_pineaux
-  flavor_text: |-
+  flavor_text: |
     _The lion and the unicorn were fighting for the crown,
     The lion beat the unicorn all around town,
     Some gave them white bread, some gave them brown,
@@ -161,8 +164,9 @@
   rarity: token
   image_url: https://static.wixstatic.com/media/965b5c_1c8cd05577774ee786c085e101b7ba96~mv2.png/v1/fill/w_628,h_874,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_1c8cd05577774ee786c085e101b7ba96~mv2.png
   initial_life: '26'
-  rules_box: |-
+  rules_box: |
     **Spellcaster**
+    
     Tap to play a site or to draw from your atlas.
   type_line: Your Avatar of dependable strength
   element: none
@@ -177,7 +181,9 @@
   initial_life: '20'
   rules_box: |-
     **Spellcaster**
+    
     Tap to play a site or to draw from your atlas.
+    
     Tap and discard a Fire site from your hand to cast a fireball.
   type_line: Your Avatar of desire and destruction
   element: none
@@ -190,9 +196,11 @@
   rarity: token
   image_url: https://static.wixstatic.com/media/965b5c_d586c365a5404573abffd54612f98d09~mv2.png/v1/fill/w_628,h_874,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_d586c365a5404573abffd54612f98d09~mv2.png
   initial_life: '20'
-  rules_box: |-
+  rules_box: |
     **Spellcaster**
+    
     Tap to play a site or to draw a card from your atlas.
+    
     When you play a water site, you may move this avatar to that site.
   type_line: Your Avatar of charm and trickery
   element: none
@@ -205,9 +213,11 @@
   rarity: unknown
   image_url: https://static.wixstatic.com/media/965b5c_8422226773de40fa94112f0434d1e7d6~mv2.png/v1/fill/w_628,h_874,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_8422226773de40fa94112f0434d1e7d6~mv2.png
   initial_life: '20'
-  rules_box: |-
+  rules_box: |
     **Spellcaster**
+    
     Tap to play a site or to draw from your atlas.
+    
     You may fly this Avatar to a nearby site at the end of your turn
   type_line: Your Avatar or knowledge and power
   element: none
@@ -226,20 +236,22 @@
   fire_threshold: '2'
   power: '1'
   artist: brian_smith
-  flavor_text: |-
+  flavor_text: |
     _“Will you walk into my parkour?”
     said the spider to the fly.”
-    - “The Spider and the Fly” by Mary Howitt _
+    - “The Spider and the Fly” by Mary Howitt_
   identifier: bane_spider
   release: alpha
 - name: Battlemage
   card_type: avatar
-  rarity: ordinary
+  rarity: token
   image_url: https://static.wixstatic.com/media/965b5c_8b56cf0da68746e4b09d25c6600a1cd5~mv2.png/v1/fill/w_640,h_894,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_8b56cf0da68746e4b09d25c6600a1cd5~mv2.png
   initial_life: '20'
-  rules_box: |-
+  rules_box: |
     **Spellcaster**
+    
     Tap to play a site or to draw from your atlas.
+    
     Whenever this Battlemage attacks, you may play a site or draw from your atlas.
   type_line: Your avatar to win the battle and the war
   element: none
@@ -258,7 +270,8 @@
   earth_threshold: '1'
   power: '2'
   artist: andrea_modesti
-  flavor_text: _“Clumsy and slow, we wretched crossbow, A cousin thus crafted to odious
+  flavor_text: |
+    “Clumsy and slow, we wretched crossbow, A cousin thus crafted to odious
     foe.” - Archer's Lament_
   identifier: belmotte_longbowmen
   release: alpha
@@ -280,8 +293,9 @@
   card_type: minion
   rarity: ordinary
   image_url: https://static.wixstatic.com/media/965b5c_f1eafcd6ddcb4bbdad0871f266c9f077~mv2.png/v1/fill/w_628,h_876,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_f1eafcd6ddcb4bbdad0871f266c9f077~mv2.png
-  rules_box: |-
+  rules_box: |
     **Airborne**
+    
     For every point of damage these Ravens deal, you gain one life.
   type_line: A cruel conspiracy of Ordinary Beasts
   mana_cost: '1'
@@ -301,7 +315,8 @@
   earth_threshold: '1'
   power: '3'
   artist: vasiliy_ermolaev
-  flavor_text: _A troll's thoughts are but reflections in a forest pool, wavering
+  flavor_text: |
+    _A troll's thoughts are but reflections in a forest pool, wavering
     and rippling with the wind and the rain._
   identifier: bosk_troll
   release: alpha
@@ -309,8 +324,8 @@
   card_type: minion
   rarity: exceptional
   image_url: https://static.wixstatic.com/media/965b5c_ffbcd8d0330946e89127d3edbf8b8a14~mv2.png/v1/fill/w_628,h_880,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_ffbcd8d0330946e89127d3edbf8b8a14~mv2.png
-  rules_box: This Bullfrog swallows and carries the first minion it attacks in its
-    belly until it leaves play.
+  rules_box: |
+    This Bullfrog swallows and carries the first minion it attacks in its belly until it leaves play.
   type_line: An Exceptional Beast with a giant appetite
   mana_cost: '5'
   element: water
@@ -329,7 +344,7 @@
   element: earth
   earth_threshold: '1'
   artist: dan_seagrave
-  flavor_text: |-
+  flavor_text: |
     _“From out of the depths of the countless pits there came a melancholy rustling from the garments of the buried.”
     - Edgar Allan Poe_
   identifier: bury
@@ -345,7 +360,7 @@
   earth_threshold: '2'
   power: '3'
   artist: drew_tucker
-  flavor_text: |-
+  flavor_text: |
     _“We dug, we lug, we scoff up the bug,
     We bore, we gore, we snore for the ore.”
     - Trollish Working Song_
@@ -366,8 +381,9 @@
   card_type: minion
   rarity: exceptional
   image_url: https://static.wixstatic.com/media/965b5c_a6257438fd5f4b309be7203b2eb14698~mv2.png/v1/fill/w_628,h_874,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_a6257438fd5f4b309be7203b2eb14698~mv2.png
-  rules_box: |-
+  rules_box: |
     **Airborne**
+    
     **Genesis** — move a weaker minion from anywhere in the realm to these Harpies' location. If that minion is an enemy one, these Harpies attack it.
   type_line: Exceptional Mythics on a feeding frenzy
   mana_cost: '4'
@@ -381,8 +397,8 @@
   card_type: site
   rarity: unique
   image_url: https://static.wixstatic.com/media/965b5c_c720b5a453194203bd4121e34738893f~mv2.png/v1/fill/w_960,h_690,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_c720b5a453194203bd4121e34738893f~mv2.png
-  rules_box: "{Wind:2}: Once during your turn, you may move this City to a free adjacent
-    location."
+  rules_box: |
+    {Wind:2}: Once during your turn, you may move this City to a free adjacent location.
   type_line: A Unique Site, lofty and ever fleeting
   element: none
   wind_threshold: '1'
@@ -393,14 +409,14 @@
   card_type: magic
   rarity: ordinary
   image_url: https://static.wixstatic.com/media/965b5c_b53a73ae2c244013906b7ad8d584d3cf~mv2.png/v1/fill/w_628,h_878,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_b53a73ae2c244013906b7ad8d584d3cf~mv2.png
-  rules_box: Search your spellbook for an ordinary card, reveal it to your opponent
-    and draw it. Shuffle your spellbook.
+  rules_box: |
+    Search your spellbook for an ordinary card, reveal it to your opponent and draw it. Shuffle your spellbook.
   type_line: The Ordinary appears as Magic to some
   mana_cost: '1'
   element: earth
   earth_threshold: '1'
   artist: drew_tucker
-  flavor_text: |-
+  flavor_text: |
     _“Common sense is the genius of humanity.”
     - Johann Wolfgang con Goethe_
   identifier: common_sense
@@ -409,9 +425,11 @@
   card_type: minion
   rarity: elite
   image_url: https://static.wixstatic.com/media/965b5c_a700d1f017244fca80e038f2452410ab~mv2.png/v1/fill/w_628,h_878,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_a700d1f017244fca80e038f2452410ab~mv2.png
-  rules_box: |-
+  rules_box: |
     **Burrowing**
+
     This Worm can move between non-water sites while burrowed.
+    
     You control the worm's site.
   type_line: An Elite Monster subjugates this realm
   mana_cost: '8'
@@ -425,8 +443,8 @@
   card_type: site
   rarity: exceptional
   image_url: https://static.wixstatic.com/media/965b5c_3bda4510c5ed4fbb92a3aa462ffe7afe~mv2.png/v1/fill/w_960,h_690,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_3bda4510c5ed4fbb92a3aa462ffe7afe~mv2.png
-  rules_box: This Cornerstone may be played on a corner square not adjacent to any
-    site.
+  rules_box: |
+    This Cornerstone may be played on a corner square not adjacent to any site.
   type_line: An Exceptional Site to expand your domain
   element: none
   artist: margaret_organ-kean
@@ -436,8 +454,9 @@
   card_type: minion
   rarity: elite
   image_url: https://static.wixstatic.com/media/965b5c_f61ad14ae0414ff8b224064583887086~mv2.png/v1/fill/w_628,h_880,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_f61ad14ae0414ff8b224064583887086~mv2.png
-  rules_box: |-
+  rules_box: |
     **Spellcaster**
+
     At the start of each player's turn, if this Jester is near that player's Avatar, they discard a card.
   type_line: An Elite Mortal with a dangerous smile
   mana_cost: '3'
@@ -451,7 +470,7 @@
   card_type: magic
   rarity: elite
   image_url: https://static.wixstatic.com/media/965b5c_8b56cf0da68746e4b09d25c6600a1cd5~mv2.png/v1/fill/w_640,h_894,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_8b56cf0da68746e4b09d25c6600a1cd5~mv2.png
-  rules_box: |-
+  rules_box: |
     Destroy a site without an Avatar and everything on it.
     Deal Splash Damage around the destroyed site.
 
@@ -471,8 +490,9 @@
   card_type: minion
   rarity: ordinary
   image_url: https://static.wixstatic.com/media/965b5c_7eaf0145007845769ddfcba838af8157~mv2.png/v1/fill/w_628,h_874,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_7eaf0145007845769ddfcba838af8157~mv2.png
-  rules_box: |-
+  rules_box: |
     **Burrowing**
+    
     These Mummies enter play burrowed on any site.
   type_line: Ordinary Undead emerge from below
   mana_cost: '3'
@@ -486,7 +506,8 @@
   card_type: minion
   rarity: exceptional
   image_url: https://static.wixstatic.com/media/965b5c_cb9bd651df3b44319bd94ca832a4aed4~mv2.png/v1/fill/w_628,h_878,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_cb9bd651df3b44319bd94ca832a4aed4~mv2.png
-  rules_box: This Phalanx is slaughtered if attacked at the flank or rear. It can
+  rules_box: |
+    This Phalanx is slaughtered if attacked at the flank or rear. It can
     only attack on the same site and forward.
   type_line: Exceptionally disciplined Mortals advance forth
   mana_cost: '2'
@@ -513,14 +534,15 @@
   card_type: magic
   rarity: elite
   image_url: https://static.wixstatic.com/media/965b5c_9a0af97da3434f7c9c8e6091c77529d1~mv2.png/v1/fill/w_628,h_874,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_9a0af97da3434f7c9c8e6091c77529d1~mv2.png
-  rules_box: Kill target minion within two steps of your Spellcaster and destroy anything
+  rules_box: |
+    Kill target minion within two steps of your Spellcaster and destroy anything
     it is carrying. They are removed from the game forever.
   type_line: Elite Magic of unmitigated annihilation
   mana_cost: '6'
   element: fire
   fire_threshold: '2'
   artist: alan_pollack
-  flavor_text: |-
+  flavor_text: |
     _“Men ought either to be indulged or utterly destroyed.”
     - Nicole Machiavelli_
   identifier: disintegrate
@@ -529,7 +551,8 @@
   card_type: magic
   rarity: ordinary
   image_url: https://static.wixstatic.com/media/965b5c_3272b4228355493aa878c60a527eb60f~mv2.png/v1/fill/w_628,h_880,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_3272b4228355493aa878c60a527eb60f~mv2.png
-  rules_box: Target minion in harm's way moves to an adjacent location. Cancel the
+  rules_box: |
+    Target minion in harm's way moves to an adjacent location. Cancel the
     attack or spell targeting the minion.
   type_line: Ordinary Quick and nimble Magic
   mana_cost: '0'
@@ -552,7 +575,7 @@
   card_type: relic
   rarity: unique
   image_url: https://static.wixstatic.com/media/965b5c_0d3afb6b35754a3cbf5e2480ad2cc391~mv2.png/v1/fill/w_628,h_872,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_0d3afb6b35754a3cbf5e2480ad2cc391~mv2.png
-  rules_box: |-
+  rules_box: |
     At the start of your turn, put a counter on this Device. When there are 3 counters on it, it detonates. It deals no damage if Burrowed or Submerged.
 
     | 1 | 2 | 3 | 2 | 1 |
