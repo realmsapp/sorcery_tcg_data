@@ -110,10 +110,15 @@
   description: |
     This minion may be summoned to any location in the void. Being in the void does not kill it, and it can move in the void.
 
-- key: immunity_x
-  name: X Immunity or Immunity to X
+- key: fire_immunity
+  name: Fire Immunity
   description: |
-    This card cannot be targeted or damaged by X
+    This card cannot be targeted or damaged by fire
+
+- key: monster_immunity
+  name: Monster Immunity
+  description: |
+    This card cannot be targeted or damaged by monsters
 
 - key: earthbound
   name: Earthbound

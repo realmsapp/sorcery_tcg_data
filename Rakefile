@@ -79,15 +79,17 @@ task :extract do |_task, _args|
     end
   end
 
-  source = YAML.load(File.read("./data/en/cards/alpha/cards.yaml"))
-  additions = cards.select { |id, val| val["keywords"].present? }
+  puts YAML.dump(cards.select { |a,b| b.present? })
 
-  additions.each do |key, val|
-    card = source.find { |c| c["identifier"] == key }
-    card.merge!(val)
-  end
+  # source = YAML.load(File.read("./data/en/cards/alpha/cards.yaml"))
+  # additions = cards.select { |id, val| val["keywords"].present? }
 
-  result = source.sort_by { |a| a["name"] }
+  # additions.each do |key, val|
+  #   card = source.find { |c| c["identifier"] == key }
+  #   card.merge!(val)
+  # end
+
+  # result = source.sort_by { |a| a["name"] }
   # Combine
   # File.write("./data/en/cards/alpha/cards.yaml", YAML.dump(result))
 end
