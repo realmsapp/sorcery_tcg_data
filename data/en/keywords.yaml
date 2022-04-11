@@ -1,0 +1,141 @@
+---
+- key: airborne
+  name: Airborne
+  description: |
+    This minion may move to nearby locations, and it can attack Airborne minions.
+    If a player has an Airborne minion on a site that is being attacked by an opponent’s minion without Range or Airborne, they may tap their minion to block the attack or let it go through onto the site.
+
+- key: burrowing
+  name: Burrowing
+  description: |
+    1. This minion may be summoned burrowed under a non-Water site.
+    1. It may be tapped to burrow under a non-Water site it is on, or to unburrow onto that site.
+    1. It may be tapped to unburrow onto the site above it to attack or to block an attack against the site or an allied Avatar or minion.
+    1. It can interact with burrowed relics.
+
+- key: genesis
+  name: Genesis
+  description: |
+    When this card enters play.
+
+- key: haste
+  name: Haste
+  description: |
+    This minion can move, attack, or use tap abilities right away when summoned.
+
+- key: immobile
+  name: Immobile
+  description: |
+    This minion cannot move.
+    A minion with Immobile can still be forcibly moved through card effects.
+
+- key: immortal
+  name: Immortal
+  description: |
+    TBD
+
+- key: indestructible
+  name: Indestructible
+  description: |
+    * An Indestructible card can be sacrificed or removed from the game through card effects.
+    * An Indestructible minion without Submerge does not die while submerged, but it cannot attack, move, or activate abilities, and it does not deal damage when blocking.
+    * An Indestructible minion without Voidwalk does not die while in the void, but it cannot move or activate abilities.
+
+- key: iron_skin
+  name: Iron Skin
+  description: |
+    This minion has to take twice its power in damage to die.
+
+- key: lethal
+  name: Lethal
+  description: |
+    Any amount of damage this card deals to a minion is enough to kill it.
+
+- key: movement_x
+  name: Movement +X
+  description: |
+    When you tap this card to move it, it may move up to 1+X steps in one move action.
+
+- key: moves_freely
+  name: Moves Freely
+  description: |
+    When you tap this card to move it, it may move through multiple different locations in one move action.
+    It can also be limited to a certain type of location. For example, “Moves freely through Water” means that the minion can move to any site in the same body of water.
+
+- key: range_x
+  name: Range +X
+  description: |
+    This minion may attack in a cardinal direction from X steps away without moving, and it can attack Airborne minions.
+
+    * A Ranged minion cannot attack over the void.
+    * A Ranged minion may still perform regular attacks.
+    * A Ranged minion cannot move and then perform a ranged attack.
+    * A Ranged minion does not deal damage when being attacked by a Ranged attack.
+    * Minions can block a Ranged attack as normal, but they do not deal damage to the attacker.
+
+- key: spellcaster
+  name: Spellcaster
+  description: |
+    You may cast spells from this card.
+
+    * When a player casts a spell, they must declare which Spellcaster is casting the spell if they have multiple Spellcasters in play
+
+- key: splash_damage
+  name: Splash Damage
+  description: |
+    This card damages everything above ground on the same site.
+
+    * The damage is not dealt to the site.
+    * A minion with Splash Damage does not damage itself when attacking, and if it attacks an undefended site, it deals damage as if it did not have Splash Damage.
+
+- key: stealth
+  name: Stealth
+  description: |
+    This minion cannot be targeted by an opponent’s cards or attacked. This minion loses Stealth if it attacks, blocks, deals damage, or activates an ability.
+
+    * If an enemy minion or Avatar attacks a site where a player has a minion with Stealth, they may tap their minion to block the attack or let it go through onto the site instead.
+    * A Stealthy minion can still move and pick up relics without losing Stealth, and its controller can target it with spells or abilities.
+
+- key: submerge
+  name: Submerge
+  description: |
+   1. This minion may be summoned submerged (under a Water site).
+   1. It may be tapped to submerge under a Water site it is on, or to surface onto that site.
+   1. It may be tapped to surface onto the site above it to attack or to block an attack against the site or an allied Avatar or minion.
+   1. It can interact with submerged relics.
+   1. While submerged, it may be tapped to move to an adjacent Water site or to attack a submerged minion under the same site.
+
+- key: voidwalk
+  name: Voidwalk
+  description: |
+    This minion may be summoned to any location in the void. Being in the void does not kill it, and it can move in the void.
+
+- key: immunity_x
+  name: X Immunity or Immunity to X
+  description: |
+    This card cannot be targeted or damaged by X
+
+- key: earthbound
+  name: Earthbound
+  description: |
+    This minion dies when it is not on an Earth site.
+
+- key: firebound
+  name: Firebound
+  description: |
+    This minion dies when it is not on an Fire site.
+
+- key: waterbound
+  name: Waterbound
+  description: |
+    This minion dies when it is not on a Water site.
+
+- key: windbound
+  name: Windbound
+  description: |
+    This minion dies when it is not on a Wind site.
+
+- key: towerbound
+  name: Towerbound
+  description: |
+    This minion dies when it is not on a Tower site.

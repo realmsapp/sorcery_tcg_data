@@ -56,15 +56,7 @@ task :convert do |_task, _args|
   end
 end
 
-task :upload do |_task, _args|
-  load do |name, image_path, web_image_path|
-    unless has_image && has_web_image
-      table.add_row([name, has_image, has_web_image])
-    end
-  end
-end
-
-task :extract do |_task, _args|
+task :download do |_task, _args|
   sheet = "Sheet1"
   sheet_id = "1abqOMZAtY971WjEQqFdhXfiR-xxAFY6X-T4hNnhQX1M"
   doc = "https://docs.google.com/spreadsheets/d/#{sheet_id}/gviz/tq?tqx=out:csv&sheet=#{sheet}"
@@ -73,38 +65,31 @@ task :extract do |_task, _args|
 end
 
 require "csv"
-task :transform do |_task, _args|
-  names = []
-  load do |name, _, _|
-    names << name.downcase
+task :extract do |_task, _args|
+  cards = {}
+  load do |id, _, _|
+    cards[id] = {}
   end
   csv = CSV.read("./temp.csv").slice(1..)
-  missing = csv.each_with_object([]) do |row, memo|
-    if !names.include?(row[0].gsub(/[^a-zA-Z]+/, "").downcase)
-      memo << {
-        "name" => row[0],
-        "card_type" => row[5].downcase,
-        "rarity" => row[9].downcase,
-        "rules_box" => row[3],
-        "type_line" => row[2],
-        "flavor_text" => row[4],
-        "element" => "",
-        "power" => row[20],
-        "artist" => row[25].gsub(/[^a-zA-Z]+/, "_").downcase,
-        "identifier" => row[0].gsub(/[^a-zA-Z]+/, "_").downcase,
-        "release" => 'alpha',
-        "mana_cost" => row[10],
-        "earth_threshold" => [row[12], row[16]].find { |a| !a.empty? && a != "0" },
-        "fire_threshold" => [row[14], row[18]].find { |a| !a.empty? && a != "0" },
-        "water_threshold" => [row[11], row[15]].find { |a| !a.empty? && a != "0" },
-        "wind_threshold" => [row[13], row[17]].find { |a| !a.empty? && a != "0" },
-      }.compact.reject { |k,v| v.empty? }
+  csv.each_with_object([]) do |row, memo|
+    maybe_id = row[0].gsub(/\s/, "_").strip.downcase.underscore
+    if cards[maybe_id] && row[24].present?
+      cards[maybe_id]["keywords"] = row[24].split(",").map(&:strip).map { |a| a.gsub(/\s/, "_").downcase.underscore }
+    elsif row[24].present?
     end
   end
 
-  puts missing.count
+  source = YAML.load(File.read("./data/en/cards/alpha/cards.yaml"))
+  additions = cards.select { |id, val| val["keywords"].present? }
 
-  puts YAML.dump(missing).to_s
+  additions.each do |key, val|
+    card = source.find { |c| c["identifier"] == key }
+    card.merge!(val)
+  end
+
+  result = source.sort_by { |a| a["name"] }
+  # Combine
+  # File.write("./data/en/cards/alpha/cards.yaml", YAML.dump(result))
 end
 
 task default: :test

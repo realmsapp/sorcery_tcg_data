@@ -9,6 +9,7 @@ module SorceryTcgData
           card_type: CardTypes.fetch(data.fetch(:card_type)),
           release: Releases.fetch(data.fetch(:release)),
           artist: Artists.fetch(data.fetch(:artist)),
+          keywords: data.fetch(:keywords, []).map { |kw| Keywords.fetch(kw) },
           name: data.fetch(:name),
           initial_life: data.fetch(:initial_life, nil)&.to_s,
           rules_box: data.fetch(:rules_box, nil),
@@ -30,6 +31,7 @@ module SorceryTcgData
         card_type CardTypes::CardType
         release Releases::Release
         artist Artists::Artist
+        keywords ArrayOf(Keywords::Keyword), default: []
         name String
         initial_life Either(String, nil)
         rules_box Either(String, nil)
