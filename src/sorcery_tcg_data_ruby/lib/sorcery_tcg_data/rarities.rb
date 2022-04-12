@@ -7,6 +7,11 @@ module SorceryTcgData
         key String
         name String
       }
+
+      def ordinary? = key == "ordinary"
+      def exceptional? = key == "exceptional"
+      def elite? = key == "elite"
+      def unique? = key == "unique"
     end
 
     ALL = Lookup.load("rarities.yaml") { |item| Rarity.new(**item) }.freeze
