@@ -5,7 +5,6 @@ module SorceryTcgData
         new(
           identifier: data.fetch(:identifier),
           rarity: Rarities.fetch(data.fetch(:rarity)),
-          element: Elements.fetch(data.fetch(:element, "none")),
           card_type: CardTypes.fetch(data.fetch(:card_type)),
           release: Releases.fetch(data.fetch(:release)),
           artist: Artists.fetch(data.fetch(:artist)),
@@ -21,17 +20,23 @@ module SorceryTcgData
           fire_threshold: data.fetch(:fire_threshold, nil),
           water_threshold: data.fetch(:water_threshold, nil),
           wind_threshold: data.fetch(:wind_threshold, nil),
+          elements: [
+            data[:earth_threshold] && Elements.fetch("earth"),
+            data[:fire_threshold] && Elements.fetch("fire"),
+            data[:water_threshold] && Elements.fetch("water"),
+            data[:wind_threshold] && Elements.fetch("wind"),
+          ].compact
         )
       end
 
       include ValueSemantics.for_attributes {
         identifier String
         rarity Rarities::Rarity
-        element Elements::Element
         card_type CardTypes::CardType
         release Releases::Release
         artist Artists::Artist
         keywords ArrayOf(Keywords::Keyword), default: []
+        elements ArrayOf(Elements::Element), default: []
         name String
         initial_life Either(String, nil)
         rules_box Either(String, nil)

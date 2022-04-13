@@ -1,7 +1,6 @@
 ---
 - artist: vincent_pompetti
   card_type: aura
-  element: water
   identifier: abundance
   image_url: https://static.wixstatic.com/media/965b5c_978fe5fdbe9f4335865e591ff9c2f59b~mv2.png/v1/fill/w_628,h_880,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_978fe5fdbe9f4335865e591ff9c2f59b~mv2.png
   mana_cost: '4'
@@ -15,7 +14,6 @@
   water_threshold: '2'
 - artist: vincent_pompetti
   card_type: minion
-  element: water
   identifier: accursed_albatross
   image_url: https://static.wixstatic.com/media/965b5c_280e8bb28a784864b5a870c7639f51ab~mv2.png/v1/fill/w_628,h_880,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_280e8bb28a784864b5a870c7639f51ab~mv2.png
   keywords:
@@ -34,7 +32,6 @@
 - artist: elwira_pawlikowska
   card_type: minion
   earth_threshold: '1'
-  element: earth
   flavor_text: |
     _"We shall arm ourselves in our war gear and
     waken sharp Ares by hollow vessels."
@@ -49,7 +46,6 @@
   type_line: Ordinary Mythics preparing for war
 - artist: lindsey_crummett
   card_type: minion
-  element: fire
   fire_threshold: '2'
   flavor_text: _Fire forges the rule. Terror enforces it._
   identifier: ancient_dragon
@@ -67,7 +63,6 @@
   type_line: An Elite Dragon rules with fear and fame
 - artist: brian_smith
   card_type: relic
-  element: none
   identifier: angels_egg
   image_url: https://static.wixstatic.com/media/965b5c_d927bef551dc40758eab505bf6404fdd~mv2.png/v1/fill/w_628,h_872,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_d927bef551dc40758eab505bf6404fdd~mv2.png
   mana_cost: '3'
@@ -79,7 +74,6 @@
   type_line: An Elite Relic. A rebirth of hope.
 - artist: tony_szczudlo
   card_type: minion
-  element: water
   flavor_text: _The sea will outlive us all._
   identifier: anui_undine
   image_url: https://static.wixstatic.com/media/965b5c_9921655f84ce44e8b5fb1e8cfdc102b5~mv2.png/v1/fill/w_628,h_880,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_9921655f84ce44e8b5fb1e8cfdc102b5~mv2.png
@@ -95,7 +89,6 @@
 - artist: jeff_a_menges
   card_type: site
   earth_threshold: '1'
-  element: none
   identifier: aqueduct
   image_url: https://static.wixstatic.com/media/965b5c_aa36aba6c6914b7dada333c2340a6833~mv2.png/v1/fill/w_960,h_690,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_aa36aba6c6914b7dada333c2340a6833~mv2.png
   name: Aqueduct
@@ -106,7 +99,6 @@
   water_threshold: '1'
 - artist: tony_szczudlo
   card_type: magic
-  element: fire
   fire_threshold: '3'
   identifier: armageddon
   image_url: https://static.wixstatic.com/media/965b5c_67fd2f37b19d464fa7c2027a20669f92~mv2.png/v1/fill/w_628,h_874,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_67fd2f37b19d464fa7c2027a20669f92~mv2.png
@@ -118,7 +110,6 @@
   type_line: Elite Magic of cataclysmic proportion
 - artist: aronjaart
   card_type: aura
-  element: water
   identifier: atlantean_fate
   image_url: https://static.wixstatic.com/media/965b5c_1c7d1e435d4f4ba8943d3ad40da705fa~mv2.png/v1/fill/w_628,h_880,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_1c7d1e435d4f4ba8943d3ad40da705fa~mv2.png
   mana_cost: '3'
@@ -134,7 +125,6 @@
 - artist: brian_smith
   card_type: minion
   earth_threshold: '3'
-  element: earth
   identifier: atlas_wanderers
   image_url: https://static.wixstatic.com/media/965b5c_8b56cf0da68746e4b09d25c6600a1cd5~mv2.png/v1/fill/w_640,h_894,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_8b56cf0da68746e4b09d25c6600a1cd5~mv2.png
   keywords:
@@ -152,7 +142,6 @@
 - artist: severine_pineaux
   card_type: minion
   earth_threshold: '1'
-  element: earth
   flavor_text: |
     _The lion and the unicorn were fighting for the crown,
     The lion beat the unicorn all around town,
@@ -169,7 +158,6 @@
   type_line: An Ordinary Unicorn holds its ground
 - artist: severine_pineaux
   card_type: avatar
-  element: none
   identifier: avatar_of_earth
   image_url: https://static.wixstatic.com/media/965b5c_1c8cd05577774ee786c085e101b7ba96~mv2.png/v1/fill/w_628,h_874,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_1c8cd05577774ee786c085e101b7ba96~mv2.png
   initial_life: '26'
@@ -186,7 +174,6 @@
   type_line: Your Avatar of dependable strength
 - artist: severine_pineaux
   card_type: avatar
-  element: none
   identifier: avatar_of_fire
   image_url: https://static.wixstatic.com/media/965b5c_c0695ca9b3ff4537a1566814c7db1373~mv2.png/v1/fill/w_628,h_874,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_c0695ca9b3ff4537a1566814c7db1373~mv2.png
   initial_life: '20'
@@ -205,7 +192,6 @@
   type_line: Your Avatar of desire and destruction
 - artist: severine_pineaux
   card_type: avatar
-  element: none
   identifier: avatar_of_water
   image_url: https://static.wixstatic.com/media/965b5c_d586c365a5404573abffd54612f98d09~mv2.png/v1/fill/w_628,h_874,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_d586c365a5404573abffd54612f98d09~mv2.png
   initial_life: '20'
@@ -224,7 +210,6 @@
   type_line: Your Avatar of charm and trickery
 - artist: severine_pineaux
   card_type: avatar
-  element: none
   identifier: avatar_of_wind
   image_url: https://static.wixstatic.com/media/965b5c_8422226773de40fa94112f0434d1e7d6~mv2.png/v1/fill/w_628,h_874,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_8422226773de40fa94112f0434d1e7d6~mv2.png
   initial_life: '20'
@@ -243,7 +228,6 @@
   type_line: Your Avatar or knowledge and power
 - artist: brian_smith
   card_type: minion
-  element: fire
   fire_threshold: '2'
   flavor_text: |
     _“Will you walk into my parkour?”
@@ -260,7 +244,6 @@
   type_line: An Exceptional Mythic with a stony stare
 - artist: jussi_pylkäs
   card_type: avatar
-  element: none
   identifier: battlemage
   image_url: https://static.wixstatic.com/media/965b5c_8b56cf0da68746e4b09d25c6600a1cd5~mv2.png/v1/fill/w_640,h_894,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_8b56cf0da68746e4b09d25c6600a1cd5~mv2.png
   initial_life: '20'
@@ -278,7 +261,6 @@
 - artist: andrea_modesti
   card_type: minion
   earth_threshold: '1'
-  element: earth
   flavor_text: |
     “Clumsy and slow, we wretched crossbow, A cousin thus crafted to odious
     foe.” - Archer's Lament_
@@ -295,7 +277,6 @@
   type_line: Ordinary Mortals of considerable skill
 - artist: michal_nagypal
   card_type: minion
-  element: fire
   fire_threshold: '1'
   flavor_text: _They wait and watch with eyes of soot._
   identifier: black_scorpions
@@ -309,7 +290,6 @@
   type_line: Ordinary Beasts scour this site
 - artist: michal_nagypal
   card_type: minion
-  element: wind
   identifier: blood_ravens
   image_url: https://static.wixstatic.com/media/965b5c_f1eafcd6ddcb4bbdad0871f266c9f077~mv2.png/v1/fill/w_628,h_876,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_f1eafcd6ddcb4bbdad0871f266c9f077~mv2.png
   mana_cost: '1'
@@ -326,7 +306,6 @@
 - artist: vasiliy_ermolaev
   card_type: minion
   earth_threshold: '1'
-  element: earth
   flavor_text: |
     _A troll's thoughts are but reflections in a forest pool, wavering
     and rippling with the wind and the rain._
@@ -340,7 +319,6 @@
   type_line: An Ordinary Monster wanders these woods
 - artist: michal_nagypal
   card_type: minion
-  element: water
   identifier: brobdingnag_bullfrog
   image_url: https://static.wixstatic.com/media/965b5c_ffbcd8d0330946e89127d3edbf8b8a14~mv2.png/v1/fill/w_628,h_880,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_ffbcd8d0330946e89127d3edbf8b8a14~mv2.png
   mana_cost: '5'
@@ -355,7 +333,6 @@
 - artist: dan_seagrave
   card_type: magic
   earth_threshold: '1'
-  element: earth
   flavor_text: |
     _“From out of the depths of the countless pits there came a melancholy rustling from the garments of the buried.”
     - Edgar Allan Poe_
@@ -370,7 +347,6 @@
 - artist: drew_tucker
   card_type: minion
   earth_threshold: '2'
-  element: earth
   flavor_text: |
     _“We dug, we lug, we scoff up the bug,
     We bore, we gore, we snore for the ore.”
@@ -389,7 +365,6 @@
 - artist: adam_burke
   card_type: site
   earth_threshold: '1'
-  element: none
   identifier: city_of_agartha
   image_url: https://static.wixstatic.com/media/965b5c_cedd1bb3c39d4fe8ab75c8de33239e00~mv2.png/v1/fill/w_960,h_690,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_cedd1bb3c39d4fe8ab75c8de33239e00~mv2.png
   name: City Of Agartha
@@ -399,7 +374,6 @@
   type_line: A Unique Site at the center of it all
 - artist: francesca_baerald
   card_type: minion
-  element: fire
   fire_threshold: '1'
   identifier: clamor_harpies
   image_url: https://static.wixstatic.com/media/965b5c_a6257438fd5f4b309be7203b2eb14698~mv2.png/v1/fill/w_628,h_874,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_a6257438fd5f4b309be7203b2eb14698~mv2.png
@@ -418,7 +392,6 @@
   type_line: Exceptional Mythics on a feeding frenzy
 - artist: elwira_pawlikowska
   card_type: site
-  element: none
   identifier: cloud_city
   image_url: https://static.wixstatic.com/media/965b5c_c720b5a453194203bd4121e34738893f~mv2.png/v1/fill/w_960,h_690,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_c720b5a453194203bd4121e34738893f~mv2.png
   name: Cloud City
@@ -431,7 +404,6 @@
 - artist: drew_tucker
   card_type: magic
   earth_threshold: '1'
-  element: earth
   flavor_text: |
     _“Common sense is the genius of humanity.”
     - Johann Wolfgang con Goethe_
@@ -447,7 +419,6 @@
 - artist: dan_seagrave
   card_type: minion
   earth_threshold: '2'
-  element: earth
   identifier: conqueror_worm
   image_url: https://static.wixstatic.com/media/965b5c_a700d1f017244fca80e038f2452410ab~mv2.png/v1/fill/w_628,h_878,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_a700d1f017244fca80e038f2452410ab~mv2.png
   mana_cost: '8'
@@ -464,7 +435,6 @@
   type_line: An Elite Monster subjugates this realm
 - artist: margaret_organ-kean
   card_type: site
-  element: none
   identifier: cornerstone
   image_url: https://static.wixstatic.com/media/965b5c_3bda4510c5ed4fbb92a3aa462ffe7afe~mv2.png/v1/fill/w_960,h_690,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_3bda4510c5ed4fbb92a3aa462ffe7afe~mv2.png
   name: Cornerstone
@@ -475,7 +445,6 @@
   type_line: An Exceptional Site to expand your domain
 - artist: liz_danforth
   card_type: minion
-  element: water
   identifier: court_jester
   image_url: https://static.wixstatic.com/media/965b5c_f61ad14ae0414ff8b224064583887086~mv2.png/v1/fill/w_628,h_880,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_f61ad14ae0414ff8b224064583887086~mv2.png
   keywords:
@@ -494,7 +463,6 @@
 - artist: marta_molina
   card_type: magic
   earth_threshold: '2'
-  element: earth
   identifier: craterize
   image_url: https://static.wixstatic.com/media/965b5c_8b56cf0da68746e4b09d25c6600a1cd5~mv2.png/v1/fill/w_640,h_894,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_8b56cf0da68746e4b09d25c6600a1cd5~mv2.png
   keywords:
@@ -515,7 +483,6 @@
   type_line: Elite Magic of cataclysmic proportions
 - artist: jeff_easley
   card_type: minion
-  element: fire
   fire_threshold: '1'
   identifier: cyclopean_mummies
   image_url: https://static.wixstatic.com/media/965b5c_7eaf0145007845769ddfcba838af8157~mv2.png/v1/fill/w_628,h_874,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_7eaf0145007845769ddfcba838af8157~mv2.png
@@ -532,7 +499,6 @@
 - artist: vincent_pompetti
   card_type: minion
   earth_threshold: '2'
-  element: earth
   identifier: dalcean_phalanx
   image_url: https://static.wixstatic.com/media/965b5c_cb9bd651df3b44319bd94ca832a4aed4~mv2.png/v1/fill/w_628,h_878,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_cb9bd651df3b44319bd94ca832a4aed4~mv2.png
   mana_cost: '2'
@@ -546,7 +512,6 @@
   type_line: Exceptionally disciplined Mortals advance forth
 - artist: elwira_pawlikowska
   card_type: magic
-  element: wind
   flavor_text: _To see it is to disbelieve it._
   identifier: disenchant
   image_url: https://static.wixstatic.com/media/965b5c_2f2e45fbf21c4c4e99d74bb97439af3f~mv2.png/v1/fill/w_628,h_876,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_2f2e45fbf21c4c4e99d74bb97439af3f~mv2.png
@@ -559,7 +524,6 @@
   wind_threshold: '2'
 - artist: alan_pollack
   card_type: magic
-  element: fire
   fire_threshold: '2'
   flavor_text: |
     _“Men ought either to be indulged or utterly destroyed.”
@@ -576,7 +540,6 @@
   type_line: Elite Magic of unmitigated annihilation
 - artist: vincent_pompetti
   card_type: magic
-  element: water
   identifier: dodge_roll
   image_url: https://static.wixstatic.com/media/965b5c_3272b4228355493aa878c60a527eb60f~mv2.png/v1/fill/w_628,h_880,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_3272b4228355493aa878c60a527eb60f~mv2.png
   mana_cost: '0'
@@ -590,7 +553,6 @@
   water_threshold: '2'
 - artist: vasiliy_ermolaev
   card_type: site
-  element: none
   identifier: donnybrook_inn
   image_url: https://static.wixstatic.com/media/965b5c_1c02a7d063b14a6c8d84529cf32fc3f1~mv2.png/v1/fill/w_960,h_690,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_1c02a7d063b14a6c8d84529cf32fc3f1~mv2.png
   name: Donnybrook Inn
@@ -600,7 +562,6 @@
   type_line: A Unique Site for letting off steam
 - artist: elwira_pawlikowska
   card_type: relic
-  element: none
   identifier: doomsday_device
   image_url: https://static.wixstatic.com/media/965b5c_0d3afb6b35754a3cbf5e2480ad2cc391~mv2.png/v1/fill/w_628,h_872,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_0d3afb6b35754a3cbf5e2480ad2cc391~mv2.png
   mana_cost: '4'
@@ -618,7 +579,6 @@
   type_line: A Unique relic of impending doom
 - artist: doug_kovacs
   card_type: minion
-  element: fire
   fire_threshold: '2'
   flavor_text: _The end is nigh!_
   identifier: doomsday_prophet
@@ -634,7 +594,6 @@
   type_line: An Elite Mortal prognosticating the end
 - artist: elvira_shakirova
   card_type: magic
-  element: wind
   identifier: dream_quest
   image_url: https://static.wixstatic.com/media/965b5c_545efb34ae634ef48f26d63aa1e06079~mv2.png/v1/fill/w_628,h_872,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_545efb34ae634ef48f26d63aa1e06079~mv2.png
   mana_cost: '1'
@@ -646,7 +605,6 @@
   wind_threshold: '1'
 - artist: michal_nagypal
   card_type: aura
-  element: fire
   fire_threshold: '1'
   identifier: drought
   image_url: https://static.wixstatic.com/media/965b5c_e91bf1c9e1bf49bdad9bc53843da4e02~mv2.png/v1/fill/w_628,h_874,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_e91bf1c9e1bf49bdad9bc53843da4e02~mv2.png
@@ -661,7 +619,6 @@
 - artist: alan_pollack
   card_type: minion
   earth_threshold: '2'
-  element: earth
   identifier: dwarven_digging_team
   image_url: https://static.wixstatic.com/media/965b5c_b35dc4e3c6804bcaba09c92fcf35f2e7~mv2.png/v1/fill/w_628,h_878,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_b35dc4e3c6804bcaba09c92fcf35f2e7~mv2.png
   mana_cost: '2'
@@ -675,7 +632,6 @@
   type_line: Exceptional Mythics frantically dig deeper
 - artist: rodney_matthews
   card_type: site
-  element: none
   fire_threshold: '1'
   identifier: dwarven_forge
   image_url: https://static.wixstatic.com/media/965b5c_05724683072f4184b460b2fd18e05450~mv2.png/v1/fill/w_960,h_690,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_05724683072f4184b460b2fd18e05450~mv2.png
@@ -687,7 +643,6 @@
 - artist: alan_pollack
   card_type: magic
   earth_threshold: '2'
-  element: earth
   identifier: earthquake
   image_url: https://static.wixstatic.com/media/965b5c_4265c7242e574fc5b78acc5ad7b9a462~mv2.png/v1/fill/w_628,h_878,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_4265c7242e574fc5b78acc5ad7b9a462~mv2.png
   mana_cost: '5'
@@ -700,7 +655,6 @@
   type_line: Terrible, violent and sever Elite Magic
 - artist: jeff_easley
   card_type: minion
-  element: wind
   identifier: east_west_dragon
   image_url: https://static.wixstatic.com/media/965b5c_c99dc364b115494babf28adfbe7dba48~mv2.png/v1/fill/w_628,h_872,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_c99dc364b115494babf28adfbe7dba48~mv2.png
   mana_cost: '5'
@@ -715,7 +669,6 @@
   wind_threshold: '1'
 - artist: adam_burke
   card_type: site
-  element: none
   identifier: edge_of_the_world
   image_url: https://static.wixstatic.com/media/965b5c_743c7c5aec404418a8b41c5284186273~mv2.png/v1/fill/w_960,h_690,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_743c7c5aec404418a8b41c5284186273~mv2.png
   name: Edge Of The World
@@ -726,7 +679,6 @@
 - artist: elvira_shakirova
   card_type: avatar
   earth_threshold: '1'
-  element: none
   fire_threshold: '1'
   identifier: elementalist
   image_url: https://static.wixstatic.com/media/965b5c_74bfcd8c9d0b410db5f2191c5e8466ce~mv2.png/v1/fill/w_628,h_874,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_74bfcd8c9d0b410db5f2191c5e8466ce~mv2.png
@@ -744,7 +696,6 @@
   wind_threshold: '1'
 - artist: margaret_organ-kean
   card_type: magic
-  element: earth
   identifier: elite_counterspell
   image_url: https://static.wixstatic.com/media/965b5c_ab21d39597754b4eb2823eedf59c53a9~mv2.png/v1/fill/w_628,h_878,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_ab21d39597754b4eb2823eedf59c53a9~mv2.png
   name: Elite Counterspell
@@ -752,7 +703,6 @@
   release: alpha
 - artist: vincent_pompetti
   card_type: site
-  element: none
   identifier: emperors_road
   image_url: https://static.wixstatic.com/media/965b5c_7f4a1b1cd4e74d4bbe52ecf36b246873~mv2.png/v1/fill/w_960,h_690,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_7f4a1b1cd4e74d4bbe52ecf36b246873~mv2.png
   name: Emperors Road
@@ -763,7 +713,6 @@
 - artist: alan_pollack
   card_type: magic
   earth_threshold: '1'
-  element: earth
   flavor_text: _Pity these meek and measly men!_
   identifier: enlarge
   image_url: https://static.wixstatic.com/media/965b5c_8b56cf0da68746e4b09d25c6600a1cd5~mv2.png/v1/fill/w_640,h_894,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_8b56cf0da68746e4b09d25c6600a1cd5~mv2.png
@@ -776,7 +725,6 @@
 - artist: drew_tucker
   card_type: aura
   earth_threshold: '2'
-  element: earth
   identifier: entangle_terrain
   image_url: https://static.wixstatic.com/media/965b5c_8b56cf0da68746e4b09d25c6600a1cd5~mv2.png/v1/fill/w_640,h_894,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_8b56cf0da68746e4b09d25c6600a1cd5~mv2.png
   mana_cost: '4'
@@ -789,7 +737,6 @@
   type_line: An Ordinary Aura of immobility
 - artist: francesca_baerald
   card_type: relic
-  element: none
   identifier: eriks_curiosa
   image_url: https://static.wixstatic.com/media/965b5c_7070ebaa0a684967b17f7289886d47e7~mv2.png/v1/fill/w_628,h_872,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_7070ebaa0a684967b17f7289886d47e7~mv2.png
   mana_cost: '3'
@@ -800,7 +747,6 @@
   type_line: Unique Relics gathered from forgotten places
 - artist: jeff_a_menges
   card_type: minion
-  element: water
   identifier: felbog_frog_men
   image_url: https://static.wixstatic.com/media/965b5c_54b518bfd40a4a97b5699e2e00c4b0ce~mv2.png/v1/fill/w_628,h_880,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_54b518bfd40a4a97b5699e2e00c4b0ce~mv2.png
   mana_cost: '2'
@@ -813,7 +759,6 @@
   water_threshold: '1'
 - artist: melissa_a_benson
   card_type: minion
-  element: fire
   fire_threshold: '2'
   flavor_text: _The flames lick at our heels as the fire crawls ever upwards._
   identifier: fire_salamander
@@ -827,7 +772,6 @@
   type_line: An Exceptional Spirit of fiery familiarity
 - artist: jeff_easley
   card_type: magic
-  element: fire
   fire_threshold: '1'
   identifier: firebolts
   image_url: https://static.wixstatic.com/media/965b5c_0dfba8114b9149438c52fe8f49129198~mv2.png/v1/fill/w_628,h_874,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_0dfba8114b9149438c52fe8f49129198~mv2.png
@@ -839,7 +783,6 @@
   type_line: Ordinary Magic in any respected repertoire
 - artist: tony_szczudlo
   card_type: magic
-  element: wind
   flavor_text: _With swift wits and swifter horses we shall get the better of these arrogant swines!_
   identifier: flanking_maneuver
   image_url: https://static.wixstatic.com/media/965b5c_6b68aa66e7084045ac25fd56c2934a0c~mv2.png/v1/fill/w_628,h_872,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_6b68aa66e7084045ac25fd56c2934a0c~mv2.png
@@ -852,7 +795,6 @@
   wind_threshold: '1'
 - artist: mattias_frisk
   card_type: magic
-  element: fire
   fire_threshold: '2'
   identifier: flashfires
   image_url: https://static.wixstatic.com/media/965b5c_c12b4d8ab0dd4781b037b632f4267ad7~mv2.png/v1/fill/w_628,h_874,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_c12b4d8ab0dd4781b037b632f4267ad7~mv2.png
@@ -867,7 +809,6 @@
   type_line: Exceptional Magic of persistent destruction
 - artist: michal_nagypal
   card_type: aura
-  element: water
   identifier: flood
   image_url: https://static.wixstatic.com/media/965b5c_e982d4a6027142c782adecf831d242e4~mv2.png/v1/fill/w_628,h_880,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_e982d4a6027142c782adecf831d242e4~mv2.png
   mana_cost: '4'
@@ -881,7 +822,6 @@
   water_threshold: '4'
 - artist: anson_maddocks
   card_type: magic
-  element: water
   identifier: flow_of_life
   image_url: https://static.wixstatic.com/media/965b5c_b2585590634743d49ce1feb6ba72f216~mv2.png/v1/fill/w_628,h_880,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_b2585590634743d49ce1feb6ba72f216~mv2.png
   mana_cost: '3'
@@ -894,7 +834,6 @@
 - artist: ossi_hiekkala
   card_type: minion
   earth_threshold: '2'
-  element: earth
   flavor_text: _“Be fruitful, and multiply, and replenish the earth.” - Genesis 1:26_
   identifier: frontier_settlers
   image_url: https://static.wixstatic.com/media/965b5c_85b6d5b5d7e844499d3439dabdfa10c5~mv2.png/v1/fill/w_628,h_878,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_85b6d5b5d7e844499d3439dabdfa10c5~mv2.png
@@ -907,7 +846,6 @@
   type_line: Exceptional Mortals of sweat and survival
 - artist: jussi_pylkäs
   card_type: minion
-  element: water
   identifier: ghost_ship
   image_url: https://static.wixstatic.com/media/965b5c_85343a0bd47840b19f8454791fa9e16b~mv2.png/v1/fill/w_628,h_880,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_85343a0bd47840b19f8454791fa9e16b~mv2.png
   mana_cost: '5'
@@ -920,7 +858,6 @@
   water_threshold: '2'
 - artist: alan_pollack
   card_type: minion
-  element: water
   identifier: giant_shark
   image_url: https://static.wixstatic.com/media/965b5c_865ce160d0d54745bd2470a97f778e88~mv2.png/v1/fill/w_628,h_880,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_865ce160d0d54745bd2470a97f778e88~mv2.png
   keywords:
@@ -939,7 +876,6 @@
   water_threshold: '1'
 - artist: michal_nagypal
   card_type: site
-  element: none
   identifier: gothic_tower
   image_url: https://static.wixstatic.com/media/965b5c_0d270de6defa4554ba5ace6d506b7ced~mv2.png/v1/fill/w_960,h_692,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_0d270de6defa4554ba5ace6d506b7ced~mv2.png
   keywords:
@@ -952,7 +888,6 @@
   wind_threshold: '1'
 - artist: ossi_hiekkala
   card_type: minion
-  element: wind
   identifier: grandmaster_wizard
   image_url: https://static.wixstatic.com/media/965b5c_8035a82f08fc4b3db2b94ca190eb9310~mv2.png/v1/fill/w_628,h_872,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_8035a82f08fc4b3db2b94ca190eb9310~mv2.png
   keywords:
@@ -968,7 +903,6 @@
   water_threshold: '2'
 - artist: dan_seagrave
   card_type: minion
-  element: water
   identifier: great_old_one
   image_url: https://static.wixstatic.com/media/965b5c_4406b5bd85f7481682463cb6d18a72cd~mv2.png/v1/fill/w_628,h_880,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_4406b5bd85f7481682463cb6d18a72cd~mv2.png
   keywords:
@@ -987,7 +921,6 @@
 - artist: michal_nagypal
   card_type: site
   earth_threshold: '1'
-  element: none
   identifier: great_wall
   image_url: https://static.wixstatic.com/media/965b5c_5e193bdb47054290baaa672d54bf4d43~mv2.png/v1/fill/w_960,h_692,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_5e193bdb47054290baaa672d54bf4d43~mv2.png
   name: Great Wall
@@ -998,7 +931,6 @@
 - artist: vasiliy_ermolaev
   card_type: minion
   earth_threshold: '1'
-  element: earth
   identifier: greissgnath_gnomes
   image_url: https://static.wixstatic.com/media/965b5c_105b752b2e1446328346036a2cfecca0~mv2.png/v1/fill/w_628,h_878,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_105b752b2e1446328346036a2cfecca0~mv2.png
   mana_cost: '2'
@@ -1012,7 +944,6 @@
   type_line: An Ordinary Spirit crops up unexpectedly
 - artist: vasiliy_ermolaev
   card_type: minion
-  element: wind
   identifier: grim_reaper
   image_url: https://static.wixstatic.com/media/965b5c_7380a6f9976d463786290b47b5131f2c~mv2.png/v1/fill/w_628,h_872,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_7380a6f9976d463786290b47b5131f2c~mv2.png
   keywords:
@@ -1031,7 +962,6 @@
   wind_threshold: '2'
 - artist: elvira_shakirova
   card_type: minion
-  element: water
   identifier: guile_sirens
   image_url: https://static.wixstatic.com/media/965b5c_1b82bf9c8f05481792137cba4664ed77~mv2.png/v1/fill/w_628,h_880,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_1b82bf9c8f05481792137cba4664ed77~mv2.png
   keywords:
@@ -1048,7 +978,6 @@
   water_threshold: '2'
 - artist: jussi_pylkäs
   card_type: magic
-  element: water
   identifier: harpoon_shot
   image_url: https://static.wixstatic.com/media/965b5c_124bc3057b6a4cbc86c13ab4a72499e1~mv2.png/v1/fill/w_628,h_880,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_124bc3057b6a4cbc86c13ab4a72499e1~mv2.png
   mana_cost: '3'
@@ -1062,7 +991,6 @@
   water_threshold: '1'
 - artist: drew_tucker
   card_type: magic
-  element: fire
   fire_threshold: '1'
   identifier: haste
   image_url: https://static.wixstatic.com/media/965b5c_f7b318e156694c1f8512fce8d1a5b24a~mv2.png/v1/fill/w_628,h_874,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_f7b318e156694c1f8512fce8d1a5b24a~mv2.png
@@ -1076,7 +1004,6 @@
   type_line: Ordinary Magic of utmost urgency
 - artist: jussi_pylkäs
   card_type: minion
-  element: wind
   identifier: headless_haunt
   image_url: https://static.wixstatic.com/media/965b5c_f330dbb69b04447483d9de2f739aee43~mv2.png/v1/fill/w_628,h_872,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_f330dbb69b04447483d9de2f739aee43~mv2.png
   keywords:
@@ -1093,7 +1020,6 @@
   wind_threshold: '2'
 - artist: dan_seagrave
   card_type: avatar
-  element: none
   identifier: hex
   image_url: https://static.wixstatic.com/media/965b5c_790df1649df449ddbe1e8dedfb0295aa~mv2.png/v1/fill/w_628,h_874,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_790df1649df449ddbe1e8dedfb0295aa~mv2.png
   initial_life: '20'
@@ -1110,7 +1036,6 @@
   type_line: Your Avatar. An ugly win is still a win
 - artist: andrea_modesti
   card_type: minion
-  element: wind
   identifier: highland_falconer
   image_url: https://static.wixstatic.com/media/965b5c_1cc7516ddc134c998f9ad81fabe7a530~mv2.png/v1/fill/w_628,h_872,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_1cc7516ddc134c998f9ad81fabe7a530~mv2.png
   mana_cost: '1'
@@ -1124,7 +1049,6 @@
 - artist: vincent_pompetti
   card_type: minion
   earth_threshold: '1'
-  element: wind
   identifier: highland_princess
   image_url: https://static.wixstatic.com/media/965b5c_caee47020e1c471f9d2d891dadf3ec93~mv2.png/v1/fill/w_628,h_872,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_caee47020e1c471f9d2d891dadf3ec93~mv2.png
   mana_cost: '1'
@@ -1137,7 +1061,6 @@
   wind_threshold: '1'
 - artist: alan_pollack
   card_type: minion
-  element: fire
   fire_threshold: '1'
   identifier: hillock_basilisk
   image_url: https://static.wixstatic.com/media/965b5c_74c8cfca9c064706aa012f56819e716b~mv2.png/v1/fill/w_628,h_874,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_74c8cfca9c064706aa012f56819e716b~mv2.png
@@ -1151,7 +1074,6 @@
 - artist: michal_nagypal
   card_type: site
   earth_threshold: '1'
-  element: none
   identifier: holy_ground
   image_url: https://static.wixstatic.com/media/965b5c_8b56cf0da68746e4b09d25c6600a1cd5~mv2.png/v1/fill/w_640,h_894,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_8b56cf0da68746e4b09d25c6600a1cd5~mv2.png
   keywords:
@@ -1163,7 +1085,6 @@
   type_line: An Exceptional Site of spiritual strength
 - artist: francesca_baerald
   card_type: minion
-  element: wind
   flavor_text: _You can run, but you cannot hide._
   identifier: hounds_of_ondaros
   image_url: https://static.wixstatic.com/media/965b5c_7199df615d444e08b1e76da8d10d70db~mv2.png/v1/fill/w_628,h_872,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_7199df615d444e08b1e76da8d10d70db~mv2.png
@@ -1180,7 +1101,6 @@
 - artist: andrea_modesti
   card_type: minion
   earth_threshold: '2'
-  element: earth
   flavor_text: |-
     _Our family banner will once again
     be a symbol of strength!_
@@ -1196,7 +1116,6 @@
 - artist: andrea_modesti
   card_type: site
   earth_threshold: '1'
-  element: none
   identifier: humble_village
   image_url: https://static.wixstatic.com/media/965b5c_8b56cf0da68746e4b09d25c6600a1cd5~mv2.png/v1/fill/w_640,h_894,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_8b56cf0da68746e4b09d25c6600a1cd5~mv2.png
   keywords:
@@ -1208,7 +1127,6 @@
   type_line: An Ordinary Site of fertile Earth
 - artist: brian_smith
   card_type: magic
-  element: fire
   fire_threshold: '3'
   identifier: immolation
   image_url: https://static.wixstatic.com/media/965b5c_3255310cb9ee466fb5374c9322d38bb8~mv2.png/v1/fill/w_628,h_874,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_3255310cb9ee466fb5374c9322d38bb8~mv2.png
@@ -1220,7 +1138,6 @@
   type_line: Unique Magic of distilled devastation
 - artist: melissa_a_benson
   card_type: minion
-  element: fire
   fire_threshold: '4'
   identifier: infernal_legion
   image_url: https://static.wixstatic.com/media/965b5c_f3dc812f44a346fb9f85372c9a81027f~mv2.png/v1/fill/w_628,h_874,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_f3dc812f44a346fb9f85372c9a81027f~mv2.png
@@ -1238,7 +1155,6 @@
   type_line: An Elite Undead army in flames
 - artist: elwira_pawlikowska
   card_type: magic
-  element: fire
   fire_threshold: '2'
   identifier: infiltrate
   image_url: https://static.wixstatic.com/media/965b5c_48db2a8fa77d4ff097ee97716cd82e24~mv2.png/v1/fill/w_628,h_874,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_48db2a8fa77d4ff097ee97716cd82e24~mv2.png
@@ -1251,7 +1167,6 @@
 - artist: tony_szczudlo
   card_type: minion
   earth_threshold: '2'
-  element: earth
   identifier: king_of_the_realm
   image_url: https://static.wixstatic.com/media/965b5c_71cfca811d2b4dd3842875d78d2a8043~mv2.png/v1/fill/w_628,h_878,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_71cfca811d2b4dd3842875d78d2a8043~mv2.png
   mana_cost: '7'
@@ -1265,7 +1180,6 @@
   type_line: A Unique Mortal with a true claim to the throne
 - artist: vincent_pompetti
   card_type: minion
-  element: wind
   identifier: kite_archer
   image_url: https://static.wixstatic.com/media/965b5c_3fb34280444e4476aa1024258f768961~mv2.png/v1/fill/w_628,h_872,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_3fb34280444e4476aa1024258f768961~mv2.png
   mana_cost: '2'
@@ -1280,7 +1194,6 @@
   wind_threshold: '1'
 - artist: elwira_pawlikowska
   card_type: relic
-  element: none
   flavor_text: _Possession is nine tenths of the law._
   identifier: land_deed
   image_url: https://static.wixstatic.com/media/965b5c_63ef540d33324deeb94a68ad01d25e2d~mv2.png/v1/fill/w_628,h_872,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_63ef540d33324deeb94a68ad01d25e2d~mv2.png
@@ -1293,7 +1206,6 @@
 - artist: ossi_hiekkala
   card_type: minion
   earth_threshold: '2'
-  element: earth
   flavor_text: _You can't separate a place from its history._
   identifier: land_surveyor
   image_url: https://static.wixstatic.com/media/965b5c_93f4648feab047d6a29c4cd6952f0f1a~mv2.png/v1/fill/w_628,h_878,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_93f4648feab047d6a29c4cd6952f0f1a~mv2.png
@@ -1306,7 +1218,6 @@
   type_line: An Exceptional Mortal privileges the crown
 - artist: drew_tucker
   card_type: site
-  element: none
   identifier: leviathan_island
   image_url: https://static.wixstatic.com/media/965b5c_74fcb0cb342844c19e0f388cbd86d806~mv2.png/v1/fill/w_960,h_692,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_74fcb0cb342844c19e0f388cbd86d806~mv2.png
   name: Leviathan Island
@@ -1317,7 +1228,6 @@
   water_threshold: '1'
 - artist: marta_molina
   card_type: site
-  element: none
   identifier: lighthouse
   image_url: https://static.wixstatic.com/media/965b5c_e7d84845de7745918abb6431ebd61841~mv2.png/v1/fill/w_960,h_692,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_e7d84845de7745918abb6431ebd61841~mv2.png
   name: Lighthouse
@@ -1329,7 +1239,6 @@
   wind_threshold: '1'
 - artist: ossi_hiekkala
   card_type: magic
-  element: wind
   identifier: lightning_bolt
   image_url: https://static.wixstatic.com/media/965b5c_57fc2ddb9d994be19fd9db5bbb8a34d0~mv2.png/v1/fill/w_628,h_872,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_57fc2ddb9d994be19fd9db5bbb8a34d0~mv2.png
   mana_cost: '0'
@@ -1343,7 +1252,6 @@
   wind_threshold: '1'
 - artist: gadu_duaso
   card_type: minion
-  element: wind
   flavor_text: _With words clothed in reason's garb, he counseled ignoble ease, peaceful sloth and boundless debauchery._
   identifier: lord_of_lies
   image_url: https://static.wixstatic.com/media/965b5c_59cf058944dd40e9939d5dada6e975c0~mv2.png/v1/fill/w_628,h_872,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_59cf058944dd40e9939d5dada6e975c0~mv2.png
@@ -1357,7 +1265,6 @@
   wind_threshold: '3'
 - artist: elwira_pawlikowska
   card_type: minion
-  element: wind
   identifier: lord_of_the_void
   image_url: https://static.wixstatic.com/media/965b5c_e37437e42f104e20ae74c7031701b519~mv2.png/v1/fill/w_628,h_872,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_e37437e42f104e20ae74c7031701b519~mv2.png
   mana_cost: '7'
@@ -1372,7 +1279,6 @@
   wind_threshold: '3'
 - artist: drew_tucker
   card_type: relic
-  element: none
   identifier: maddening_bells
   image_url: https://static.wixstatic.com/media/965b5c_9c1e9831c2704dafa26c3749db085b94~mv2.png/v1/fill/w_628,h_872,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_9c1e9831c2704dafa26c3749db085b94~mv2.png
   mana_cost: '4'
@@ -1383,7 +1289,6 @@
   type_line: A Unique of delirious dissonance
 - artist: dan_seagrave
   card_type: site
-  element: none
   identifier: maelström
   image_url: https://static.wixstatic.com/media/965b5c_988dc4567a6c427a9baba40f3be20a36~mv2.png/v1/fill/w_960,h_690,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_988dc4567a6c427a9baba40f3be20a36~mv2.png
   name: Maelström
@@ -1394,7 +1299,6 @@
   water_threshold: '1'
 - artist: marta_molina
   card_type: magic
-  element: water
   identifier: marine_voyage
   image_url: https://static.wixstatic.com/media/965b5c_dbca010bfa2c448bbc97f930c18eb3e0~mv2.png/v1/fill/w_628,h_880,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_dbca010bfa2c448bbc97f930c18eb3e0~mv2.png
   mana_cost: '2'
@@ -1407,7 +1311,6 @@
 - artist: andrea_modesti
   card_type: minion
   earth_threshold: '2'
-  element: earth
   identifier: master_tracker
   image_url: https://static.wixstatic.com/media/965b5c_3f4b904a446a489eac344e47f5531673~mv2.png/v1/fill/w_628,h_880,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_3f4b904a446a489eac344e47f5531673~mv2.png
   mana_cost: '2'
@@ -1421,7 +1324,6 @@
   type_line: An Elite Mortal finds his way to your side
 - artist: gadu_duaso
   card_type: minion
-  element: fire
   fire_threshold: '1'
   identifier: maze_minotaur
   image_url: https://static.wixstatic.com/media/965b5c_1f70f3019e854482a9dc6295c7b0e312~mv2.png/v1/fill/w_628,h_874,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_1f70f3019e854482a9dc6295c7b0e312~mv2.png
@@ -1436,7 +1338,6 @@
   type_line: An Elite Mythic snarls around the corner
 - artist: brian_smith
   card_type: minion
-  element: water
   identifier: mega_amoeba
   image_url: https://static.wixstatic.com/media/965b5c_2796fcdcc1d942a3ac589f11cef1d766~mv2.png/v1/fill/w_628,h_880,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_2796fcdcc1d942a3ac589f11cef1d766~mv2.png
   mana_cost: '3'
@@ -1449,7 +1350,6 @@
   water_threshold: '3'
 - artist: drew_tucker
   card_type: minion
-  element: wind
   identifier: men_of_leng
   image_url: https://static.wixstatic.com/media/965b5c_3bd3edd3c1d14b82b914b5e539294c88~mv2.png/v1/fill/w_628,h_872,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_3bd3edd3c1d14b82b914b5e539294c88~mv2.png
   mana_cost: '2'
@@ -1462,7 +1362,6 @@
   wind_threshold: '1'
 - artist: drew_tucker
   card_type: aura
-  element: water
   identifier: mesmerism
   image_url: https://static.wixstatic.com/media/965b5c_0bf85edb22654745a8c51fa53db9378a~mv2.png/v1/fill/w_628,h_880,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_0bf85edb22654745a8c51fa53db9378a~mv2.png
   mana_cost: '7'
@@ -1477,7 +1376,6 @@
   water_threshold: '2'
 - artist: michal_nagypal
   card_type: magic
-  element: fire
   fire_threshold: '3'
   identifier: meteor_shower
   image_url: https://static.wixstatic.com/media/965b5c_86402a761b45426684cc87cc8c81363c~mv2.png/v1/fill/w_628,h_874,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_86402a761b45426684cc87cc8c81363c~mv2.png
@@ -1489,7 +1387,6 @@
 - artist: tony_szczudlo
   card_type: minion
   earth_threshold: '4'
-  element: earth
   identifier: midland_army
   image_url: https://static.wixstatic.com/media/965b5c_8b56cf0da68746e4b09d25c6600a1cd5~mv2.png/v1/fill/w_640,h_894,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_8b56cf0da68746e4b09d25c6600a1cd5~mv2.png
   mana_cost: '8'
@@ -1503,7 +1400,6 @@
   type_line: A Unique army of Mortals, yours to command
 - artist: mattias_frisk
   card_type: magic
-  element: fire
   fire_threshold: '2'
   identifier: minor_explosion
   image_url: https://static.wixstatic.com/media/965b5c_eba53ac8847b4212824e3c4a12b062f3~mv2.png/v1/fill/w_628,h_874,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_eba53ac8847b4212824e3c4a12b062f3~mv2.png
@@ -1524,7 +1420,6 @@
   type_line: Ordinary yet volatile Magic
 - artist: drew_tucker
   card_type: site
-  element: none
   identifier: mirage
   image_url: https://static.wixstatic.com/media/965b5c_933890517e244fbbbb63c5f31a5b2d7d~mv2.png/v1/fill/w_960,h_692,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_933890517e244fbbbb63c5f31a5b2d7d~mv2.png
   name: Mirage
@@ -1534,7 +1429,6 @@
   type_line: An Exceptional Site and a brief illusion of salvation
 - artist: liz_danforth
   card_type: site
-  element: none
   identifier: mirror_realm
   image_url: https://static.wixstatic.com/media/965b5c_1fb705d971e14d42b948aaba5cea58af~mv2.png/v1/fill/w_960,h_692,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_1fb705d971e14d42b948aaba5cea58af~mv2.png
   name: Mirror Realm
@@ -1544,7 +1438,6 @@
   type_line: A Unique Site of enriching reflection
 - artist: elvira_shakirova
   card_type: relic
-  element: none
   identifier: mix_aer
   image_url: https://static.wixstatic.com/media/965b5c_c131ef7a18984d0abddead0cf031944d~mv2.png/v1/fill/w_628,h_872,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_c131ef7a18984d0abddead0cf031944d~mv2.png
   mana_cost: '0'
@@ -1556,7 +1449,6 @@
 - artist: jeff_a_menges
   card_type: minion
   earth_threshold: '2'
-  element: earth
   identifier: monster_hunter
   image_url: https://static.wixstatic.com/media/965b5c_8237e83a94034b08a5e2bbb30f5da9c5~mv2.png/v1/fill/w_628,h_880,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_8237e83a94034b08a5e2bbb30f5da9c5~mv2.png
   mana_cost: '4'
@@ -1569,7 +1461,6 @@
 - artist: jeff_a_menges
   card_type: minion
   earth_threshold: '1'
-  element: earth
   identifier: mordric_druids
   image_url: https://static.wixstatic.com/media/965b5c_85e8d729c90d47f9b1724dd2d4c49a0a~mv2.png/v1/fill/w_628,h_880,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_85e8d729c90d47f9b1724dd2d4c49a0a~mv2.png
   mana_cost: '2'
@@ -1584,7 +1475,6 @@
 - artist: francesca_baerald
   card_type: minion
   earth_threshold: '2'
-  element: earth
   flavor_text: _Hearth and heart will tremble._
   identifier: mountain_giant
   image_url: https://static.wixstatic.com/media/965b5c_f1b2360925284ee0be8482d3b2ba15c8~mv2.png/v1/fill/w_628,h_880,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_f1b2360925284ee0be8482d3b2ba15c8~mv2.png
@@ -1601,7 +1491,6 @@
   type_line: An Exceptional Mythic of geographical proportions
 - artist: vasiliy_ermolaev
   card_type: minion
-  element: water
   flavor_text: _The pallid tunnelers calmly prowl the muck, Ready to bore through mud and flesh alike._
   identifier: muck_lampreys
   image_url: https://static.wixstatic.com/media/965b5c_be5d6c89ca6d41d1838af8cba49c3923~mv2.png/v1/fill/w_628,h_880,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_be5d6c89ca6d41d1838af8cba49c3923~mv2.png
@@ -1614,7 +1503,6 @@
   type_line: Ordinary Beasts that delve and leech
 - artist: jeff_easley
   card_type: magic
-  element: water
   flavor_text: _Breath starts and the heart skips a beat._
   identifier: near_miss
   image_url: https://static.wixstatic.com/media/965b5c_a7e10864576b4f47804aa4aa80516c05~mv2.png/v1/fill/w_628,h_880,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_a7e10864576b4f47804aa4aa80516c05~mv2.png
@@ -1627,7 +1515,6 @@
   water_threshold: '2'
 - artist: dan_seagrave
   card_type: minion
-  element: wind
   identifier: nimbus_jinn
   image_url: https://static.wixstatic.com/media/965b5c_e17d63bd5a074567a65011a5930f4d37~mv2.png/v1/fill/w_628,h_872,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_e17d63bd5a074567a65011a5930f4d37~mv2.png
   keywords:
@@ -1645,7 +1532,6 @@
   wind_threshold: '2'
 - artist: dan_seagrave
   card_type: site
-  element: none
   identifier: northern_frontline
   image_url: https://static.wixstatic.com/media/965b5c_af96ff07ecbd4d8790e8f01846da2052~mv2.png/v1/fill/w_960,h_692,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_af96ff07ecbd4d8790e8f01846da2052~mv2.png
   name: Northern Frontline
@@ -1655,7 +1541,6 @@
   type_line: An Elite Site where heroes are born
 - artist: jussi_pylkäs
   card_type: site
-  element: none
   identifier: nowhere_island
   image_url: https://static.wixstatic.com/media/965b5c_70c1b180a8334fb3bfe41b3334daa7e8~mv2.png/v1/fill/w_960,h_692,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_70c1b180a8334fb3bfe41b3334daa7e8~mv2.png
   name: Nowhere Island
@@ -1666,7 +1551,6 @@
 - artist: margaret_organ-kean
   card_type: site
   earth_threshold: '1'
-  element: none
   identifier: observatory
   image_url: https://static.wixstatic.com/media/965b5c_5bf0fc1a42884ceda35d6407fea86d1e~mv2.png/v1/fill/w_960,h_692,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_5bf0fc1a42884ceda35d6407fea86d1e~mv2.png
   keywords:
@@ -1679,7 +1563,6 @@
   wind_threshold: '1'
 - artist: lindsey_crummett
   card_type: minion
-  element: wind
   flavor_text: _“Ygnaiih ygnaiih thflthkh'ngha… Yog-Sothoth… Y'bthnk h'ehye—n'grkdl'lh!” - HP Lovecraft_
   identifier: occult_ritual
   image_url: https://static.wixstatic.com/media/965b5c_531daa21f0be42d3865f32670ccd5f54~mv2.png/v1/fill/w_628,h_872,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_531daa21f0be42d3865f32670ccd5f54~mv2.png
@@ -1693,7 +1576,6 @@
 - artist: ian_miller
   card_type: site
   earth_threshold: '1'
-  element: none
   identifier: old_growth_forest
   image_url: https://static.wixstatic.com/media/965b5c_950166bab7484c9c8aec0dc55754f76f~mv2.png/v1/fill/w_960,h_692,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_950166bab7484c9c8aec0dc55754f76f~mv2.png
   name: Old Growth Forest
@@ -1703,7 +1585,6 @@
   type_line: An Exceptional Site of smothering gloom
 - artist: elvira_shakirova
   card_type: minion
-  element: water
   identifier: ormund_harpooners
   image_url: https://static.wixstatic.com/media/965b5c_481e3181a9804dfba0f868b747004d6f~mv2.png/v1/fill/w_628,h_880,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_481e3181a9804dfba0f868b747004d6f~mv2.png
   keywords:
@@ -1720,7 +1601,6 @@
   water_threshold: '1'
 - artist: tony_szczudlo
   card_type: minion
-  element: fire
   fire_threshold: '1'
   identifier: outback_strider
   image_url: https://static.wixstatic.com/media/965b5c_cdb98c2679da402586ae0dfec4cbb44f~mv2.png/v1/fill/w_628,h_874,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_cdb98c2679da402586ae0dfec4cbb44f~mv2.png
@@ -1733,7 +1613,6 @@
   type_line: An Ordinary Mortal from a distant land
 - artist: lindsey_crummett
   card_type: minion
-  element: wind
   flavor_text: |-
     _To the bat, it is the world that's blind.
     To the song-spun tapestry of its kind._
@@ -1749,7 +1628,6 @@
   wind_threshold: '1'
 - artist: drew_tucker
   card_type: avatar
-  element: none
   identifier: pathfinder
   image_url: https://static.wixstatic.com/media/965b5c_2e42479b967341f1b91d16ba68130a39~mv2.png/v1/fill/w_628,h_874,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_2e42479b967341f1b91d16ba68130a39~mv2.png
   initial_life: '20'
@@ -1767,7 +1645,6 @@
   type_line: You Avatar finds the way to victory
 - artist: drew_tucker
   card_type: relic
-  element: none
   identifier: pendulum_of_peril
   image_url: https://static.wixstatic.com/media/965b5c_dbe5cdc62f3940b998ecf604f3eef611~mv2.png/v1/fill/w_628,h_872,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_dbe5cdc62f3940b998ecf604f3eef611~mv2.png
   mana_cost: '4'
@@ -1780,7 +1657,6 @@
   type_line: A Unique Relic of certain cessation
 - artist: andrea_modesti
   card_type: minion
-  element: fire
   fire_threshold: '2'
   flavor_text: |-
     _Swift steeds and swifter swords.
@@ -1798,7 +1674,6 @@
   type_line: unknown
 - artist: melissa_a_benson
   card_type: minion
-  element: wind
   identifier: phantom_steed
   image_url: https://static.wixstatic.com/media/965b5c_61566e2b60b34349bf64ed72863a751f~mv2.png/v1/fill/w_628,h_872,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_61566e2b60b34349bf64ed72863a751f~mv2.png
   mana_cost: '4'
@@ -1811,7 +1686,6 @@
   wind_threshold: '2'
 - artist: severine_pineaux
   card_type: relic
-  element: none
   identifier: philosophers_stone
   image_url: https://static.wixstatic.com/media/965b5c_435068680938433d9059b2970775f16f~mv2.png/v1/fill/w_628,h_872,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_435068680938433d9059b2970775f16f~mv2.png
   mana_cost: '1'
@@ -1825,7 +1699,6 @@
 - artist: dan_seagrave
   card_type: site
   earth_threshold: '1'
-  element: none
   identifier: pillar_of_zeiros
   image_url: https://static.wixstatic.com/media/965b5c_e80d2335d83149a08c80caff71536521~mv2.png/v1/fill/w_960,h_692,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_e80d2335d83149a08c80caff71536521~mv2.png
   name: Pillar Of Zeiros
@@ -1835,7 +1708,6 @@
   type_line: A Unique Site from an antediluvian past
 - artist: vincent_pompetti
   card_type: minion
-  element: water
   flavor_text: |-
     _Build me straight, O worthy Master!
     Staunch and strong, a good steady vessel,
@@ -1855,7 +1727,6 @@
   water_threshold: '1'
 - artist: michal_nagypal
   card_type: magic
-  element: water
   flavor_text: |-
     _"Their land swarmed with frogs.
     Even in the chambers or their kings." - Psalm 105:30 _
@@ -1870,7 +1741,6 @@
   water_threshold: '3'
 - artist: melissa_a_benson
   card_type: minion
-  element: water
   identifier: polar_bears
   image_url: https://static.wixstatic.com/media/965b5c_944339563a5b42fa86f5eae70f97e9b5~mv2.png/v1/fill/w_846,h_1182,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_944339563a5b42fa86f5eae70f97e9b5~mv2.png
   mana_cost: '2'
@@ -1883,7 +1753,6 @@
   water_threshold: '2'
 - artist: marta_molina
   card_type: site
-  element: none
   identifier: pristine_paradise
   image_url: https://static.wixstatic.com/media/965b5c_60052a4529a443d69fb8a414d7c14a50~mv2.png/v1/fill/w_960,h_692,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_60052a4529a443d69fb8a414d7c14a50~mv2.png
   name: Pristine Paradise
@@ -1893,7 +1762,6 @@
   type_line: A Unique Site of fragile splendor
 - artist: alan_pollack
   card_type: magic
-  element: wind
   identifier: psionic_blast
   image_url: https://static.wixstatic.com/media/965b5c_c29142b10825462798b8d5fd52b6a609~mv2.png/v1/fill/w_628,h_882,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_c29142b10825462798b8d5fd52b6a609~mv2.png
   mana_cost: '3'
@@ -1906,7 +1774,6 @@
 - artist: brian_smith
   card_type: minion
   earth_threshold: '2'
-  element: earth
   identifier: pudge_butcher
   image_url: https://static.wixstatic.com/media/965b5c_5d2bee466041428ba8bbcb965a19ab5c~mv2.png/v1/fill/w_628,h_880,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_5d2bee466041428ba8bbcb965a19ab5c~mv2.png
   keywords:
@@ -1922,7 +1789,6 @@
   type_line: An Exceptional Monster of sloth and greed
 - artist: liz_danforth
   card_type: minion
-  element: wind
   identifier: puppet_master
   image_url: https://static.wixstatic.com/media/965b5c_84f3d2bb0086459cb101e7448694a2a3~mv2.png/v1/fill/w_628,h_882,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_84f3d2bb0086459cb101e7448694a2a3~mv2.png
   mana_cost: '6'
@@ -1935,7 +1801,6 @@
   wind_threshold: '2'
 - artist: brian_smith
   card_type: relic
-  element: none
   identifier: purge_juggernaut
   image_url: https://static.wixstatic.com/media/965b5c_71a0bf77b43040a0b3b0f16956cc25ee~mv2.png/v1/fill/w_628,h_872,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_71a0bf77b43040a0b3b0f16956cc25ee~mv2.png
   mana_cost: '5'
@@ -1949,7 +1814,6 @@
 - artist: caio_calazans
   card_type: site
   earth_threshold: '1'
-  element: none
   identifier: quagmire
   image_url: https://static.wixstatic.com/media/965b5c_8b56cf0da68746e4b09d25c6600a1cd5~mv2.png/v1/fill/w_640,h_894,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_8b56cf0da68746e4b09d25c6600a1cd5~mv2.png
   keywords:
@@ -1962,7 +1826,6 @@
 - artist: severine_pineaux
   card_type: minion
   earth_threshold: '2'
-  element: earth
   identifier: queen_of_midland
   image_url: https://static.wixstatic.com/media/965b5c_e9b10a595301437288cb147b3dedc05d~mv2.png/v1/fill/w_628,h_880,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_e9b10a595301437288cb147b3dedc05d~mv2.png
   mana_cost: '4'
@@ -1974,7 +1837,6 @@
   type_line: A Unique Mortal at the center of attention
 - artist: caio_calazans
   card_type: minion
-  element: fire
   fire_threshold: '1'
   flavor_text: |-
     _“And a course grace remained: his head was high,
@@ -1991,7 +1853,6 @@
   release: alpha
 - artist: tony_szczudlo
   card_type: minion
-  element: wind
   identifier: recurring_specter
   image_url: https://static.wixstatic.com/media/965b5c_8b2ab87a9f274fc4ad7b96cc74bfad54~mv2.png/v1/fill/w_628,h_882,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_8b2ab87a9f274fc4ad7b96cc74bfad54~mv2.png
   mana_cost: '1'
@@ -2006,7 +1867,6 @@
   wind_threshold: '1'
 - artist: aronjaart
   card_type: site
-  element: none
   fire_threshold: '1'
   identifier: remote_desert
   image_url: https://static.wixstatic.com/media/965b5c_bc206dc7b3d64fb981cef221be32e084~mv2.png/v1/fill/w_960,h_692,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_bc206dc7b3d64fb981cef221be32e084~mv2.png
@@ -2019,7 +1879,6 @@
   type_line: An Ordinary Site of ruinous Fire
 - artist: francesca_baerald
   card_type: magic
-  element: water
   flavor_text: _All art is but imitation of nature._
   identifier: replication
   image_url: https://static.wixstatic.com/media/965b5c_870747a8eae0465c8effb3b441e7131c~mv2.png/v1/fill/w_846,h_1182,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_870747a8eae0465c8effb3b441e7131c~mv2.png
@@ -2034,7 +1893,6 @@
 - artist: elwira_pawlikowska
   card_type: aura
   earth_threshold: '2'
-  element: earth
   identifier: rest_in_peace
   image_url: https://static.wixstatic.com/media/965b5c_1df5ee44ee774ce9941aa9ff0a4ef320~mv2.png/v1/fill/w_628,h_880,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_1df5ee44ee774ce9941aa9ff0a4ef320~mv2.png
   mana_cost: '5'
@@ -2048,7 +1906,6 @@
 - artist: dan_seagrave
   card_type: site
   earth_threshold: '1'
-  element: none
   identifier: rift_valley
   image_url: https://static.wixstatic.com/media/965b5c_4a66027403334b4f875a7c596591de63~mv2.png/v1/fill/w_960,h_692,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_4a66027403334b4f875a7c596591de63~mv2.png
   keywords:
@@ -2060,7 +1917,6 @@
   type_line: A Unique Site of startling displacement
 - artist: elvira_shakirova
   card_type: minion
-  element: fire
   fire_threshold: '2'
   flavor_text: _Just put one foot in front of the other._
   identifier: rimland_nomads
@@ -2074,7 +1930,6 @@
   type_line: Ordinary Mortals on an extraordinary journey
 - artist: ian_miller
   card_type: site
-  element: none
   fire_threshold: '1'
   identifier: river_of_flame
   image_url: https://static.wixstatic.com/media/965b5c_ea4e4631af9a4f818cd5d3a65537c930~mv2.png/v1/fill/w_960,h_690,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_ea4e4631af9a4f818cd5d3a65537c930~mv2.png
@@ -2085,7 +1940,6 @@
   type_line: A Unique Site where pure rage spills forth
 - artist: jeff_easley
   card_type: minion
-  element: wind
   flavor_text: _Out of the blue._
   identifier: roaming_monster
   image_url: https://static.wixstatic.com/media/965b5c_46bc8a24965c409fa976261511243dad~mv2.png/v1/fill/w_628,h_882,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_46bc8a24965c409fa976261511243dad~mv2.png
@@ -2099,7 +1953,6 @@
   wind_threshold: '2'
 - artist: jeff_easley
   card_type: minion
-  element: fire
   fire_threshold: '2'
   identifier: rolicky_dragonettes
   image_url: https://static.wixstatic.com/media/965b5c_c3bdd72415ba4776832d2f6a7c7fd04c~mv2.png/v1/fill/w_628,h_874,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_c3bdd72415ba4776832d2f6a7c7fd04c~mv2.png
@@ -2116,7 +1969,6 @@
 - artist: liz_danforth
   card_type: minion
   earth_threshold: '2'
-  element: earth
   identifier: royal_bodyguard
   image_url: https://static.wixstatic.com/media/965b5c_9c0e741d0a814473836e264b136b8a71~mv2.png/v1/fill/w_628,h_880,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_9c0e741d0a814473836e264b136b8a71~mv2.png
   mana_cost: '4'
@@ -2130,7 +1982,6 @@
   type_line: An Elite Mortal hand picked for his loyalty
 - artist: dan_seagrave
   card_type: site
-  element: none
   fire_threshold: '1'
   identifier: ruins
   image_url: https://static.wixstatic.com/media/965b5c_b6675be682354aa6be41e54f7f87fb72~mv2.png/v1/fill/w_960,h_690,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_b6675be682354aa6be41e54f7f87fb72~mv2.png
@@ -2143,7 +1994,6 @@
 - artist: andrea_modesti
   card_type: site
   earth_threshold: '1'
-  element: none
   identifier: rustic_village
   image_url: https://static.wixstatic.com/media/965b5c_104efba180174be2ba86c7f274eef9f4~mv2.png/v1/fill/w_960,h_690,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_104efba180174be2ba86c7f274eef9f4~mv2.png
   keywords:
@@ -2155,7 +2005,6 @@
   type_line: An Ordinary Site of fertile Earth
 - artist: dan_seagrave
   card_type: minion
-  element: fire
   fire_threshold: '1'
   identifier: sacred_scarabs
   image_url: https://static.wixstatic.com/media/965b5c_76515e67a92c466db0e1edf5d6f653da~mv2.png/v1/fill/w_628,h_874,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_76515e67a92c466db0e1edf5d6f653da~mv2.png
@@ -2177,7 +2026,6 @@
   type_line: Ordinary Beasts of eruptive retribution
 - artist: vincent_pompetti
   card_type: minion
-  element: fire
   fire_threshold: '1'
   flavor_text: |-
     _The sands whisper their sorrowful song,
@@ -2196,7 +2044,6 @@
   type_line: An Ordinary Beast senses vibration here
 - artist: drew_tucker
   card_type: aura
-  element: fire
   fire_threshold: '1'
   identifier: sandstorm
   image_url: https://static.wixstatic.com/media/965b5c_c80bd89c62fa42c69fbb90708973f884~mv2.png/v1/fill/w_628,h_874,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_c80bd89c62fa42c69fbb90708973f884~mv2.png
@@ -2211,7 +2058,6 @@
 - artist: andrea_modesti
   card_type: minion
   earth_threshold: '1'
-  element: earth
   flavor_text: _For the upwardly mobile of the Midland court, accolades in the Royal hunt of the Mist were as treasured as any war-time achievement._
   identifier: scent_hounds
   image_url: https://static.wixstatic.com/media/965b5c_57058ef3c7ad478c9a9c7db7756dd827~mv2.png/v1/fill/w_628,h_880,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_57058ef3c7ad478c9a9c7db7756dd827~mv2.png
@@ -2224,7 +2070,6 @@
   type_line: Ordinary Beasts with extraordinary sniffers
 - artist: dan_seagrave
   card_type: magic
-  element: fire
   fire_threshold: '1'
   identifier: scorched_earth
   image_url: https://static.wixstatic.com/media/965b5c_50f74732396e45ed9fda23b418b96009~mv2.png/v1/fill/w_628,h_874,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_50f74732396e45ed9fda23b418b96009~mv2.png
@@ -2237,7 +2082,6 @@
 - artist: mattias_frisk
   card_type: minion
   earth_threshold: '1'
-  element: earth
   identifier: scourge_zombies
   image_url: https://static.wixstatic.com/media/965b5c_688eba8b3c2b4852b0883e2908fd6ba3~mv2.png/v1/fill/w_628,h_880,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_688eba8b3c2b4852b0883e2908fd6ba3~mv2.png
   mana_cost: '1'
@@ -2251,7 +2095,6 @@
   type_line: Ordinary Undead grasp onto life again
 - artist: melissa_a_benson
   card_type: relic
-  element: none
   identifier: screaming_skull
   image_url: https://static.wixstatic.com/media/965b5c_a8bb3fc84a6e4621a12b6fbb6f3504f0~mv2.png/v1/fill/w_628,h_872,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_a8bb3fc84a6e4621a12b6fbb6f3504f0~mv2.png
   mana_cost: '2'
@@ -2264,7 +2107,6 @@
   type_line: An Exceptional ruined Relic of strength
 - artist: elwira_pawlikowska
   card_type: minion
-  element: wind
   identifier: scroll_curator
   image_url: https://static.wixstatic.com/media/965b5c_8cbb597c2c5240bcbf3f86a1b7998054~mv2.png/v1/fill/w_628,h_882,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_8cbb597c2c5240bcbf3f86a1b7998054~mv2.png
   mana_cost: '2'
@@ -2279,7 +2121,6 @@
   wind_threshold: '1'
 - artist: vincent_pompetti
   card_type: minion
-  element: water
   flavor_text: _Young serpents have been spotted in rivers as far north as the Boreal Forests!_
   identifier: sea_serpent
   image_url: https://static.wixstatic.com/media/965b5c_aa3ff488f7874db79a12478f5c933782~mv2.png/v1/fill/w_628,h_880,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_aa3ff488f7874db79a12478f5c933782~mv2.png
@@ -2297,7 +2138,6 @@
 - artist: lindsey_crummett
   card_type: minion
   earth_threshold: '2'
-  element: earth
   identifier: seasoned_sellsword
   image_url: https://static.wixstatic.com/media/965b5c_b7ff776b4bbd4965a83c9184565f2914~mv2.png/v1/fill/w_628,h_880,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_b7ff776b4bbd4965a83c9184565f2914~mv2.png
   mana_cost: '3'
@@ -2312,7 +2152,6 @@
 - artist: doug_kovacs
   card_type: site
   earth_threshold: '1'
-  element: none
   identifier: secret_tunnel
   image_url: https://static.wixstatic.com/media/965b5c_ec87787bcde84b338ad469ad784af43f~mv2.png/v1/fill/w_960,h_690,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_ec87787bcde84b338ad469ad784af43f~mv2.png
   name: Secret Tunnel
@@ -2322,7 +2161,6 @@
   type_line: An Exceptional Site to help in times of trouble
 - artist: ossi_hiekkala
   card_type: minion
-  element: water
   identifier: sedge_crabs
   image_url: https://static.wixstatic.com/media/965b5c_b66cf63affc14bf3b1c3fead3518e4ec~mv2.png/v1/fill/w_846,h_1182,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_b66cf63affc14bf3b1c3fead3518e4ec~mv2.png
   keywords:
@@ -2339,7 +2177,6 @@
   water_threshold: '2'
 - artist: dan_seagrave
   card_type: avatar
-  element: none
   identifier: seer
   image_url: https://static.wixstatic.com/media/965b5c_7ed0a111e973431fa0c909cee187a87a~mv2.png/v1/fill/w_628,h_874,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_7ed0a111e973431fa0c909cee187a87a~mv2.png
   initial_life: '20'
@@ -2357,7 +2194,6 @@
 - artist: vincent_pompetti
   card_type: minion
   earth_threshold: '2'
-  element: earth
   flavor_text: _My word is my bond, my shield is my service._
   identifier: shield_maidens
   image_url: https://static.wixstatic.com/media/965b5c_666c7358e68d439aac56ce4f583a171f~mv2.png/v1/fill/w_628,h_880,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_666c7358e68d439aac56ce4f583a171f~mv2.png
@@ -2372,7 +2208,6 @@
   type_line: Exceptional Mortals hold the line
 - artist: vasiliy_ermolaev
   card_type: site
-  element: none
   fire_threshold: '1'
   identifier: shifting_sands
   image_url: https://static.wixstatic.com/media/965b5c_10c313a763ff41d194461f96ec01ebc1~mv2.png/v1/fill/w_960,h_690,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_10c313a763ff41d194461f96ec01ebc1~mv2.png
@@ -2385,7 +2220,6 @@
   type_line: An Exceptional Site of furious speed
 - artist: francesca_baerald
   card_type: magic
-  element: water
   identifier: shrink
   image_url: https://static.wixstatic.com/media/965b5c_b4c7a041faac4352ab9abe81cc96e8a5~mv2.png/v1/fill/w_846,h_1182,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_b4c7a041faac4352ab9abe81cc96e8a5~mv2.png
   mana_cost: '0'
@@ -2398,7 +2232,6 @@
   water_threshold: '1'
 - artist: brian_smith
   card_type: relic
-  element: none
   identifier: siege_ballista
   image_url: https://static.wixstatic.com/media/965b5c_8b56cf0da68746e4b09d25c6600a1cd5~mv2.png/v1/fill/w_640,h_894,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_8b56cf0da68746e4b09d25c6600a1cd5~mv2.png
   mana_cost: '3'
@@ -2412,7 +2245,6 @@
 - artist: severine_pineaux
   card_type: minion
   earth_threshold: '2'
-  element: earth
   identifier: silver_valkyries
   image_url: https://static.wixstatic.com/media/965b5c_58574b7e2822475081b4452769f45c70~mv2.png/v1/fill/w_628,h_880,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_58574b7e2822475081b4452769f45c70~mv2.png
   mana_cost: '6'
@@ -2427,7 +2259,6 @@
 - artist: andrea_modesti
   card_type: site
   earth_threshold: '1'
-  element: none
   identifier: simple_village
   image_url: https://static.wixstatic.com/media/965b5c_8b56cf0da68746e4b09d25c6600a1cd5~mv2.png/v1/fill/w_640,h_894,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_8b56cf0da68746e4b09d25c6600a1cd5~mv2.png
   keywords:
@@ -2440,7 +2271,6 @@
 - artist: michal_nagypal
   card_type: site
   earth_threshold: '1'
-  element: none
   identifier: sinkhole
   image_url: https://static.wixstatic.com/media/965b5c_6e789c698b3444ac867a301498778a38~mv2.png/v1/fill/w_960,h_690,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_6e789c698b3444ac867a301498778a38~mv2.png
   name: Sinkhole
@@ -2451,7 +2281,6 @@
 - artist: gadu_duaso
   card_type: minion
   earth_threshold: '2'
-  element: earth
   flavor_text: |-
     _My shield is anchored by a holy purpose.
     My sword is guided by the light of God!_
@@ -2467,7 +2296,6 @@
 - artist: ossi_hiekkala
   card_type: minion
   earth_threshold: '2'
-  element: earth
   flavor_text: |-
     _“Since long I've held silence as a remedy for harm.”
     - Aeschylus_
@@ -2482,7 +2310,6 @@
   type_line: These Elite Mortals are not to be disturbed
 - artist: severine_pineaux
   card_type: magic
-  element: water
   identifier: sleep
   image_url: https://static.wixstatic.com/media/965b5c_6fb135506044464199d26d99f6795a72~mv2.png/v1/fill/w_846,h_1182,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_6fb135506044464199d26d99f6795a72~mv2.png
   mana_cost: '1'
@@ -2494,7 +2321,6 @@
   water_threshold: '1'
 - artist: jeff_easley
   card_type: minion
-  element: water
   identifier: sneak_thief
   image_url: https://static.wixstatic.com/media/965b5c_6acd273fbf8840df8ef7a4d1fe82e5e7~mv2.png/v1/fill/w_846,h_1182,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_6acd273fbf8840df8ef7a4d1fe82e5e7~mv2.png
   keywords:
@@ -2511,7 +2337,6 @@
   water_threshold: '2'
 - artist: francesca_baerald
   card_type: avatar
-  element: none
   identifier: sorcerer
   image_url: https://static.wixstatic.com/media/965b5c_75f8d76cc1ea48bdbaa3082eecdbf479~mv2.png/v1/fill/w_628,h_874,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_75f8d76cc1ea48bdbaa3082eecdbf479~mv2.png
   initial_life: '20'
@@ -2528,7 +2353,6 @@
   type_line: Your avatar will win, no contest
 - artist: andrea_modesti
   card_type: relic
-  element: none
   identifier: spear_of_destiny
   image_url: https://static.wixstatic.com/media/965b5c_d806c8763aed48aaa685623e848970ae~mv2.png/v1/fill/w_628,h_872,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_d806c8763aed48aaa685623e848970ae~mv2.png
   mana_cost: '4'
@@ -2539,7 +2363,6 @@
   type_line: A Unique Relic guided by divine providence
 - artist: jeff_easley
   card_type: minion
-  element: wind
   flavor_text: _“We live on a placid island of ignorance in the midst o black seas of infinity, and it was not meant that we should voyage far.” — H.P. Lovecraft_
   identifier: spectral_stalker
   image_url: https://static.wixstatic.com/media/965b5c_8dd75218b2364800bd2da60d3fac99de~mv2.png/v1/fill/w_628,h_882,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_8dd75218b2364800bd2da60d3fac99de~mv2.png
@@ -2555,7 +2378,6 @@
   wind_threshold: '2'
 - artist: drew_tucker
   card_type: magic
-  element: wind
   identifier: spell_block
   image_url: https://static.wixstatic.com/media/965b5c_1ac14804afa4411398c75cee2804adc3~mv2.png/v1/fill/w_628,h_882,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_1ac14804afa4411398c75cee2804adc3~mv2.png
   mana_cost: '0'
@@ -2567,7 +2389,6 @@
   wind_threshold: '2'
 - artist: vasiliy_ermolaev
   card_type: minion
-  element: wind
   identifier: spire_lich
   image_url: https://static.wixstatic.com/media/965b5c_0fb7a4ba3b9747e29914622d5ed1d5e7~mv2.png/v1/fill/w_628,h_882,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_0fb7a4ba3b9747e29914622d5ed1d5e7~mv2.png
   mana_cost: '2'
@@ -2584,7 +2405,6 @@
 - artist: severine_pineaux
   card_type: minion
   earth_threshold: '3'
-  element: earth
   identifier: stone_gaze_gorgons
   image_url: https://static.wixstatic.com/media/965b5c_0641c2491fa6427e86f535d8912b5223~mv2.png/v1/fill/w_628,h_880,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_0641c2491fa6427e86f535d8912b5223~mv2.png
   keywords:
@@ -2598,7 +2418,6 @@
   type_line: Elite Mythics gaze longingly from this vantage
 - artist: caio_calazans
   card_type: site
-  element: none
   identifier: stonehenge
   image_url: https://static.wixstatic.com/media/965b5c_99d6b675794b4d7bad4cf844bb3832af~mv2.png/v1/fill/w_960,h_690,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_99d6b675794b4d7bad4cf844bb3832af~mv2.png
   name: Stonehenge
@@ -2608,7 +2427,6 @@
   type_line: A Unique Site where leylines converge
 - artist: michal_nagypal
   card_type: magic
-  element: wind
   identifier: summoning_sphere
   image_url: https://static.wixstatic.com/media/965b5c_28c5d723c33b4c76a878d3bdf4be3ed3~mv2.png/v1/fill/w_628,h_882,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_28c5d723c33b4c76a878d3bdf4be3ed3~mv2.png
   mana_cost: '1'
@@ -2622,7 +2440,6 @@
   wind_threshold: '1'
 - artist: ossi_hiekkala
   card_type: minion
-  element: water
   flavor_text: |-
     _Upon our souls they dance,
     A gentle ballet of hope and dream._
@@ -2641,7 +2458,6 @@
   water_threshold: '1'
 - artist: michal_nagypal
   card_type: site
-  element: none
   identifier: tadpole_pool
   image_url: https://static.wixstatic.com/media/965b5c_f24584cd912d41619821262c87a8a6fc~mv2.png/v1/fill/w_960,h_690,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_f24584cd912d41619821262c87a8a6fc~mv2.png
   keywords:
@@ -2654,7 +2470,6 @@
   water_threshold: '1'
 - artist: jeff_easley
   card_type: magic
-  element: wind
   flavor_text: _“If it's in my hand, it's mind.” - Toddler's first rule._
   identifier: telekinesis
   image_url: https://static.wixstatic.com/media/965b5c_ce4315bbfcbf4889870a0ad3e117dca4~mv2.png/v1/fill/w_628,h_882,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_ce4315bbfcbf4889870a0ad3e117dca4~mv2.png
@@ -2667,7 +2482,6 @@
   wind_threshold: '1'
 - artist: jussi_pylkäs
   card_type: minion
-  element: water
   identifier: tide_naiads
   image_url: https://static.wixstatic.com/media/965b5c_796dab1d1f9b4eedb938817ee887d4eb~mv2.png/v1/fill/w_846,h_1182,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_796dab1d1f9b4eedb938817ee887d4eb~mv2.png
   keywords:
@@ -2684,7 +2498,6 @@
   water_threshold: '2'
 - artist: severine_pineaux
   card_type: aura
-  element: wind
   identifier: time_stop
   image_url: https://static.wixstatic.com/media/965b5c_9017e99a9e8c45e29de9d2dd68c0b361~mv2.png/v1/fill/w_628,h_882,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_9017e99a9e8c45e29de9d2dd68c0b361~mv2.png
   mana_cost: '9'
@@ -2698,7 +2511,6 @@
   wind_threshold: '3'
 - artist: dan_seagrave
   card_type: relic
-  element: none
   identifier: torshamarr_trinket
   image_url: https://static.wixstatic.com/media/965b5c_29264621858b4a6ca28cafe481c8fc95~mv2.png/v1/fill/w_628,h_872,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_29264621858b4a6ca28cafe481c8fc95~mv2.png
   mana_cost: '1'
@@ -2711,7 +2523,6 @@
   type_line: An Ordinary Relic of recurring force
 - artist: alan_pollack
   card_type: minion
-  element: water
   identifier: tringh_constrictor
   image_url: https://static.wixstatic.com/media/965b5c_e07623fdf7374ccc8967bfe398b0ad0a~mv2.png/v1/fill/w_846,h_1182,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_e07623fdf7374ccc8967bfe398b0ad0a~mv2.png
   mana_cost: '4'
@@ -2724,7 +2535,6 @@
   water_threshold: '1'
 - artist: jussi_pylkäs
   card_type: relic
-  element: none
   identifier: undertaker_engine
   image_url: https://static.wixstatic.com/media/965b5c_3691b69658c4425f962998c4f485fab4~mv2.png/v1/fill/w_628,h_872,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_3691b69658c4425f962998c4f485fab4~mv2.png
   mana_cost: '7'
@@ -2735,7 +2545,6 @@
   type_line: An Elite Relic of possessed cryptosy
 - artist: caio_calazans
   card_type: site
-  element: none
   identifier: undertow
   image_url: https://static.wixstatic.com/media/965b5c_27f954a1b61d48d78572f403480d4531~mv2.png/v1/fill/w_960,h_690,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_27f954a1b61d48d78572f403480d4531~mv2.png
   keywords:
@@ -2748,7 +2557,6 @@
   water_threshold: '1'
 - artist: tony_szczudlo
   card_type: magic
-  element: wind
   identifier: unearth
   image_url: https://static.wixstatic.com/media/965b5c_14a3aa1c05454f77ac428e120b782af5~mv2.png/v1/fill/w_628,h_882,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_14a3aa1c05454f77ac428e120b782af5~mv2.png
   mana_cost: '0'
@@ -2762,7 +2570,6 @@
   wind_threshold: '1'
 - artist: jussi_pylkäs
   card_type: magic
-  element: wind
   flavor_text: _A revolutionary idea is forcibly silenced._
   identifier: unique_counterspell
   image_url: https://static.wixstatic.com/media/965b5c_86ce0db54ce14070a09ceebdf0198bfd~mv2.png/v1/fill/w_628,h_882,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_86ce0db54ce14070a09ceebdf0198bfd~mv2.png
@@ -2775,7 +2582,6 @@
   wind_threshold: '3'
 - artist: francesca_baerald
   card_type: minion
-  element: water
   identifier: unland_eel
   image_url: https://static.wixstatic.com/media/965b5c_e7cafce2a0b74891a23c78cadf248c38~mv2.png/v1/fill/w_846,h_1182,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_e7cafce2a0b74891a23c78cadf248c38~mv2.png
   keywords:
@@ -2793,7 +2599,6 @@
   water_threshold: '1'
 - artist: severine_pineaux
   card_type: magic
-  element: water
   flavor_text: _For life to rise, the dead must crumble._
   identifier: unravel
   image_url: https://static.wixstatic.com/media/965b5c_e9547880aa9e4807b5453683d002fe67~mv2.png/v1/fill/w_846,h_1182,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_e9547880aa9e4807b5453683d002fe67~mv2.png
@@ -2807,7 +2612,6 @@
 - artist: truitt_parrish
   card_type: minion
   earth_threshold: '2'
-  element: earth
   identifier: vanguaard_knights
   image_url: https://static.wixstatic.com/media/965b5c_bf553cb3da794dd29c582aac068b7831~mv2.png/v1/fill/w_628,h_880,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_bf553cb3da794dd29c582aac068b7831~mv2.png
   mana_cost: '3'
@@ -2820,7 +2624,6 @@
 - artist: jeff_a_menges
   card_type: site
   earth_threshold: '1'
-  element: none
   identifier: vantage_hills
   image_url: https://static.wixstatic.com/media/965b5c_8b56cf0da68746e4b09d25c6600a1cd5~mv2.png/v1/fill/w_640,h_894,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_8b56cf0da68746e4b09d25c6600a1cd5~mv2.png
   name: Vantage Hills
@@ -2830,7 +2633,6 @@
   type_line: A rugged Site with Exceptional views
 - artist: margaret_organ-kean
   card_type: minion
-  element: wind
   identifier: vril_revenant
   image_url: https://static.wixstatic.com/media/965b5c_58c12f9f78b641eab593eadc6909983f~mv2.png/v1/fill/w_628,h_882,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_58c12f9f78b641eab593eadc6909983f~mv2.png
   mana_cost: '1'
@@ -2845,7 +2647,6 @@
   wind_threshold: '1'
 - artist: ian_miller
   card_type: magic
-  element: fire
   fire_threshold: '3'
   identifier: warp_spasm
   image_url: https://static.wixstatic.com/media/965b5c_317c75562bee49e0bd814293679a6fd3~mv2.png/v1/fill/w_628,h_874,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_317c75562bee49e0bd814293679a6fd3~mv2.png
@@ -2857,7 +2658,6 @@
   type_line: Elite Magic of hyper violence
 - artist: jeff_a_menges
   card_type: minion
-  element: fire
   fire_threshold: '2'
   identifier: wayfaring_pilgrim
   image_url: https://static.wixstatic.com/media/965b5c_4d65a1a07d2a4dcb9899934979d8201f~mv2.png/v1/fill/w_628,h_874,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_4d65a1a07d2a4dcb9899934979d8201f~mv2.png
@@ -2874,7 +2674,6 @@
   type_line: An Elite Mortal on a spiritual journey
 - artist: jeff_easley
   card_type: magic
-  element: wind
   identifier: waypoint_portal
   image_url: https://static.wixstatic.com/media/965b5c_cca914cf16144333817b8d341924e432~mv2.png/v1/fill/w_628,h_882,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_cca914cf16144333817b8d341924e432~mv2.png
   mana_cost: '3'
@@ -2889,7 +2688,6 @@
 - artist: vasiliy_ermolaev
   card_type: minion
   earth_threshold: '1'
-  element: earth
   flavor_text: |-
     _I was once again drowsing, when I glanced at a bush,
     And several wild boar came charging, all in a rush!_
@@ -2903,7 +2701,6 @@
   type_line: Ordinary Beasts of bold back bristle
 - artist: vasiliy_ermolaev
   card_type: minion
-  element: fire
   fire_threshold: '1'
   identifier: will_o_the_wisp
   image_url: https://static.wixstatic.com/media/965b5c_9a701a3c51664797b4bf6308c620e1e6~mv2.png/v1/fill/w_628,h_874,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_9a701a3c51664797b4bf6308c620e1e6~mv2.png
@@ -2918,7 +2715,6 @@
   type_line: An Exceptional Spirit flares up and disappears
 - artist: melissa_a_benson
   card_type: relic
-  element: none
   identifier: wind_ward_gem
   image_url: https://static.wixstatic.com/media/965b5c_87c023defef84990942f0e52733a5831~mv2.png/v1/fill/w_628,h_872,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_87c023defef84990942f0e52733a5831~mv2.png
   mana_cost: '1'
@@ -2930,7 +2726,6 @@
 - artist: elwira_pawlikowska
   card_type: site
   earth_threshold: '1'
-  element: none
   identifier: windmill
   image_url: https://static.wixstatic.com/media/965b5c_bbe5907d9f10400387bc56896023476f~mv2.png/v1/fill/w_960,h_690,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_bbe5907d9f10400387bc56896023476f~mv2.png
   name: Windmill
@@ -2942,7 +2737,6 @@
 - artist: tony_szczudlo
   card_type: minion
   earth_threshold: '3'
-  element: earth
   identifier: wraetannis_titan
   image_url: https://static.wixstatic.com/media/965b5c_c5d8c65b9bf549f39c1d199dc8a9e702~mv2.png/v1/fill/w_628,h_880,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_c5d8c65b9bf549f39c1d199dc8a9e702~mv2.png
   keywords:

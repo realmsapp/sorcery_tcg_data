@@ -2,6 +2,8 @@
 
 require "yaml"
 require "value_semantics"
+require "active_support"
+require "active_support/core_ext"
 require "sorcery_tcg_data/version"
 require "sorcery_tcg_data/lookup"
 require "sorcery_tcg_data/artists"
