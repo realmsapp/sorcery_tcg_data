@@ -900,7 +900,7 @@
     **Spellcaster**
     **Genesis** — Draw 3 spells.
   type_line: A Unique Mortal of true arcane expertise
-  water_threshold: '2'
+  wind_threshold: '2'
 - artist: dan_seagrave
   card_type: minion
   identifier: great_old_one
@@ -1550,7 +1550,6 @@
   type_line: An Elite Site in the midst of the black seas of infinity
 - artist: margaret_organ-kean
   card_type: site
-  earth_threshold: '1'
   identifier: observatory
   image_url: https://static.wixstatic.com/media/965b5c_5bf0fc1a42884ceda35d6407fea86d1e~mv2.png/v1/fill/w_960,h_692,al_c,usm_0.66_1.00_0.01,enc_auto/965b5c_5bf0fc1a42884ceda35d6407fea86d1e~mv2.png
   keywords:
