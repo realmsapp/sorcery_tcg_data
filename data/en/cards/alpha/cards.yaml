@@ -3527,7 +3527,6 @@
   rules_box: This Beast may carry any number of allies as it moves.
   type_line: An Ordinary Beast bears the wide world
   mana_cost: '3'
-  earth_threshold: '0'
   fire_threshold: '1'
   power: '3'
   artist: lindsey_crummett
@@ -3601,7 +3600,6 @@
     it deals twice its power in damage when attacking.
   type_line: An Exceptional Mythic of one-eyed determination
   mana_cost: '5'
-  earth_threshold: '0'
   fire_threshold: '1'
   power: '3'
   artist: gadu_duaso
@@ -3631,7 +3629,6 @@
     | 5 | 4 | 3 | 2 | 1 |
   type_line: Exceptional Magic engulfs it all
   mana_cost: '5'
-  earth_threshold: '0'
   fire_threshold: '1'
   artist: alan_pollack
   identifier: flame_wave
@@ -3672,7 +3669,6 @@
     If this Chimera and the enemy started combat on the same site, all of the above applies.
   type_line: An Elite Mythic Beast; deadly, defiant and fierce
   mana_cost: '6'
-  earth_threshold: '0'
   fire_threshold: '2'
   power: '4'
   artist: gadu_duaso
@@ -3698,7 +3694,6 @@
   rules_box: An ally gains **Haste** and **+1 Movement** until end of turn.
   type_line: Ordinary Magic of utmost urgency
   mana_cost: '1'
-  earth_threshold: '0'
   fire_threshold: '1'
   artist: drew_tucker
   flavor_text: _I'm late, I'm late! For a very important date! No time to say 'hello,
@@ -3737,7 +3732,6 @@
     you lose half of your life total rounded up to draw 3 spells.
   type_line: Elite Magic for the price of your soul
   mana_cost: '3'
-  earth_threshold: '0'
   fire_threshold: '2'
   artist: jeff_a_menges
   identifier: pact_with_the_devil
@@ -3757,7 +3751,6 @@
     | 1 | 1 | 1 |
   type_line: Exceptional Magic of insidious death
   mana_cost: '4'
-  earth_threshold: '0'
   fire_threshold: '1'
   artist: jussi_pylkäs
   identifier: poison_nova
@@ -3782,7 +3775,6 @@
   rules_box: An ally deals damage equal to its power to enemies around it.
   type_line: Ordinary Magic of radial violence
   mana_cost: '3'
-  earth_threshold: '0'
   fire_threshold: '1'
   artist: truitt_parrish
   identifier: spin_attack
@@ -3796,7 +3788,6 @@
     The player whose Avatar is near this Scout must play with their hand revealed.
   type_line: An Exceptional Mortal surveys the scene
   mana_cost: '2'
-  earth_threshold: '0'
   fire_threshold: '1'
   power: '2'
   artist: jeff_a_menges
@@ -3835,7 +3826,6 @@
   rules_box: "**Genesis** -> Deal 2 damage to a nearby target."
   type_line: An Ordinary firestarter of a Demon
   mana_cost: '2'
-  earth_threshold: '0'
   fire_threshold: '1'
   power: '2'
   artist: francesca_baerald
