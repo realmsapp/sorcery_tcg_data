@@ -3521,3 +3521,340 @@
   release: alpha
   rules_box: An Avatar or ground minion gains +3 Movement and deals 3 Splash Damage on each site in its wake this turn.
   type_line: Exceptional Magic of scorching speed.
+- name: Beast of Burden
+  card_type: minion
+  rarity: ordinary
+  rules_box: This Beast may carry any number of allies as it moves.
+  type_line: An Ordinary Beast bears the wide world
+  mana_cost: '3'
+  earth_threshold: '0'
+  fire_threshold: '1'
+  power: '3'
+  artist: lindsey_crummett
+  flavor_text: _Existence and hardship are one and the same._
+  identifier: beast_of_burden
+  release: alpha
+- name: Bone Rabble
+  card_type: minion
+  rarity: ordinary
+  rules_box: When this Rabble dies on a non-Water site, burrow it instead. They can
+    unburrow as if they had Burrowing.
+  type_line: Ordinary Undead scrabble to the surface
+  mana_cost: '1'
+  earth_threshold: '1'
+  power: '1'
+  artist: jeff_a_menges
+  identifier: bone_rabble
+  release: alpha
+- name: Border Militia
+  card_type: magic
+  rarity: ordinary
+  rules_box: |-
+    These wolves gain +1 power for each other Grey Wolves nearby.
+
+    There's no limit on the number of Grey Wolves you can have in your deck.
+  type_line: Ordinary magic to defend our motherland
+  mana_cost: '1'
+  earth_threshold: '1'
+  artist: truitt_parrish
+  identifier: border_militia
+  release: alpha
+- name: Dispel
+  card_type: magic
+  rarity: ordinary
+  rules_box: Destroy all auras and relics on a site in a cardinal direction from your
+    Spellcaster.
+  type_line: Ordinary Magic of shattered vanity
+  mana_cost: '1'
+  earth_threshold: '1'
+  artist: elwira_pawlikowska
+  flavor_text: _Pride cometh before the fall._
+  identifier: dispel
+  release: alpha
+- name: Divine Healing
+  card_type: magic
+  rarity: exceptional
+  rules_box: You gain 7 life.
+  type_line: Unique Magic to restore your health
+  mana_cost: '1'
+  earth_threshold: '3'
+  artist: alan_pollack
+  flavor_text: _"I have heard your prayer and seen your tears; I will heal you." -
+    2 Kings 20:5_
+  identifier: divine_healing
+  release: alpha
+- name: Enlist
+  card_type: magic
+  rarity: exceptional
+  rules_box: Search your spellbook for an Ordinary or Exceptional Mortal, reveal it,
+    and put it in your hand. Shuffle.
+  type_line: The Exceptional Magic that is duty
+  mana_cost: '2'
+  earth_threshold: '1'
+  artist: vincent_pompetti
+  identifier: enlist
+  release: alpha
+- name: Escyllion Cyclops
+  card_type: minion
+  rarity: exceptional
+  rules_box: This Cyclops does not deal damage when being attacked or blocking but
+    it deals twice its power in damage when attacking.
+  type_line: An Exceptional Mythic of one-eyed determination
+  mana_cost: '5'
+  earth_threshold: '0'
+  fire_threshold: '1'
+  power: '3'
+  artist: gadu_duaso
+  identifier: escyllion_cyclops
+  release: alpha
+- name: Exceptional Counterspell
+  card_type: magic
+  rarity: exceptional
+  rules_box: Counter an Exceptional spell.
+  type_line: Exceptional Quick Magic to ward off the same
+  mana_cost: '0'
+  earth_threshold: '2'
+  artist: doug_kovacs
+  flavor_text: _The bright idea is dulled by expectation._
+  identifier: exceptional_counterspell
+  release: alpha
+- name: Flame Wave
+  card_type: magic
+  rarity: exceptional
+  rules_box: |-
+    This Wave flows from any one side of the Realm to the opposite site, dealing 5, then 4, 3, 2 and 1 Splash Damage on columns:
+
+    | - | - | - | - | - |
+    | 5 | 4 | 3 | 2 | 1 |
+    | 5 | 4 | 3 | 2 | 1 |
+    | 5 | 4 | 3 | 2 | 1 |
+    | 5 | 4 | 3 | 2 | 1 |
+  type_line: Exceptional Magic engulfs it all
+  mana_cost: '5'
+  earth_threshold: '0'
+  fire_threshold: '1'
+  artist: alan_pollack
+  identifier: flame_wave
+  release: alpha
+- name: Grey Wolves
+  card_type: minion
+  rarity: ordinary
+  rules_box: |-
+    These wolves gain +1 power for each other Grey Wolves nearby.
+
+    There's no limit on the number of Grey Wolves you can have in your deck.
+  type_line: Ordinary Beasts of the wooded wilds
+  mana_cost: '2'
+  earth_threshold: '1'
+  power: '2'
+  artist: Melissa Benson
+  identifier: grey_wolves
+  release: alpha
+- name: Imperial Pikemen
+  card_type: minion
+  rarity: exceptional
+  rules_box: These Pikemen deal combat damage before other minions they fight.
+  type_line: Exceptional Mortals stand fabulous in force
+  mana_cost: '4'
+  earth_threshold: '1'
+  power: '4'
+  artist: andrea_modesti
+  identifier: imperial_pikemen
+  release: alpha
+- name: Karkemish Chimera
+  card_type: minion
+  rarity: elite
+  rules_box: |-
+    **Lethal** when fighting from behind.
+    **Iron Skin** when fighting sideways.
+    +2 power when fighting from the front.
+
+    If this Chimera and the enemy started combat on the same site, all of the above applies.
+  type_line: An Elite Mythic Beast; deadly, defiant and fierce
+  mana_cost: '6'
+  earth_threshold: '0'
+  fire_threshold: '2'
+  power: '4'
+  artist: gadu_duaso
+  identifier: karkemish_chimera
+  release: alpha
+- name: Miracle Workers
+  card_type: minion
+  rarity: ordinary
+  rules_box: |-
+    **Spellcaster**
+
+    If an allied minion dies near these Healers, return both to their owner's hand.
+  type_line: Ordinary Mortals of miraculous recoveries
+  mana_cost: '3'
+  earth_threshold: '2'
+  power: '1'
+  artist: jeff_a_menges
+  identifier: miracle_workers
+  release: alpha
+- name: Mad Dash
+  card_type: magic
+  rarity: ordinary
+  rules_box: An ally gains **Haste** and **+1 Movement** until end of turn.
+  type_line: Ordinary Magic of utmost urgency
+  mana_cost: '1'
+  earth_threshold: '0'
+  fire_threshold: '1'
+  artist: drew_tucker
+  flavor_text: _I'm late, I'm late! For a very important date! No time to say 'hello,
+    goodbye,' I'm late, I'm late!" - Lewis Caroll_
+  identifier: mad_dash
+  release: alpha
+- name: Midland Mercenaries
+  card_type: minion
+  rarity: ordinary
+  rules_box: "**Genesis** -> Return your nearby empty Village you control to its owner's
+    hand. If you can't, return them to your hand."
+  type_line: Ordinary Mortals of a dubious nature
+  mana_cost: '2'
+  earth_threshold: '1'
+  power: '4'
+  artist: jeff_a_menges
+  flavor_text: _"Inspired by the purse rather than the soul, heaven offers nothing
+    to these scoundrels." - Eminar Rann_
+  identifier: midland_mercenaries
+  release: alpha
+- name: Ordinary Counterspell
+  card_type: magic
+  rarity: ordinary
+  rules_box: Counter an Ordinary spell.
+  type_line: Quick Magic to foil an Ordinary spell
+  mana_cost: '0'
+  earth_threshold: '1'
+  artist: francesca_baerald
+  flavor_text: _A mundane moment, easily dismissed._
+  identifier: ordinary_counterspell
+  release: alpha
+- name: Pact with the Devil
+  card_type: magic
+  rarity: elite
+  rules_box: Sacrifice a Spellcaster to draw 3 spells. If you can't sacrifice a Spellcaster
+    you lose half of your life total rounded up to draw 3 spells.
+  type_line: Elite Magic for the price of your soul
+  mana_cost: '3'
+  earth_threshold: '0'
+  fire_threshold: '2'
+  artist: jeff_a_menges
+  identifier: pact_with_the_devil
+  release: alpha
+- name: Poison Nova
+  card_type: magic
+  rarity: exceptional
+  rules_box: |-
+    **Lethal**
+
+    Deal 1 damage to minions around your Spellcaster.
+
+    |  |  |  |
+    | - | - | - |
+    | 1 | 1 | 1 |
+    | 1 | 0 | 1 |
+    | 1 | 1 | 1 |
+  type_line: Exceptional Magic of insidious death
+  mana_cost: '4'
+  earth_threshold: '0'
+  fire_threshold: '1'
+  artist: jussi_pylkäs
+  identifier: poison_nova
+  release: alpha
+- name: Slumbering Giantess
+  card_type: minion
+  rarity: exceptional
+  rules_box: |-
+    This Giantess is asleep until hurt. Untap her when she wakes up.
+
+    An ally can attack her when she is asleep.
+  type_line: An Exceptional Mythic dozes peacefully
+  mana_cost: '3'
+  earth_threshold: '1'
+  power: '5'
+  artist: liz_danforth
+  identifier: slumbering_giantess
+  release: alpha
+- name: Spin Attack
+  card_type: magic
+  rarity: ordinary
+  rules_box: An ally deals damage equal to its power to enemies around it.
+  type_line: Ordinary Magic of radial violence
+  mana_cost: '3'
+  earth_threshold: '0'
+  fire_threshold: '1'
+  artist: truitt_parrish
+  identifier: spin_attack
+  release: alpha
+- name: Swiven Scout
+  card_type: minion
+  rarity: exceptional
+  rules_box: |-
+    **Movement +2**
+
+    The player whose Avatar is near this Scout must play with their hand revealed.
+  type_line: An Exceptional Mortal surveys the scene
+  mana_cost: '2'
+  earth_threshold: '0'
+  fire_threshold: '1'
+  power: '2'
+  artist: jeff_a_menges
+  flavor_text: _"If you know the enemy and you know yourself, you need not fear the
+    result of a hundred battles." - Sun Tsu_
+  identifier: swiven_scout
+  release: alpha
+- name: Tragedy Worrywart
+  card_type: minion
+  rarity: elite
+  rules_box: Magic damage near this Worrywart is prevented.
+  type_line: An Elite Mortal prepares for the worst
+  mana_cost: '3'
+  earth_threshold: '1'
+  power: '1'
+  artist: jeff_a_menges
+  flavor_text: _Better safe than sorry._
+  identifier: tragedy_worrywart
+  release: alpha
+- name: True Allegiance
+  card_type: aura
+  rarity: elite
+  rules_box: |-
+    Conjure at the intersection of two of four locations of which at least one is your Earth site.
+
+    Allied minions on affected locations gain +1 power, and they can't be controlled by your opponent or forced to take an action due to enemy spells and abilities.
+  type_line: An Elite Aura of unswearving fealty
+  mana_cost: '2'
+  earth_threshold: '2'
+  artist: jeff_a_menges
+  identifier: true_allegiance
+  release: alpha
+- name: Vile Imp
+  card_type: minion
+  rarity: ordinary
+  rules_box: "**Genesis** -> Deal 2 damage to a nearby target."
+  type_line: An Ordinary firestarter of a Demon
+  mana_cost: '2'
+  earth_threshold: '0'
+  fire_threshold: '1'
+  power: '2'
+  artist: francesca_baerald
+  flavor_text: _In the utter darkness they will burn you just to see a light._
+  identifier: vile_imp
+  release: alpha
+- name: Älvalinne Dryads
+  card_type: minion
+  rarity: ordinary
+  rules_box: You have 1 more mana.
+  type_line: Ordinary Mythic women of the woods
+  mana_cost: '1'
+  earth_threshold: '1'
+  power: '1'
+  artist: elvira_shakirova
+  flavor_text: |-
+    _How strange to greet, this misty morn,
+    A graceful parade of elusive blossom.
+    These children of the wildwood, born
+    A verdant force, a power so awesome._
+  identifier: älvalinne_dryads
+  release: alpha
