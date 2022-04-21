@@ -1,5 +1,9 @@
 # SorceryTcgData
 
+🤝 If you're also maintaining sorcery data, let's get in touch as I'd be very interested in consolidating to a single source of truth.
+
+---
+
 **The data presented in this repository about Sorcery: Contested Realm, both literal and graphical, is copyrighted by Erik's Curiosa Limited. This project is not produced, endorsed, supported, or affiliated with Erik's Curiosa Limited.**
 
 This repository houses serialized card and game data for the trading card game [Sorcery: Contested Realm](https://www.sorcerytcg.com).
