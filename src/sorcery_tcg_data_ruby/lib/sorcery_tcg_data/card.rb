@@ -6,7 +6,7 @@ module SorceryTcgData
           identifier: data.fetch(:identifier),
           rarity: Rarities.fetch(data.fetch(:rarity)),
           card_type: CardTypes.fetch(data.fetch(:card_type)),
-          release: Releases.fetch(data.fetch(:release)),
+          release: Releases.fetch("alpha"),
           artist: Artists.fetch(data.fetch(:artist)),
           keywords: data.fetch(:keywords, []).map { |kw| Keywords.fetch(kw) },
           name: data.fetch(:name),
