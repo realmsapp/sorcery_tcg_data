@@ -1668,7 +1668,6 @@
   type_line: A Unique Mortal with beauty to die for
   mana_cost: '1'
   power: '1'
-  earth_threshold: '1'
   wind_threshold: '1'
 - identifier: hillock_basilisk
   rarity: exceptional
