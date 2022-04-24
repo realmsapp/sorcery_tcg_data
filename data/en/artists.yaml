@@ -1,6 +1,8 @@
 ---
 - key: adam_burke
   name: Adam Burke
+- key: adam_kaspar
+  name: Adam Kaspar
 - key: alan_pollack
   name: Alan Pollack
 - key: andrea_modesti
@@ -21,8 +23,6 @@
   name: Drew Tucker
 - key: elvira_shakirova
   name: Elvira Shakirova
-- key: Melissa Benson
-  name: FIXME
 - key: elwira_pawlikowska
   name: Elwira Pawlikowska
 - key: francesca_baerald
@@ -71,3 +71,5 @@
   name: AronjaArt
 - key: matt_tames
   name: Matt Tames
+- key: santiago_caruso
+  name: Santiago Caruso

@@ -28,8 +28,20 @@
 - identifier: all_terrain_vestments
   rarity: exceptional
   card_type: relic
-  artist: unknown
+  artist: elwira_pawlikowska
+  keywords:
+  - burrowing
+  - submerge
+  - voidwalk
+  - earthbound
+  - firebound
+  - waterbound
+  - windbound
   name: All Terrain Vestments
+  rules_box: ! |-
+    The minion bearer of these Vestments has **Submerge**, **Burrowing**, and **Voidwalk**. They also lose **Waterbound**, **Firebound**, **Earthbound**, and **Windbound**.
+  type_line: An Exceptional Relic for any adventure
+  mana_cost: '3'
 - identifier: älvalinne_dryads
   rarity: ordinary
   card_type: minion
@@ -178,7 +190,7 @@
   name: Autumn River
   rules_box: ! |-
     Genesis > Look at your top spellbook card. You may put it at the bottom.
-  type_line: An Ordinary Site of refreshing Water [Water]
+  type_line: An Ordinary Site of refreshing Water
   water_threshold: '1'
 - identifier: autumn_unicorn
   rarity: ordinary
@@ -242,7 +254,7 @@
   type_line: Your Avatar of charm and trickery
   power: '1'
 - identifier: avatar_of_wind
-  rarity: unknown
+  rarity: token
   card_type: avatar
   artist: severine_pineaux
   keywords:
@@ -322,7 +334,7 @@
 - identifier: bedrock
   rarity: exceptional
   card_type: site
-  artist: unknown
+  artist: adam_kaspar
   keywords:
   - immobile
   - indestructible
@@ -412,7 +424,7 @@
 - identifier: body_swap
   rarity: elite
   card_type: magic
-  artist: unknown
+  artist: santiago_caruso
   name: Body Swap
   rules_box: ! |-
     Swap the locations of two Avatars or two minions.
@@ -815,7 +827,7 @@
   name: Dark Tower
   rules_box: ! |-
     Genesis > Gain 1 mana until end of turn.
-  type_line: An Ordinary Site of haunting Wind. [Wind]
+  type_line: An Ordinary Site of haunting Wind
   wind_threshold: '1'
 - identifier: dead_of_night_demon
   rarity: ordinary
@@ -1348,7 +1360,7 @@
   name: Floodplain
   rules_box: ! |-
     The site directly in front of this Floodplain is also a Water site.
-  type_line: An Exceptional Site of an overwhelming flow. [Water]
+  type_line: An Exceptional Site of an overwhelming flow.
   water_threshold: '1'
 - identifier: flow_of_life
   rarity: elite
@@ -1482,7 +1494,7 @@
 - identifier: grey_wolves
   rarity: ordinary
   card_type: minion
-  artist: Melissa Benson
+  artist: melissa_a_benson
   name: Grey Wolves
   rules_box: ! |-
     These wolves gain +1 power for each other Grey Wolves nearby.
@@ -1556,7 +1568,7 @@
 - identifier: hang_glider
   rarity: ordinary
   card_type: minion
-  artist: unknown
+  artist: elvira_shakirova
   name: Hang Glider
 - identifier: harpoon_shot
   rarity: exceptional
@@ -1603,12 +1615,11 @@
   name: Heat Ray
   rules_box: ! |-
     Deal 2 Splash Damage in a line in any cardinal direction from your Spellcaster [Damage Grid]
-  type_line: '"stripped_text": "Ground minions can''t traverse this Pass if there
-    is one here already.",'
+  type_line: Ordinary Magic to keep enemies in line
   mana_cost: '2'
   fire_threshold: '1'
 - identifier: hex
-  rarity: unknown
+  rarity: token
   card_type: avatar
   artist: dan_seagrave
   keywords:
@@ -1918,7 +1929,7 @@
   name: Lone Tower
   rules_box: ! |-
     Genesis > Gain 1 mana until end of turn.
-  type_line: An Ordinary Site of haunting Wind. [Wind]
+  type_line: An Ordinary Site of haunting Wind
   wind_threshold: '1'
 - identifier: lord_of_lies
   rarity: elite
@@ -2293,7 +2304,7 @@
   name: Mountain Pass
   rules_box: ! |-
     Ground minions can't traverse this Pass if there is one here already.
-  type_line: An Exceptional Site of narrow access [Wind]
+  type_line: An Exceptional Site of narrow access
   wind_threshold: '1'
 - identifier: muck_lampreys
   rarity: ordinary
@@ -2555,8 +2566,8 @@
   - haste
   name: Petrosian Cavalry
   rules_box: ! |-
-    This Cavalry may move/attack right away when summoned.
-  type_line: unknown
+    **Haste**
+  type_line: Ordinary Mortals appear out of the haze
   mana_cost: '3'
   power: '3'
   flavor_text: ! |-
@@ -2566,7 +2577,7 @@
 - identifier: phantasmal_shade
   rarity: exceptional
   card_type: minion
-  artist: unknown
+  artist: santiago_caruso
   name: Phantasmal Shade
   rules_box: ! |-
     This Shade may be summoned to any site.
@@ -3432,14 +3443,16 @@
     _“We live on a placid island of ignorance in the midst o black seas of infinity, and it was not meant that we should voyage far.” — H.P. Lovecraft_
   wind_threshold: '2'
 - identifier: spell_block
-  rarity: unknown
+  rarity: elite
   card_type: magic
   artist: drew_tucker
   name: Spell Block
   rules_box: ! |-
-    Counter target spell aimed at or near your Avatar or Spellcaster minion.
-  type_line: A Quick repartee to nix intrusive Magic
+    Counter a spell targeted near your Spellcaster.
+  type_line: A Quick Elite repartee to nix intrusive Magic
   mana_cost: '0'
+  flavor_text: ! |-
+    _No!_
   wind_threshold: '2'
 - identifier: spin_attack
   rarity: ordinary
@@ -3488,7 +3501,7 @@
   name: Spring River
   rules_box: ! |-
     Genesis > Look at your top spellbook card. You may put it at the bottom.
-  type_line: An Ordinary Site of refreshing Water [Water]
+  type_line: An Ordinary Site of refreshing Water
   water_threshold: '1'
 - identifier: steppe
   rarity: elite
@@ -3530,7 +3543,7 @@
   name: Summer River
   rules_box: ! |-
     Genesis > Look at your top spellbook card. You may put it at the bottom.
-  type_line: An Ordinary Site of refreshing Water [Water]
+  type_line: An Ordinary Site of refreshing Water
   water_threshold: '1'
 - identifier: summoning_sphere
   rarity: elite
@@ -3838,10 +3851,10 @@
   - waterbound
   name: Unland Angler
   rules_box: ! |-
-    Submerge, Waterbound
+    **Submerge**, **Waterbound**
 
     At the start of your opponent's turn, if this Angler is submerged and there are no enemy minions here, a nearby enemy minion must move towards it. Enemy minions here are disabled.
-  type_line: '"stripped_type_line": "An Exceptional Site of narrow access [Wind]",'
+  type_line: 'An Exceptional Site of narrow access'
   mana_cost: '5'
   power: '4'
   water_threshold: '2'
@@ -3883,7 +3896,7 @@
   name: Updraft Ridge
   rules_box: ! |-
     Genesis > Nearby Airborne minions gain +2 Movement until end of turn.
-  type_line: An Exceptional Site with a strong tailwind. [Wind]
+  type_line: An Exceptional Site with a strong tailwind.
   wind_threshold: '1'
 - identifier: upwelling
   rarity: exceptional
