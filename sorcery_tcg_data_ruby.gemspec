@@ -6,8 +6,8 @@ require_relative File.join(gem_source, "lib/sorcery_tcg_data/version")
 Gem::Specification.new do |spec|
   spec.name = "sorcery_tcg_data_ruby"
   spec.version = SorceryTcgData::VERSION
-  spec.authors = ["Tony Schneider"]
-  spec.email = ["tonywok@gmail.com"]
+  spec.authors = ["realmsapp"]
+  spec.email = ["realmsapp@protonmail.com"]
 
   spec.summary = "sorcery tcg data files packaged as a ruby gem"
   spec.homepage = "https://github.com/realmsapp/sorcery_tcg_data"
