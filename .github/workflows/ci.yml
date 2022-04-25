@@ -8,6 +8,8 @@ on:
 jobs:
   test:
     runs-on: ubuntu-latest
+    env:
+      BUNDLE_GEMFILE: ${{ github.workspace }}/src/sorcery_tcg_data_ruby/Gemfile
     steps:
       - name: Checkout code
         uses: actions/checkout@v2
@@ -16,6 +18,8 @@ jobs:
         uses: ruby/setup-ruby@v1
         with:
           bundler-cache: true
+          working-directory: src/sorcery_tcg_data_ruby
+          ruby-version: 3.1.2
 
       - name: Run tests
-        run: bundle exec rake test
+        run: bundle exec rake -f src/sorcery_tcg_data_ruby/Rakefile test
