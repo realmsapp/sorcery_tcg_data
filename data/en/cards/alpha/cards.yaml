@@ -1330,18 +1330,6 @@
   type_line: An Exceptional Aura of persistent destruction.
   mana_cost: '4'
   fire_threshold: '2'
-- identifier: flashfires
-  rarity: exceptional
-  card_type: magic
-  artist: mattias_frisk
-  name: Flashfires
-  rules_box: ! |-
-    Play near your Spellcaster.
-    These Flashfires deal 4 Splash Damage wherever it's summoned or moves to.
-    At the start of your turn, it moves to an adjacent, previously unturned site. If it can't move, discard it.
-  type_line: Exceptional Magic of persistent destruction
-  mana_cost: '4'
-  fire_threshold: '2'
 - identifier: flood
   rarity: exceptional
   card_type: aura
