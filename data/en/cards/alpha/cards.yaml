@@ -2975,11 +2975,11 @@
   flavor_text: ! |-
     _Out of the blue._
   wind_threshold: '2'
-- identifier: rolicky_dragonettes
+- identifier: rollicky_dragonettes
   rarity: exceptional
   card_type: minion
   artist: jeff_easley
-  name: Rolicky Dragonettes
+  name: Rollicky Dragonettes
   rules_box: ! |-
     **Airborne**
     At the end of your turn, these Dragonettes fire three bolts, each in any cardinal direction.
