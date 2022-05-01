@@ -115,6 +115,11 @@
   description: |
     This card cannot be targeted or damaged by fire
 
+- key: fire_spellcaster
+  name: Fire Spellcaster
+  description: |
+    You may cast fire spells from this card.
+
 - key: monster_immunity
   name: Monster Immunity
   description: |
