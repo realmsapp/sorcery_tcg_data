@@ -13,6 +13,7 @@ require "sorcery_tcg_data/formats"
 require "sorcery_tcg_data/keywords"
 require "sorcery_tcg_data/rarities"
 require "sorcery_tcg_data/releases"
+require "sorcery_tcg_data/beta_files"
 require "sorcery_tcg_data/card"
 
 module SorceryTcgData
