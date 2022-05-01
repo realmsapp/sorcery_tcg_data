@@ -37,7 +37,7 @@
   - firebound
   - waterbound
   - windbound
-  name: All Terrain Vestments
+  name: All-terrain Vestments
   rules_box: ! |-
     The minion bearer of these Vestments has **Submerge**, **Burrowing**, and **Voidwalk**. They also lose **Waterbound**, **Firebound**, **Earthbound**, and **Windbound**.
   type_line: An Exceptional Relic for any adventure
@@ -92,9 +92,9 @@
   rarity: elite
   card_type: relic
   artist: brian_smith
-  name: Angels Egg
-  rules_box: ! |
-    At the start of the owner's turn, the owner of the site this Egg is on or under gains 2 life.
+  name: Angel's Egg
+  rules_box: ! |-
+    At the start of your turn, the controller of the site this Egg is on gains 2 life.
   type_line: An Elite Relic. A rebirth of hope.
   mana_cost: '3'
 - identifier: anui_undine
@@ -115,10 +115,13 @@
   card_type: minion
   artist: ossi_hiekkala
   keywords:
+  - genesis
   - spellcaster
   name: Apprentice Wizard
   rules_box: ! |-
-    Spellcaster.  Genesis > Draw a spell.
+    **Spellcaster**
+
+    **Genesis** -> Draw a spell.
   type_line: An Ordinary Mortal untrained in restraint
   mana_cost: '3'
   power: '1'
@@ -142,7 +145,7 @@
   name: Arid Desert
   rules_box: ! |-
     Genesis > This Desert may deal 1 damage to a nearby minion or site.
-  type_line: An Ordinary Site of ruinous Fire. [Fire]
+  type_line: An Ordinary Site of ruinous Fire
   fire_threshold: '1'
 - identifier: armageddon
   rarity: elite
@@ -214,11 +217,11 @@
   keywords:
   - spellcaster
   name: Avatar Of Earth
-  initial_life: '26'
-  rules_box: ! |
-    **Spellcaster**
+  initial_life: '20'
+  rules_box: ! |-
+    Tap → Pay or draw a Site.
 
-    Tap to play a site or to draw from your atlas.
+    You gain +1 attack power for each nearby Earth site.
   type_line: Your Avatar of dependable strength
   power: '1'
 - identifier: avatar_of_fire
@@ -227,14 +230,12 @@
   artist: severine_pineaux
   keywords:
   - spellcaster
-  name: Avatar Of Fire
+  name: Avatar of Fire
   initial_life: '20'
   rules_box: ! |-
-    **Spellcaster**
+    Tap → Pay or draw a Site.
 
-    Tap to play a site or to draw from your atlas.
-
-    Tap and discard a Fire site from your hand to cast a fireball.
+    Tap, discard a Fire site → You may move one step. Cast Firebolts for free.
   type_line: Your Avatar of desire and destruction
   power: '1'
 - identifier: avatar_of_water
@@ -245,12 +246,12 @@
   - spellcaster
   name: Avatar Of Water
   initial_life: '20'
-  rules_box: ! |
-    **Spellcaster**
+  rules_box: ! |-
+    Tap → Pay or draw a site.
 
-    Tap to play a site or to draw a card from your atlas.
+    You may move to Water sites You play.
 
-    When you play a water site, you may move this avatar to that site.
+    The site You are on is also a Water site.
   type_line: Your Avatar of charm and trickery
   power: '1'
 - identifier: avatar_of_wind
@@ -261,14 +262,25 @@
   - spellcaster
   name: Avatar Of Wind
   initial_life: '20'
-  rules_box: ! |
-    **Spellcaster**
+  rules_box: ! |-
+    Tap → Pay or draw a site.
 
-    Tap to play a site or to draw from your atlas.
-
-    You may fly this Avatar to a nearby site at the end of your turn
+    Once on your turn, if You are on a Wind site, You may fly to a nearby site.
   type_line: Your Avatar or knowledge and power
   power: '1'
+- identifier: azuridge_caravan
+  rarity: ordinary
+  card_type: minion
+  artist: vincent_pompetti
+  name: Azuridge Caravan
+  rules_box: ! |-
+    Occupies two sites.
+  type_line: An Ordinary array of Mortals and Beasts
+  mana_cost: '4'
+  power: '4'
+  flavor_text: ! |-
+    _Safety in numbers._
+  fire_threshold: '1'
 - identifier: backstab
   rarity: exceptional
   card_type: magic
@@ -285,17 +297,19 @@
   artist: alan_pollack
   name: Ball Lightning
   rules_box: ! |-
-    Your Spellcaster lanches this Ball in a cardinal direction.  It deals 6 damage to the first Avatar or minion it hits.  Excess damage carries on to whatever it hits next here or on following site.
-  type_line: Relentless and unstoppabke Elite Magic
+    Your Spellcaster lanches this Ball in a cardinal direction. It deals 6 damage to the first Avatar or minion it hits. Excess damage carries on to whatever it hits next here or on following site.
+  type_line: Relentless and unstoppable Elite Magic
   mana_cost: '4'
   wind_threshold: '2'
 - identifier: bane_spider
   rarity: exceptional
   card_type: minion
   artist: brian_smith
+  keywords:
+  - genesis
   name: Bane Spider
   rules_box: ! |-
-    **Genesis** — This spider destroys another minion on its location.
+    **Genesis** → This spider kills another minion here.
   type_line: An Exceptional Mythic with a stony stare
   mana_cost: '4'
   power: '1'
@@ -394,7 +408,7 @@
   type_line: An Ordinary flash of short distance Magic
   mana_cost: '2'
   flavor_text: ! |-
-    Blink and you'll miss it.
+    _Blink and you'll miss it._
   wind_threshold: '2'
 - identifier: blizzard
   rarity: ordinary
@@ -404,7 +418,7 @@
   rules_box: ! |-
     Conjure at the intersection of two or four sites of which at least one is a Wind site
 
-    Players can’t untap more than one minion on affected sites during their untap step.
+    Players can't untap more than one minion on affected sites during their untap step.
   type_line: An Ordinary Aura of blinding snow
   mana_cost: '3'
   wind_threshold: '1'
@@ -412,6 +426,8 @@
   rarity: ordinary
   card_type: minion
   artist: michal_nagypal
+  keywords:
+  - airborne
   name: Blood Ravens
   rules_box: ! |
     **Airborne**
@@ -486,20 +502,20 @@
   - immobile
   name: Bridge Troll
   rules_box: ! |-
-    Immobile
+    This Troll doesn't want to leave its site. _(It can still be forcibly moved or teleported.)_
   type_line: An Ordinary Monster vexed by all who dare.
   mana_cost: '1'
   power: '4'
   flavor_text: ! |-
-    "Who's that tripping over my bridge?"
+    _"Who's that tripping over my bridge?"_
   water_threshold: '1'
 - identifier: brobdingnag_bullfrog
   rarity: exceptional
   card_type: minion
   artist: michal_nagypal
   name: Brobdingnag Bullfrog
-  rules_box: ! |
-    This Bullfrog swallows and carries the first minion it attacks in its belly until it leaves play.
+  rules_box: ! |-
+    When this Bullfrog attacks an enemy minion for the first time, it instead swallows that minion and keeps it in its belly until it leaves the Realm.
   type_line: An Exceptional Beast with a giant appetite
   mana_cost: '5'
   power: '3'
@@ -514,14 +530,14 @@
   - movement_x
   name: Bull Demons of Adum
   rules_box: ! |-
-    Haste, Iron SKin, Movement +1
-  type_line: Exceptional Demon Beast of charging rage.
+    **Haste**, **Iron Skin**, **Movement +1**
+  type_line: Exceptional Demon Beast of charging rage
   mana_cost: '5'
   power: '3'
   flavor_text: ! |-
-    "The strident reverberations of their hooves struck
+    _"The strident reverberations of their hooves struck
     with so much fright that pregnant women miscarried."
-    - Arioch chronicles
+    - Arioch chronicles_
   fire_threshold: '1'
 - identifier: bury
   rarity: ordinary
@@ -529,7 +545,7 @@
   artist: dan_seagrave
   name: Bury
   rules_box: ! |-
-    Target minion or relic on a non-Water site is burrowed.
+    Burrow a minion or relic on a site without Water. _(If it does not have the Burrowing keyword, it still survives but can't unburrow.)_
   type_line: Ordinary Magic one hopes never to experience
   mana_cost: '2'
   flavor_text: ! |
@@ -599,20 +615,20 @@
   artist: dan_seagrave
   keywords:
   - genesis
-  name: Chains Of Prometheus
+  name: Chains of Prometheus
   rules_box: ! |-
-    **Genesis** -> Return nearby minions to their owner’s hand.
+    **Genesis** -> Return nearby minions to their owner's hand.
 
-    Minions can’t be summoned nearby.
+    Minions can't be summoned nearby.
   type_line: A Unique Relic of hindered ambition
   mana_cost: '7'
 - identifier: city_of_agartha
   rarity: unique
   card_type: site
   artist: adam_burke
-  name: City Of Agartha
+  name: City of Agartha
   rules_box: ! |-
-    Burrowed minions here may unburrow to anywhere.
+    Minions here may unburrow to any site without Water as if they had Burrowing.
   type_line: A Unique Site at the center of it all
   earth_threshold: '1'
 - identifier: clamor_harpies
@@ -626,7 +642,7 @@
   rules_box: ! |
     **Airborne**
 
-    **Genesis** — move a weaker minion from anywhere in the realm to these Harpies' location. If that minion is an enemy one, these Harpies attack it.
+    **Genesis** → Carry a weaker minion from anywhere in the Realm to these Harpies' site. If that minion is an enemy, these Harpies attack it.
   type_line: Exceptional Mythics on a feeding frenzy
   mana_cost: '4'
   power: '3'
@@ -637,7 +653,7 @@
   artist: elwira_pawlikowska
   name: Cloud City
   rules_box: ! |
-    {Wind:2}: Once during your turn, you may move this City to a free adjacent location.
+    {Wind:2}: Once during your turn, you may move this City to a free adjacent void.
   type_line: A Unique Site, lofty and ever fleeting
   wind_threshold: '1'
 - identifier: cloud_spirit
@@ -649,12 +665,12 @@
   - movement_x
   name: Cloud Spirit
   rules_box: ! |-
-    Airborne, Movement +2
+    **Airborne**, **Movement +2**
   type_line: An Ordinary Spirit soars in these skies
   mana_cost: '2'
   power: '2'
   flavor_text: ! |-
-    Children picture creatures in the clouds. Innocence sees what wisdom cannot.
+    _Children picture creatures in the clouds. Innocence sees what wisdom cannot._
   wind_threshold: '1'
 - identifier: common_sense
   rarity: ordinary
@@ -662,7 +678,7 @@
   artist: drew_tucker
   name: Common Sense
   rules_box: ! |
-    Search your spellbook for an ordinary card, reveal it to your opponent and draw it. Shuffle your spellbook.
+    Search your spellbook for an Ordinary card, reveal it, and put it in your hand. Shuffle.
   type_line: The Ordinary appears as Magic to some
   mana_cost: '1'
   flavor_text: ! |
@@ -675,11 +691,10 @@
   artist: dan_seagrave
   keywords:
   - splash_damage
-  name: Cone Of Flame
+  name: Cone of Flame
   rules_box: ! |-
     Deal **Splash Damage** in this pattern in any cardinal direction from your Spellcaster.
 
-    | - | - | - | - | - |
     | 1 | 2 | 3 | 2 | 1 |
     | 0 | 3 | 4 | 3 | 0 |
     | 0 | 0 | 6 | 0 | 0 |
@@ -710,12 +725,12 @@
   - submerge
   name: Coral-reef Kelpie
   rules_box: ! |-
-    Submerge
+    **Submerge**
   type_line: An Ordinary Beast of the tidal wilderness.
   mana_cost: '3'
   power: '3'
   flavor_text: ! |-
-    The last free land lies under the sea.
+    _The last free land lies under the sea._
   water_threshold: '1'
 - identifier: cornerstone
   rarity: exceptional
@@ -723,7 +738,7 @@
   artist: margaret_organ-kean
   name: Cornerstone
   rules_box: ! |
-    This Cornerstone may be played on a corner square not adjacent to any site.
+    This Cornerstone may be played on a corner void.
   type_line: An Exceptional Site to expand your domain
 - identifier: court_jester
   rarity: elite
@@ -732,10 +747,10 @@
   keywords:
   - spellcaster
   name: Court Jester
-  rules_box: ! |
+  rules_box: ! |-
     **Spellcaster**
 
-    At the start of each player's turn, if this Jester is near that player's Avatar, they discard a card.
+    At the start of each player's turn, if this Jester is near that player's Avatar, they must discard a card.
   type_line: An Elite Mortal with a dangerous smile
   mana_cost: '3'
   power: '1'
@@ -749,7 +764,8 @@
   name: Craterize
   rules_box: ! |
     Destroy a site without an Avatar and everything on it.
-    Deal Splash Damage around the destroyed site.
+
+    Deal Splash Damage around the destroyed site:
 
     | 1 | 2 | 4 | 2 | 1 |
     | 2 | 4 | 7 | 4 | 2 |
@@ -797,11 +813,13 @@
   rarity: ordinary
   card_type: minion
   artist: jeff_easley
+  keywords:
+  - burrowing
   name: Cyclopean Mummies
   rules_box: ! |
     **Burrowing**
 
-    These Mummies enter play burrowed on any site.
+    These Mummies may be summoned to any site without Water and they must enter the Realm burrowed.
   type_line: Ordinary Undead emerge from below
   mana_cost: '3'
   power: '3'
@@ -812,10 +830,11 @@
   artist: vincent_pompetti
   name: Dalcean Phalanx
   rules_box: ! |
-    This Phalanx is slaughtered if attacked at the flank or rear. It can
-    only attack on the same site and forward.
-  type_line: Exceptionally disciplined Mortals advance forth
-  mana_cost: '2'
+    This Phalanx dies without dealing damage back if attacked from the flank or rear.
+
+    It can only attack on the same site and forward.
+  type_line: Onward, onward Exceptional Mortals!
+  mana_cost: '3'
   power: '5'
   earth_threshold: '2'
 - identifier: dark_tower
@@ -837,24 +856,25 @@
   - stealth
   name: Dead of Night Demon
   rules_box: ! |-
-    Stealth
+    **Stealth**
   type_line: An Ordinary Demon stalks the witching hours
   mana_cost: '2'
   power: '3'
   flavor_text: ! |-
-    Retched for the weald's black maw, To quake the heart with fear and awe.
+    _Retched for the weald's black maw, To quake the heart with fear and awe._
   wind_threshold: '1'
 - identifier: deep_sea_mermaids
   rarity: ordinary
   card_type: minion
   artist: elvira_shakirova
   keywords:
+  - genesis
   - submerge
   name: Deep-sea Mermaids
   rules_box: ! |-
-    Submerge
+    **Submerge**
 
-    Genesis > Draw a spell from the bottom of your spellbook.
+    **Genesis** -> Draw a spell from the bottom of your spellbook.
   type_line: Ordinary Muthics of the mysterious depths.
   mana_cost: '3'
   power: '2'
@@ -876,7 +896,8 @@
   - submerge
   name: Diluvian Kraken
   rules_box: ! |-
-    Submerge
+    **Submerge**
+
     Whenever this Kraken surfaces to attack, it may attack all nearby enemy minions simultaneously.
   type_line: An Elite Monster of far-reaching terror.
   mana_cost: '7'
@@ -888,26 +909,24 @@
   artist: elwira_pawlikowska
   name: Disenchant
   rules_box: ! |-
-    Destroy target Aura or Relic.
-  type_line: Quick Ordinary Magic of shattered fascination
-  mana_cost: '0'
+    Destroy all auras and relics on a site in a cardinal direction from your Spellcaster.
+  type_line: Ordinary Magic of shattered fascination
+  mana_cost: '1'
   flavor_text: ! |-
     _To see it is to disbelieve it._
-  wind_threshold: '2'
+  wind_threshold: '1'
 - identifier: disintegrate
   rarity: elite
   card_type: magic
   artist: alan_pollack
   name: Disintegrate
-  rules_box: ! |
-    Kill target minion within two steps of your Spellcaster and destroy anything
-    it is carrying. They are removed from the game forever.
+  rules_box: ! |-
+    Destroy relics borne by an Avatar or minion in a cardinal direction from your Spellcaster. Deal 3 damage per relic destroyed this way to the bearer.
+
+    Remove any minions or relics destroyed this way from the game entirely.
   type_line: Elite Magic of unmitigated annihilation
-  mana_cost: '6'
-  flavor_text: ! |
-    _“Men ought either to be indulged or utterly destroyed.”
-    - Nicole Machiavelli_
-  fire_threshold: '2'
+  mana_cost: '3'
+  fire_threshold: '1'
 - identifier: dispel
   rarity: ordinary
   card_type: magic
@@ -937,9 +956,8 @@
   card_type: magic
   artist: vincent_pompetti
   name: Dodge Roll
-  rules_box: ! |
-    Target minion in harm's way moves to an adjacent location. Cancel the
-    attack or spell targeting the minion.
+  rules_box: ! |-
+    An ally in harm's way moves to an adjacent location. Cancel attacks, spells or abilities targeting it.
   type_line: Ordinary Quick and nimble Magic
   mana_cost: '0'
   water_threshold: '2'
@@ -955,16 +973,18 @@
   rarity: unique
   card_type: relic
   artist: elwira_pawlikowska
+  keywords:
+  - splash_damage
   name: Doomsday Device
   rules_box: ! |
-    At the start of your turn, put a counter on this Device. When there are 3 counters on it, it detonates. It deals no damage if Burrowed or Submerged.
+    This Device enters the Realm with 3 counters on it. At the start of your turn, remove a counter. At the start of your turn, remove a counter. If it has no counters, it detonates, dealing **Splash Damage** (it deals no damage if Burrowed or Submerged):
 
     | 1 | 2 | 3 | 2 | 1 |
     | 2 | 4 | 7 | 4 | 2 |
     | 3 | 7 | 20 | 7 | 3 |
     | 2 | 4 | 7 | 4 | 2 |
     | 1 | 2 | 3 | 2 | 1 |
-  type_line: A Unique relic of impending doom
+  type_line: A Unique Relic of impending doom
   mana_cost: '4'
 - identifier: doomsday_prophet
   rarity: elite
@@ -975,7 +995,7 @@
     **Spellcaster**
     Magic damage near this Prophet is doubled.
   type_line: An Elite Mortal prognosticating the end
-  mana_cost: '3'
+  mana_cost: '4'
   power: '1'
   flavor_text: ! |-
     _The end is nigh!_
@@ -984,9 +1004,9 @@
   rarity: unique
   card_type: magic
   artist: elvira_shakirova
-  name: Dream Quest
+  name: Dream-quest
   rules_box: ! |-
-    Search your spellbook for a card then shuffle your spellbook and put that card on top of it.
+    Search your spellbook for a card, then shuffle and put that card on top of it.
   type_line: Unique Magic to explore the unknown
   mana_cost: '1'
   wind_threshold: '1'
@@ -1011,7 +1031,7 @@
   type_line: Ordinary Magic of sudden descent.
   mana_cost: '3'
   flavor_text: ! |-
-    In the darkening deep they dreamed.
+    _In the darkening deep they dreamed._
   water_threshold: '1'
 - identifier: drums_of_doom
   rarity: elite
@@ -1028,10 +1048,13 @@
   rarity: exceptional
   card_type: minion
   artist: alan_pollack
+  keywords:
+  - burrowing
   name: Dwarven Digging Team
   rules_box: ! |-
     **Burrowing**
-    This Team may burrow or unburrow another nearby minion on the same site as it burrows or unburrows.
+
+    When this Team burrows, a nearby allied minion may burrow. When this Team unburrows, a nearby allied minion may unburrow.
   type_line: Exceptional Mythics frantically dig deeper
   mana_cost: '2'
   power: '3'
@@ -1051,8 +1074,9 @@
   artist: alan_pollack
   name: Earthquake
   rules_box: ! |-
-    Target block of 4 locations of which at least on is an Earth location.
-    Burrow all grounded minions on affected Non-Water sites. You may rearrange the placement of those sites within the block.
+    Choose a square block of four locations of which at least one is an Earth site.
+
+    Burrow all ground minions on affected sites without Water. You may rearrange the placement of those sites within the block.
   type_line: Terrible, violent and sever Elite Magic
   mana_cost: '5'
   earth_threshold: '2'
@@ -1072,9 +1096,9 @@
   rarity: unique
   card_type: site
   artist: adam_burke
-  name: Edge Of The World
+  name: Edge of the World
   rules_box: ! |-
-    Players can't play sites near this site
+    Players can't play sites directly in front of this Edge.
   type_line: A Unique and final Site before the void
 - identifier: elementalist
   rarity: token
@@ -1097,11 +1121,16 @@
   card_type: magic
   artist: margaret_organ-kean
   name: Elite Counterspell
+  rules_box: ! |-
+    Counter an Elite spell.
+  type_line: Elite Quick Magic of grand annulment
+  flavor_text: ! |-
+    Grand notions reduced to dust.
 - identifier: emperors_road
   rarity: unique
   card_type: site
   artist: vincent_pompetti
-  name: Emperors Road
+  name: Emperor's Road
   rules_box: ! |-
     **Genesis** — Your opponent, and then you, may play an extra site adjacent to this Road.
   type_line: A Unique Site from long before your time
@@ -1148,6 +1177,7 @@
   name: Entangle Terrain
   rules_box: ! |-
     Conjure at the intersection of two or four sites of which at least one is an Earth site.
+
     Minions on affected sites lose Airborne and are Immobile.
   type_line: An Ordinary Aura of immobility
   mana_cost: '4'
@@ -1156,9 +1186,11 @@
   rarity: unique
   card_type: relic
   artist: francesca_baerald
-  name: Eriks Curiosa
+  name: Erik's Curiosa
   rules_box: ! |-
-    When an Avatar moves here, that Avatar's owner draws 3 spells. Destroy this Curiosa.
+    Conjure in a corner void.
+
+    When an Avatar picks up this Curiosa, that Avatar's owner draws 3 spells. Destroy it.
   type_line: Unique Relics gathered from forgotten places
   mana_cost: '3'
 - identifier: escyllion_cyclops
@@ -1206,13 +1238,13 @@
   - stealth
   name: Fade
   rules_box: ! |-
-    A minion near your Spellcaster gains **Stealth**
+    A minion near your Spellcaster gains **Stealth**.
 
     Draw a spell.
   type_line: Ordinary Magic to evade the law
   mana_cost: '1'
   flavor_text: ! |-
-    _Now you see me. Now you don’t._
+    _Now you see me. Now you don't._
   wind_threshold: '1'
 - identifier: felbog_frog_men
   rarity: exceptional
@@ -1244,9 +1276,13 @@
   rarity: ordinary
   card_type: minion
   artist: drew_tucker
+  keywords:
+  - genesis
   name: Fey Changeling
   rules_box: ! |-
-    This Changeling may be played on any occupied site. Unsummon target minion there when you do.
+    This Changeling must be summoned on any site with at least one minion.
+
+    **Genesis** -> Return another minion here to its owner's hand.
   type_line: An Ordinary Mythic and most unwelcome guest.
   mana_cost: '2'
   power: '1'
@@ -1259,17 +1295,23 @@
   - splash_damage
   name: Fireball
   rules_box: ! |-
-    Your Spellcaster launches a Fireball that travels in a cardinal direction from your Spellcaster. It explodes when it hits an enemy, dealing Splash Damage: [Damage Grid]
-  type_line: '"rarity_code": "exceptional",'
+    Your Spellcaster launches a Fireball that travels in a cardinal direction from your Spellcaster. It explodes when it hits an enemy, dealing Splash Damage:
+
+    | 1 | 2 | 1 |
+    | 2 | 5 | 2 |
+    | 1 | 2 | 1 |
+  type_line: Exceptional Magic and straight forward destruction
   mana_cost: '4'
   fire_threshold: '1'
 - identifier: firebolts
   rarity: ordinary
   card_type: magic
   artist: jeff_easley
+  keywords:
+  - splash_damage
   name: Firebolts
   rules_box: ! |-
-    The Spellcaster fires three bolts, each in any cardinal direction. They each deal 1 damage to the first enemy they hit.
+    The Spellcaster fires three Bolts, each traveling in any cardinal direction. When they hit an enemy, they each deal 1 **Splash Damage**.
   type_line: Ordinary Magic in any respected repertoire
   mana_cost: '1'
   fire_threshold: '1'
@@ -1277,6 +1319,9 @@
   rarity: exceptional
   card_type: minion
   artist: melissa_a_benson
+  keywords:
+  - fire_immunity
+  - fire_spellcaster
   name: Fire Salamander
   rules_box: ! |-
     **Fire Spellcaster**, **Fire Immunity**
@@ -1290,11 +1335,12 @@
   rarity: exceptional
   card_type: magic
   artist: alan_pollack
+  keywords:
+  - splash_damage
   name: Flame Wave
   rules_box: ! |-
     This Wave flows from any one side of the Realm to the opposite site, dealing 5, then 4, 3, 2 and 1 Splash Damage on columns:
 
-    | - | - | - | - | - |
     | 5 | 4 | 3 | 2 | 1 |
     | 5 | 4 | 3 | 2 | 1 |
     | 5 | 4 | 3 | 2 | 1 |
@@ -1308,7 +1354,7 @@
   artist: tony_szczudlo
   name: Flanking Maneuver
   rules_box: ! |-
-    Jump one of your minions like a chess knight. Draw a card.
+    An ally moves like a chess knight. Draw a spell.
   type_line: An Exceptional tactic that works like Magic
   mana_cost: '3'
   flavor_text: ! |-
@@ -1336,11 +1382,12 @@
   artist: michal_nagypal
   name: Flood
   rules_box: ! |-
-    Conjure on two or four locations of which at least one is a Water site.
-    Affected sites are also Water sites and provide Water threshold. Burrowed minions here drown. Fire spells and minions can't be played here.
+    Conjure at the intersection of two or four locations of which at least one is a Water site.
+
+    Affected sites are Water sites and only provide Water threshold but keep other abilities.
   type_line: An Exceptional Aura of severe overflow
   mana_cost: '4'
-  water_threshold: '4'
+  water_threshold: '1'
 - identifier: floodplain
   rarity: exceptional
   card_type: site
@@ -1348,17 +1395,17 @@
   name: Floodplain
   rules_box: ! |-
     The site directly in front of this Floodplain is also a Water site.
-  type_line: An Exceptional Site of an overwhelming flow.
+  type_line: An Exceptional Site of an overwhelming flow
   water_threshold: '1'
 - identifier: flow_of_life
   rarity: elite
   card_type: magic
   artist: anson_maddocks
-  name: Flow Of Life
+  name: Flow of Life
   rules_box: ! |-
-    Gain life equal to the number of Water sites in play. If you are on Death's Door, instead set your life to 1.
+    You gain life equal to the number of Water sites in the Realm. If you are at Death's Door, instead set your life to 1.
   type_line: Elite Magic of eternal youth
-  mana_cost: '3'
+  mana_cost: '4'
   water_threshold: '3'
 - identifier: free_city
   rarity: exceptional
@@ -1373,7 +1420,7 @@
   artist: ossi_hiekkala
   name: Frontier Settlers
   rules_box: ! |-
-    When these settlers move, they may do so to an adjacent location, placing the top site from your atlas there. Once settled, they can't move.
+    When these settlers move, they may do so to a void, placing the top site from your atlas there. Once settled, they don't want to leave.
   type_line: Exceptional Mortals of sweat and survival
   mana_cost: '3'
   power: '1'
@@ -1387,8 +1434,12 @@
   name: Frost Nova
   rules_box: ! |-
     Deal Splash Damage around your Spellcaster:
-    [Damage Grid]
+
     Freeze minions damaged by this Nova until the start of your next turn.
+
+    | 3 | 3 | 3 |
+    | 3 | x | 3 |
+    | 3 | 3 | 3 |
   type_line: Exceptional Magic of explosive cold.
   mana_cost: '3'
   water_threshold: '1'
@@ -1396,9 +1447,15 @@
   rarity: elite
   card_type: minion
   artist: jussi_pylkäs
+  keywords:
+  - voidwalk
   name: Ghost Ship
   rules_box: ! |-
-    This Ship moves freely in the void and on Water sites. It may carry any number of minions.
+    Voidwalk
+
+    This Ship moves freely in a body of water and void.
+
+    It may carry any number of allied minions when it moves. Those minions have Voidwalk while carried.
   type_line: Elite Undead Spirits sail between realms
   mana_cost: '5'
   power: '3'
@@ -1419,6 +1476,19 @@
   mana_cost: '4'
   power: '5'
   water_threshold: '1'
+- identifier: gneissgnath_gnomes
+  rarity: ordinary
+  card_type: minion
+  artist: vasiliy_ermolaev
+  name: Gneissgnath Gnomes
+  rules_box: ! |-
+    **Burrowing**
+
+    These Gnomes may unborrow at any site in the span of earth they are within. At the end of your turn, they may burrow.
+  type_line: An Ordinary Spirit crops up unexpectedly
+  mana_cost: '2'
+  power: '2'
+  earth_threshold: '1'
 - identifier: gothic_tower
   rarity: ordinary
   card_type: site
@@ -1435,10 +1505,12 @@
   card_type: minion
   artist: ossi_hiekkala
   keywords:
+  - genesis
   - spellcaster
   name: Grandmaster Wizard
   rules_box: ! |-
     **Spellcaster**
+
     **Genesis** — Draw 3 spells.
   type_line: A Unique Mortal of true arcane expertise
   mana_cost: '7'
@@ -1467,18 +1539,6 @@
     There is a wall in front of this site that blocks enemy ground minions, extended one step back to the sides.
   type_line: An Elite Site of stalwart safety
   earth_threshold: '1'
-- identifier: greissgnath_gnomes
-  rarity: ordinary
-  card_type: minion
-  artist: vasiliy_ermolaev
-  name: Greissgnath Gnomes
-  rules_box: ! |-
-    **Burrowing**
-    These Gnomes may unborrow at any site in the span of earth they are within. At the end of your turn, you may burrow them.
-  type_line: An Ordinary Spirit crops up unexpectedly
-  mana_cost: '2'
-  power: '2'
-  earth_threshold: '1'
 - identifier: grey_wolves
   rarity: ordinary
   card_type: minion
@@ -1501,9 +1561,9 @@
   - voidwalk
   name: Grim Reaper
   rules_box: ! |-
-    **Voidwalk**, **Immortal**
-    Summon this Reaper to a random location, determined by rolling a D20.
-    When it shares a location with another minion, kill that minion, then place this Reaper in your discard pile.
+    **Immortal**, **Voidwalk**
+
+    Summon this Reaper to a random location, When it shares a location with another minion, remove both from the game entirely.
   type_line: A Unique Minion we all will meet eventually
   mana_cost: '3'
   power: '0'
@@ -1517,10 +1577,11 @@
   name: Guile Sirens
   rules_box: ! |-
     **Submerge**
-    These Sirens lure the closest enemy minion of your choice in a straight line of sight moving closer to them, if able.
+
+    At the start of an opponent's turn, these Sirens charm the closest enemy minion in a cardinal direction. That minion must move towards if able.
   type_line: Exceptional Mythics with three times the charm
   mana_cost: '3'
-  power: '2'
+  power: '3'
   water_threshold: '2'
 - identifier: gyre_hippogriffs
   rarity: ordinary
@@ -1530,12 +1591,13 @@
   - airborne
   - haste
   name: Gyre Hippogriffs
-  rules_box: ! "Airborne, Haste "
+  rules_box: ! |-
+    **Airborne**, **Haste**
   type_line: Ordinary Mythic Beast circle the skies
   mana_cost: '6'
   power: '4'
   flavor_text: ! |-
-    Creature aloft, Will oft, See the turning of the screw, before me or you.
+    _Creature aloft, Will oft, See the turning of the screw, before me or you._
   wind_threshold: '2'
 - identifier: haast_eagle
   rarity: exceptional
@@ -1548,7 +1610,7 @@
   rules_box: ! |-
     **Airborne**
 
-    **Genesis** -> Carry a weaker minion from anywhere in the Realm to this Eagle’s site.
+    **Genesis** -> Carry a weaker minion from anywhere in the Realm to this Eagle's site.
   type_line: An Exceptional Beast of grand bearing
   mana_cost: '4'
   power: '3'
@@ -1558,6 +1620,12 @@
   card_type: minion
   artist: elvira_shakirova
   name: Hang Glider
+  rules_box: ! |-
+    When this Glider moves from a Wind site, it has **Airborne** and **+2 Movement** until end of turn.
+  type_line: An Ordinary Mortal carried high by ingenuity
+  mana_cost: '1'
+  power: '2'
+  water_threshold: '1'
 - identifier: harpoon_shot
   rarity: exceptional
   card_type: magic
@@ -1589,10 +1657,11 @@
   name: Headless Haunt
   rules_box: ! |-
     **Voidwalk**
-    At the start of your turn, determine a random location by rolling a D20. Teleport this Haunt there.
+
+    At the start of your turn, Teleport this Haunt to a random location.
   type_line: An Exceptional Spirit defines time and space
   mana_cost: '3'
-  power: '5'
+  power: '4'
   wind_threshold: '2'
 - identifier: heat_ray
   rarity: ordinary
@@ -1602,7 +1671,9 @@
   - splash_damage
   name: Heat Ray
   rules_box: ! |-
-    Deal 2 Splash Damage in a line in any cardinal direction from your Spellcaster [Damage Grid]
+    Deal 2 Splash Damage in a line in any cardinal direction from your Spellcaster:
+
+    | -> | 2 | 2 | 2 | 2 |
   type_line: Ordinary Magic to keep enemies in line
   mana_cost: '2'
   fire_threshold: '1'
@@ -1652,10 +1723,11 @@
   artist: vincent_pompetti
   name: Highland Princess
   rules_box: ! |-
-    When this Princess blocks or is attacked, nearby allied minions may have the damage dealt to them instead.
+    When this Princess is dealt damage, nearby allied minions may have the damage dealt to them instead.
   type_line: A Unique Mortal with beauty to die for
   mana_cost: '1'
   power: '1'
+  earth_threshold: '1'
   wind_threshold: '1'
 - identifier: hillock_basilisk
   rarity: exceptional
@@ -1663,7 +1735,7 @@
   artist: alan_pollack
   name: Hillock Basilisk
   rules_box: ! |-
-    Minions on the site directly in front of this Basilisk are petrified. (They lose all abilities and can't fight or move.)
+    Minions on the site directly in front of this Basilisk are petried.
   type_line: An Exceptional Mythic with a stony stare
   mana_cost: '4'
   power: '3'
@@ -1683,9 +1755,15 @@
   rarity: elite
   card_type: minion
   artist: francesca_baerald
-  name: Hounds Of Ondaros
+  keywords:
+  - airborne
+  - burrowing
+  - submerge
+  - voidwalk
+  name: Hounds of Ondaros
   rules_box: ! |-
-    **Airborne**, **Voidwalk**, **Burrowing**, **Submerge**
+    **Airborne**, **Burrowing**, **Submerge**, **Voidwalk**
+
     Nearby Stealth is negated.
   type_line: No place is safe from these Elite Demons
   mana_cost: '7'
@@ -1738,8 +1816,9 @@
   artist: brian_smith
   name: Ice Lance
   rules_box: ! |-
-    Deal 3, 2,and 1 damage to Avatars and minions in a line from your Spellcaster.
-    [Damage Grid]
+    Deal 3, 2, and 1 damage to Avatars and minions in a line from your Spellcaster.
+
+    | 3 | 2 |  1 |
   type_line: Exceptional Magic of cold precision.
   mana_cost: '3'
   water_threshold: '1'
@@ -1749,7 +1828,7 @@
   artist: brian_smith
   name: Immolation
   rules_box: ! |-
-    Deal 7 damage to a single target up to two steps away from your Spellcaster.
+    Deal 7 damage to an Avatar or minion in a cardinal direction from your Spellcaster.
   type_line: Unique Magic of distilled devastation
   mana_cost: '1'
   fire_threshold: '3'
@@ -1776,20 +1855,21 @@
   type_line: Ordinary Magic in these draconic realms.
   mana_cost: '5'
   flavor_text: ! |-
-    Of scale and smoke, of flight and flame,
-    these ancient tracts are forged.
+    _Of scale and smoke, of flight and flame,
+    these ancient tracts are forged._
   fire_threshold: '1'
 - identifier: infernal_legion
   rarity: elite
   card_type: minion
   artist: melissa_a_benson
   keywords:
-  - fire_immunity
   - splash_damage
+  - fire_immunity
   name: Infernal Legion
   rules_box: ! |-
-    **Splash Damage**
-    At the end of each turn, this Legion deals 1 damage to nearby Avatars and minions.
+    **Fire Immunity**, **Splash Damage**
+
+    At the end of your turn, this Legion deals 1 damage on nearby sites.
   type_line: An Elite Undead army in flames
   mana_cost: '7'
   power: '5'
@@ -1810,7 +1890,7 @@
   artist: ossi_hiekkala
   name: Instant Recall
   rules_box: ! |-
-    Teleport any number of allied minions in harm’s way to sites near your Spellcaster. Cancel attacks, spells or abilities targeting them.
+    Teleport any number of allied minions in harm's way to sites near your Spellcaster. Cancel attacks, spells or abilities targeting them.
   type_line: Exceptional Magic of Quick and last resort
   mana_cost: '0'
   wind_threshold: '3'
@@ -1836,7 +1916,8 @@
   name: King Of The Realm
   rules_box: ! |-
     All other Mortals gain 2 power.
-    You control all Mortals in play.
+
+    You control all Mortals in the Realm.
   type_line: A Unique Mortal with a true claim to the throne
   mana_cost: '7'
   power: '4'
@@ -1845,10 +1926,13 @@
   rarity: exceptional
   card_type: minion
   artist: vincent_pompetti
+  keywords:
+  - range_x
   name: Kite Archer
   rules_box: ! |-
     **Range +2**
-    At the end of turn, you may move this Archer one step to an adjacent site.
+
+    At the end of your turn, this Archer may move to an adjacent site.
   type_line: An Exceptional Mortal hits and runs
   mana_cost: '2'
   power: '1'
@@ -1859,15 +1943,17 @@
   artist: elwira_pawlikowska
   name: Land Deed
   rules_box: ! |-
-    The controller of this Deed controls the site at its location.
+    Conjure on one of your sites. You control this site.
   type_line: An Exceptional Relic of indisputable claim
-  mana_cost: '4'
+  mana_cost: '5'
   flavor_text: ! |-
     _Possession is nine tenths of the law._
 - identifier: land_surveyor
   rarity: exceptional
   card_type: minion
   artist: ossi_hiekkala
+  keywords:
+  - genesis
   name: Land Surveyor
   rules_box: ! |-
     **Genesis** — Draw a site.
@@ -1883,7 +1969,7 @@
   artist: drew_tucker
   name: Leviathan Island
   rules_box: ! |-
-    {Water:7}: This island can defend itself with a power of 7 until defeated once.
+    {Water:6}: This island can defend itself with a power of 12 until defeated once.
   type_line: An Elite Site of Monstrous proportions
   water_threshold: '1'
 - identifier: lighthouse
@@ -1916,7 +2002,7 @@
   name: Lone Tower
   rules_box: ! |-
     Genesis > Gain 1 mana until end of turn.
-  type_line: An Ordinary Site of haunting Wind
+  type_line: An Ordinary Site of haunting Wind.
   wind_threshold: '1'
 - identifier: lord_of_lies
   rarity: elite
@@ -1937,7 +2023,7 @@
   artist: drew_tucker
   keywords:
   - airborne
-  name: Lord Of The Skies
+  name: Lord of the Skies
   rules_box: ! |-
     **Airborne**
 
@@ -1950,12 +2036,15 @@
   rarity: elite
   card_type: minion
   artist: elwira_pawlikowska
-  name: Lord Of The Void
+  keywords:
+  - voidwalk
+  name: Lord of the Void
   rules_box: ! |-
     **Voidwalk**
-    When this Lord enters a site, destroy that site. If it doesn't destroy a site during your turn, kill it.
+
+    At the end of your turn, this Lord destroys a nearby aura, relic or another minion. If it can't destroy any of the three, it destroys a nearby site. If it didn't destroy anything, you lose the game.
   type_line: An Elite Spirit of unimaginable emptiness
-  mana_cost: '7'
+  mana_cost: '8'
   power: '0'
   wind_threshold: '3'
 - identifier: lord_of_unland
@@ -1964,7 +2053,7 @@
   artist: jussi_pylkäs
   keywords:
   - submerge
-  name: Lord Of Unland
+  name: Lord of Unland
   rules_box: ! |-
     **Submerge**
 
@@ -1991,16 +2080,20 @@
   artist: drew_tucker
   name: Maddening Bells
   rules_box: ! |-
-    Nearby minions lose Spellcaster and nearby Avatars can't cast non-minion spells.
-  type_line: A Unique of delirious dissonance
-  mana_cost: '4'
+    Nearby Spellcasters can only cast minion spells.
+  type_line: An Elite Relic of delirious dissonance
+  mana_cost: '2'
+  flavor_text: ! |-
+    _I can't hear myself think!_
 - identifier: maelström
   rarity: unique
   card_type: site
   artist: dan_seagrave
+  keywords:
+  - genesis
   name: Maelström
   rules_box: ! |-
-    {Water:2} **Genesis** — Move all Avatars and minions one step towards Maelström
+    {Water:2} **Genesis** — Pull Avatars and minions one step towards this site.
   type_line: A Unique  Site of ineluctable malevolence
   water_threshold: '1'
 - identifier: major_explosion
@@ -2011,9 +2104,15 @@
   - splash_damage
   name: Major Explosion
   rules_box: ! |-
-    Choose a center site of this Explosion in a cardinal direction from your Spoellcaster. Deal Splash Damage.
-    [Damage Grid]
+    Choose a center site of this Explosion in a cardinal direction from your Spoellcaster. Deal Splash Damage:
+
     The Spellcaster takes no damage from this Explosion.
+
+    | | 1 | 2 | 1 | |
+    | 1 | 3 | 5 | 3 | 1 |
+    | 2 | 5 | 7 | 5 | 2 |
+    | 1 | 3 | 5 | 3 | 1 |
+    | | 1 | 2 | 1 | |
   type_line: Elite Magic of tremendous destruction.
   mana_cost: '7'
   fire_threshold: '2'
@@ -2023,15 +2122,15 @@
   artist: marta_molina
   name: Marine Voyage
   rules_box: ! |-
-    Ship your minions on one body of water any way you like.
+    Ship your allies in one body of water any way you like.
   type_line: Exceptional Magic of course correction
-  mana_cost: '2'
+  mana_cost: '1'
   water_threshold: '1'
 - identifier: mask_of_mayhem
   rarity: elite
   card_type: relic
   artist: dan_seagrave
-  name: Mask Of Mayhem
+  name: Mask of Mayhem
   rules_box: ! |-
     The bearer of this Mask must attack when able.
 
@@ -2042,21 +2141,27 @@
   rarity: elite
   card_type: minion
   artist: andrea_modesti
+  keywords:
+  - stealth
   name: Master Tracker
   rules_box: ! |-
-    **Stealth**, **Immune to minions with Stealth**
+    **Immune to minions with Stealth**, **Stealth**
+
     Nearby enemy Stealth is negated.
   type_line: An Elite Mortal finds his way to your side
   mana_cost: '2'
-  power: '2'
+  power: '3'
   earth_threshold: '2'
 - identifier: maze_minotaur
   rarity: elite
   card_type: minion
   artist: gadu_duaso
+  keywords:
+  - iron_skin
   name: Maze Minotaur
   rules_box: ! |-
     **Iron Skin**
+
     Nearby enemy minions can only move to sites near this Minotaur.
   type_line: An Elite Mythic snarls around the corner
   mana_cost: '4'
@@ -2068,7 +2173,7 @@
   artist: brian_smith
   name: Mega Amoeba
   rules_box: ! |-
-    This Amoeba gets +1 power for each site it's visited. It continues to occupy those sites.
+    This Amoeba gets +1 power for each site it's visited. It continues to occupy those sites. (Use markers to keep track of sites that have been visited.)
   type_line: An Elite Monster expands its influence
   mana_cost: '3'
   power: '0'
@@ -2077,9 +2182,9 @@
   rarity: ordinary
   card_type: minion
   artist: drew_tucker
-  name: Men Of Leng
+  name: Men of Leng
   rules_box: ! |-
-    Whenever these Men deal damage directly to an Avatar, that player discards a card at random.
+    Whenever these Men deal damage directly to an Avatar, that Avatar's controller discards a card at random.
   type_line: Ordinary Mortal Beasts bleating in discord
   mana_cost: '2'
   power: '2'
@@ -2090,9 +2195,9 @@
   artist: drew_tucker
   name: Mesmerism
   rules_box: ! |-
-    Play on two of four sites that include the one your Spellcaster is on.
-    You control minions on affected sites.
-    If your Spellcaster leaves the affected sites, discard Mesmerism.
+    Conjure at the intersection of two or four sites that include the one that your Spellcaster is on.
+
+    You control minions on affected sites as long as the Spellcaster stays on them.
   type_line: An Elite Aura of ultimate control
   mana_cost: '7'
   water_threshold: '2'
@@ -2100,12 +2205,14 @@
   rarity: elite
   card_type: magic
   artist: michal_nagypal
+  keywords:
+  - splash_damage
   name: Meteor Shower
-  rules_box: ! "**Splash Damage**\r\nPlace three meteor strikes on the playing field,
-    dealing damage as shown in the grids:\r\n\r\n| 0 | 1 | 0 |\r\n| 1 | 2 | 1 |\r\n|
-    0 | 1 | 0 |\r\n\r\n| 1 | 3 | 1 |\r\n| 3 | 5 | 3 |\r\n| 1 | 3 | 1 |\r\n\r\n| 0
-    | 1 | 2 | 1 | 0 |\r\n| 1 | 3 | 5 | 3 | 1 |\r\n| 2 | 5 | 7 | 5 | 2 |\r\n| 1 | 3
-    | 5 | 3 | 1 |\r\n| 0 | 1 | 2 | 1 | 0 | "
+  rules_box: ! "**Splash Damage**\n\nPlace three meteor strikes on the playing field,
+    dealing damage as shown in the grids:\n\n| 0 | 1 | 0 |\n| 1 | 2 | 1 |\n| 0 | 1
+    | 0 |\n\n| 1 | 3 | 1 |\n| 3 | 5 | 3 |\n| 1 | 3 | 1 |\n\n| 0 | 1 | 2 | 1 | 0 |\n|
+    1 | 3 | 5 | 3 | 1 |\n| 2 | 5 | 7 | 5 | 2 |\n| 1 | 3 | 5 | 3 | 1 |\n| 0 | 1 | 2
+    | 1 | 0 | "
   mana_cost: '7'
   fire_threshold: '3'
 - identifier: midland_army
@@ -2115,6 +2222,7 @@
   name: Midland Army
   rules_box: ! |-
     This Army must be summoned to any of the two middle sites.
+
     It can carry out ranged attacks on enemies on any site in the Realm.
   type_line: A Unique army of Mortals, yours to command
   mana_cost: '8'
@@ -2124,6 +2232,8 @@
   rarity: ordinary
   card_type: minion
   artist: jeff_a_menges
+  keywords:
+  - genesis
   name: Midland Mercenaries
   rules_box: ! |-
     **Genesis** -> Return your nearby empty Village you control to its owner's hand. If you can't, return them to your hand.
@@ -2142,12 +2252,12 @@
   - stealth
   name: Midnight Rogue
   rules_box: ! |-
-    Lethal, Stealth
+    **Lethal**, **Stealth**
   type_line: An Ordinary Mortal lurks in the dark
   mana_cost: '2'
   power: '2'
   flavor_text: ! |-
-    Patience is the most deadly of diciplines
+    _Patience is the most deadly of disciplines._
   wind_threshold: '1'
 - identifier: minor_explosion
   rarity: ordinary
@@ -2157,9 +2267,9 @@
   - splash_damage
   name: Minor Explosion
   rules_box: ! |-
-    **Splash Damage**
-    Choose a center site up to two sites away from your Spellcaster.
-    The Spellcaster of this explosion takes no damage from it.
+    Choose a center site of this Explosion up to two sites away from your Spellcaster. Deal **Splash Damage**:
+
+    The Spellcaster takes no damage from this Explosion.
 
     | 1 | 2 | 1 |
     | 2 | 3 | 2 |
@@ -2171,6 +2281,8 @@
   rarity: ordinary
   card_type: minion
   artist: jeff_a_menges
+  keywords:
+  - spellcaster
   name: Miracle Workers
   rules_box: ! |-
     **Spellcaster**
@@ -2202,8 +2314,8 @@
   artist: elvira_shakirova
   name: Mix Aer
   rules_box: ! |-
-    The controller's Wind spells cost 1 less mana to cast.
-  type_line: A Unique relic of soaring ambition
+    Wind spells cast by the bearer cost 1 less mana and require no Wind threshold.
+  type_line: A Elite relic of soaring ambition
   mana_cost: '0'
 - identifier: mix_aqua
   rarity: elite
@@ -2237,19 +2349,24 @@
   artist: jeff_a_menges
   name: Monster Hunter
   rules_box: ! |-
-    **Genesis** — This Hunter kills a nearby Monster or other skulking, prowling, or lurking minion.
+    **Genesis** — This Hunter kills a nearby Monster.
   type_line: An Exceptional Mortal on a grim mission
-  mana_cost: '4'
+  mana_cost: '3'
   power: '2'
+  flavor_text: ! |-
+    _Not glory nor profit, is the reward. A safer world is._
   earth_threshold: '2'
 - identifier: mordric_druids
   rarity: exceptional
   card_type: minion
   artist: jeff_a_menges
+  keywords:
+  - spellcaster
   name: Mordric Druids
   rules_box: ! |-
     **Spellcaster**
-    Damage to you Avatar from a nearby site is also dealt to opponent's Avatar.
+
+    Damage dealt to your Avatar through a site near these Druids is also dealt to enemy Avatars.
   type_line: Exceptional Mortals or primordial vengeance
   mana_cost: '2'
   power: '1'
@@ -2277,13 +2394,14 @@
   name: Mountain Giant
   rules_box: ! |-
     **Iron Skin**
+
     Occupies 4 sites.
   type_line: An Exceptional Mythic of geographical proportions
-  mana_cost: '7'
+  mana_cost: '6'
   power: '5'
   flavor_text: ! |-
     _Hearth and heart will tremble._
-  earth_threshold: '2'
+  earth_threshold: '3'
 - identifier: mountain_pass
   rarity: exceptional
   card_type: site
@@ -2297,6 +2415,9 @@
   rarity: ordinary
   card_type: minion
   artist: vasiliy_ermolaev
+  keywords:
+  - burrowing
+  - submerge
   name: Muck Lampreys
   rules_box: ! |-
     **Burrowing**, **Submerge**
@@ -2306,13 +2427,13 @@
   flavor_text: ! |-
     _The pallid tunnelers calmly prowl the muck, Ready to bore through mud and flesh alike._
 - identifier: near_miss
-  rarity: unique
+  rarity: elite
   card_type: magic
   artist: jeff_easley
   name: Near Miss
   rules_box: ! |-
-    Deflect a targeted spell to a new target near the old target.
-  type_line: Unique Quick Magic offering a narrow escape
+    Deflect a ranged attack, a spell, or an ability targeting an ally near your Speallcaster to a new target near that ally.
+  type_line: Elite Quick Magic offering a narrow escape
   mana_cost: '0'
   flavor_text: ! |-
     _Breath starts and the heart skips a beat._
@@ -2325,7 +2446,7 @@
   - voidwalk
   name: Nightmare
   rules_box: ! |-
-    Voidwalk.
+    **Voidwalk**
 
     When this Nightmare traverses a location, other nearby minions except Demons, Spirits and Undead move one step away.
   type_line: An Elite Spirit that torments and terrifies
@@ -2342,10 +2463,11 @@
   name: Nimbus Jinn
   rules_box: ! |-
     **Airborne**, **Spellcaster**
-    Discard a spell from your hand -> Deal 3 damage to a nearby minion or avatar.
+
+    Discard a spell -> Deal 3 damage to a nearby Avatar or minion
   type_line: An Exceptional Spirit of turbulent terror
   mana_cost: '6'
-  power: '4'
+  power: '3'
   wind_threshold: '2'
 - identifier: northern_frontline
   rarity: elite
@@ -2353,7 +2475,7 @@
   artist: dan_seagrave
   name: Northern Frontline
   rules_box: ! |-
-    This Frontline may be played on a location directly below an enemy site.
+    This Frontline may be played on any void that has a site directly in front of it.
   type_line: An Elite Site where heroes are born
 - identifier: nowhere_island
   rarity: elite
@@ -2361,7 +2483,7 @@
   artist: jussi_pylkäs
   name: Nowhere Island
   rules_box: ! |-
-    This Island can only be played on a square not adjacent to any site.
+    This Island can only be played on a void not adjacent to any site.
   type_line: An Elite Site in the midst of the black seas of infinity
 - identifier: oasis
   rarity: elite
@@ -2381,7 +2503,7 @@
   - genesis
   name: Observatory
   rules_box: ! |-
-    **Genesis** — Look at the top 4 spell book cards and put them back on the top in any order.
+    **Genesis** — Look at the top 3 spellbook cards and put them back on top in any order.
   type_line: An Exceptional Site to study the future and the past
   wind_threshold: '1'
 - identifier: occult_ritual
@@ -2411,9 +2533,9 @@
   rarity: exceptional
   card_type: site
   artist: ian_miller
-  name: Old Growth Forest
+  name: Old-growth Forest
   rules_box: ! |-
-    Incoming Ranged or Airborne attacks are blocked here.
+    Incoming Ranged or Airborne attacks are cancelled here.
   type_line: An Exceptional Site of smothering gloom
   earth_threshold: '1'
 - identifier: old_salt_anchorman
@@ -2427,21 +2549,21 @@
   mana_cost: '1'
   power: '2'
   flavor_text: ! |-
-    We stuck, nor breath nor motion;
+    _We stuck, nor breath nor motion;
     As idle as a painted ship upon a painted ocean.
-    - Samuel Coleridge
+    - Samuel Coleridge_
   water_threshold: '1'
 - identifier: orb_of_ba_al_berith
   rarity: unique
   card_type: relic
   artist: dan_seagrave
-  name: Orb of Ba 'al Berith
+  name: Orb of Ba'al Berith
   rules_box: ! |-
-    Anything affecting this Orb’s site or Splash Damage dealt here is replicated on surrounding sites.
+    Anything affecting this Orb's site or Splash Damage dealt here is replicated on surrounding sites.
   type_line: A Unique Relic of magnified intentions
   mana_cost: '5'
   flavor_text: ! |-
-    _If it’s worth doing, it’s worth overdoing._
+    _If it's worth doing, it's worth overdoing._
 - identifier: ordinary_counterspell
   rarity: ordinary
   card_type: magic
@@ -2469,14 +2591,14 @@
   power: '3'
   water_threshold: '1'
 - identifier: outback_strider
-  rarity: ordinary
+  rarity: exceptional
   card_type: minion
   artist: tony_szczudlo
   name: Outback Strider
   rules_box: ! |-
-    This Strider may be summoned in any site in the leftmost or rightmost column, but not anywhere else.
-  type_line: An Ordinary Mortal from a distant land
-  mana_cost: '4'
+    This Strider must be summoned to any site in the leftmost or rightmost column.
+  type_line: An Exceptional Mortal from a distant land
+  mana_cost: '3'
   power: '4'
   fire_threshold: '1'
 - identifier: pact_with_the_devil
@@ -2490,13 +2612,16 @@
   mana_cost: '3'
   fire_threshold: '2'
 - identifier: palliburrie_bats
-  rarity: exceptional
+  rarity: ordinary
   card_type: minion
   artist: lindsey_crummett
+  keywords:
+  - airborne
+  - burrowing
   name: Palliburrie Bats
   rules_box: ! |-
     **Airborne**, **Burrowing**
-  type_line: Exceptional Beasts fly out to greet the moon
+  type_line: Ordinary Beasts fly out to greet the moon
   mana_cost: '2'
   power: '2'
   flavor_text: ! |-
@@ -2513,16 +2638,18 @@
   name: Pathfinder
   initial_life: '20'
   rules_box: ! |-
-    **Spellcaster**, **Movement +1**
-    Tap to draw once from your atlas.
-    This avatar may move onto an empty location, placing the top site of your atlas there.
+    Tap -> Play or draw a site.
+
+    Tap -> Move from a site into a void, placing the top site from your atlas there.
+
+    Discard a site from Your hand -> Move one step.
   type_line: You Avatar finds the way to victory
   power: '1'
 - identifier: pendulum_of_peril
   rarity: unique
   card_type: relic
   artist: drew_tucker
-  name: Pendulum Of Peril
+  name: Pendulum of Peril
   rules_box: ! |-
     Conjure at the intersection of two sites of which at least one is yours. This Pendulum can't be picked up.
     It swings between the sites at the start of your turn and kills all minions where it swings to. You choose its starting position.
@@ -2538,7 +2665,7 @@
   - voidwalk
   name: Peregrine Apparition
   rules_box: ! |-
-    Airborne, Haste, Voidwalk.
+    **Airborne**, **Haste**, **Voidwalk**
 
     This Apparition moves freely in the Realm.
   type_line: An Exceptional Spirit of trancendent velocity
@@ -2569,7 +2696,7 @@
   rules_box: ! |-
     This Shade may be summoned to any site.
 
-    This Shade dies when targeted by an attack or by an opponent’s spell or ability.
+    This Shade dies when targeted by an attack or by an opponent's spell or ability.
   type_line: An Exceptional Spirit o imaginary evil
   mana_cost: '2'
   power: '5'
@@ -2578,9 +2705,13 @@
   rarity: exceptional
   card_type: minion
   artist: melissa_a_benson
+  keywords:
+  - voidwalk
   name: Phantom Steed
-  rules_box: ! "**Voidwalk**\r\nThis Steed moves freely in the void and may carry
-    a friendly minion safely through it."
+  rules_box: ! |-
+    **Voidwalk**
+
+    This Steed may carry an allied minion when it moves. That minion has **Voidwalk** while carried.
   type_line: An Exceptional Beast roams the border of reality
   mana_cost: '4'
   power: '3'
@@ -2605,19 +2736,20 @@
   rarity: unique
   card_type: relic
   artist: severine_pineaux
-  name: Philosophers Stone
+  name: Philosopher's Stone
   rules_box: ! |-
     The bearer of this Stone is a Spellcaster.
-    The controller's spells cost 1 less mana and require one less of each elemental threshold.
+
+    Spells cast by the bearer of this Stone cost 1 less mana and require one less of each elemental threshold.
   type_line: This Unique Relic is the magnus opus of alchemy
   mana_cost: '1'
 - identifier: pillar_of_zeiros
   rarity: unique
   card_type: site
   artist: dan_seagrave
-  name: Pillar Of Zeiros
+  name: Pillar of Zeiros
   rules_box: ! |-
-    Only minions with Burrowing can be played on or enter this site.
+    Only minions with Burrowing can traverse this site.
   type_line: A Unique Site from an antediluvian past
   earth_threshold: '1'
 - identifier: pirate_ship
@@ -2642,14 +2774,14 @@
   rarity: unique
   card_type: magic
   artist: michal_nagypal
-  name: Plague Of Frogs
+  name: Plague of Frogs
   rules_box: ! |-
-    Summon 7 0-power Frog tokens with **Submerge** on any combination of sites.
+    Summon seven 0-power Frog tokens with **Submerge** on any combination of sites.
   type_line: Unique Magic in its most annoying form
   mana_cost: '1'
   flavor_text: ! |-
     _"Their land swarmed with frogs.
-    Even in the chambers or their kings." - Psalm 105:30 _
+    Even in the chambers or their kings." - Psalm 105:30_
   water_threshold: '3'
 - identifier: planar_gate
   rarity: elite
@@ -2669,25 +2801,25 @@
   - airborne
   name: Plume Pegasus
   rules_box: ! |-
-    Airborne
+    **Airborne**
   type_line: An Ordinary Beast soars high with pride
   mana_cost: '3'
   power: '3'
   flavor_text: ! |-
-    To see the pegasus fly is to feel the spirit soar.
+    _To see the pegasus fly is to feel the spirit soar._
   wind_threshold: '1'
 - identifier: poison_nova
   rarity: exceptional
   card_type: magic
   artist: jussi_pylkäs
+  keywords:
+  - lethal
   name: Poison Nova
   rules_box: ! |-
     **Lethal**
 
     Deal 1 damage to minions around your Spellcaster.
 
-    |  |  |  |
-    | - | - | - |
     | 1 | 1 | 1 |
     | 1 | 0 | 1 |
     | 1 | 1 | 1 |
@@ -2700,7 +2832,7 @@
   artist: melissa_a_benson
   name: Polar Bears
   rules_box: ! |-
-    These Bears can move between locations at the top and bottom edges of the realm as if they were adjacent.
+    These Bears can move between sites at the top and bottom edges of the Realm as if they were adjacent.
   type_line: Ordinary Beasts of extreme latitudes
   mana_cost: '2'
   power: '3'
@@ -2731,7 +2863,7 @@
   mana_cost: '1'
   power: '1'
   flavor_text: ! |-
-    _A remarkable 11 pufferfish entries are found in Bogd-Uul’s comprehensive “Greater and lesser poisons and their uses”._
+    _A remarkable 11 pufferfish entries are found in Bogd-Uul's comprehensive “Greater and lesser poisons and their uses”._
   water_threshold: '1'
 - identifier: pristine_paradise
   rarity: unique
@@ -2739,15 +2871,23 @@
   artist: marta_molina
   name: Pristine Paradise
   rules_box: ! |-
-    This Paradise does not gibe any threshold if it has a minion on it.
+    This Paradise does not give any threshold if it has a minion on it.
   type_line: A Unique Site of fragile splendor
+  earth_threshold: '1'
+  fire_threshold: '1'
+  water_threshold: '1'
+  wind_threshold: '1'
 - identifier: psionic_blast
   rarity: exceptional
   card_type: magic
   artist: alan_pollack
   name: Psionic Blast
   rules_box: ! |-
-    Deal 3 damage to minions near the Spellcaster and push them three steps away.
+    Deal 3 damage to enemies around your Spellcaster. Push enemies damaged by this Blast one step away.
+
+    | 3 | 3 | 3 |
+    | 3 | x | 3 |
+    | 3 | 3 | 3 |
   type_line: Exceptional Magic of repellent thought
   mana_cost: '3'
   wind_threshold: '2'
@@ -2760,7 +2900,8 @@
   name: Pudge Butcher
   rules_box: ! |-
     **Immobile**
-    Tap -> This Butcher hooks one of the closest minions of your choice in any cardinal direction and drags it to his location. If it's an enemy, this Butcher attacks it.
+
+    Tap -> This Butcher hooks one of the closest minions in any cardinal direction, dragging it to its location. If it's an enemy, this Butcher attacks it.
   type_line: An Exceptional Monster of sloth and greed
   mana_cost: '4'
   power: '5'
@@ -2769,8 +2910,13 @@
   rarity: elite
   card_type: minion
   artist: liz_danforth
+  keywords:
+  - airborne
   name: Puppet Master
-  rules_box: ! "**Airborne**\r\nYou controllers all minions at this Master's location."
+  rules_box: ! |-
+    **Airborne**
+
+    You controllers all minions at this Master's location.
   type_line: An Elite Spirit pulls the strings here
   mana_cost: '6'
   power: '0'
@@ -2782,9 +2928,12 @@
   name: Purge Juggernaut
   rules_box: ! |-
     Conjure on your back row.
-    Move this Juggernaut one step forward at the start of your turn. All minions on the same site as this Juggernaut are destroyed. If there's no site in front of it when it tries to move forward, destroy it.
+
+    Kill all minions on this site.
+
+    At the end of your turn, this Juggernaut moves one step forward. Destroy it if it can't move.
   type_line: An Elite Relic of ceaseless slaughter
-  mana_cost: '5'
+  mana_cost: '4'
 - identifier: quagmire
   rarity: exceptional
   card_type: site
@@ -2802,13 +2951,12 @@
   artist: alan_pollack
   name: Quarrelsome Kobolds
   rules_box: ! |
-    At the end of your turn, these Kobolds must deal damage equal to their
-    power to another adjacent minion or themselves.
+    At the end of your turn, these Kobolds must deal damage equal to their power to another adjacent minion or themselves.
   type_line: Exceptional Monsters raise a rukcus here.
   mana_cost: '4'
   power: '3'
   flavor_text: ! |-
-    "But he started it!" - the kobold who started it.
+    _"But he started it!" - the kobold who started it._
   fire_threshold: '2'
 - identifier: queen_of_midland
   rarity: unique
@@ -2816,7 +2964,7 @@
   artist: severine_pineaux
   name: Queen Of Midland
   rules_box: ! |-
-    At the start of your turn, if this Queen occupies one of the two middle locations and is uncontested by an enemy on its site, draw a card.
+    At the start of your turn, if this Queen is on any of the two middle sites, draw a site or spell.
   type_line: A Unique Mortal at the center of attention
   mana_cost: '4'
   power: '1'
@@ -2826,7 +2974,7 @@
   card_type: minion
   artist: caio_calazans
   name: Raal Dromedary
-  mana_cost: '0'
+  mana_cost: '1'
   power: '2'
   flavor_text: ! |-
     _“And a course grace remained: his head was high,
@@ -2854,21 +3002,26 @@
   - lethal
   name: Rattlesnakes
   rules_box: ! |-
-    Burrowing, Lethal
+    **Burrowing**, **Lethal**
   type_line: Ordinary Beasts slither and rattle here.
   mana_cost: '2'
   power: '1'
   flavor_text: ! |-
-    Don't tread on me.
+    _Don't tread on me._
   fire_threshold: '2'
 - identifier: recurring_specter
   rarity: exceptional
   card_type: minion
   artist: tony_szczudlo
+  keywords:
+  - voidwalk
   name: Recurring Specter
   rules_box: ! |-
-    **Voidwalk**, **Cannot Block**
-    Return this Spector to your hand when it is killed.
+    **Voidwalk**
+
+    This Specter can't block.
+
+    If this Specter is killed, return it to your hand at the end of turn.
   type_line: An Exceptional Spirit that keeps coming back
   mana_cost: '1'
   power: '1'
@@ -2882,7 +3035,7 @@
   name: Red Desert
   rules_box: ! |-
     Genesis > This Desert may deal 1 damage to a nearby minion or site.
-  type_line: An Ordinary Site of ruinous Fire. [Fire]
+  type_line: An Ordinary Site of ruinous Fire
   fire_threshold: '1'
 - identifier: remote_desert
   rarity: ordinary
@@ -2892,7 +3045,7 @@
   - genesis
   name: Remote Desert
   rules_box: ! |-
-    **Genesis** — You may have this desert deal 1 damage to a nearby target.
+    **Genesis** — This Desert may deal 1 damage to a nearby minion or site.
   type_line: An Ordinary Site of ruinous Fire
   fire_threshold: '1'
 - identifier: replication
@@ -2901,18 +3054,20 @@
   artist: francesca_baerald
   name: Replication
   rules_box: ! |-
-    **Genesis** — Transform this card into a copy of a nearby relic permanently.
+    Conjure near your Spellcaster.
+
+    This Replication enters the Realm as a copy of a nearby relic.
   type_line: Elite Magic of perfect duplication
   mana_cost: '2'
   power: '4'
   flavor_text: ! |-
-    _All art is but imitation of nature._
+    _"All art is but imitation of nature." -Seneca_
   water_threshold: '1'
 - identifier: rest_in_peace
   rarity: elite
   card_type: aura
   artist: elwira_pawlikowska
-  name: Rest In Peace
+  name: Rest in Peace
   rules_box: ! |-
     Conjure on two or four sites of which at least one is an Earth site.
     Undead and spirits in the affected sites are forcibly burrowed and can't unburrow. This is true for any afterwards, too.
@@ -2920,23 +3075,26 @@
   mana_cost: '5'
   earth_threshold: '2'
 - identifier: rift_valley
-  rarity: unique
+  rarity: exceptional
   card_type: site
   artist: dan_seagrave
   keywords:
   - genesis
   name: Rift Valley
   rules_box: ! |-
-    {Earth:2}: You may pull apart a partial line of sites to make a void in which to play this Valley.
-  type_line: A Unique Site of startling displacement
+    {Earth:2}: Slide a surrounding site to an adjacent void.
+  type_line: A Exceptional Site of startling displacement
   earth_threshold: '1'
 - identifier: rimland_nomads
   rarity: ordinary
   card_type: minion
   artist: elvira_shakirova
+  keywords:
+  - movement_x
+  - fire_immunity
   name: Rimland Nomads
   rules_box: ! |-
-    **Movement +1**, **Fire Immunity**
+    **Fire Immunity**, **Movement +1**
   type_line: Ordinary Mortals on an extraordinary journey
   mana_cost: '2'
   power: '3'
@@ -2959,9 +3117,9 @@
   artist: ian_miller
   name: River Of Flame
   rules_box: ! |-
-    Cast two Fire spells on your turn: You may move this River to a square up to three steps away.
+    Cast two Fire spells on your turn -> Shift this River to a void anywhere in the Ream.
   type_line: A Unique Site where pure rage spills forth
-  fire_threshold: '1'
+  fire_threshold: '2'
 - identifier: roaming_monster
   rarity: ordinary
   card_type: minion
@@ -2979,13 +3137,15 @@
   rarity: exceptional
   card_type: minion
   artist: jeff_easley
+  keywords:
+  - splash_damage
   name: Rollicky Dragonettes
   rules_box: ! |-
     **Airborne**
-    At the end of your turn, these Dragonettes fire three bolts, each in any cardinal direction.
-    Each bolt deals 1 damage to the first minion or Avatar it hits
+
+    At the end of your turn, these Dragonettes launch three bolts, each traveling in any cardinal direction. When they hit an enemy, they each deal 1 **Splash Damage**.
   type_line: Exceptional Dragons destined to rule
-  mana_cost: '4'
+  mana_cost: '5'
   power: '3'
   fire_threshold: '2'
 - identifier: royal_bodyguard
@@ -3031,7 +3191,8 @@
   name: Sacred Scarabs
   rules_box: ! |-
     **Airborne**
-    On death, these Scarabs explode and deal splash damage:
+
+    On death, these Scarabs explode and deal **Splash Damage**:
 
     | 1 | 2 | 1 |
     | 2 | 3 | 2 |
@@ -3046,8 +3207,9 @@
   artist: drew_tucker
   name: Sandstorm
   rules_box: ! |-
-    Conjure at the intersection of two or four sites as long as at least one is a Fire site.
-    When minions on affected sites move or attack, instead roll a d20. 1-4=move left, 5-8=move up, 9-12=move right, 13-16=move down, 17-20 move or attack normally.
+    Conjure at the intersection of two or four site of which at least one is a Fire site.
+
+    Players can't untap more than one minion on affected sites during their untap step.
   type_line: An Ordinary Aura of blistering confusion
   mana_cost: '3'
   fire_threshold: '1'
@@ -3061,12 +3223,11 @@
   name: Sand Worm
   rules_box: ! |-
     **Burrowing**, **Firebound**
+
+    This Worm can move while burrowed.
   type_line: An Ordinary Beast senses vibration here
   mana_cost: '4'
   power: '5'
-  flavor_text: ! |-
-    _The sands whisper their sorrowful song,
-    In the wake of the blind one's thirst._
   fire_threshold: '1'
 - identifier: scent_hounds
   rarity: ordinary
@@ -3097,8 +3258,9 @@
   artist: mattias_frisk
   name: Scourge Zombies
   rules_box: ! |-
-    When these Zombies die, burrow them instead of discarding them.
-    Unborrow if a mortal dies nearby.
+    When these Zombies die on a site without Water, burrow them instead.
+
+    Unborrow if a Mortal dies nearby.
   type_line: Ordinary Undead grasp onto life again
   mana_cost: '1'
   power: '2'
@@ -3109,20 +3271,23 @@
   artist: melissa_a_benson
   name: Screaming Skull
   rules_box: ! |-
-    **Genesis** — The bearer of this Skull can move, attack or use tap abilities the same turn it is summoned until end of turn.
-    The bearer of this Skull has +1 power.
+    The bearer of this Skull has **Haste**.
   type_line: An Exceptional ruined Relic of strength
   mana_cost: '2'
 - identifier: scroll_curator
   rarity: exceptional
   card_type: minion
   artist: elwira_pawlikowska
+  keywords:
+  - genesis
+  - spellcaster
   name: Scroll Curator
   rules_box: ! |-
     **Spellcaster**
-    **Genesis** — Look at the top 7 cards of your spellbook. Put one of those cards on the top and the rest on the bottom.
+
+    **Genesis** — Look at the top 3 cards of your spellbook, put one of them on top and the rest on the bottom in any order.
   type_line: An Exceptional Mortal hits the high spots
-  mana_cost: '2'
+  mana_cost: '1'
   power: '1'
   wind_threshold: '1'
 - identifier: sea_raider
@@ -3131,7 +3296,7 @@
   artist: tony_szczudlo
   name: Sea Raider
   rules_box: ! |-
-    Whenever this Raider attacks, you may pillage your opponent’s top spellbook card. (Set it aside until end of turn and treat it as if it were in your hand. Put it in its owner’s discard pile at end of turn.)
+    Whenever this Raider attacks, you may pillage your opponent's top spellbook card. (Set it aside until end of turn and treat it as if it were in your hand. Put it in its owner's discard pile at end of turn.)
   type_line: An Exceptional Mortal roams the sea
   mana_cost: '3'
   power: '3'
@@ -3146,9 +3311,9 @@
   name: Sea Serpent
   rules_box: ! |-
     **Submerge**, **Waterbound**
-  type_line: An Ordinary Mythic Beast that thrives in the deep
+  type_line: An Ordinary Beast that thrives in the deep
   mana_cost: '4'
-  power: '4'
+  power: '5'
   flavor_text: ! |-
     _Young serpents have been spotted in rivers as far north as the Boreal Forests!_
   water_threshold: '1'
@@ -3182,11 +3347,12 @@
   name: Sedge Crabs
   rules_box: ! |-
     **Iron Skin**
+
     The Crabs can only move sideways.
   type_line: Exceptional Beasts that scrap and sidle
-  mana_cost: '3'
-  power: '3'
-  water_threshold: '2'
+  mana_cost: '1'
+  power: '2'
+  water_threshold: '1'
 - identifier: seer
   rarity: token
   card_type: avatar
@@ -3205,10 +3371,11 @@
   rarity: exceptional
   card_type: minion
   artist: vincent_pompetti
+  keywords:
+  - iron_skin
   name: Shield Maidens
   rules_box: ! |-
-    **Iron Skin**
-    Nearby allied minions have Iron Skin.
+    These Maidens and other nearby allied minions have **Iron Skin**.
   type_line: Exceptional Mortals hold the line
   mana_cost: '4'
   power: '2'
@@ -3223,7 +3390,7 @@
   - genesis
   name: Shifting Sands
   rules_box: ! |-
-    **Genesis** — Until end of turn, minions summoned nearby can move and attack right away.
+    **Genesis** — Until end of turn, minions summoned here gain **Haste**.
   type_line: An Exceptional Site of furious speed
   fire_threshold: '1'
 - identifier: shrink
@@ -3232,10 +3399,9 @@
   artist: francesca_baerald
   name: Shrink
   rules_box: ! |-
-    Target minion's power is reduced by 3 until end of turn.
-  type_line: Exceptional Quick Magic of miniturization
-  mana_cost: '0'
-  power: '2'
+    A minion in a cardinal direction from your Spellcaster occupies one location and it's power is reduced to 0 until the end of your opponent's turn.
+  type_line: Exceptional Quick Magic of miniature aficionados
+  mana_cost: '1'
   water_threshold: '1'
 - identifier: siege_ballista
   rarity: exceptional
@@ -3244,6 +3410,7 @@
   name: Siege Ballista
   rules_box: ! |-
     Tap, tap an allied minion here -> This Ballista deals 3 ranged combat damage to an Avatar or minion up to two steps away in a cardinal direction.
+
     This Ballista can't be picked up, but an Avatar or minion may carry it as it moves.
   type_line: An Exceptional Relic of death from afar.
   mana_cost: '3'
@@ -3262,10 +3429,14 @@
   rarity: elite
   card_type: minion
   artist: severine_pineaux
+  keywords:
+  - airborne
+  - iron_skin
   name: Silver Valkyries
   rules_box: ! |-
     **Airborne**, **Iron Skin**
-    These Valkyries and friendly minions on the same location can't be chosen as the target of a spell or ability.
+
+    These Valkyries and other allies here can't be targeted by enemy spells or abilities.
   type_line: Elite Mythics hold their immortal vigil
   mana_cost: '6'
   power: '3'
@@ -3294,9 +3465,11 @@
   rarity: elite
   card_type: minion
   artist: gadu_duaso
+  keywords:
+  - monster_immunity
   name: Sirian Templar
   rules_box: ! |-
-    Protected from Spirits, Monsters, Demons and Undead.
+    Immune to Demons, Monsters and Spirits.
   type_line: An Elite Mortal Hero comes to the rescue
   mana_cost: '3'
   power: '3'
@@ -3308,7 +3481,7 @@
   rarity: elite
   card_type: minion
   artist: ossi_hiekkala
-  name: Sisters Of Silence
+  name: Sisters of Silence
   rules_box: ! |-
     No one can cast, fight, tap, or use spells or abilities on adjacent sites.
   type_line: These Elite Mortals are not to be disturbed
@@ -3324,9 +3497,11 @@
   artist: severine_pineaux
   name: Sleep
   rules_box: ! |-
-    Target minion falls asleep (taps and loses all abilities) until hurt.
+    A minion anywhere falls asleep until hurt. Untap it when it wakes up.
   type_line: Ordinary soporific Magic
   mana_cost: '1'
+  flavor_text: ! |-
+    _Be still until the pain awakes you._
   water_threshold: '1'
 - identifier: sling_pixies
   rarity: ordinary
@@ -3337,7 +3512,7 @@
   - range_x
   name: Sling Pixies
   rules_box: ! |-
-    Airborne, Range +1
+    **Airborne**, **Range +1**
 
     These Pixies are Immune to minions with power 4 or greater.
   type_line: Ordinary Mythics flutter forth
@@ -3361,9 +3536,9 @@
   rarity: unique
   card_type: site
   artist: ian_miller
-  name: Smokestacks Of Gnaak
+  name: Smokestacks of Gnaak
   rules_box: ! |-
-    At the end of each player’s turn, that player must sacrifice a nearby minion.
+    At the end of each player's turn, that player must sacrifice a nearby minion.
   type_line: A Unique Site of industrialized evil
   fire_threshold: '1'
 - identifier: sneak_thief
@@ -3375,7 +3550,10 @@
   name: Sneak Thief
   rules_box: ! |-
     **Stealth**
-    This Thief may pick up or take a relic borne by a minion without exiting Stealth.
+
+    This Thief may be summoned to any site.
+
+    Whenever it traverses a site, it can pick up a borne relic there (without exiting stealth).
   type_line: An Elite and foul felonious Mortal
   mana_cost: '2'
   power: '2'
@@ -3389,7 +3567,7 @@
   mana_cost: '1'
   power: '2'
   flavor_text: ! |-
-    THIS is the Le-o-pard, my child; His tem-per's any-thing but mild.  The Leo-pard can't change his spots, So say the gale of the moun-tain top - Is why he is so wild.
+    _THIS is the Le-o-pard, my child; His tem-per's any-thing but mild.  The Leo-pard can't change his spots, So say the gale of the moun-tain top - Is why he is so wild._
   wind_threshold: '1'
 - identifier: sorcerer
   rarity: token
@@ -3400,19 +3578,21 @@
   name: Sorcerer
   initial_life: '20'
   rules_box: ! |-
-    **Spellcaster**
-    Tap to play a site or to draw a card from your atlas.
-    You may start the game with 4 spells in your hand instead of 3
+    Tap -> Play or draw a site.
+
+    You  start the game with 4 spells in your hand.
+
+    When You arrive at Death's Door, teleport to any site and draw a spell.
   type_line: Your avatar will win, no contest
   power: '1'
 - identifier: spear_of_destiny
-  rarity: unique
+  rarity: elite
   card_type: relic
   artist: andrea_modesti
   name: Spear Of Destiny
   rules_box: ! |-
-    The bearer of this Spear has: “Tap -> Throw this Spear in a cardinal direction. It continues to move until it reaches the edge of the realm or a site with any minions. If it reaches a site with any minions, kill target minion of your choice.”
-  type_line: A Unique Relic guided by divine providence
+    The bearer of this Spear has: “Tap -> Throw this Spear in a cardinal direction. It continues to move until it reaches the edge of the Realm or a site with minions. If it reaches a site with any minions, kill a minion of your choice there."
+  type_line: A Elite Relic for the brave and the glorious
   mana_cost: '4'
 - identifier: spectral_stalker
   rarity: ordinary
@@ -3470,11 +3650,13 @@
   rarity: exceptional
   card_type: minion
   artist: vasiliy_ermolaev
+  keywords:
+  - range_x
+  - spellcaster
+  - towerbound
   name: Spire Lich
   rules_box: ! |-
-    **Spellcaster**, **Range +1**
-    Summon only on your tower.
-    This Lich can't move.
+    **Range +1**, **Spellcaster**, **Towerbound**
   type_line: An Exceptional Undead watches over the realm
   mana_cost: '2'
   power: '3'
@@ -3508,13 +3690,15 @@
   - range_x
   name: Stone Gaze Gorgons
   rules_box: ! |-
-    Adjacent minions are petrified. (They lose all abilities and can't fight or move.)
+    Other adjacent minions are petrified.
   type_line: Elite Mythics gaze longingly from this vantage
-  mana_cost: '7'
-  power: '2'
+  mana_cost: '6'
+  power: '3'
+  flavor_text: ! |-
+    _Look at me!_
   earth_threshold: '3'
 - identifier: stonehenge
-  rarity: unique
+  rarity: exceptional
   card_type: site
   artist: caio_calazans
   name: Stonehenge
@@ -3538,9 +3722,10 @@
   artist: michal_nagypal
   name: Summoning Sphere
   rules_box: ! |-
-    Conjure at the intersection of two or four locations of which at least one is a void.
-    You may summon minions on affected locations for 1 mana less.
-  type_line: Elite Magic bringing about a new dark era
+    Conjure at the intersection of two or four locations.
+
+    You may summon minions on affected locations for 1 less mana.
+  type_line: An Elite Aura bringing about a new dark era
   mana_cost: '1'
   wind_threshold: '1'
 - identifier: sunken_treasure
@@ -3563,7 +3748,7 @@
   mana_cost: '1'
   power: '2'
   flavor_text: ! |-
-    The swamp buffalo is an icon of contentment.
+    _The swamp buffalo is an icon of contentment._
   water_threshold: '1'
 - identifier: swan_maidens
   rarity: ordinary
@@ -3586,6 +3771,8 @@
   rarity: exceptional
   card_type: minion
   artist: jeff_a_menges
+  keywords:
+  - movement_x
   name: Swiven Scout
   rules_box: ! |-
     **Movement +2**
@@ -3636,7 +3823,7 @@
   rarity: unique
   card_type: site
   artist: dan_seagrave
-  name: The Apex Of Babel
+  name: The Apex of Babel
   rules_box: ! |-
     This Apex gives 3 mana instead of 1 if [the Base of Babel](/sorcery_tcg/the_base_of_babel) is directly behind it.
   type_line: A Unique and impossibly lofty Site
@@ -3645,7 +3832,7 @@
   rarity: unique
   card_type: site
   artist: dan_seagrave
-  name: The Base Of Babel
+  name: The Base of Babel
   rules_box: ! |-
     This Base gives 2 mana instead of 1 if [the Apex of Babel](/sorcery_tcg/the_apex_of_babel) is directly in front of it.
   type_line: A Unique and impossibly massive Site
@@ -3656,7 +3843,7 @@
   artist: ossi_hiekkala
   name: Thunderbolt
   rules_box: ! |-
-    This Thunderbolt deals 3 damage to an Avatar or minion anywhere in the Realm.  Excess damage is dealt to the site the target is on,
+    This Thunderbolt deals 3 damage to an Avatar or minion anywhere in the Realm.  Excess damage is dealt to the site the target is on.
   type_line: Ordinary Magic of jagged ferocity
   mana_cost: '1'
   wind_threshold: '1'
@@ -3668,7 +3855,7 @@
   rules_box: ! |-
     Conjure at the intersection of four sites of which at least one is a Wind site.  It enters play with three counters on it.
 
-    At the end of your turn, remove a counter.  This Thunderstorm deals 3 damage to an enemy on an affected site.  Excess damage is dealth to the site the target is on.
+    At the end of your turn, remove a counter. This Thunderstorm deals 3 damage to an enemy on an affected site.  Excess damage is dealt to the site the target is on.
 
     When this Thunderstorm has no counters on it, dispel it.
   type_line: An Exceptional Aura strikes with impunity
@@ -3683,10 +3870,11 @@
   name: Tide Naiads
   rules_box: ! |-
     **Submerge**
-    These Naiads move freely within a body of water.
+
+    These Naiads can surface anywhere in the body of water they are in.
   type_line: Exceptional Mythics come crashing in
-  mana_cost: '3'
-  power: '3'
+  mana_cost: '2'
+  power: '2'
   water_threshold: '2'
 - identifier: time_stop
   rarity: elite
@@ -3699,15 +3887,16 @@
   type_line: An Elite Aura to trap you in the moment
   mana_cost: '9'
   wind_threshold: '3'
-- identifier: torshamarr_trinket
-  rarity: ordinary
+- identifier: torshammar_trinket
+  rarity: exceptional
   card_type: relic
   artist: dan_seagrave
-  name: Torshamarr Trinket
+  name: Torshammar Trinket
   rules_box: ! |-
     The bearer of this trinket has +1 power.
-    At the end of your turn, return the trinket to its controller's hand.
-  type_line: An Ordinary Relic of recurring force
+
+    At the end of your turn, return this Trinket to its owner's hand.
+  type_line: An Exceptional Relic of recurring force
   mana_cost: '1'
 - identifier: tragedy_worrywart
   rarity: elite
@@ -3728,10 +3917,10 @@
   artist: alan_pollack
   name: Tringh Constrictor
   rules_box: ! |-
-    Tap this Constrictor to tap and ensnare an adjacent minion. That minion does not untap as long as the constrictor is tapped. You may choose to not untap the constrictor at the start of your turn to keep an ensnare going.
+    Tap -> This Constrictor ensnares an adjacent minion. That minion remains ensnared as long as this Constrictor is tapped and you may choose to not untap it.
   type_line: This Exceptional Beast furls about your foes
   mana_cost: '4'
-  power: '2'
+  power: '3'
   water_threshold: '1'
 - identifier: true_allegiance
   rarity: elite
@@ -3758,7 +3947,7 @@
   mana_cost: '3'
   power: '2'
   flavor_text: ! |-
-    _”It’s the turtle’s shell, ugly and hard, that protects its life long journey on earth.” - African Proverb_
+    _”It's the turtle's shell, ugly and hard, that protects its life long journey on earth.” - African Proverb_
   water_threshold: '1'
 - identifier: twister
   rarity: exceptional
@@ -3792,9 +3981,10 @@
   artist: jussi_pylkäs
   name: Undertaker Engine
   rules_box: ! |-
-    At the end of turn, burrow or unburrow target nearby minion. This includes the Engine itself.
+    At the end of turn, this Engine must burrow or unburrow an adjacent minion or relic _(including itself)_.
   type_line: An Elite Relic of possessed cryptosy
   mana_cost: '7'
+  power: '4'
 - identifier: undertow
   rarity: exceptional
   card_type: site
@@ -3803,7 +3993,7 @@
   - genesis
   name: Undertow
   rules_box: ! |-
-    **Genesis** — Move a minion in the same body of water to this site.
+    **Genesis** — Drag a minion in this body of water to this site.
   type_line: An Exceptional Site with a strong undercurrent
   water_threshold: '1'
 - identifier: unearth
@@ -3823,7 +4013,7 @@
   artist: jussi_pylkäs
   name: Unique Counterspell
   rules_box: ! |-
-    Counter target Unique spell as it is being cast.
+    Counter a Unique spell.
   type_line: Quick Unique Magic to suppress genius
   mana_cost: '0'
   flavor_text: ! |-
@@ -3841,7 +4031,7 @@
     **Submerge**, **Waterbound**
 
     At the start of your opponent's turn, if this Angler is submerged and there are no enemy minions here, a nearby enemy minion must move towards it. Enemy minions here are disabled.
-  type_line: 'An Exceptional Site of narrow access'
+  type_line: An Exceptional Beast lurks and lures
   mana_cost: '5'
   power: '4'
   water_threshold: '2'
@@ -3855,7 +4045,8 @@
   name: Unland Eel
   rules_box: ! |-
     **Submerge**, **Waterbound**
-    This Eel gains +2 power when attacking as it surfaces.
+
+    Whenever this Eel surfaces to attack, it gains +3 power until end of turn.
   type_line: An Ordinary Beast of the deadly depths
   mana_cost: '2'
   power: '2'
@@ -3866,7 +4057,7 @@
   artist: severine_pineaux
   name: Unravel
   rules_box: ! |-
-    Destroy target Relic or Undead minion.
+    Destroy relics and Undead minions on a site in a cardinal direction from your Spellcaster.
   type_line: Ordinary Magic of rot and rebirth
   mana_cost: '1'
   flavor_text: ! |-
@@ -3877,13 +4068,13 @@
   card_type: site
   artist: caio_calazans
   keywords:
-  - genesis
   - airborne
+  - genesis
   - movement_x
   name: Updraft Ridge
   rules_box: ! |-
     Genesis > Nearby Airborne minions gain +2 Movement until end of turn.
-  type_line: An Exceptional Site with a strong tailwind.
+  type_line: An Exceptional Site with a strong tailwind. [Wind]
   wind_threshold: '1'
 - identifier: upwelling
   rarity: exceptional
@@ -3895,11 +4086,11 @@
   type_line: Exceptional Magic of fluid undoing.
   mana_cost: '5'
   water_threshold: '2'
-- identifier: vanguaard_knights
+- identifier: vanguard_knights
   rarity: exceptional
   card_type: minion
   artist: truitt_parrish
-  name: Vanguaard Knights
+  name: Vanguard Knights
   rules_box: ! |-
     These Knights have +2 power as long as they are alone as the furthest forward of your minions.
   type_line: Exceptional Mortals on their way to glory
@@ -3923,13 +4114,15 @@
   - splash_damage
   name: Vesuvius
   rules_box: ! |-
-    [Fire] [Fire] [Fire] : Vesuvius may be sacrificed to deal 3 Splash Damage on nearby Sites.
+    {Fire:3}: Vesuvius may be sacrificed to deal 3 Splash Damage on nearby Sites.
   type_line: A Uniquely volatile Site on the verge of calamity.
   fire_threshold: '1'
 - identifier: vile_imp
   rarity: ordinary
   card_type: minion
   artist: francesca_baerald
+  keywords:
+  - genesis
   name: Vile Imp
   rules_box: ! |-
     **Genesis** -> Deal 2 damage to a nearby target.
@@ -3943,9 +4136,12 @@
   rarity: exceptional
   card_type: minion
   artist: margaret_organ-kean
+  keywords:
+  - voidwalk
   name: Vril Revenant
   rules_box: ! |-
     **Voidwalk**
+
     1 mana — +1 Power until end of turn.
   type_line: An Exceptional Spirit of transcendent power
   mana_cost: '1'
@@ -3961,6 +4157,15 @@
   type_line: Elite Magic of hyper violence
   mana_cost: '3'
   fire_threshold: '3'
+- identifier: watchtower
+  rarity: exceptional
+  card_type: site
+  artist: jeff_a_menges
+  name: Watchtower
+  rules_box: ! |-
+    Nearby enemy Stealth is negated.
+  type_line: An Exceptional Site with ever vigilant watchmen
+  wind_threshold: '1'
 - identifier: wayfaring_pilgrim
   rarity: elite
   card_type: minion
@@ -3970,9 +4175,10 @@
   name: Wayfaring Pilgrim
   rules_box: ! |-
     **Spellcaster**
-    When this Pilgrim visits or is summoned to a corner of the realm for the first time, draw a card.
-  type_line: An Elite Mortal on a spiritual journey
-  mana_cost: '2'
+
+    When this Pilgrim traverses a different corner of the Realm for the first time, draw a spell.
+  type_line: An Exceptional Mortal on a spiritual journey
+  mana_cost: '3'
   power: '1'
   fire_threshold: '2'
 - identifier: waypoint_portal
@@ -3981,10 +4187,11 @@
   artist: jeff_easley
   name: Waypoint Portal
   rules_box: ! |-
-    Two target sites are adjacent until end of turn.
-    Draw a spell.
+    Two locations are adjacent for movement until end of turn. Draw a spell.
   type_line: Exceptional Magic of dimensional domination
   mana_cost: '3'
+  flavor_text: ! |-
+    _It was just a colour out of space -- a frightful messenger from unformed realms of infinity beyond all Nature as we know it." -- H.P Lovecraft_
   wind_threshold: '1'
 - identifier: whirling_blades
   rarity: ordinary
@@ -4012,10 +4219,14 @@
   rarity: exceptional
   card_type: minion
   artist: vasiliy_ermolaev
+  keywords:
+  - airborne
+  - voidwalk
   name: Will O The Wisp
   rules_box: ! |-
-    **Voidwalk**
-    After combat when attacking, you may move this Wisp one step from a site to an adjacent void location.
+    **Airborne**, **Voidwalk**
+
+    After combat, this Wisp may teleport to a nearby void location.
   type_line: An Exceptional Spirit flares up and disappears
   mana_cost: '1'
   power: '1'
@@ -4047,11 +4258,10 @@
   - splash_damage
   name: Wraetannis Titan
   rules_box: ! |-
-    **Splash Damage**
-    **Genesis** — This Titan deals 7 damage on the site in front of it.
+    **Genesis** — This Titan deals 7 **Splash Damage** on the site directly in front of it.
   type_line: An Elite Mythic makes an epic entrance
-  mana_cost: '9'
-  power: '7'
+  mana_cost: '6'
+  power: '6'
   earth_threshold: '3'
 - identifier: wrath_of_the_sea
   rarity: elite
@@ -4060,7 +4270,7 @@
   name: Wrath of the Sea
   rules_box: ! |-
     Sites near water also become Water sites until end of turn. Submerge all minions and relics on Water sites. _(Minions without the Submerge ability die if they are submerged.)_
-  type_line: "{"
+  type_line: Elite Magic of sudden and mighty deluge
   mana_cost: '7'
   water_threshold: '2'
 - identifier: yokai_kappas
@@ -4071,7 +4281,7 @@
   - iron_skin
   name: Yokai Kappas
   rules_box: ! |-
-    Iron Skin
+    **Iron Skin**
 
     The site these Kappas occupy is also a Water site.
   type_line: Exceptional Demons of fluid trickery.
