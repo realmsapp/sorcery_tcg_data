@@ -25,4 +25,5 @@ Gem::Specification.new do |spec|
   spec.add_dependency "value_semantics"
   spec.add_dependency "activesupport"
   spec.add_development_dependency "terminal-table"
+  spec.add_development_dependency "rspec"
 end

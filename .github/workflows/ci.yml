@@ -22,4 +22,4 @@ jobs:
           ruby-version: 3.1.2
 
       - name: Run tests
-        run: bundle exec rake -f src/sorcery_tcg_data_ruby/Rakefile test
+        run: cd src/sorcery_tcg_data_ruby && bundle exec rspec
