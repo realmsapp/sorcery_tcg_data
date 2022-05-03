@@ -1,3 +1,5 @@
+# frozen_string_literal: true
+
 module SorceryTcgData
   module Cards
     class Card
@@ -25,7 +27,7 @@ module SorceryTcgData
             data[:fire_threshold] && Elements.fetch("fire"),
             data[:water_threshold] && Elements.fetch("water"),
             data[:wind_threshold] && Elements.fetch("wind"),
-          ].compact
+          ].compact,
         )
       end
 
@@ -52,24 +54,24 @@ module SorceryTcgData
 
       def attributes
         {
-          identifier: identifier,
+          identifier:,
           rarity: rarity.key,
           card_type: card_type.key,
           release: release.key,
           artist: artist.key,
           keywords: keywords.map(&:key),
-          name: name,
-          initial_life: initial_life,
-          rules_box: rules_box,
-          type_line: type_line,
-          mana_cost: mana_cost,
-          power: power,
-          flavor_text: flavor_text,
-          earth_threshold: earth_threshold,
-          fire_threshold: fire_threshold,
-          water_threshold: water_threshold,
-          wind_threshold: wind_threshold,
-        }.reject { |a,b| b.blank? }.to_h
+          name:,
+          initial_life:,
+          rules_box:,
+          type_line:,
+          mana_cost:,
+          power:,
+          flavor_text:,
+          earth_threshold:,
+          fire_threshold:,
+          water_threshold:,
+          wind_threshold:,
+        }.reject { |_a, b| b.blank? }.to_h
       end
 
       def key
