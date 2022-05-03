@@ -2098,7 +2098,7 @@
   water_threshold: '1'
 - identifier: major_explosion
   rarity: elite
-  card_type: minion
+  card_type: magic
   artist: tony_szczudlo
   keywords:
   - splash_damage
