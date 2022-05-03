@@ -50,6 +50,28 @@ module SorceryTcgData
         flavor_text Either(String, nil)
       }
 
+      def attributes
+        {
+          identifier: identifier,
+          rarity: rarity.key,
+          card_type: card_type.key,
+          release: release.key,
+          artist: artist.key,
+          keywords: keywords.map(&:key),
+          name: name,
+          initial_life: initial_life,
+          rules_box: rules_box,
+          type_line: type_line,
+          mana_cost: mana_cost,
+          power: power,
+          flavor_text: flavor_text,
+          earth_threshold: earth_threshold,
+          fire_threshold: fire_threshold,
+          water_threshold: water_threshold,
+          wind_threshold: wind_threshold,
+        }.reject { |a,b| b.blank? }.to_h
+      end
+
       def key
         identifier
       end
