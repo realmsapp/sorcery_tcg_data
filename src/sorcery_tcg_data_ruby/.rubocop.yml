@@ -1,0 +1,3 @@
+inherit_gem:
+  realms_ruby_style:
+    - default.yml

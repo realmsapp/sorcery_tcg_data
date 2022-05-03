@@ -23,3 +23,6 @@ jobs:
 
       - name: Run tests
         run: cd src/sorcery_tcg_data_ruby && bundle exec rspec
+
+      - name: Run lint
+        run: cd src/sorcery_tcg_data_ruby && bundle exec rubocop

@@ -9,4 +9,4 @@ Rake::TestTask.new(:test) do |t|
   t.test_files = FileList["src/sorcery_tcg_data_ruby/test/**/test_*.rb"]
 end
 
-task :default => :test
+task default: :test
