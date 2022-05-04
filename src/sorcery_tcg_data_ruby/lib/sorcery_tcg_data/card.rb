@@ -88,7 +88,7 @@ module SorceryTcgData
         "rolicky_dragonettes" => "rollicky_dragonettes",
         "greissgnath_gnomes" => "gneissgnath_gnomes",
         "torshamarr_trinket" => "torshammar_trinket",
-        "vanguard_knights" => "vanguaard_knights",
+        "vanguaard_knights" => "vanguard_knights",
       }
       lookup_key = known_typos.fetch(key, key)
       lookup.fetch(lookup_key, *args)
