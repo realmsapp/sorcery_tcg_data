@@ -89,6 +89,7 @@ module SorceryTcgData
         "greissgnath_gnomes" => "gneissgnath_gnomes",
         "torshamarr_trinket" => "torshammar_trinket",
         "vanguaard_knights" => "vanguard_knights",
+        "orb_of_ba_al_berith" => "orb_of_baal_berith",
       }
       lookup_key = known_typos.fetch(key, key)
       lookup.fetch(lookup_key, *args)
