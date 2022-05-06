@@ -9,4 +9,35 @@ Rake::TestTask.new(:test) do |t|
   t.test_files = FileList["src/sorcery_tcg_data_ruby/test/**/test_*.rb"]
 end
 
+require "debug"
+require 'sorcery_tcg_data_ruby'
+
+task :upload_beta_files do
+  image_dir = Pathname.new("data/en/cards/alpha/beta_images/")
+  SorceryTcgData::BetaFiles::ALL.each do |name, bf|
+    slug = name.gsub(/'/, "").gsub(/[^\p{L}]|[1-9]|[-']/, " ").squish.gsub(/\s/, "_").downcase
+
+    image_path = image_dir.join("#{slug}.png")
+    sm_image_path = image_dir.join("#{slug}-small.png")
+
+    image = File.exist?(image_path)
+    sm_image = File.exist?(sm_image_path)
+
+    if !image
+      `curl '#{bf.url}' > #{image_path}`
+      image = File.exist?(image_path)
+    end
+
+    if image && !sm_image
+      `convert -geometry x420 #{image_path} #{sm_image_path}`
+      image = File.exist?(sm_image_path)
+    end
+
+    if image && sm_image
+      `aws s3 cp #{image_path} s3://realmsapp/card_images/sorcery_tcg/alpha/#{File.basename(image_path)}`
+      `aws s3 cp #{sm_image_path} s3://realmsapp/card_images/sorcery_tcg/alpha/#{File.basename(sm_image_path)}`
+    end
+  end
+end
+
 task default: :test
