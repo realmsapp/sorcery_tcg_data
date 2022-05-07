@@ -77,6 +77,10 @@ module SorceryTcgData
       def key
         identifier
       end
+
+      def tts_beta?
+        BetaFiles::ALL.key?(name)
+      end
     end
 
     def self.lookup
