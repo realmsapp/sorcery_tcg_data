@@ -88,15 +88,7 @@ module SorceryTcgData
     end
 
     def self.fetch(key, *args)
-      known_typos = {
-        "rolicky_dragonettes" => "rollicky_dragonettes",
-        "greissgnath_gnomes" => "gneissgnath_gnomes",
-        "torshamarr_trinket" => "torshammar_trinket",
-        "vanguaard_knights" => "vanguard_knights",
-        "orb_of_ba_al_berith" => "orb_of_baal_berith",
-      }
-      lookup_key = known_typos.fetch(key, key)
-      lookup.fetch(lookup_key, *args)
+      lookup.fetch(key, *args)
     end
   end
 end
