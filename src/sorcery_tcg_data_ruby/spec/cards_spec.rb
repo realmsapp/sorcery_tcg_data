@@ -12,7 +12,7 @@ RSpec.describe SorceryTcgData::Cards do
       expect(card.card_type.key).to eq("minion")
       expect(card.artist.key).to eq("vincent_pompetti")
       expect(card.keywords.map(&:key)).to eq(["airborne"])
-      expect(card.tts_beta?).to eq(true)
+      expect(card.tts_beta?).to eq(false)
     end
   end
 end
