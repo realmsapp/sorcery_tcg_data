@@ -297,7 +297,7 @@
   artist: alan_pollack
   name: Ball Lightning
   rules_box: ! |-
-    Your Spellcaster lanches this Ball in a cardinal direction. It deals 6 damage to the first Avatar or minion it hits. Excess damage carries on to whatever it hits next here or on following site.
+    Your Spellcaster launches a Fireball that travels in a cardinal direction. It deals 6 damage to the first Avatar or minion it hits. Excess damage carries on to whatever it hits next here or on following site.
   type_line: Relentless and unstoppable Elite Magic
   mana_cost: '4'
   wind_threshold: '2'
@@ -2519,7 +2519,7 @@
   wind_threshold: '1'
 - identifier: occult_ritual
   rarity: unique
-  card_type: minion
+  card_type: magic
   artist: lindsey_crummett
   name: Occult Ritual
   rules_box: ! |-
