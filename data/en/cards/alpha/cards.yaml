@@ -1134,6 +1134,8 @@
   rules_box: ! |-
     **Genesis** — Your opponent, and then you, may play an extra site adjacent to this Road.
   type_line: A Unique Site from long before your time
+  keywords:
+  - genesis
 - identifier: enchantress
   rarity: token
   card_type: avatar
@@ -1711,6 +1713,8 @@
   card_type: minion
   artist: andrea_modesti
   name: Highland Falconer
+  keywords:
+  - genesis
   rules_box: ! |-
     **Genesis** — Move target Airborne minion to the same site as this Falconer and ground it until end of turn.
   type_line: An Exceptional Mortal calls for his bird
@@ -1982,17 +1986,6 @@
   type_line: Wind whirls and Water swirls in one Elite Site.
   water_threshold: '1'
   wind_threshold: '1'
-- identifier: lightning_bolt
-  rarity: ordinary
-  card_type: magic
-  artist: ossi_hiekkala
-  name: Lightning Bolt
-  rules_box: ! |-
-    This bolt deals 3 damage to target minion or avatar.
-    Excess damage is dealt to the owner of the site the target is on.
-  type_line: Magic of a Quick and fickle nature
-  mana_cost: '0'
-  wind_threshold: '1'
 - identifier: lone_tower
   rarity: ordinary
   card_type: site
@@ -2011,6 +2004,8 @@
   name: Lord Of Lies
   rules_box: ! |-
     **Genesis** — Other nearby minions attack themselves.
+  keywords:
+  - genesis
   type_line: An Elite Demon sows his deadly deceit
   mana_cost: '9'
   power: '5'
@@ -2300,6 +2295,8 @@
   rules_box: ! |-
     **Genesis** — You gain {Earth:1} {Fire:1} {Water:1} {Wind:1} until end of turn.
   type_line: An Exceptional Site and a brief illusion of salvation
+  keywords:
+  - genesis
 - identifier: mirror_realm
   rarity: unique
   card_type: site
@@ -2350,6 +2347,8 @@
   name: Monster Hunter
   rules_box: ! |-
     **Genesis** — This Hunter kills a nearby Monster.
+  keywords:
+  - genesis
   type_line: An Exceptional Mortal on a grim mission
   mana_cost: '3'
   power: '2'
@@ -3082,7 +3081,7 @@
   - genesis
   name: Rift Valley
   rules_box: ! |-
-    {Earth:2}: Slide a surrounding site to an adjacent void.
+    {Earth:2}: **Genesis**: Slide a surrounding site to an adjacent void.
   type_line: A Exceptional Site of startling displacement
   earth_threshold: '1'
 - identifier: rimland_nomads
@@ -4256,6 +4255,7 @@
   artist: tony_szczudlo
   keywords:
   - splash_damage
+  - genesis
   name: Wraetannis Titan
   rules_box: ! |-
     **Genesis** — This Titan deals 7 **Splash Damage** on the site directly in front of it.
@@ -4265,7 +4265,7 @@
   earth_threshold: '3'
 - identifier: wrath_of_the_sea
   rarity: elite
-  card_type: minion
+  card_type: magic
   artist: mattias_frisk
   name: Wrath of the Sea
   rules_box: ! |-
