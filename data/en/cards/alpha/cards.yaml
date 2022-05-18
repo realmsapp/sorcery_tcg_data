@@ -290,7 +290,7 @@
     An ally moves to a site with a single enemy minion and attacks it. If the attacked minion dies, it does not deal damage back.
   type_line: Exceptional Magic of sharp surprise
   mana_cost: '3'
-  earth_threshold: '1'
+  fire_threshold: '1'
 - identifier: ball_lightning
   rarity: elite
   card_type: magic
