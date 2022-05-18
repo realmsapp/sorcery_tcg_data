@@ -457,6 +457,8 @@
   rules_box: ! |-
     When this Rabble dies on a non-Water site, burrow it instead. They can unburrow as if they had Burrowing.
   type_line: Ordinary Undead scrabble to the surface
+  keywords:
+  - burrowing
   mana_cost: '1'
   power: '1'
   earth_threshold: '1'
@@ -466,9 +468,7 @@
   artist: truitt_parrish
   name: Border Militia
   rules_box: ! |-
-    These wolves gain +1 power for each other Grey Wolves nearby.
-
-    There's no limit on the number of Grey Wolves you can have in your deck.
+    Summon a 1-power Foot Soldier token to each of your Villages near an enemy site.
   type_line: Ordinary magic to defend our motherland
   mana_cost: '1'
   earth_threshold: '1'
@@ -544,6 +544,8 @@
   card_type: magic
   artist: dan_seagrave
   name: Bury
+  keywords:
+  - burrowing
   rules_box: ! |-
     Burrow a minion or relic on a site without Water. _(If it does not have the Burrowing keyword, it still survives but can't unburrow.)_
   type_line: Ordinary Magic one hopes never to experience
@@ -592,7 +594,7 @@
   artist: alan_pollack
   name: Cerberus in Chains
   rules_box: ! |-
-    This Cerberus is chained to the site whre ir was summoned and can't move further than adjacent locations.
+    This Cerberus is chained to the site where it was summoned and can't move further than adjacent locations.
 
     Unleash it if the site moves or leaves the Realm.
   type_line: An Exceptional Demon on a short leash.
@@ -627,6 +629,8 @@
   card_type: site
   artist: adam_burke
   name: City of Agartha
+  keywords:
+  - burrowing
   rules_box: ! |-
     Minions here may unburrow to any site without Water as if they had Burrowing.
   type_line: A Unique Site at the center of it all
@@ -713,6 +717,8 @@
     This Worm can move between non-water sites while burrowed.
 
     You control the worm's site.
+  keywords:
+  - burrowing
   type_line: An Elite Monster subjugates this realm
   mana_cost: '8'
   power: '8'
