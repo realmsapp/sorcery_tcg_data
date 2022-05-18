@@ -1077,6 +1077,8 @@
     Choose a square block of four locations of which at least one is an Earth site.
 
     Burrow all ground minions on affected sites without Water. You may rearrange the placement of those sites within the block.
+  keywords:
+  - burrowing
   type_line: Terrible, violent and sever Elite Magic
   mana_cost: '5'
   earth_threshold: '2'
@@ -1442,6 +1444,8 @@
     | 3 | 3 | 3 |
     | 3 | x | 3 |
     | 3 | 3 | 3 |
+  keywords:
+  - splash_damage
   type_line: Exceptional Magic of explosive cold.
   mana_cost: '3'
   water_threshold: '1'
@@ -2099,7 +2103,7 @@
   - splash_damage
   name: Major Explosion
   rules_box: ! |-
-    Choose a center site of this Explosion in a cardinal direction from your Spoellcaster. Deal Splash Damage:
+    Choose a center site of this Explosion in a cardinal direction from your Spellcaster. Deal Splash Damage:
 
     The Spellcaster takes no damage from this Explosion.
 
@@ -2219,6 +2223,8 @@
     This Army must be summoned to any of the two middle sites.
 
     It can carry out ranged attacks on enemies on any site in the Realm.
+  keywords:
+  - range_x
   type_line: A Unique army of Mortals, yours to command
   mana_cost: '8'
   power: '8'
@@ -3411,6 +3417,8 @@
     Tap, tap an allied minion here -> This Ballista deals 3 ranged combat damage to an Avatar or minion up to two steps away in a cardinal direction.
 
     This Ballista can't be picked up, but an Avatar or minion may carry it as it moves.
+  keywords:
+  - range_x
   type_line: An Exceptional Relic of death from afar.
   mana_cost: '3'
 - identifier: silence
@@ -3630,21 +3638,6 @@
   type_line: Ordinary Magic of radial violence
   mana_cost: '3'
   fire_threshold: '1'
-- identifier: spire
-  rarity: exceptional
-  card_type: minion
-  artist: vasiliy_ermolaev
-  keywords:
-  - range_x
-  - spellcaster
-  - towerbound
-  name: Spire
-  rules_box: ! |-
-    Range +1, Spellcaster, Towerbound
-  type_line: An Exceptional Undead watches over the realm
-  mana_cost: '2'
-  power: '3'
-  wind_threshold: '1'
 - identifier: spire_lich
   rarity: exceptional
   card_type: minion
@@ -3685,8 +3678,6 @@
   rarity: elite
   card_type: minion
   artist: severine_pineaux
-  keywords:
-  - range_x
   name: Stone Gaze Gorgons
   rules_box: ! |-
     Other adjacent minions are petrified.
@@ -4258,7 +4249,7 @@
   - genesis
   name: Wraetannis Titan
   rules_box: ! |-
-    **Genesis** — This Titan deals 7 **Splash Damage** on the site directly in front of it.
+    **Genesis** — This Titan deals 6 **Splash Damage** on the site directly in front of it.
   type_line: An Elite Mythic makes an epic entrance
   mana_cost: '6'
   power: '6'
