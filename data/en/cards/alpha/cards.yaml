@@ -1134,6 +1134,8 @@
   type_line: Elite Quick Magic of grand annulment
   flavor_text: ! |-
     Grand notions reduced to dust.
+  mana_cost: '0'
+  earth_threshold: '3'
 - identifier: emperors_road
   rarity: unique
   card_type: site
@@ -1416,7 +1418,7 @@
     You gain life equal to the number of Water sites in the Realm. If you are at Death's Door, instead set your life to 1.
   type_line: Elite Magic of eternal youth
   mana_cost: '4'
-  water_threshold: '3'
+  water_threshold: '2'
 - identifier: free_city
   rarity: exceptional
   card_type: site
@@ -2437,6 +2439,7 @@
   power: '2'
   flavor_text: ! |-
     _The pallid tunnelers calmly prowl the muck, Ready to bore through mud and flesh alike._
+  water_threshold: '1'
 - identifier: near_miss
   rarity: elite
   card_type: magic
@@ -3300,7 +3303,7 @@
   type_line: An Exceptional Mortal hits the high spots
   mana_cost: '1'
   power: '1'
-  wind_threshold: '1'
+  wind_threshold: '2'
 - identifier: sea_raider
   rarity: exceptional
   card_type: minion
