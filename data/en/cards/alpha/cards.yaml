@@ -1743,7 +1743,6 @@
   type_line: A Unique Mortal with beauty to die for
   mana_cost: '1'
   power: '1'
-  earth_threshold: '1'
   wind_threshold: '1'
 - identifier: hillock_basilisk
   rarity: exceptional
@@ -3979,6 +3978,8 @@
   card_type: relic
   artist: jussi_pylkäs
   name: Undertaker Engine
+  keywords:
+  - burrowing
   rules_box: ! |-
     At the end of turn, this Engine must burrow or unburrow an adjacent minion or relic _(including itself)_.
   type_line: An Elite Relic of possessed cryptosy
