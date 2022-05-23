@@ -12,6 +12,9 @@ module SorceryTcgData
 
     ALL = Lookup.load("elements.yaml") { |item| Elements::Element.new(**item) }.freeze
 
-    def self.fetch(key, *args) = ALL.fetch(key, *args)
+    def self.fetch(key, *args)
+      compat = { "wind" => "air" }
+      ALL.fetch(compat.fetch(key, key), *args)
+    end
   end
 end
