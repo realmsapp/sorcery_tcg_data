@@ -10,22 +10,22 @@ module SorceryTcgData
       end
 
       def self.parse(attrs)
-        frame         = _clean(attrs, :"Frame")
-        rarity        = _clean(attrs, :"Rarity")
-        types         = _clean(attrs, :"Types")
-        name          = _clean(attrs, :"Name")
-        cost          = _clean(attrs, :"Cost")
-        threshold     = _clean(attrs, :"Threshold")
+        frame         = _clean(attrs, :Frame)
+        rarity        = _clean(attrs, :Rarity)
+        types         = _clean(attrs, :Types)
+        name          = _clean(attrs, :Name)
+        cost          = _clean(attrs, :Cost)
+        threshold     = _clean(attrs, :Threshold)
         card_text     = _clean(attrs, :"Card Text")
-        grid1         = _clean(attrs, :"Grid1")
-        grid2         = _clean(attrs, :"Grid2")
-        power         = _clean(attrs, :"Power")
+        grid1         = _clean(attrs, :Grid1)
+        grid2         = _clean(attrs, :Grid2)
+        power         = _clean(attrs, :Power)
         type_sentence = _clean(attrs, :"Type sentence")
-        flavor        = _clean(attrs, :"Flavor")
-        artist        = _clean(attrs, :"Artist")
-        face_url      = _clean(attrs, :"FaceURL")
+        flavor        = _clean(attrs, :Flavor)
+        artist        = _clean(attrs, :Artist)
+        face_url      = _clean(attrs, :FaceURL)
 
-        thresholds = threshold.split("").each_with_object({}) do |letter, memo|
+        thresholds = threshold.chars.each_with_object({}) do |letter, memo|
           memo[letter] ||= 0
           memo[letter] += 1
         end
@@ -35,7 +35,7 @@ module SorceryTcgData
           frame: to_slug(frame),
           rarity: Rarities.fetch(to_slug(rarity)),
           card_type: CardTypes.fetch(to_slug(card_type)),
-          keywords: keywords.map { |t| Keywords.fetch(to_slug(k)) },
+          keywords: keywords.map { |_t| Keywords.fetch(to_slug(k)) },
           artist: Artists.fetch(to_slug(artist)),
           name:,
           cost:,
