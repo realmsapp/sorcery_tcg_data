@@ -14,8 +14,8 @@
   description: |
     _Charm and Trickery_. Minions that can hide in water. Magic that moves, confuses, or controls the opponent’s minions
 
-- key: wind
-  name: Wind
+- key: air
+  name: Air
   description: |
     _Knowledge and Power_. Small and elusive minions. Single target damage spells and abilities.
 

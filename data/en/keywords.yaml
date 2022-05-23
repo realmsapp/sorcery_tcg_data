@@ -149,3 +149,38 @@
   name: Towerbound
   description: |
     This minion dies when it is not on a Tower site.
+
+- key: quick
+  name: Quick
+  description: |
+    TBD
+
+- key: minion
+  name: Minion
+  description: |
+    Should this be minion?
+
+- key: monument
+  name: Monument
+  description: |
+    TBD
+
+- key: village
+  name: Village
+  description: |
+    TBD
+
+- key: river
+  name: River
+  description: |
+    TBD
+
+- key: tower
+  name: Tower
+  description: |
+    TBD
+
+- key: desert
+  name: Desert
+  description: |
+    TBD

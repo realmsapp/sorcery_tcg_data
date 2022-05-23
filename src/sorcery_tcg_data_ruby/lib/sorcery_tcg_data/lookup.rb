@@ -10,7 +10,13 @@ module SorceryTcgData
 
     def self.load(glob, locale: "en", &)
       Dir[File.join(root_path, "data/#{locale}/", glob)].each_with_object({}) do |path, memo|
-        YAML.safe_load(File.read(path)).each do |attributes|
+        items = case File.extname(path)
+                when ".json"
+                  JSON.load(File.read(path))
+                else
+                  YAML.safe_load(File.read(path))
+                end
+        items.each do |attributes|
           item = yield(attributes.transform_keys(&:to_sym))
           memo[item.key] = item
         end
