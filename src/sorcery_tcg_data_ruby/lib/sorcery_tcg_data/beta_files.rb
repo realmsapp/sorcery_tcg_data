@@ -1,3 +1,4 @@
+require "debug"
 # frozen_string_literal: true
 
 module SorceryTcgData
@@ -5,24 +6,26 @@ module SorceryTcgData
     class BetaFile
       extend Slugify
 
+      class ParseError < StandardError; end
+
       def self._clean(attrs, thing)
         attrs.fetch(thing).presence || nil
       end
 
       def self.parse(attrs)
         frame         = _clean(attrs, :Frame)
-        rarity        = _clean(attrs, :Rarity)
+        rarity        = Rarities.fetch(to_slug(_clean(attrs, :Rarity)).presence || "unknown")
         types         = _clean(attrs, :Types)
-        name          = _clean(attrs, :Name)
+        name          = _clean(attrs, :Name)&.encode
         cost          = _clean(attrs, :Cost)
-        threshold     = _clean(attrs, :Threshold)
-        card_text     = _clean(attrs, :"Card Text")
+        threshold     = _clean(attrs, :Threshold) || ""
+        card_text     = _clean(attrs, :"Card Text")&.encode
         grid1         = _clean(attrs, :Grid1)
         grid2         = _clean(attrs, :Grid2)
         power         = _clean(attrs, :Power)
-        type_sentence = _clean(attrs, :"Type sentence")
-        flavor        = _clean(attrs, :Flavor)
-        artist        = _clean(attrs, :Artist)
+        type_sentence = _clean(attrs, :"Type sentence")&.encode
+        flavor        = _clean(attrs, :Flavor)&.encode
+        artist        =  Artists.fetch(to_slug(_clean(attrs, :Artist) || "unknown")&.encode)
         face_url      = _clean(attrs, :FaceURL)
 
         thresholds = threshold.chars.each_with_object({}) do |letter, memo|
@@ -30,13 +33,15 @@ module SorceryTcgData
           memo[letter] += 1
         end
         card_type, *keywords = types.split(", ")
+        card_type = CardTypes.fetch(to_slug(card_type))
+        keywords = keywords.map { |k| Keywords.fetch(to_slug(k)) }
 
         new(
-          frame: to_slug(frame),
-          rarity: Rarities.fetch(to_slug(rarity)),
-          card_type: CardTypes.fetch(to_slug(card_type)),
-          keywords: keywords.map { |_t| Keywords.fetch(to_slug(k)) },
-          artist: Artists.fetch(to_slug(artist)),
+          frame:,
+          rarity:,
+          card_type:,
+          keywords:,
+          artist:,
           name:,
           cost:,
           power:,
@@ -50,6 +55,8 @@ module SorceryTcgData
           rules_box: card_text,
           flavor_text: flavor,
         )
+      rescue => e
+        raise ParseError, attrs.inspect
       end
 
       include ValueSemantics.for_attributes {
@@ -77,7 +84,7 @@ module SorceryTcgData
       end
     end
 
-    CURRENT_VERSION = "2022-05-XX"
+    CURRENT_VERSION = "2022-05-23"
     ALL = Lookup.load("beta_files/#{CURRENT_VERSION}.json") do |item|
       BetaFile.parse(item)
     end.freeze

@@ -3,6 +3,8 @@
   name: Adam Burke
 - key: adam_kaspar
   name: Adam Kaspar
+- key: adam_kašpar
+  name: Adam Kaspar (FIXME)
 - key: alan_pollack
   name: Alan Pollack
 - key: andrea_modesti
@@ -27,6 +29,8 @@
   name: Elwira Pawlikowska
 - key: francesca_baerald
   name: Francesca Baerald
+- key: frank_frazetta
+  name: Frank Frazetta
 - key: gadu_duaso
   name: Gadu Duaso
 - key: ian_miller
@@ -41,22 +45,28 @@
   name: Lindsey Crummett
 - key: liz_danforth
   name: Liz Danforth
-- key: margaret_organ-kean
+- key: margaret_organ_kean
   name: Margaret Organ-kean
+- key: margaret_organ_keen
+  name: Margaret Organ-kean (FIXME)
 - key: marta_molina
   name: Marta Molina
 - key: mattias_frisk
   name: Mattias Frisk
 - key: melissa_a_benson
   name: Melissa A. Benson
-- key: michal_nagypal
-  name: Michal Nagypal
+- key: michal_nagypál
+  name: Michal Nagypál
 - key: ossi_hiekkala
   name: Ossi Hiekkala
+- key: ossi_hekkala
+  name: Ossi Hiekkala (FIXME)
 - key: rodney_matthews
   name: Rodney Matthews
 - key: severine_pineaux
   name: Severine Pineaux
+- key: séverine_pineaux
+  name: Severine Pineaux (FIXME)
 - key: tony_szczudlo
   name: Tony Szczudlo
 - key: truitt_parrish
