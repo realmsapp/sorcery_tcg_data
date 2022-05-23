@@ -9,7 +9,7 @@ module SorceryTcgData
     # or at least that's the intent -- probably need more kinds of apostrophes.
     def to_slug(text)
       text.delete("'").gsub(/[^\p{L}]|[1-9]|['"-]/, " ").squish.gsub(/\s/, "_").downcase
-    rescue => e
+    rescue StandardError => e
       raise StandardError, "Falied to slug: #{text}"
     end
   end

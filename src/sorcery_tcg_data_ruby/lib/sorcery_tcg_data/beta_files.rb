@@ -1,4 +1,3 @@
-require "debug"
 # frozen_string_literal: true
 
 module SorceryTcgData
@@ -25,8 +24,8 @@ module SorceryTcgData
         power         = _clean(attrs, :Power)
         type_sentence = _clean(attrs, :"Type sentence")&.encode
         flavor        = _clean(attrs, :Flavor)&.encode
-        artist        =  Artists.fetch(to_slug(_clean(attrs, :Artist) || "unknown")&.encode)
-        face_url      = _clean(attrs, :FaceURL)
+        artist = Artists.fetch(to_slug(_clean(attrs, :Artist) || "unknown")&.encode)
+        face_url = _clean(attrs, :FaceURL)
 
         thresholds = threshold.chars.each_with_object({}) do |letter, memo|
           memo[letter] ||= 0
@@ -55,7 +54,7 @@ module SorceryTcgData
           rules_box: card_text,
           flavor_text: flavor,
         )
-      rescue => e
+      rescue StandardError => e
         raise ParseError, attrs.inspect
       end
 
