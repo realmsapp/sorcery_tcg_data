@@ -197,3 +197,8 @@
   name: Armor +X
   description: |
     This unit takes X less damage when struck. (For example, by another unit in typical combat.
+
+- key: splash_damage
+  name: Splash Damage
+  description: |
+    This keyword has been removed.
