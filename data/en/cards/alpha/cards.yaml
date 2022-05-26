@@ -685,6 +685,8 @@
   card_type: magic
   release: alpha
   artist: michal_nagypál
+  keywords:
+  - burrowing
   name: Cave-in
   rules_box: ! |-
     Burrow all ground minions on a non-Water site or unburrow all minions there.
@@ -737,6 +739,8 @@
   card_type: site
   release: alpha
   artist: adam_burke
+  keywords:
+  - burrowing
   name: City of Agartha
   rules_box: ! |-
     Allies may move while burrowed.
@@ -1270,7 +1274,7 @@
   release: alpha
   artist: alan_pollack
   keywords:
-  - range_x
+  - burrowing
   name: Earthquake
   rules_box: ! |-
     Choose a square block of four locations. Burrow all ground minions on affected non-Water sites. You may rearrange the placement of those sites within the block.
@@ -4547,6 +4551,8 @@
   card_type: minion
   release: alpha
   artist: jeff_easley
+  keywords:
+  - burrowing
   name: Tomb Mummies
   rules_box: ! |-
     Can and must be summoned burrowed under any site.
@@ -4677,6 +4683,7 @@
   release: alpha
   artist: jussi_pylkäs
   keywords:
+  - burrowing
   - minion
   name: Undertaker Engine
   rules_box: ! |-
