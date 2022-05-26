@@ -65,7 +65,7 @@
   artist: elvira_shakirova
   keywords:
   - genesis
-  name: Älvalinne Dryads
+  name: Alvalinne Dryads
   rules_box: ! |-
     Genesis → Untap a nearby ally.
   type_line: Elite Mythics make arborous harvest.
@@ -204,6 +204,8 @@
   card_type: aura
   release: alpha
   artist: aronjaart
+  keywords:
+  - submerge
   name: Atlantean Fate
   rules_box: ! |-
     Affected non-Ordinary sites become Water sites, only provide Water threshold and lose all other abilities. All minions and relics on those sites are submerged and can’t surface.
@@ -253,6 +255,7 @@
   release: alpha
   artist: séverine_pineaux
   name: Avatar of Air
+  initial_life: '20'
   rules_box: ! |-
     Tap → Play or draw a site.
 
@@ -264,6 +267,8 @@
   card_type: avatar
   release: alpha
   artist: séverine_pineaux
+  keywords:
+  - armor_x
   name: Avatar of Earth
   initial_life: '20'
   rules_box: ! |-
@@ -293,21 +298,6 @@
   rules_box: ! "Tap → Play or draw a site.\n \nWhenever you play a Water site, you
     may teleport to it and flood a nearby site until you do so again."
   type_line: Your Avatar of charm and trickery.
-  power: '1'
-- identifier: avatar_of_wind
-  rarity: unknown
-  card_type: avatar
-  release: alpha
-  artist: severine_pineaux
-  keywords:
-  - spellcaster
-  name: Avatar of Wind
-  initial_life: '20'
-  rules_box: ! |-
-    Tap → Pay or draw a site.
-
-    Once on your turn, if You are on a Wind site, You may fly to a nearby site.
-  type_line: Your Avatar or knowledge and power
   power: '1'
 - identifier: azuridge_caravan
   rarity: ordinary
@@ -370,6 +360,7 @@
   artist: elwira_pawlikowska
   keywords:
   - minion
+  - deathrite
   name: Battering Ram
   rules_box: ! |-
     Whenever Battering Ram moves onto a site, knock back all enemies there one step.
@@ -409,6 +400,9 @@
   card_type: site
   release: alpha
   artist: adam_kašpar
+  keywords:
+  - immovable
+  - indestructible
   name: Bedrock
   rules_box: ! |-
     You may play a site atop this Bedrock. Both are immovable and indestructible.
@@ -484,7 +478,7 @@
     Lasts 3 of your turns.
   type_line: An Exceptional Aura of forestalling frost
   mana_cost: '4'
-  wind_threshold: '1'
+  water_threshold: '1'
 - identifier: blood_ravens
   rarity: ordinary
   card_type: minion
@@ -718,6 +712,8 @@
   card_type: minion
   release: alpha
   artist: alan_pollack
+  keywords:
+  - immovable
   name: Cerberus in Chains
   rules_box: ! |-
     This Cerberus is chained to the site where it was summoned and is thus immovable while there. Its chain can be destroyed as if it were a relic, thus unleashing this Cerberus.
@@ -969,20 +965,6 @@
   type_line: A Unique Aura to reclaim the holy land.
   mana_cost: '2'
   earth_threshold: '2'
-- identifier: dalcean_phalanx
-  rarity: exceptional
-  card_type: minion
-  release: alpha
-  artist: vincent_pompetti
-  name: Dalcean Phalanx
-  rules_box: ! |
-    This Phalanx dies without dealing damage back if attacked from the flank or rear.
-
-    It can only attack on the same site and forward.
-  type_line: Onward, onward Exceptional Mortals!
-  mana_cost: '3'
-  power: '5'
-  earth_threshold: '2'
 - identifier: daperyll_vampire
   rarity: exceptional
   card_type: minion
@@ -1048,7 +1030,10 @@
   card_type: avatar
   release: alpha
   artist: tony_szczudlo
+  keywords:
+  - genesis
   name: Deathspeaker
+  initial_life: '20'
   rules_box: ! |-
     Tap → Play or draw a site.
 
@@ -1284,6 +1269,8 @@
   card_type: magic
   release: alpha
   artist: alan_pollack
+  keywords:
+  - range_x
   name: Earthquake
   rules_box: ! |-
     Choose a square block of four locations. Burrow all ground minions on affected non-Water sites. You may rearrange the placement of those sites within the block.
@@ -1297,6 +1284,7 @@
   artist: jeff_easley
   keywords:
   - airborne
+  - moves_freely
   name: East-West Dragon
   rules_box: ! "Airborne\n \nMoves freely while moving sideways."
   type_line: An Elite serpentine Dragon emerges.
@@ -1353,19 +1341,6 @@
     Whenever you conjure an aura, you may have an aura you control become a minion with power equal to its mana cost this turn.
   type_line: Your Avatar weaves magic and land together.
   power: '1'
-- identifier: enlarge
-  rarity: exceptional
-  card_type: magic
-  release: alpha
-  artist: alan_pollack
-  name: Enlarge
-  rules_box: ! |-
-    An ally occupies four sites and gains +4 power until end of turn.
-  type_line: Exceptional Magic of great magnitude
-  mana_cost: '2'
-  flavor_text: ! |-
-    _Pity these meek and measly men!_
-  earth_threshold: '1'
 - identifier: enlist
   rarity: exceptional
   card_type: magic
@@ -1382,6 +1357,8 @@
   card_type: aura
   release: alpha
   artist: drew_tucker
+  keywords:
+  - immobile
   name: Entangle Terrain
   rules_box: ! |-
     Ground minions here are immobile.
@@ -1556,6 +1533,8 @@
   card_type: magic
   release: alpha
   artist: jussi_pylkäs
+  keywords:
+  - submerge
   name: Fire Harpoons!
   rules_box: ! |-
     An ally fires a harpoon at target minion on or submerged under an adjacent site. If the harpoon hits, it deals 1 damage, surfaces the minion, and reels it in.
@@ -1692,6 +1671,8 @@
   card_type: minion
   release: alpha
   artist: ossi_hiekkala
+  keywords:
+  - immobile
   name: Frontier Settlers
   rules_box: ! |-
     Frontier Settlers may move into an adjacent void. When they do, place the top site of your atlas there. Once settled, they become immobile.
@@ -1776,6 +1757,8 @@
   card_type: relic
   release: alpha
   artist: dan_seagrave
+  keywords:
+  - armor_x
   name: Gilded Aegis
   rules_box: ! |-
     Bearer — Armor +2.
@@ -1863,9 +1846,7 @@
   name: Great Old One
   rules_box: ! |-
     Indestructible, Submerge
-  type_line: 'A Unique Monster stirs beneath the surface.
-
-'
+  type_line: A Unique Monster stirs beneath the surface.
   mana_cost: '8'
   power: '12'
   water_threshold: '4'
@@ -2241,6 +2222,7 @@
   artist: gadu_duaso
   keywords:
   - lethal
+  - armor_x
   name: Karkemish Chimera
   rules_box: ! |-
     Lethal while fighting an enemy from the rear.
@@ -2465,18 +2447,6 @@
     (W)(W): Genesis → Pull all nearby units onto this site.
   type_line: An Elite Site of ineluctable malevolence.
   water_threshold: '1'
-- identifier: maelström
-  rarity: unique
-  card_type: site
-  release: alpha
-  artist: dan_seagrave
-  keywords:
-  - genesis
-  name: Maelström
-  rules_box: ! |-
-    {Water:2} **Genesis** — Pull Avatars and minions one step towards this site.
-  type_line: A Unique  Site of ineluctable malevolence
-  water_threshold: '1'
 - identifier: mage_hunter
   rarity: ordinary
   card_type: minion
@@ -2544,6 +2514,8 @@
   card_type: magic
   release: alpha
   artist: marta_molina
+  keywords:
+  - range_x
   name: Marine Voyage
   rules_box: ! |-
     Rearrange any allied minions on or under one body of Water.
@@ -2567,6 +2539,9 @@
   card_type: minion
   release: alpha
   artist: andrea_modesti
+  keywords:
+  - stealth
+  - submerge
   name: Master Tracker
   rules_box: ! |-
     Master Tracker can attack burrowed, submerged, and stealthed minions.
@@ -2684,6 +2659,8 @@
   card_type: magic
   release: alpha
   artist: matt_tames
+  keywords:
+  - range_x
   name: Minecart Madness
   rules_box: ! "Rearrange any burrowed allied minions within one span of non-Water
     sites. "
@@ -2995,6 +2972,8 @@
   card_type: minion
   release: alpha
   artist: elvira_shakirova
+  keywords:
+  - submerge
   name: Ormund Harpooners
   rules_box: ! |-
     Tap → These Harpooners fire a harpoon at target minion on or submerged under an adjacent site. If the harpoon hits, it deals 1 damage, surfaces the minion, and reels it in.
@@ -3007,6 +2986,8 @@
   card_type: minion
   release: alpha
   artist: tony_szczudlo
+  keywords:
+  - moves_freely
   name: Outback Strider
   rules_box: ! |-
     This Strider moves freely through sites without any enemies.
@@ -3102,9 +3083,11 @@
   keywords:
   - airborne
   - haste
+  - moves_freely
+  - voidwalk
   name: Peregrine Apparition
   rules_box: ! |-
-    Airborne, Haste, Voidlwalk
+    Airborne, Haste, Voidwalk
 
     This Apparition moves freely in the realm.
   type_line: An Exceptional Spirit of transcendent velocity.
@@ -3410,6 +3393,7 @@
   artist: caio_calazans
   keywords:
   - genesis
+  - immobile
   name: Quagmire
   rules_box: ! |-
     Genesis → Nearby ground minions are immobile until your next turn.
@@ -3463,6 +3447,8 @@
   card_type: magic
   release: alpha
   artist: vincent_pompetti
+  keywords:
+  - immobile
   name: Rain of Arrows
   rules_box: ! |-
     Deal 1 damage to all minions on sites. Minions damaged by these arrows are immobile until your next turn.
@@ -3678,6 +3664,7 @@
   artist: melissa_a_benson
   keywords:
   - burrowing
+  - immobile
   name: Root Spider
   rules_box: ! |-
     Burrowing
@@ -3718,6 +3705,8 @@
   card_type: minion
   release: alpha
   artist: frank_frazetta
+  keywords:
+  - moves_freely
   name: Ruler of Thul
   rules_box: ! |-
     This Ruler can move as if the top and bottom edges of the realm were connected, and he moves freely within the top and bottom rows.
@@ -3941,6 +3930,8 @@
   card_type: minion
   release: alpha
   artist: ossi_hiekkala
+  keywords:
+  - armor_x
   name: Sedge Crabs
   rules_box: ! |-
     Armor +1
@@ -3994,6 +3985,8 @@
   card_type: minion
   release: alpha
   artist: vincent_pompetti
+  keywords:
+  - armor_x
   name: Shield Maidens
   rules_box: ! |-
     Armor +1
@@ -4046,6 +4039,7 @@
   artist: séverine_pineaux
   keywords:
   - airborne
+  - armor_x
   name: Silver Valkyries
   rules_box: ! |-
     Airborne, Armor +2
@@ -4126,6 +4120,7 @@
   release: alpha
   artist: unknown
   keywords:
+  - movement_x
   - range_x
   name: Skirmishers of Mu
   rules_box: ! |-
@@ -4260,19 +4255,6 @@
   flavor_text: ! |-
     “We live on a placid island of ignorance in the midst of black seas of infinity, and it was not meant that we should voyage far.” ― H. P. Lovecraft
   wind_threshold: '1'
-- identifier: spell_block
-  rarity: elite
-  card_type: magic
-  release: alpha
-  artist: drew_tucker
-  name: Spell Block
-  rules_box: ! |-
-    Counter a spell targeted near your Spellcaster.
-  type_line: A Quick Elite repartee to nix intrusive Magic
-  mana_cost: '0'
-  flavor_text: ! |-
-    _No!_
-  wind_threshold: '2'
 - identifier: spin_attack
   rarity: ordinary
   card_type: magic
@@ -4513,6 +4495,8 @@
   card_type: site
   release: alpha
   artist: dan_seagrave
+  keywords:
+  - tower
   name: The Base of Babel
   rules_box: ! |-
     You may finish this tower by placing its apex atop. When you do, each minion becomes controlled by a random player.
@@ -4531,17 +4515,6 @@
     Avatar that sits on this Throne wins the game."
   type_line: A Unique Relic and Monument to eternal rule.
   mana_cost: '5'
-- identifier: thunderbolt
-  rarity: ordinary
-  card_type: magic
-  release: alpha
-  artist: ossi_hiekkala
-  name: Thunderbolt
-  rules_box: ! |-
-    This Thunderbolt deals 3 damage to an Avatar or minion anywhere in the Realm.  Excess damage is dealt to the site the target is on.
-  type_line: Ordinary Magic of jagged ferocity
-  mana_cost: '1'
-  wind_threshold: '1'
 - identifier: thunderstorm
   rarity: exceptional
   card_type: aura
@@ -4657,6 +4630,8 @@
   card_type: minion
   release: alpha
   artist: matt_tames
+  keywords:
+  - armor_x
   name: Tuft Turtles
   rules_box: ! |-
     Armor +2
@@ -4736,23 +4711,6 @@
   flavor_text: ! |-
     A revolutionary idea is forcibly silenced.
   wind_threshold: '3'
-- identifier: unland_angler
-  rarity: exceptional
-  card_type: minion
-  release: alpha
-  artist: drew_tucker
-  keywords:
-  - submerge
-  - waterbound
-  name: Unland Angler
-  rules_box: ! |-
-    **Submerge**, **Waterbound**
-
-    At the start of your opponent's turn, if this Angler is submerged and there are no enemy minions here, a nearby enemy minion must move towards it. Enemy minions here are disabled.
-  type_line: An Exceptional Beast lurks and lures
-  mana_cost: '5'
-  power: '4'
-  water_threshold: '2'
 - identifier: unland_eel
   rarity: ordinary
   card_type: minion
@@ -4968,6 +4926,8 @@
   card_type: magic
   release: alpha
   artist: jeff_easley
+  keywords:
+  - movement_x
   name: Waypoint Portal
   rules_box: ! |-
     Two locations are adjacent for movement this turn.
@@ -5103,22 +5063,6 @@
     Flood sites near Water this turn. Submerge all minions and relics on Water sites. (Minions without Submerge die.)
   type_line: A merciless deluge of Elite Magic.
   mana_cost: '7'
-  water_threshold: '2'
-- identifier: yokai_kappas
-  rarity: exceptional
-  card_type: minion
-  release: alpha
-  artist: gadu_duaso
-  keywords:
-  - iron_skin
-  name: Yokai Kappas
-  rules_box: ! |-
-    **Iron Skin**
-
-    The site these Kappas occupy is also a Water site.
-  type_line: Exceptional Demons of fluid trickery.
-  mana_cost: '4'
-  power: '3'
   water_threshold: '2'
 - identifier: yourke_crossbowmen
   rarity: exceptional
