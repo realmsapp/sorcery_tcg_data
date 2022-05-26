@@ -26,8 +26,17 @@
 - key: immobile
   name: Immobile
   description: |
-    This minion cannot move.
-    A minion with Immobile can still be forcibly moved through card effects.
+    Can't voluntarily change locations via movement. (Essentially, Movement -∞.)
+
+    * An immobile minion can still be forcibly moved by a spell or the action of another.
+    * Immobile minions can still attack, block, and defend at their current location, and can even burrow and submerge, unburrow and surface.
+
+- key: immovable
+  name: Immovable
+  description: |
+     Immobile, and can't be forcibly moved by other effects.
+
+     *  Note that when a site moves, by default it carries all of its inhabitants along with it. Only the site is considered to be moving.
 
 - key: immortal
   name: Immortal
@@ -37,9 +46,11 @@
 - key: indestructible
   name: Indestructible
   description: |
-    * An Indestructible card can be sacrificed or removed from the game through card effects.
-    * An Indestructible minion without Submerge does not die while submerged, but it cannot attack, move, or activate abilities, and it does not deal damage when blocking.
-    * An Indestructible minion without Voidwalk does not die while in the void, but it cannot move or activate abilities.
+    This card cannot be destroyed.
+
+    * An Indestructible card can be sacrificed, bounced, and banished.
+    * An Indestructible minion without Submerge doesn't die underwater, but it can't move or surface itself.
+    * An Indestructible minion without Voidwalk doesn't die while in the void, but it can't move.
 
 - key: iron_skin
   name: Iron Skin
@@ -79,14 +90,6 @@
     You may cast spells from this card.
 
     * When a player casts a spell, they must declare which Spellcaster is casting the spell if they have multiple Spellcasters in play
-
-- key: splash_damage
-  name: Splash Damage
-  description: |
-    This card damages everything above ground on the same site.
-
-    * The damage is not dealt to the site.
-    * A minion with Splash Damage does not damage itself when attacking, and if it attacks an undefended site, it deals damage as if it did not have Splash Damage.
 
 - key: stealth
   name: Stealth
@@ -184,3 +187,13 @@
   name: Desert
   description: |
     TBD
+
+- key: deathrite
+  name: Deathrite
+  description: |
+    When this card dies, do what is stated.
+
+- key: armor_x
+  name: Armor +X
+  description: |
+    This unit takes X less damage when struck. (For example, by another unit in typical combat.

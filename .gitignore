@@ -8,6 +8,7 @@
 /tmp/
 /data/*/cards/*/images/*
 /data/*/cards/*/beta_images/*
+/data/*/cards/*/beta_images_bak/*
 /data/*/cards/*/tokens/*
 /data/*/game_assets
 .DS_Store

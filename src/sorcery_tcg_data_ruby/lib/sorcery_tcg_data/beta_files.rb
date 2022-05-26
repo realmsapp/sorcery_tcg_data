@@ -83,6 +83,10 @@ module SorceryTcgData
       def key
         name
       end
+
+      def card_key
+        self.class.to_slug(name)
+      end
     end
 
     CURRENT_VERSION = "2022-05-23"
