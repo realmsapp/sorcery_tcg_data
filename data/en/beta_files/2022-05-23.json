@@ -1494,7 +1494,7 @@
       "Name": "Peregrine Apparition",
       "Cost": "3",
       "Threshold": "AA",
-      "Card Text": "Airborne, Haste, Voidlwalk\n\nThis Apparition moves freely in the realm.",
+      "Card Text": "Airborne, Haste, Voidwalk\n\nThis Apparition moves freely in the realm.",
       "Grid1": "",
       "Grid2": "",
       "Power": "1",
@@ -3050,7 +3050,7 @@
       "Grid1": "",
       "Grid2": "",
       "Power": "12",
-      "Type sentence": "A Unique Monster stirs beneath the surface.\n",
+      "Type sentence": "A Unique Monster stirs beneath the surface.",
       "Flavor": "",
       "Artist": "Dan Seagrave",
       "FaceURL": "http://cloud-3.steamusercontent.com/ugc/1850427901244027658/0E5610F43F171BBE91554E582F603D5C764AB15A/"
