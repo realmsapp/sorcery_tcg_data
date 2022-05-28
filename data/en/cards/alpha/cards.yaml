@@ -276,7 +276,7 @@
   rules_box: ! |-
     Tap → Play or draw a site.
 
-    Once on your turn, you may blow an ally on an Air site to a nearby site.
+    Once on your turn, you may blow an ally on a Wind site to a nearby site.
   type_line: Your Avatar of knowledge and power.
   power: '1'
 - identifier: avatar_of_earth
