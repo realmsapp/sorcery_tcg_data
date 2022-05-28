@@ -19,6 +19,7 @@
   artist: vincent_pompetti
   keywords:
   - airborne
+  - beast
   name: Accursed Albatross
   rules_box: ! |-
     Airborne
@@ -35,6 +36,7 @@
   artist: jeff_easley
   keywords:
   - spellcaster
+  - mortal
   name: Adept Illusionist
   rules_box: ! |-
     Spellcaster
@@ -65,6 +67,7 @@
   artist: elvira_shakirova
   keywords:
   - genesis
+  - mythic
   name: Alvalinne Dryads
   rules_box: ! |-
     Genesis → Untap a nearby ally.
@@ -79,6 +82,8 @@
   card_type: minion
   release: alpha
   artist: elvira_shakirova
+  keywords:
+  - mythic
   name: Amazon Warriors
   type_line: Ordinary Mythics prepare for war.
   mana_cost: '5'
@@ -93,6 +98,7 @@
   artist: lindsey_crummett
   keywords:
   - airborne
+  - dragon
   name: Ancient Dragon
   rules_box: ! |-
     Airborne
@@ -119,6 +125,8 @@
   card_type: minion
   release: alpha
   artist: tony_szczudlo
+  keywords:
+  - spirit
   name: Anui Undine
   rules_box: ! |-
     This Undine has +1 power for each site within her body of water.
@@ -136,6 +144,7 @@
   keywords:
   - genesis
   - spellcaster
+  - mortal
   name: Apprentice Wizard
   rules_box: ! |-
     Spellcaster
@@ -179,6 +188,8 @@
   artist: melissa_a_benson
   keywords:
   - airborne
+  - mythic
+  - immune
   name: Askelon Phoenix
   rules_box: ! |-
     Airborne
@@ -193,6 +204,8 @@
   card_type: magic
   release: alpha
   artist: vasiliy_ermolaev
+  keywords:
+  - beast
   name: Assorted Animals
   rules_box: ! |-
     Search your spellbook for any number of Beast cards with a combined mana cost of X or less. Shuffle.
@@ -217,6 +230,8 @@
   card_type: minion
   release: alpha
   artist: brian_smith
+  keywords:
+  - mythic
   name: Atlas Wanderers
   rules_box: ! |-
     These Wanderers can move to a void, carrying their site with them as they move.
@@ -242,6 +257,8 @@
   card_type: minion
   release: alpha
   artist: séverine_pineaux
+  keywords:
+  - mythic
   name: Autumn Unicorn
   type_line: These Ordinary Mythics won’t fade yet into legend.
   mana_cost: '3'
@@ -259,7 +276,7 @@
   rules_box: ! |-
     Tap → Play or draw a site.
 
-    Once on your turn, you may blow an ally on a Wind site to a nearby site.
+    Once on your turn, you may blow an ally on an Air site to a nearby site.
   type_line: Your Avatar of knowledge and power.
   power: '1'
 - identifier: avatar_of_earth
@@ -293,6 +310,8 @@
   card_type: avatar
   release: alpha
   artist: séverine_pineaux
+  keywords:
+  - flood
   name: Avatar of Water
   initial_life: '20'
   rules_box: ! "Tap → Play or draw a site.\n \nWhenever you play a Water site, you
@@ -304,6 +323,9 @@
   card_type: minion
   release: alpha
   artist: vincent_pompetti
+  keywords:
+  - mortal
+  - beast
   name: Azuridge Caravan
   rules_box: ! |-
     Occupies two sites.
@@ -342,6 +364,7 @@
   artist: brian_smith
   keywords:
   - genesis
+  - beast
   name: Bane Spider
   rules_box: ! |-
     Genesis → Kill another minion here.
@@ -359,8 +382,8 @@
   release: alpha
   artist: elwira_pawlikowska
   keywords:
-  - minion
   - deathrite
+  - vehicle
   name: Battering Ram
   rules_box: ! |-
     Whenever Battering Ram moves onto a site, knock back all enemies there one step.
@@ -387,6 +410,8 @@
   card_type: minion
   release: alpha
   artist: lindsey_crummett
+  keywords:
+  - beast
   name: Beast of Burden
   rules_box: ! |-
     This Beast may carry an ally as it moves.
@@ -415,6 +440,7 @@
   artist: andrea_modesti
   keywords:
   - range_x
+  - mortal
   name: Belmotte Longbowmen
   rules_box: ! |-
     Range +1
@@ -431,6 +457,7 @@
   artist: michal_nagypál
   keywords:
   - lethal
+  - beast
   name: Black Scorpions
   rules_box: ! |-
     Lethal
@@ -486,6 +513,7 @@
   artist: michal_nagypál
   keywords:
   - airborne
+  - beast
   name: Blood Ravens
   rules_box: ! |-
     Airborne
@@ -528,6 +556,7 @@
   artist: jeff_a_menges
   keywords:
   - burrowing
+  - undead
   name: Bone Rabble
   rules_box: ! |-
     When this Rabble dies on a non-Water site, burrow it instead. It can unburrow as if it had Burrowing.
@@ -565,6 +594,8 @@
   card_type: minion
   release: alpha
   artist: vasiliy_ermolaev
+  keywords:
+  - monster
   name: Bosk Troll
   type_line: An Ordinary Monster wanders these woods.
   mana_cost: '1'
@@ -586,6 +617,8 @@
   card_type: minion
   release: alpha
   artist: vasiliy_ermolaev
+  keywords:
+  - monster
   name: Bridge Troll
   rules_box: ! |-
     Whenever an enemy attacks an undefended site, you may cast this Troll to defend that site without paying its mana cost.
@@ -602,6 +635,8 @@
   artist: michal_nagypál
   keywords:
   - genesis
+  - disabled
+  - beast
   name: Brobdingnag Bullfrog
   rules_box: ! |-
     Genesis → Swallow a nearby enemy minion. It stays trapped and disabled until Brobdingnag Bullfrog leaves the realm.
@@ -616,6 +651,8 @@
   artist: gadu_duaso
   keywords:
   - haste
+  - demon
+  - beast
   name: Bull Demons of Adum
   rules_box: ! |-
     Haste
@@ -657,6 +694,8 @@
   card_type: minion
   release: alpha
   artist: vincent_pompetti
+  keywords:
+  - mortal
   name: Captain Baldassare
   rules_box: ! |-
     Whenever Captain Baldassare stops on an opponent's site, you may mill up to three total cards from the tops of that opponent's spellbook and atlas. You may play those cards this turn, ignoring threshold.
@@ -671,6 +710,7 @@
   artist: drew_tucker
   keywords:
   - spellcaster
+  - mortal
   name: Cauldron Crones
   rules_box: ! |-
     Spellcaster
@@ -700,6 +740,7 @@
   artist: drew_tucker
   keywords:
   - burrowing
+  - monster
   name: Cave Trolls
   rules_box: ! |-
     Burrowing
@@ -716,6 +757,7 @@
   artist: alan_pollack
   keywords:
   - immovable
+  - demon
   name: Cerberus in Chains
   rules_box: ! |-
     This Cerberus is chained to the site where it was summoned and is thus immovable while there. Its chain can be destroyed as if it were a relic, thus unleashing this Cerberus.
@@ -754,6 +796,7 @@
   keywords:
   - airborne
   - genesis
+  - mythic
   name: Clamor Harpies
   rules_box: ! |-
     Airborne
@@ -781,6 +824,7 @@
   keywords:
   - airborne
   - movement_x
+  - spirit
   name: Cloud Spirit
   rules_box: ! |-
     Airborne, Movement +2
@@ -820,6 +864,8 @@
   card_type: minion
   release: alpha
   artist: dan_seagrave
+  keywords:
+  - monster
   name: Conqueror Worm
   rules_box: ! |-
     Excess attack damage carries over to opponents' sites.
@@ -836,6 +882,7 @@
   artist: melissa_a_benson
   keywords:
   - submerge
+  - beast
   name: Coral-reef Kelpie
   rules_box: ! |-
     Submerge
@@ -861,6 +908,7 @@
   artist: frank_frazetta
   keywords:
   - genesis
+  - mortal
   name: Courtesan Thais
   rules_box: ! |-
     Genesis → You control an opponent during their next turn. They control you during your next turn.
@@ -873,6 +921,8 @@
   card_type: minion
   release: alpha
   artist: liz_danforth
+  keywords:
+  - mortal
   name: Court Jester
   rules_box: ! |-
     At the end of your turn, the owner of any nearby Avatar must discard a random card.
@@ -899,7 +949,7 @@
   release: alpha
   artist: brian_smith
   keywords:
-  - minion
+  - construct
   name: Crave Golem
   rules_box: ! |-
     This Golem can't attack sites and must attack if able.
@@ -947,6 +997,8 @@
   card_type: minion
   release: alpha
   artist: ossi_hiekkala
+  keywords:
+  - mortal
   name: Crown Prince
   rules_box: ! |-
     When this Prince dies, return him to it's owner's hand.
@@ -976,6 +1028,7 @@
   artist: melissa_a_benson
   keywords:
   - airborne
+  - monster
   name: Daperyll Vampire
   rules_box: ! |-
     Airborne
@@ -1005,6 +1058,7 @@
   artist: michal_nagypál
   keywords:
   - stealth
+  - demon
   name: Dead of Night Demon
   rules_box: ! |-
     Stealth
@@ -1022,6 +1076,7 @@
   artist: frank_frazetta
   keywords:
   - genesis
+  - mortal
   name: Death Dealer
   rules_box: ! |-
     Genesis → Kill all other minions in the realm.
@@ -1052,6 +1107,7 @@
   keywords:
   - genesis
   - submerge
+  - mythic
   name: Deep-sea Mermaids
   rules_box: ! |-
     Submerge
@@ -1078,6 +1134,7 @@
   artist: dan_seagrave
   keywords:
   - submerge
+  - monster
   name: Diluvian Kraken
   rules_box: ! |-
     Submerge
@@ -1178,6 +1235,7 @@
   artist: doug_kovacs
   keywords:
   - spellcaster
+  - mortal
   name: Doomsday Prophet
   rules_box: ! |-
     Spellcaster
@@ -1249,6 +1307,7 @@
   artist: alan_pollack
   keywords:
   - burrowing
+  - mythic
   name: Dwarven Digging Team
   rules_box: ! |-
     Burrowing
@@ -1289,6 +1348,7 @@
   keywords:
   - airborne
   - moves_freely
+  - dragon
   name: East-West Dragon
   rules_box: ! "Airborne\n \nMoves freely while moving sideways."
   type_line: An Elite serpentine Dragon emerges.
@@ -1388,6 +1448,8 @@
   card_type: minion
   release: alpha
   artist: gadu_duaso
+  keywords:
+  - mythic
   name: Escyllion Cyclops
   rules_box: ! |-
     This Cyclops doesn't deal damage when defending.
@@ -1402,6 +1464,7 @@
   artist: liz_danforth
   keywords:
   - haste
+  - spirit
   name: Evil Presence
   rules_box: ! |-
     You may summon a Spirit here. When you do, that minion gains Haste, and return Evil Presence to its owner's hand.
@@ -1456,6 +1519,7 @@
   artist: elvira_shakirova
   keywords:
   - stealth
+  - mortal
   name: Far East Assassin
   rules_box: ! |-
     Stealth
@@ -1470,6 +1534,9 @@
   card_type: minion
   release: alpha
   artist: jeff_a_menges
+  keywords:
+  - mortal
+  - beast
   name: Felbog Frog Men
   rules_box: ! |-
     These Frog Men can jump over an adjacent site as they move.
@@ -1484,6 +1551,7 @@
   artist: jeff_a_menges
   keywords:
   - spellcaster
+  - mortal
   name: Fenvale Muse
   rules_box: ! |-
     Spellcaster
@@ -1501,6 +1569,7 @@
   artist: drew_tucker
   keywords:
   - genesis
+  - mythic
   name: Fey Changeling
   rules_box: ! |-
     May be summoned to any site.
@@ -1554,7 +1623,8 @@
   artist: melissa_a_benson
   keywords:
   - spellcaster
-  - fire_spellcaster
+  - immune
+  - spirit
   name: Fire Salamander
   rules_box: ! |-
     Fire Spellcaster
@@ -1618,6 +1688,8 @@
   card_type: aura
   release: alpha
   artist: michal_nagypál
+  keywords:
+  - flood
   name: Flood
   rules_box: ! |-
     Affected sites are flooded. Lasts 3 of your turns.
@@ -1631,6 +1703,7 @@
   artist: caio_calazans
   keywords:
   - genesis
+  - flood
   name: Floodplain
   rules_box: ! |-
     Genesis → Flood a nearby site this turn.
@@ -1677,6 +1750,7 @@
   artist: ossi_hiekkala
   keywords:
   - immobile
+  - mortal
   name: Frontier Settlers
   rules_box: ! |-
     Frontier Settlers may move into an adjacent void. When they do, place the top site of your atlas there. Once settled, they become immobile.
@@ -1704,6 +1778,7 @@
   artist: matt_tames
   keywords:
   - airborne
+  - flood
   name: Geyser
   rules_box: ! |-
     This turn, flood a site and all minions on it gain Airborne.
@@ -1717,6 +1792,8 @@
   artist: jussi_pylkäs
   keywords:
   - voidwalk
+  - undead
+  - spirit
   name: Ghost Ship
   rules_box: ! |-
     Voidwalk
@@ -1734,6 +1811,7 @@
   keywords:
   - submerge
   - waterbound
+  - beast
   name: Giant Shark
   rules_box: ! |-
     Submerge, Waterbound
@@ -1777,6 +1855,7 @@
   artist: vasiliy_ermolaev
   keywords:
   - burrowing
+  - spirit
   name: Gneissgnath Gnomes
   rules_box: ! |-
     Burrowing
@@ -1817,6 +1896,7 @@
   keywords:
   - genesis
   - spellcaster
+  - mortal
   name: Grandmaster Wizard
   rules_box: ! |-
     Spellcaster
@@ -1847,6 +1927,7 @@
   keywords:
   - indestructible
   - submerge
+  - monster
   name: Great Old One
   rules_box: ! |-
     Indestructible, Submerge
@@ -1868,6 +1949,8 @@
   card_type: minion
   release: alpha
   artist: melissa_a_benson
+  keywords:
+  - beast
   name: Grey Wolves
   rules_box: ! |-
     These wolves have +1 power for each other Grey Wolves nearby.
@@ -1887,6 +1970,7 @@
   keywords:
   - indestructible
   - voidwalk
+  - spirit
   name: Grim Reaper
   rules_box: ! |-
     Indestructible, Voidwalk
@@ -1903,6 +1987,7 @@
   artist: brian_smith
   keywords:
   - stealth
+  - spirit
   name: Grosse Poltergeist
   rules_box: ! |-
     Stealth
@@ -1919,6 +2004,7 @@
   artist: elvira_shakirova
   keywords:
   - submerge
+  - mythic
   name: Guile Sirens
   rules_box: ! |-
     Submerge
@@ -1936,6 +2022,8 @@
   keywords:
   - airborne
   - haste
+  - mythic
+  - beast
   name: Gyre Hippogriffs
   rules_box: ! |-
     Airborne, Haste
@@ -1953,6 +2041,7 @@
   keywords:
   - airborne
   - genesis
+  - beast
   name: Haast Eagle
   rules_box: ! |-
     Airborne
@@ -1970,6 +2059,7 @@
   keywords:
   - airborne
   - movement_x
+  - mortal
   name: Hang Glider
   rules_box: ! |-
     At the start of your turn, if this Glider is on a Wind site, it gains Airborne and +2 Movement this turn.
@@ -1984,6 +2074,7 @@
   artist: jussi_pylkäs
   keywords:
   - voidwalk
+  - spirit
   name: Headless Haunt
   rules_box: ! |-
     Voidwalk
@@ -2011,6 +2102,7 @@
   artist: truitt_parrish
   keywords:
   - haste
+  - mortal
   name: Highland Clansmen
   rules_box: ! |-
     Haste
@@ -2028,6 +2120,7 @@
   keywords:
   - airborne
   - genesis
+  - mortal
   name: Highland Falconer
   rules_box: ! |-
     Genesis → You may summon an Airborne minion that costs 3 or less from your hand here.
@@ -2040,6 +2133,8 @@
   card_type: minion
   release: alpha
   artist: alan_pollack
+  keywords:
+  - mythic
   name: Hillock Basilisk
   rules_box: ! |-
     Enemy minions directly in front of this Basilisk are petrified.
@@ -2070,6 +2165,7 @@
   - stealth
   - submerge
   - voidwalk
+  - demon
   name: Hounds of Ondaros
   rules_box: ! |-
     Airborne, Burrowing, Submerge, Voidwalk
@@ -2086,6 +2182,8 @@
   card_type: minion
   release: alpha
   artist: andrea_modesti
+  keywords:
+  - mortal
   name: House Arn Bannerman
   rules_box: ! |-
     Other nearby allies have +1 power.
@@ -2135,6 +2233,8 @@
   card_type: minion
   release: alpha
   artist: andrea_modesti
+  keywords:
+  - mortal
   name: Imperial Pikemen
   rules_box: ! |-
     These Pikemen deal combat damage before other minions they fight.
@@ -2158,6 +2258,8 @@
   card_type: magic
   release: alpha
   artist: lindsey_crummett
+  keywords:
+  - dragon
   name: Incinerate
   rules_box: ! |-
     An allied Dragon may cast Incinerate.
@@ -2173,6 +2275,8 @@
   card_type: minion
   release: alpha
   artist: melissa_a_benson
+  keywords:
+  - undead
   name: Infernal Legion
   rules_box: ! |-
     At the end of your turn, this Legion deals 3 damage to all other nearby units.
@@ -2227,6 +2331,7 @@
   keywords:
   - lethal
   - armor_x
+  - beast
   name: Karkemish Chimera
   rules_box: ! |-
     Lethal while fighting an enemy from the rear.
@@ -2245,6 +2350,7 @@
   artist: tony_szczudlo
   keywords:
   - genesis
+  - mortal
   name: King of the Realm
   rules_box: ! "Other allied Mortals have +2 power. \n\nGenesis → Gain control of
     all Mortals in the realm."
@@ -2259,6 +2365,7 @@
   artist: vincent_pompetti
   keywords:
   - range_x
+  - mortal
   name: Kite Archer
   rules_box: ! |-
     Range +2
@@ -2298,6 +2405,7 @@
   artist: ossi_hiekkala
   keywords:
   - genesis
+  - mortal
   name: Land Surveyor
   rules_box: ! |-
     Genesis → Draw a site.
@@ -2360,6 +2468,7 @@
   artist: drew_tucker
   keywords:
   - airborne
+  - spirit
   name: Lord of the Skies
   rules_box: ! |-
     Airborne
@@ -2376,6 +2485,7 @@
   artist: elwira_pawlikowska
   keywords:
   - voidwalk
+  - spirit
   name: Lord of the Void
   rules_box: ! |-
     Voidbound, Voidwalk
@@ -2392,6 +2502,7 @@
   artist: jussi_pylkäs
   keywords:
   - submerge
+  - spirit
   name: Lord of Unland
   rules_box: ! "Submerge \n\nWhether this Lord is on or under a Water site, other
     allied Water minions in this body of water have +1 power."
@@ -2456,6 +2567,9 @@
   card_type: minion
   release: alpha
   artist: tony_szczudlo
+  keywords:
+  - immune
+  - mortal
   name: Mage Hunter
   rules_box: ! |-
     Immune to magic
@@ -2482,9 +2596,11 @@
   card_type: relic
   release: alpha
   artist: brian_smith
+  keywords:
+  - disabled
   name: Magnetic Muzzle
   rules_box: ! |-
-    Bearer  — Disabled
+    Bearer — Disabled
 
     At the end of your turn, if this Muzzle is abandoned, attach it to a nearby minion.
   type_line: An Exceptional Relic of irresistible silence.
@@ -2518,8 +2634,6 @@
   card_type: magic
   release: alpha
   artist: marta_molina
-  keywords:
-  - range_x
   name: Marine Voyage
   rules_box: ! |-
     Rearrange any allied minions on or under one body of Water.
@@ -2546,6 +2660,8 @@
   keywords:
   - stealth
   - submerge
+  - burrowing
+  - mortal
   name: Master Tracker
   rules_box: ! |-
     Master Tracker can attack burrowed, submerged, and stealthed minions.
@@ -2558,6 +2674,8 @@
   card_type: minion
   release: alpha
   artist: gadu_duaso
+  keywords:
+  - mythic
   name: Maze Minotaur
   rules_box: ! |-
     Nearby enemy minions must stay nearby when moving.
@@ -2570,6 +2688,8 @@
   card_type: minion
   release: alpha
   artist: brian_smith
+  keywords:
+  - monster
   name: Mega Amoeba
   rules_box: ! |-
     This Amoeba continues to occupy each site it's visited, and has +1 power for each.
@@ -2582,6 +2702,8 @@
   card_type: minion
   release: alpha
   artist: drew_tucker
+  keywords:
+  - mortal
   name: Men of Leng
   rules_box: ! |-
     Whenever these Men deal damage directly to an Avatar, that Avatar's controller discards a random card.
@@ -2616,6 +2738,9 @@
   card_type: minion
   release: alpha
   artist: tony_szczudlo
+  keywords:
+  - range_x
+  - mortal
   name: Midland Army
   rules_box: ! |-
     When this Army dies, summon eight Foot Soldier tokens on nearby sites.
@@ -2630,6 +2755,8 @@
   card_type: minion
   release: alpha
   artist: jeff_a_menges
+  keywords:
+  - mortal
   name: Midland Mercenaries
   rules_box: ! |-
     You may discard a card rather than pay these Mercenaries' mana cost.
@@ -2647,6 +2774,7 @@
   keywords:
   - range_x
   - stealth
+  - mortal
   name: Midnight Rogue
   rules_box: ! |-
     Range +1, Stealth
@@ -2664,7 +2792,7 @@
   release: alpha
   artist: matt_tames
   keywords:
-  - range_x
+  - burrowing
   name: Minecart Madness
   rules_box: ! "Rearrange any burrowed allied minions within one span of non-Water
     sites. "
@@ -2747,6 +2875,7 @@
   artist: dan_seagrave
   keywords:
   - airborne
+  - monster
   name: Monastery Gargoyle
   rules_box: ! |-
     Airborne
@@ -2765,6 +2894,8 @@
   artist: jeff_a_menges
   keywords:
   - genesis
+  - mortal
+  - monster
   name: Monster Hunter
   rules_box: ! |-
     Genesis → Kills a nearby Monster.
@@ -2780,6 +2911,7 @@
   artist: jeff_a_menges
   keywords:
   - spellcaster
+  - mortal
   name: Mordric Druids
   rules_box: ! |-
     Spellcaster
@@ -2794,18 +2926,22 @@
   card_type: minion
   release: alpha
   artist: séverine_pineaux
+  keywords:
+  - mythic
   name: Mother Nature
   rules_box: ! |-
     Once on your turn, when you summon a minion nearby, reveal cards from the top of your spellbook until you find a minion and summon it here. Shuffle.
   type_line: A Unique Mythic of divine fecundity.
   mana_cost: '5'
-  power: "*8"
+  power: '8'
   water_threshold: '2'
 - identifier: mountain_giant
   rarity: elite
   card_type: minion
   release: alpha
   artist: francesca_baerald
+  keywords:
+  - mythic
   name: Mountain Giant
   rules_box: ! |-
     Occupies four sites.
@@ -2833,6 +2969,7 @@
   keywords:
   - burrowing
   - submerge
+  - beast
   name: Muck Lampreys
   rules_box: ! |-
     Burrowing, Submerge
@@ -2849,6 +2986,7 @@
   artist: drew_tucker
   keywords:
   - genesis
+  - burrowing
   name: Mudflow
   rules_box: ! |-
     Genesis → Surface and unburrow all nearby minions.
@@ -2860,6 +2998,7 @@
   artist: drew_tucker
   keywords:
   - voidwalk
+  - spirit
   name: Nightmare
   rules_box: ! |-
     Voidwalk, Can't be blocked.
@@ -2876,6 +3015,7 @@
   artist: dan_seagrave
   keywords:
   - airborne
+  - spirit
   name: Nimbus Jinn
   rules_box: ! |-
     Airborne
@@ -2949,6 +3089,8 @@
   card_type: minion
   release: alpha
   artist: jeff_a_menges
+  keywords:
+  - monster
   name: Ogre Goons
   rules_box: ! |-
     These Ogres can only attack weaker minions.
@@ -2992,6 +3134,7 @@
   artist: tony_szczudlo
   keywords:
   - moves_freely
+  - mortal
   name: Outback Strider
   rules_box: ! |-
     This Strider moves freely through sites without any enemies.
@@ -3029,6 +3172,7 @@
   keywords:
   - airborne
   - burrowing
+  - beast
   name: Palliburrie Bats
   rules_box: ! |-
     Airborne, Burrowing
@@ -3047,6 +3191,7 @@
   keywords:
   - airborne
   - lethal
+  - mythic
   name: Panorama Manticore
   rules_box: ! |-
     Airborne, Lethal
@@ -3074,6 +3219,8 @@
   card_type: relic
   release: alpha
   artist: ossi_hiekkala
+  keywords:
+  - range_x
   name: Payload Trebuchet
   rules_box: ! |-
     Bearer — Tap, Tap this Trebuchet, Discard a card → This Trebuchet deals damage equal to the discarded card's cost to all units on another site in a cardinal direction.
@@ -3089,6 +3236,7 @@
   - haste
   - moves_freely
   - voidwalk
+  - spirit
   name: Peregrine Apparition
   rules_box: ! |-
     Airborne, Haste, Voidwalk
@@ -3107,6 +3255,7 @@
   artist: andrea_modesti
   keywords:
   - haste
+  - mortal
   name: Petrosian Cavalry
   rules_box: ! |-
     Haste
@@ -3122,6 +3271,8 @@
   card_type: minion
   release: alpha
   artist: santiago_caruso
+  keywords:
+  - spirit
   name: Phantasmal Shade
   rules_box: ! |-
     This Shade may be summoned to any site.
@@ -3139,6 +3290,7 @@
   keywords:
   - movement_x
   - voidwalk
+  - beast
   name: Phantom Steed
   rules_box: ! |-
     Movement +2, Voidwalk
@@ -3182,6 +3334,7 @@
   artist: vincent_pompetti
   keywords:
   - waterbound
+  - mortal
   name: Pirate Ship
   rules_box: ! |-
     Waterbound
@@ -3222,6 +3375,7 @@
   artist: melissa_a_benson
   keywords:
   - airborne
+  - beast
   name: Plume Pegasus
   rules_box: ! |-
     Airborne
@@ -3273,6 +3427,8 @@
   card_type: minion
   release: alpha
   artist: melissa_a_benson
+  keywords:
+  - beast
   name: Polar Bears
   rules_box: ! |-
     These Bears can move as if the top and bottom edges of the realm were connected.
@@ -3285,6 +3441,8 @@
   card_type: minion
   release: alpha
   artist: marta_molina
+  keywords:
+  - mortal
   name: Polar Explorers
   rules_box: ! |-
     Allies here can move as if the top and bottom edges of the realm were connected.
@@ -3311,6 +3469,7 @@
   keywords:
   - lethal
   - submerge
+  - beast
   name: Porcupine Pufferfish
   rules_box: ! |-
     Lethal, Submerge
@@ -3340,7 +3499,7 @@
   artist: alan_pollack
   name: Psionic Blast
   rules_box: ! |-
-    Deals damage to all nearby enemy minions and knock them back one step.
+    Deals damage to all nearby enemy minions and knocks them back one step.
   type_line: Exceptional Magic of repellent thought.
   mana_cost: '5'
   wind_threshold: '1'
@@ -3351,6 +3510,7 @@
   artist: brian_smith
   keywords:
   - immobile
+  - monster
   name: Pudge Butcher
   rules_box: ! |-
     Immobile
@@ -3368,6 +3528,7 @@
   keywords:
   - airborne
   - genesis
+  - spirit
   name: Puppet Master
   rules_box: ! |-
     Airborne
@@ -3383,7 +3544,7 @@
   release: alpha
   artist: brian_smith
   keywords:
-  - minion
+  - vehicle
   name: Purge Juggernaut
   rules_box: ! |-
     Whenever this Juggernaut moves, destroy all minions in its path.
@@ -3408,6 +3569,8 @@
   card_type: minion
   release: alpha
   artist: alan_pollack
+  keywords:
+  - monster
   name: Quarrelsome Kobolds
   rules_box: ! |-
     At the end of your turn, these Kobolds deal 3 damage to an adjacent minion (including themselves).
@@ -3422,6 +3585,8 @@
   card_type: minion
   release: alpha
   artist: séverine_pineaux
+  keywords:
+  - mortal
   name: Queen of Midland
   rules_box: ! |-
     Whenever an opponent draws a card while this Queen is on a middle site, you may draw a card.
@@ -3434,6 +3599,8 @@
   card_type: minion
   release: alpha
   artist: caio_calazans
+  keywords:
+  - beast
   name: Raal Dromedary
   type_line: An Ordinary and superbly indifferent Beast.
   mana_cost: '1'
@@ -3478,6 +3645,7 @@
   keywords:
   - burrowing
   - lethal
+  - beast
   name: Rattlesnakes
   rules_box: ! |-
     Burrowing, Lethal
@@ -3494,6 +3662,7 @@
   artist: tony_szczudlo
   keywords:
   - voidwalk
+  - spirit
   name: Recurring Specter
   rules_box: ! |-
     Voidwalk, Can't block.
@@ -3548,6 +3717,10 @@
   card_type: aura
   release: alpha
   artist: elwira_pawlikowska
+  keywords:
+  - burrowing
+  - undead
+  - spirit
   name: Rest in Peace
   rules_box: ! |-
     Burrow all Undead and Spirit minions at affected locations. They can't unburrow.
@@ -3562,6 +3735,7 @@
   keywords:
   - airborne
   - genesis
+  - mythic
   name: Riddle Sphinx
   rules_box: ! |-
     Airborne
@@ -3588,6 +3762,7 @@
   artist: elvira_shakirova
   keywords:
   - movement_x
+  - mortal
   name: Rimland Nomads
   rules_box: ! |-
     Movement +1
@@ -3617,7 +3792,6 @@
   artist: ian_miller
   keywords:
   - spellcaster
-  - fire_spellcaster
   name: River of Flame
   rules_box: ! |-
     Fire Spellcaster
@@ -3628,6 +3802,8 @@
   card_type: minion
   release: alpha
   artist: jeff_easley
+  keywords:
+  - monster
   name: Roaming Monster
   rules_box: ! |-
     May be summoned to any site.
@@ -3642,6 +3818,7 @@
   artist: jeff_easley
   keywords:
   - airborne
+  - dragon
   name: Rollicky Dragonettes
   rules_box: ! |-
     Airborne
@@ -3669,6 +3846,7 @@
   keywords:
   - burrowing
   - immobile
+  - beast
   name: Root Spider
   rules_box: ! |-
     Burrowing
@@ -3683,6 +3861,8 @@
   card_type: minion
   release: alpha
   artist: liz_danforth
+  keywords:
+  - mortal
   name: Royal Bodyguard
   rules_box: ! |-
     You may have any damage that would be dealt to a nearby Avatar or Royal be dealt to Royal Bodyguard instead.
@@ -3711,6 +3891,7 @@
   artist: frank_frazetta
   keywords:
   - moves_freely
+  - mortal
   name: Ruler of Thul
   rules_box: ! |-
     This Ruler can move as if the top and bottom edges of the realm were connected, and he moves freely within the top and bottom rows.
@@ -3738,6 +3919,7 @@
   artist: melissa_a_benson
   keywords:
   - airborne
+  - beast
   name: Sacred Scarabs
   rules_box: ! |-
     Airborne
@@ -3768,6 +3950,7 @@
   keywords:
   - burrowing
   - firebound
+  - beast
   name: Sand Worm
   rules_box: ! |-
     Burrowing, Firebound
@@ -3784,6 +3967,7 @@
   artist: lindsey_crummett
   keywords:
   - airborne
+  - monument
   name: Scarecrow
   rules_box: ! |-
     Airborne enemies can't enter this site.
@@ -3797,6 +3981,7 @@
   keywords:
   - burrowing
   - genesis
+  - undead
   name: Scavenging Fiend
   rules_box: ! |-
     Burrowing
@@ -3815,6 +4000,7 @@
   artist: andrea_modesti
   keywords:
   - stealth
+  - beast
   name: Scent Hounds
   rules_box: ! |-
     Nearby enemy Stealth is negated.
@@ -3840,6 +4026,9 @@
   card_type: minion
   release: alpha
   artist: mattias_frisk
+  keywords:
+  - burrowing
+  - undead
   name: Scourge Zombies
   rules_box: ! |-
     When these Zombies die on a non-Water site, burrow them instead. Unburrow if a Mortal dies nearby.
@@ -3867,6 +4056,7 @@
   keywords:
   - genesis
   - spellcaster
+  - mortal
   name: Scroll Curator
   rules_box: ! |-
     Spellcaster
@@ -3881,6 +4071,8 @@
   card_type: minion
   release: alpha
   artist: tony_szczudlo
+  keywords:
+  - mortal
   name: Sea Raider
   rules_box: ! |-
     Whenever Sea Raider kills a minion, you may mill the top card of its controller's spellbook or atlas. You may play that card this turn, ignoring threshold.
@@ -3896,6 +4088,7 @@
   keywords:
   - submerge
   - waterbound
+  - beast
   name: Sea Serpent
   rules_box: ! |-
     Submerge, Waterbound
@@ -3910,6 +4103,8 @@
   card_type: minion
   release: alpha
   artist: lindsey_crummett
+  keywords:
+  - mortal
   name: Seasoned Sellsword
   rules_box: ! |-
     You may discard a card rather than pay this Sellswords mana cost.
@@ -3924,6 +4119,8 @@
   card_type: site
   release: alpha
   artist: doug_kovacs
+  keywords:
+  - burrowing
   name: Secret Tunnel
   rules_box: ! |-
     Your minions that unburrow may do so here.
@@ -3936,6 +4133,7 @@
   artist: ossi_hiekkala
   keywords:
   - armor_x
+  - beast
   name: Sedge Crabs
   rules_box: ! |-
     Armor +1
@@ -3965,6 +4163,8 @@
   artist: melissa_a_benson
   keywords:
   - lethal
+  - immune
+  - mythic
   name: Seirawan Hydra
   rules_box: ! |-
     Immune to non-Lethal damage.
@@ -3991,6 +4191,7 @@
   artist: vincent_pompetti
   keywords:
   - armor_x
+  - mortal
   name: Shield Maidens
   rules_box: ! |-
     Armor +1
@@ -4031,6 +4232,8 @@
   card_type: relic
   release: alpha
   artist: elwira_pawlikowska
+  keywords:
+  - range_x
   name: Siege Ballista
   rules_box: ! |-
     Bearer — Tap, Tap this Ballista → Shoot a bolt in a cardinal direction at target enemy two steps away. This Ballista deals 3 damage to it.
@@ -4044,6 +4247,7 @@
   keywords:
   - airborne
   - armor_x
+  - mythic
   name: Silver Valkyries
   rules_box: ! |-
     Airborne, Armor +2
@@ -4071,12 +4275,14 @@
   card_type: minion
   release: alpha
   artist: elvira_shakirova
+  keywords:
+  - mortal
   name: Simulacrum
   rules_box: ! |-
     This Simulacrum is summoned as a copy of another nearby minion.
   type_line: An Exceptional Mortal doubles her resolve.
   mana_cost: '4'
-  power: "*"
+  power: '*'
   water_threshold: '2'
 - identifier: sinkhole
   rarity: elite
@@ -4093,6 +4299,11 @@
   card_type: minion
   release: alpha
   artist: gadu_duaso
+  keywords:
+  - demon
+  - spirit
+  - undead
+  - mortal
   name: Sirian Templar
   rules_box: ! |-
     This Templar takes no damage from Demons, Spirits, and Undead.
@@ -4108,6 +4319,8 @@
   card_type: minion
   release: alpha
   artist: ossi_hiekkala
+  keywords:
+  - mortal
   name: Sisters of Silence
   rules_box: ! |-
     Only one spell may be cast each turn.
@@ -4124,8 +4337,8 @@
   release: alpha
   artist: unknown
   keywords:
-  - movement_x
   - range_x
+  - mortal
   name: Skirmishers of Mu
   rules_box: ! |-
     Range +1
@@ -4155,6 +4368,7 @@
   keywords:
   - airborne
   - range_x
+  - mythic
   name: Sling Pixies
   rules_box: ! |-
     Airborne, Range +1
@@ -4171,6 +4385,7 @@
   artist: elwira_pawlikowska
   keywords:
   - genesis
+  - mythic
   name: Slumbering Giantess
   rules_box: ! |-
     Genesis → Falls asleep.
@@ -4195,6 +4410,7 @@
   artist: jeff_easley
   keywords:
   - stealth
+  - mortal
   name: Sneak Thief
   rules_box: ! |-
     Stealth
@@ -4209,6 +4425,8 @@
   card_type: minion
   release: alpha
   artist: lindsey_crummett
+  keywords:
+  - beast
   name: Snow Leopard
   type_line: An Ordinary Beast prowls the ice-clad peaks.
   mana_cost: '1'
@@ -4250,6 +4468,7 @@
   artist: jeff_easley
   keywords:
   - voidwalk
+  - spirit
   name: Spectral Stalker
   rules_box: ! |-
     Voidwalk
@@ -4280,6 +4499,7 @@
   - spellcaster
   - towerbound
   - tower
+  - undead
   name: Spire Lich
   rules_box: ! |-
     Range +1, Spellcaster, Towerbound
@@ -4305,6 +4525,8 @@
   card_type: minion
   release: alpha
   artist: brian_smith
+  keywords:
+  - beast
   name: Squirming Mass
   rules_box: ! |-
     Whenever an adjacent minion dies, Squirming Mass permanently gains that minion's innate power.
@@ -4332,6 +4554,8 @@
   release: alpha
   artist: séverine_pineaux
   name: Stone-gaze Gorgons
+  keywords:
+  - mythic
   rules_box: ! |-
     Other minions stopped on an adjacent site are petrified, unless they're carrying a relic.
   type_line: Elite Mythics gaze longingly from this vantage.
@@ -4407,6 +4631,8 @@
   card_type: minion
   release: alpha
   artist: jussi_pylkäs
+  keywords:
+  - beast
   name: Swamp Buffalo
   type_line: An Ordinary Beast of ponderous proportions.
   mana_cost: '1'
@@ -4422,6 +4648,7 @@
   keywords:
   - airborne
   - submerge
+  - beast
   name: Swan Maidens
   rules_box: ! |-
     Airborne, Submerge
@@ -4437,6 +4664,7 @@
   artist: jeff_a_menges
   keywords:
   - movement_x
+  - mortal
   name: Swiven Scout
   rules_box: ! |-
     Movement +2
@@ -4537,6 +4765,8 @@
   artist: jussi_pylkäs
   keywords:
   - submerge
+  - flood
+  - mythic
   name: Tide Naiads
   rules_box: ! |-
     Submerge
@@ -4553,6 +4783,7 @@
   artist: jeff_easley
   keywords:
   - burrowing
+  - undead
   name: Tomb Mummies
   rules_box: ! |-
     Can and must be summoned burrowed under any site.
@@ -4579,6 +4810,8 @@
   card_type: minion
   release: alpha
   artist: jeff_a_menges
+  keywords:
+  - mortal
   name: Tragedy Worrywart
   rules_box: ! |-
     Prevents all magic damage nearby.
@@ -4594,11 +4827,11 @@
   release: alpha
   artist: séverine_pineaux
   keywords:
-  - minion
   - airborne
   - burrowing
   - lethal
   - submerge
+  - beast
   name: Trill Wolpertinger
   rules_box: ! |-
     This Wolpertinger has Airborne if there are no other minions with Airborne. The same is true for Burrowing, Lethal, and Submerge.
@@ -4611,6 +4844,9 @@
   card_type: minion
   release: alpha
   artist: alan_pollack
+  keywords:
+  - disabled
+  - beast
   name: Tringh Constrictor
   rules_box: ! |-
     Tap → This Constrictor ensnares a minion here. That minion is disabled as long as this Constrictor stays tapped, and you may choose not to untap it.
@@ -4638,6 +4874,7 @@
   artist: matt_tames
   keywords:
   - armor_x
+  - beast
   name: Tuft Turtles
   rules_box: ! |-
     Armor +2
@@ -4652,6 +4889,8 @@
   card_type: minion
   release: alpha
   artist: alan_pollack
+  keywords:
+  - mortal
   name: Tvinnax Berserker
   rules_box: ! |-
     This Berserker must attack if able.
@@ -4670,6 +4909,9 @@
   - airborne
   - genesis
   - voidwalk
+  - monster
+  - demon
+  - spirit
   name: Ultimate Horror
   rules_box: ! "Airborne, Voidwalk \n\nGenesis → Summon all Demons, Monsters and Spirits
     from all cemeteries to nearby sites."
@@ -4684,7 +4926,7 @@
   artist: jussi_pylkäs
   keywords:
   - burrowing
-  - minion
+  - automaton
   name: Undertaker Engine
   rules_box: ! |-
     At the end of your turn, burrow or unburrow any number of relics or minions on an adjacent site.
@@ -4726,6 +4968,7 @@
   keywords:
   - submerge
   - waterbound
+  - beast
   name: Unland Eel
   rules_box: ! |-
     Submerge, Waterbound
@@ -4751,6 +4994,8 @@
   card_type: magic
   release: alpha
   artist: séverine_pineaux
+  keywords:
+  - undead
   name: Unravel
   rules_box: ! |-
     Destroy all relics and Undead minions on a nearby site.
@@ -4789,6 +5034,8 @@
   card_type: minion
   release: alpha
   artist: truitt_parrish
+  keywords:
+  - mortal
   name: Vanguard Knights
   rules_box: ! |-
     These Knights have +2 power as long as they are alone as the furthest forward of your units.
@@ -4825,6 +5072,7 @@
   artist: frank_frazetta
   keywords:
   - genesis
+  - demon
   name: Vile Imp
   rules_box: ! |-
     Genesis → Deals 2 damage to another adjacent unit.
@@ -4841,6 +5089,7 @@
   artist: margaret_organ_kean
   keywords:
   - voidwalk
+  - spirit
   name: Vril Revenant
   rules_box: ! |-
     Voidwalk
@@ -4921,6 +5170,8 @@
   card_type: minion
   release: alpha
   artist: jeff_a_menges
+  keywords:
+  - mortal
   name: Wayfaring Pilgrim
   rules_box: ! |-
     When this Pilgrim enters each corner of the realm for the first time, draw a spell.
@@ -4933,8 +5184,6 @@
   card_type: magic
   release: alpha
   artist: jeff_easley
-  keywords:
-  - movement_x
   name: Waypoint Portal
   rules_box: ! |-
     Two locations are adjacent for movement this turn.
@@ -4960,7 +5209,7 @@
   release: alpha
   artist: drew_tucker
   keywords:
-  - minion
+  - automaton
   - spellcaster
   name: Wicker Manikin
   rules_box: ! |-
@@ -4978,6 +5227,8 @@
   card_type: minion
   release: alpha
   artist: vasiliy_ermolaev
+  keywords:
+  - beast
   name: Wild Boars
   type_line: Ordinary Beasts of bold black bristle.
   mana_cost: '1'
@@ -4993,6 +5244,7 @@
   artist: vasiliy_ermolaev
   keywords:
   - voidwalk
+  - spirit
   name: Will-o'-the-wisp
   rules_box: ! |-
     Voidwalk
@@ -5035,6 +5287,7 @@
   keywords:
   - airborne
   - spellcaster
+  - spirit
   name: Wind Sylph
   rules_box: ! |-
     Airborne, Wind Spellcaster
@@ -5051,6 +5304,7 @@
   artist: tony_szczudlo
   keywords:
   - genesis
+  - mythic
   name: Wraetannis Titan
   rules_box: ! |-
     Genesis → Deals 6 damage to all enemies on an adjacent site.
@@ -5065,6 +5319,7 @@
   artist: mattias_frisk
   keywords:
   - submerge
+  - flood
   name: Wrath of the Sea
   rules_box: ! |-
     Flood sites near Water this turn. Submerge all minions and relics on Water sites. (Minions without Submerge die.)
@@ -5078,6 +5333,7 @@
   artist: andrea_modesti
   keywords:
   - range_x
+  - mortal
   name: Yourke Crossbowmen
   rules_box: ! |-
     Range +1
@@ -5095,9 +5351,9 @@
   release: alpha
   artist: marta_molina
   keywords:
-  - minion
   - airborne
   - movement_x
+  - vehicle
   name: Zephyranne Airship
   rules_box: ! |-
     Airborne, Movement +3
