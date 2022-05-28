@@ -5160,6 +5160,7 @@
   artist: jeff_a_menges
   keywords:
   - stealth
+  - tower
   name: Watchtower
   rules_box: ! |-
     Nearby enemy Stealth is negated.
