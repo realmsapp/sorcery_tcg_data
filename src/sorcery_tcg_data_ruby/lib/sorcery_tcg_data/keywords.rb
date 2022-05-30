@@ -6,7 +6,7 @@ module SorceryTcgData
       include ValueSemantics.for_attributes {
         key String
         name String
-        description String
+        description Either(String, nil)
       }
     end
 

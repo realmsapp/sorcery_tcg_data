@@ -180,13 +180,11 @@
 
 - key: tower
   name: Tower
-  description: |
-    TBD
+  description:
 
 - key: desert
   name: Desert
-  description: |
-    TBD
+  description:
 
 - key: deathrite
   name: Deathrite
@@ -198,7 +196,58 @@
   description: |
     This unit takes X less damage when struck. (For example, by another unit in typical combat.
 
-- key: splash_damage
-  name: Splash Damage
-  description: |
-    This keyword has been removed.
+- key: beast
+  name: Beast
+  description:
+
+- key: mortal
+  name: Mortal
+  description:
+
+- key: mythic
+  name: Mythic
+  description:
+
+- key: dragon
+  name: Dragon
+  description:
+
+- key: spirit
+  name: Spirit
+  description:
+
+- key: monster
+  name: Monster
+  description:
+
+- key: demon
+  name: Demon
+  description:
+
+- key: undead
+  name: Undead
+  description:
+
+- key: construct
+  name: Construct
+  description:
+
+- key: vehicle
+  name: Vehicle
+  description:
+
+- key: automaton
+  name: Automaton
+  description:
+
+- key: immune
+  name: Immune
+  description:
+
+- key: flood
+  name: Flood
+  description:
+
+- key: disabled
+  name: Disabled
+  description:
