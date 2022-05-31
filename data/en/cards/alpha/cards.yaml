@@ -2067,6 +2067,18 @@
   mana_cost: '1'
   power: '2'
   wind_threshold: '1'
+- identifier: haunted_forest
+  rarity: unique
+  card_type: site
+  release: alpha
+  artist: ian_miller
+  keywords:
+  - genesis
+  - deathrite
+  name: Haunted Forest
+  rules_box: ! |-
+    Genesis abilities of adjacent minions are also Deathrite abilities.
+  type_line: A Unique Site of smothering gloom.
 - identifier: headless_haunt
   rarity: exceptional
   card_type: minion

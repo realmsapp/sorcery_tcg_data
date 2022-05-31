@@ -6032,5 +6032,21 @@
       "Flavor": "",
       "Artist": "Jussi Pylk\u00e4s",
       "FaceURL": "http://cloud-3.steamusercontent.com/ugc/1850427901243858834/8EEE4BC131ACB42152A713CF653997828FA6B872/"
+  },
+  {
+      "Frame": "",
+      "Rarity": "-",
+      "Types": "Site",
+      "Name": "Haunted Forest",
+      "Cost": "",
+      "Threshold": "",
+      "Card Text": "Genesis abilities of adjacent minions are also Deathrite abilities.",
+      "Grid1": "",
+      "Grid2": "",
+      "Power": "",
+      "Type sentence": "A Unique Site of smothering gloom.",
+      "Flavor": "",
+      "Artist": "Ian Miller",
+      "FaceURL": "http://cloud-3.steamusercontent.com/NOPE"
   }
 ]
