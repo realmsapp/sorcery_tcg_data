@@ -4077,7 +4077,7 @@
   type_line: An Exceptional Mortal hits the high spots.
   mana_cost: '1'
   power: '1'
-  water_threshold: '1'
+  wind_threshold: '1'
 - identifier: sea_raider
   rarity: exceptional
   card_type: minion
