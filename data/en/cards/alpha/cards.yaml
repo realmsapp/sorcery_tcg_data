@@ -4835,7 +4835,7 @@
   earth_threshold: '2'
 - identifier: trill_wolpertinger
   rarity: exceptional
-  card_type: relic
+  card_type: minion
   release: alpha
   artist: séverine_pineaux
   keywords:
