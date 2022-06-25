@@ -4000,7 +4000,7 @@
 
     Genesis → This Fiend picks up a relic from any cemetery.
   type_line: An Exceptional Undead hunting for treasure.
-  mana_cost: '1'
+  mana_cost: '3'
   power: '2'
   flavor_text: ! |-
     Avarice is a great motivator. It is also a deadly sin.
@@ -4123,7 +4123,7 @@
 
     At the start of each opponent's turn, untap Seasoned Sellsword.
   type_line: An Elite Mortal under contract to protect.
-  mana_cost: '3'
+  mana_cost: '4'
   power: '4'
   earth_threshold: '2'
 - identifier: secret_tunnel
